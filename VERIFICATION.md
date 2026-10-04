@@ -1,6 +1,36 @@
-# Verification — version 1.4.1, 2026-10-05
+# Verification — version 1.4.2, 2026-10-05
 
-## Latency follow-up
+## Validation expansion
+
+The loading caption for both normal and extended lookup is exactly
+`בודק במאגרי כשרות`; neither displays a duration. Lookup budgets are unchanged.
+
+12,110 JVM tests passed locally: 12,000 new parameterized adversarial cases
+plus 110 existing cases. The new JUnit XML contains 12,000 unique test names:
+
+| Family | Samples | Mutations per sample | Executed cases |
+|---|---:|---:|---:|
+| OU brand/name/variant/symbol/condition matching | 200 | 20 | 4,000 |
+| Exact-barcode structured authority parsing | 200 | 20 | 4,000 |
+| Whole community labels and negative precedence | 100 | 20 | 2,000 |
+| Water-only metadata and conflicting evidence | 100 | 20 | 2,000 |
+
+These are distinct synthetic inputs with explicit expected results, not live
+lookups for 12,000 products. They test condition/order variations, Hebrew/English
+identity, quantities, flavors, unknown symbols, revoked/related records, missing
+fields, duplicate rows, mismatched barcodes, Passover-only negatives, exact-label
+precedence, ingredient additives and contradictory translations. Generated
+barcodes include independently computed EAN-13 check digits. Fixtures are test
+inputs only and do not add runtime barcode/brand exceptions.
+
+The formatting cases also cover condition text with repeated whitespace and
+different casing. Passover-exclusion display now uses the same normalized clause
+meaning as matching; accepted spacing variations no longer hide the exclusion.
+
+The 33 recorded real product cases still yield 28 KOSHER / five UNKNOWN. They
+are included in the existing 110 cases and do not establish universal coverage.
+
+## Latency follow-up (version 1.4.1)
 
 The former path could await OFF (15 seconds) before a serial OU search
 (20 seconds). OU now starts after metadata arrives, concurrently with the
@@ -11,7 +41,7 @@ metadata can leave a photo missing, disclosed in the card's reason. Matching
 criteria and the three-status policy are unchanged. No verdict cache was added.
 
 TIMEOUT exposes an explicit extended search (35-second total / 20-second OU),
-with a loading message stating the longer wait. A completed exact OU result is
+with an explicit user action. A completed exact OU result is
 preserved if the other source times out. Conflicting explicit labels available
 within the metadata window still fail closed. No claim is made that a cancelled,
 unfinished source has been checked; its missing evidence is disclosed.

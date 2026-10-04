@@ -26,7 +26,8 @@ at most another 1.5 seconds for optional OFF metadata, then cancels unused work.
 Missing slow metadata may mean a missing photo; the source remains disclosed.
 Completed OU verdicts survive a timeout in the other source. Available conflicting
 explicit labels still produce UNKNOWN. Matching requirements are unchanged.
-The loading message states the wait limit. TIMEOUT offers an explicit extended
+The loading message is simply `בודק במאגרי כשרות` as of version 1.4.2, with no
+time estimate. TIMEOUT offers an explicit extended
 search, with a 35-second overall / 20-second OU budget, so slow source coverage
 remains available without imposing that wait on every scan. No verdict caching
 or barcode shortcuts were added.
@@ -109,6 +110,19 @@ and white buttons as the scanner. A custom barcode dialog avoids system-default
 purple buttons and plain rectangular dialogs.
 
 ## Verification scope
+
+Version 1.4.2 adds 12,000 individually registered, uniquely named JUnit cases:
+4,000 OU identity/condition cases, 4,000 structured authority parsing cases,
+2,000 community-label cases and 2,000 plain-water boundary cases. Each family
+crosses 20 explicit adversarial mutations with different product identities,
+brands and/or valid generated EAN-13 barcodes. Expected verdicts are declared
+independently of the production matcher; malformed authority rows must be
+rejected rather than turned into certification. Duplicate case identifiers are
+rejected at generation. These are synthetic regression/property cases, not
+12,000 real products, live source queries or real-device camera scans.
+Together with the 110 existing JVM cases this yields 12,110 JVM tests; five
+instrumented tests run on the emulator. The 33 recorded real catalogue records
+remain a separate source-coverage sample.
 
 Unit tests cover matching safety and real HTTP parsing/error classification via
 MockWebServer. Device tests exercise the bundled ML Kit decoder with a generated

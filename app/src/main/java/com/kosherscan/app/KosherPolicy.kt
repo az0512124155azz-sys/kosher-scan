@@ -80,7 +80,7 @@ object KosherPolicy {
         val matches = if (related) emptyList() else records.filter { strongMatch(p, it) }
         val distinct = matches.map { it.symbols.sorted() to it.conditions.split('.').map(::normalize).filter { clause -> clause.isNotBlank() }.distinct().sorted() }.distinct()
         return if (matches.isNotEmpty() && distinct.size == 1) Verdict(KosherStatus.KOSHER,
-            "התאמת שם ומותג ב־OU · ${matches.first().symbols.joinToString()}\nיש לוודא שהסמל מופיע על האריזה. ${if (matches.first().conditions.contains("Not Kosher for Passover", true)) "לא לפסח." else ""}", "https://oukosher.org/product-search/", "OU")
+            "התאמת שם ומותג ב־OU · ${matches.first().symbols.joinToString()}\nיש לוודא שהסמל מופיע על האריזה. ${if (matches.first().conditions.split('.').any { normalize(it) == "not kosher for passover" }) "לא לפסח." else ""}", "https://oukosher.org/product-search/", "OU")
         else if (explicitlyKosher(p)) Verdict(KosherStatus.KOSHER,
             "מסומן ככשר ב־Open Food Facts · דיווח קהילתי.\nיש לוודא סימון כשרות על האריזה; זה אינו אישור OU.", "https://world.openfoodfacts.org/product/${p.barcode}", "Open Food Facts")
         else if (PlainWaterPolicy.matches(p)) PlainWaterPolicy.verdict()

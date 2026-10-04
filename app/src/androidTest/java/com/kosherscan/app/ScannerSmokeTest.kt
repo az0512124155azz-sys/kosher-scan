@@ -41,7 +41,7 @@ class ScannerSmokeTest {
                 button.performClick()
                 val model = ViewModelProvider(activity)[ScanModel::class.java]
                 assertTrue(model.state.value.loading)
-                assertTrue(model.state.value.loadingMessage.contains("35"))
+                assertEquals("בודק במאגרי כשרות", model.state.value.loadingMessage)
                 model.reset() // Cancel before the queued job can start external requests.
             }
         }

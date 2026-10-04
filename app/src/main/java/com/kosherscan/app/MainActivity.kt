@@ -37,11 +37,11 @@ import java.util.concurrent.Executors
 import java.util.concurrent.atomic.AtomicBoolean
 
 data class ScanState(val code: String = "", val loading: Boolean = false, val result: LookupResult? = null,
-    val loadingMessage: String = "בודק במאגרי הכשרות… עד כ־12 שניות")
+    val loadingMessage: String = "בודק במאגרי כשרות")
 class ScanModel : ViewModel() {
     val state = MutableStateFlow(ScanState())
     private var job: Job? = null
-    fun lookup(code: String, repository: ProductLookup, loadingMessage: String = "בודק במאגרי הכשרות… עד כ־12 שניות") {
+    fun lookup(code: String, repository: ProductLookup, loadingMessage: String = "בודק במאגרי כשרות") {
         if (state.value.loading) return
         state.value = ScanState(code, true, loadingMessage = loadingMessage)
         job = viewModelScope.launch {
@@ -103,8 +103,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.retryLookupButton).setOnClickListener {
             val extended = model.state.value.result?.issue == LookupIssue.TIMEOUT
             model.lookup(model.state.value.code,
-                if (extended) (repository as? ProductRepository)?.extended() ?: repository else repository,
-                if (extended) "בדיקה מעמיקה במאגרים… עד כ־35 שניות" else "בודק במאגרי הכשרות… עד כ־12 שניות")
+                if (extended) (repository as? ProductRepository)?.extended() ?: repository else repository)
         }
         findViewById<View>(R.id.sourceButton).setOnClickListener {
             val url = model.state.value.result?.verdict?.sourceUrl.orEmpty()
