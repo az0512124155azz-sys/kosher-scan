@@ -255,17 +255,178 @@
     setTimeout(() => { if (scanning && !busy) raf = requestAnimationFrame(scanLoop); }, detector ? 0 : 420);
   }
 
-  function inferKosher(product) {
+  function normalizeText(value='') {
+    return String(value)
+      .toLowerCase()
+      .normalize('NFKD')
+      .replace(/[\\u0300-\\u036f]/g,'')
+      .replace(/&amp;/g,'&')
+      .replace(/[^a-z0-9א-ת]+/gi,' ')
+      .replace(/\\s+/g,' ')
+      .trim();
+  }
+
+  function significantWords(value='') {
+    const stop = new Set(['the','and','with','for','of','a','an','in','to','by','from','new','original','flavor','flavoured','flavored']);
+    return normalizeText(value).split(' ').filter(w => w.length > 2 && !stop.has(w));
+  }
+
+  function tokenOverlap(a, b) {
+    const aa = significantWords(a);
+    const bb = new Set(significantWords(b));
+    if (!aa.length) return 0;
+    return aa.filter(w => bb.has(w)).length / aa.length;
+  }
+
+  async function fetchWithTimeout(url, options={}, ms=9000) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), ms);
+    try {
+      return await fetch(url, {...options, signal: controller.signal});
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  async function fetchOuSearchHtml(query) {
+    const target = 'https://oukosher.org/search/?q=' + encodeURIComponent(query);
+    const attempts = [
+      target,
+      'https://api.allorigins.win/raw?url=' + encodeURIComponent(target),
+      'https://corsproxy.io/?url=' + encodeURIComponent(target)
+    ];
+    let lastError = null;
+    for (const url of attempts) {
+      try {
+        const response = await fetchWithTimeout(url, {headers:{'Accept':'text/html,application/xhtml+xml'}}, 9000);
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        const html = await response.text();
+        if (html && html.length > 500) return {html, sourceUrl: target};
+      } catch (err) {
+        lastError = err;
+      }
+    }
+    throw lastError || new Error('OU lookup failed');
+  }
+
+  function sectionTextFromHtml(html) {
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    const text = (doc.body?.innerText || doc.body?.textContent || '').replace(/\\s+/g,' ').trim();
+    const lower = text.toLowerCase();
+    const start = lower.indexOf('certified products');
+    if (start < 0) return text;
+    const loc = lower.indexOf('letters of certification', start + 1);
+    return text.slice(start, loc > start ? loc : undefined);
+  }
+
+  function extractOuVerdict(html, product) {
+    const section = sectionTextFromHtml(html);
+    const normalizedSection = normalizeText(section);
+    const brand = String(product.brands || '').split(',')[0].trim();
+    const productName = product.product_name || product.product_name_en || product.product_name_he || '';
+    const brandNorm = normalizeText(brand);
+    const nameNorm = normalizeText(productName);
+
+    if (!brandNorm || !nameNorm) return null;
+
+    const brandFound = normalizedSection.includes(brandNorm);
+    const nameScore = tokenOverlap(productName, section);
+    if (!brandFound || nameScore < 0.55) return null;
+
+    const anchors = [brandNorm, ...significantWords(productName).slice(0,4)];
+    let pos = -1;
+    for (const anchor of anchors) {
+      const p = normalizedSection.indexOf(anchor);
+      if (p >= 0 && (pos < 0 || p < pos)) pos = p;
+    }
+    const around = pos >= 0 ? normalizedSection.slice(Math.max(0,pos-220), pos+700) : normalizedSection;
+
+    let type = '';
+    if (/\\bou[- ]?d\\b|\\bdairy\\b/.test(around)) type = 'חלבי';
+    else if (/dairy equipment|\\bou[- ]?de\\b/.test(around)) type = 'ציוד חלבי';
+    else if (/\\bmeat\\b|\\bou[- ]?meat\\b/.test(around)) type = 'בשרי';
+    else if (/\\bpareve\\b|\\bparve\\b/.test(around)) type = 'פרווה';
+
+    const passover = /kosher for passover|passover yes|\\bpassover\\b/.test(around) && !/not kosher for passover/.test(around);
+
+    return {
+      type:'kosher',
+      title:'כשר',
+      text:'אומת מול מאגר OU Kosher' + (type ? ' · ' + type : '') + (passover ? ' · כשר לפסח' : ''),
+      source:'OU Kosher'
+    };
+  }
+
+  function inferFromOpenFoodFacts(product) {
     const tags = [
       ...(product.labels_tags || []),
       ...(product.categories_tags || [])
     ].map(x => String(x).toLowerCase());
     const labels = String(product.labels || '').toLowerCase();
-    const hasKosher = tags.some(t => t.includes('kosher')) || labels.includes('kosher') || labels.includes('כשר');
     const hasNonKosher = tags.some(t => t.includes('non-kosher') || t.includes('not-kosher')) || labels.includes('non-kosher') || labels.includes('not kosher');
-    if (hasNonKosher) return {type:'notkosher', title:'לא כשר', text:'כך המוצר מסומן במקור המידע.'};
-    if (hasKosher) return {type:'kosher', title:'כשר', text:'המוצר מסומן ככשר במקור המידע.'};
-    return {type:'unknown', title:'לא ידוע', text:'אין כרגע אימות כשרות. המוצר יישלח לבדיקה.'};
+    const hasKosher = tags.some(t => t.includes('kosher')) || labels.includes('kosher') || labels.includes('כשר');
+    if (hasNonKosher) return {type:'notkosher', title:'לא כשר', text:'המוצר מסומן במפורש כלא כשר ב-Open Food Facts.', source:'Open Food Facts'};
+    if (hasKosher) return {type:'kosher', title:'כשר', text:'המוצר מסומן ככשר ב-Open Food Facts.', source:'Open Food Facts'};
+    return null;
+  }
+
+  function cacheKey(code) { return 'kosher-scan:v2:' + String(code); }
+
+  function readCachedVerdict(code) {
+    try {
+      const raw = localStorage.getItem(cacheKey(code));
+      if (!raw) return null;
+      const cached = JSON.parse(raw);
+      if (!cached?.savedAt || Date.now() - cached.savedAt > 7 * 24 * 60 * 60 * 1000) {
+        localStorage.removeItem(cacheKey(code));
+        return null;
+      }
+      return cached.verdict || null;
+    } catch { return null; }
+  }
+
+  function writeCachedVerdict(code, verdict) {
+    try {
+      localStorage.setItem(cacheKey(code), JSON.stringify({savedAt:Date.now(), verdict}));
+    } catch {}
+  }
+
+  async function resolveKosherStatus(code, product) {
+    const cached = readCachedVerdict(code);
+    if (cached) return cached;
+
+    const offVerdict = inferFromOpenFoodFacts(product);
+    if (offVerdict?.type === 'notkosher') {
+      writeCachedVerdict(code, offVerdict);
+      return offVerdict;
+    }
+
+    const brand = String(product.brands || '').split(',')[0].trim();
+    const name = product.product_name || product.product_name_en || product.product_name_he || '';
+    const queries = [
+      [brand, name].filter(Boolean).join(' '),
+      [brand, ...significantWords(name).slice(0,5)].filter(Boolean).join(' ')
+    ].filter((q, i, arr) => q && arr.indexOf(q) === i);
+
+    for (const query of queries) {
+      try {
+        const {html} = await fetchOuSearchHtml(query);
+        const ouVerdict = extractOuVerdict(html, product);
+        if (ouVerdict) {
+          writeCachedVerdict(code, ouVerdict);
+          return ouVerdict;
+        }
+      } catch (_) {}
+    }
+
+    if (offVerdict) {
+      writeCachedVerdict(code, offVerdict);
+      return offVerdict;
+    }
+
+    const unknown = {type:'unknown', title:'לא ידוע', text:'לא נמצאה התאמה מאומתת במאגר OU או ב-Open Food Facts.', source:'OU + Open Food Facts'};
+    writeCachedVerdict(code, unknown);
+    return unknown;
   }
 
   async function handleBarcode(code) {
@@ -278,7 +439,7 @@
     setPill('מזהה את המוצר…');
 
     try {
-      const fields = 'code,product_name,product_name_he,brands,image_front_url,image_url,labels,labels_tags,categories_tags';
+      const fields = 'code,product_name,product_name_en,product_name_he,brands,manufacturing_places,countries,countries_tags,ingredients_text,ingredients_text_en,ingredients_tags,image_front_url,image_url,labels,labels_tags,categories,categories_tags';
       const url = 'https://world.openfoodfacts.org/api/v2/product/' + encodeURIComponent(code) + '.json?fields=' + fields;
       const response = await fetch(url, { headers: { 'Accept':'application/json' } });
       if (!response.ok) throw new Error('http');
@@ -287,7 +448,7 @@
       if (!data || data.status !== 1 || !data.product) {
         renderUnknownProduct(code);
       } else {
-        renderProduct(code, data.product);
+        await renderProduct(code, data.product);
       }
     } catch (err) {
       renderLookupError(code);
@@ -297,8 +458,8 @@
     }
   }
 
-  function renderProduct(code, product) {
-    const name = product.product_name_he || product.product_name || 'מוצר ללא שם';
+  async function renderProduct(code, product) {
+    const name = product.product_name_he || product.product_name || product.product_name_en || 'מוצר ללא שם';
     const brand = product.brands || 'יצרן לא ידוע';
     const image = product.image_front_url || product.image_url || '';
     document.getElementById('productName').textContent = name;
@@ -310,9 +471,13 @@
     } else {
       img.src = makePlaceholder(); img.classList.add('placeholder');
     }
-    const verdict = inferKosher(product);
-    setStatus(verdict.type, verdict.title, verdict.text);
+
+    setStatus('unknown','בודק…','מזהה את המוצר ובודק מול מאגר OU Kosher.');
     revealResult();
+    setPill('בודק כשרות מול OU…');
+
+    const verdict = await resolveKosherStatus(code, product);
+    setStatus(verdict.type, verdict.title, verdict.text);
   }
 
   function renderUnknownProduct(code) {
