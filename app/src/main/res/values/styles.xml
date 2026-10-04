@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.KosherScan" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.KosherScan" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryVariant">#10241B</item>
+        <item name="colorOnPrimary">#111111</item>
+        <item name="colorSecondary">#4FF397</item>
+        <item name="colorOnSecondary">#111111</item>
+        <item name="colorSurface">#101211</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="android:colorAccent">#4FF397</item>
+        <item name="android:windowBackground">#080908</item>
         <item name="android:fontFamily">sans</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:statusBarColor">#000000</item>

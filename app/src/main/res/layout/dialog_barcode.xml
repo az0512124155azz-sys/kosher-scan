@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layoutDirection="rtl"
+    android:background="@drawable/result_bg" android:padding="24dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="הקלדת ברקוד" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="24sp" android:gravity="start" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="הזינו את המספר שמופיע מתחת לברקוד" android:textColor="#B8B8B8" android:textSize="14sp" android:gravity="start" />
+    <com.google.android.material.textfield.TextInputLayout android:id="@+id/barcodeInputLayout" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:hint="מספר ברקוד"
+        app:boxBackgroundColor="#1B201D" app:boxStrokeColor="#4FF397" app:hintTextColor="#A6B8AD"
+        app:boxCornerRadiusTopStart="16dp" app:boxCornerRadiusTopEnd="16dp" app:boxCornerRadiusBottomStart="16dp" app:boxCornerRadiusBottomEnd="16dp">
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/barcodeInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:inputType="number" android:maxLength="14" android:maxLines="1" android:textDirection="ltr" android:textColor="#FFFFFF" android:textSize="20sp" android:gravity="center" android:imeOptions="actionDone" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.button.MaterialButton android:id="@+id/barcodeSubmit" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="54dp" android:layout_marginTop="16dp"
+        android:text="בדיקת מוצר" android:textStyle="bold" android:textSize="16sp" android:textColor="#111111" android:backgroundTint="#FFFFFF" app:cornerRadius="18dp" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/barcodeCancel" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="match_parent" android:layout_height="48dp"
+        android:text="ביטול" android:textColor="#B8B8B8" app:cornerRadius="18dp" />
+</LinearLayout>

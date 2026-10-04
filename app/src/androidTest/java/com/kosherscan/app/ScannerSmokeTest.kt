@@ -5,11 +5,14 @@ import android.graphics.Bitmap
 import android.graphics.Color
 import android.graphics.Rect
 import android.view.View
+import android.view.inspector.WindowInspector
+import android.widget.EditText
 import android.widget.TextView
 import androidx.lifecycle.ViewModelProvider
 import androidx.test.core.app.ActivityScenario
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.rule.GrantPermissionRule
+import androidx.test.filters.SdkSuppress
 import com.google.android.gms.tasks.Tasks
 import com.google.mlkit.vision.barcode.BarcodeScanning
 import com.google.mlkit.vision.common.InputImage
@@ -74,6 +77,26 @@ class ScannerSmokeTest {
                     assertTrue(button.getGlobalVisibleRect(visible))
                     assertEquals("Scan-again button must be fully visible", button.height, visible.height())
                 }
+            }
+        }
+    }
+    @Test @SdkSuppress(minSdkVersion = 29)
+    fun customBarcodeDialogValidatesAndCancels() {
+        ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+            scenario.onActivity { activity -> activity.findViewById<View>(R.id.manualButton).performClick() }
+            androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
+            scenario.onActivity { activity ->
+                val dialogRoot = WindowInspector.getGlobalWindowViews().first { it.findViewById<View>(R.id.barcodeInput) != null }
+                assertFalse(activity.findViewById<ScanOverlay>(R.id.scanFrame).animating)
+                dialogRoot.findViewById<EditText>(R.id.barcodeInput).setText("123")
+                dialogRoot.findViewById<View>(R.id.barcodeSubmit).performClick()
+                assertEquals("יש להזין 8 עד 14 ספרות", dialogRoot.findViewById<com.google.android.material.textfield.TextInputLayout>(R.id.barcodeInputLayout).error.toString())
+                dialogRoot.findViewById<View>(R.id.barcodeCancel).performClick()
+            }
+            androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
+            scenario.onActivity { activity ->
+                assertTrue(activity.findViewById<View>(R.id.manualButton).isShown)
+                assertTrue(activity.findViewById<ScanOverlay>(R.id.scanFrame).animating)
             }
         }
     }

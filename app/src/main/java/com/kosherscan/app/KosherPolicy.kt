@@ -24,6 +24,21 @@ object KosherPolicy {
         normalize(it.substringAfter(':')) in setOf("not kosher", "non kosher", "לא כשר")
     }
 
+    fun explicitlyKosher(p: Product) = p.labels.any {
+        normalize(it.substringAfter(':')) in setOf("kosher", "כשר")
+    }
+
+    // Ignore packaging quantities and a repeated brand prefix, never flavors/variants.
+    fun searchName(value: String): String = value
+        .replace(Regex("\\b(?:\\d+\\s*[x×]\\s*)?\\d+(?:[.,]\\d+)?\\s*(?:kg|g|mg|ml|cl|l|oz|lb)\\b", RegexOption.IGNORE_CASE), " ")
+        .trim().replace(Regex("\\s+"), " ")
+
+    private fun productIdentity(value: String, brand: String): String {
+        val normalized = normalize(searchName(value))
+        val brandPrefix = "$brand "
+        return if (normalized.startsWith(brandPrefix)) normalized.removePrefix(brandPrefix) else normalized
+    }
+
     fun strongMatch(p: Product, r: OuRecord): Boolean {
         val brand = normalize(r.brand)
         if (r.id.isBlank() || brand.isBlank() || p.brand.split(',').none { normalize(it) == brand }) return false
@@ -31,11 +46,12 @@ object KosherPolicy {
         // Fail closed on new/unknown restrictions, revoked entries, dates or batch conditions.
         val clauses = r.conditions.split('.').map { normalize(it) }.filter { it.isNotBlank() }
         if (clauses.isEmpty() || clauses.any { it !in setOf("symbol required", "not kosher for passover", "kosher for passover") }) return false
-        val name = normalize(r.name)
-        if (name.isBlank() || name == brand) return false // a brand alone cannot identify a variant
+        val name = productIdentity(r.name, brand)
+        if (name.isBlank()) return false
         val generic = setOf("milk", "water", "chocolate", "bread", "coffee", "tea", "salt", "sugar")
         if (name in generic) return false
-        return listOf(p.name, p.englishName).any { normalize(it) == name }
+        return listOf(p.name, p.englishName).filter { it.isNotBlank() }
+            .any { productIdentity(it, brand) == name }
     }
 
     fun resolve(p: Product, records: List<OuRecord>, related: Boolean = false): Verdict {
@@ -45,6 +61,8 @@ object KosherPolicy {
         val distinct = matches.map { it.symbols.sorted() to it.conditions }.distinct()
         return if (matches.isNotEmpty() && distinct.size == 1) Verdict(KosherStatus.KOSHER,
             "התאמת שם ומותג ב־OU · ${matches.first().symbols.joinToString()}\nיש לוודא שהסמל מופיע על האריזה. ${if (matches.first().conditions.contains("Not Kosher for Passover", true)) "לא לפסח." else ""}")
-        else Verdict(KosherStatus.UNKNOWN, "לא נמצאה התאמה חד־משמעית ב־OU. היעדר התאמה אינו מעיד שהמוצר אינו כשר.")
+        else if (explicitlyKosher(p)) Verdict(KosherStatus.KOSHER,
+            "מסומן ככשר ב־Open Food Facts · דיווח קהילתי.\nיש לוודא סימון כשרות על האריזה; זה אינו אישור OU.")
+        else Verdict(KosherStatus.UNKNOWN, "לא נמצאה התאמה חד־משמעית ב־OU או סימון כשרות מפורש. היעדר התאמה אינו מעיד שהמוצר אינו כשר.")
     }
 }

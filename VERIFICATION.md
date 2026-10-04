@@ -5,10 +5,11 @@ Android 17 / API 37. No physical phone was connected.
 
 ## Automated checks
 
-* 27 JVM tests: 15 certification/matching cases and 12 HTTP/repository cases.
-* 3 Android instrumented smoke tests: bundled ML Kit EAN-13 decoding,
+* 32 JVM tests: 17 certification/matching cases and 15 HTTP/repository cases.
+* 4 Android instrumented smoke tests: bundled ML Kit EAN-13 decoding,
   rendering all three verdicts / Activity recreation / scan-again reset,
-  and an unclipped scan-again button after result text changes.
+  an unclipped scan-again button after result text changes, and custom barcode
+  dialog validation/cancellation.
 * Android lint and APK compilation. Lint has no errors; warnings include
   newer dependency availability, Hebrew string localization, drawing allocations,
   portrait orientation, and the existing AGP 8.5 / SDK 35 compatibility warning.
@@ -26,13 +27,18 @@ certification of any physical package.
   scene full-screen with the rounded scanning corners and animated green line.
 * Entered `3017620422003` through the visible manual-entry dialog. Live OFF
   returned Nutella/Ferrero and its actual product photo, which loaded in the card.
-  Live OU completed without a service error; the deliberately conservative
-  brand-only rule returned UNKNOWN, not a false positive.
+  Live OU returned the exact product row `Nutella` / `Nutella`, symbol `OU-D`.
+  Version 1.2 correctly displays KOSHER with the package-symbol condition and
+  Passover exclusion. This fixes the previous rule that incorrectly rejected
+  explicit product records whose name equaled the brand.
 * Disabled both Wi-Fi and mobile data in the emulator: lookup displayed the
   explicit offline message with UNKNOWN and a retry button.
 * Restored network and tapped retry: the product/photo returned successfully
   without restarting the application.
 * Crash log buffer was empty during these manual checks.
+* Manual-entry and camera-denial screens were inspected after replacing default
+  rectangular/purple controls with the application's dark rounded cards and
+  white rounded buttons.
 
 ## Limits
 

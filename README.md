@@ -26,17 +26,22 @@ Instrumented tests are executed locally, not on the CI runner.
   This is a website integration, not a guaranteed/supported third-party API.
 * Only `KOSHER`, `NOT_KOSHER`, `UNKNOWN` are certification statuses.
   Transport errors are separate from these three statuses.
-* `KOSHER` requires an exact normalized brand and product name (including flavor,
+* OU-based `KOSHER` requires an exact normalized brand and product name (including flavor,
   original/sugar-free variants), a record identifier, a recognized OU symbol,
-  and known certification conditions. Brand-only/generic product names,
-  related results, conflicting symbols, and unknown restrictions fail closed.
+  and known certification conditions. Explicit product rows named after the
+  brand (such as Nutella) can match; generic names, related results, conflicting
+  symbols, and unknown restrictions fail closed. Packaging quantities and a
+  repeated brand prefix are ignored, while flavors and variants are retained.
 * The UI explicitly requires checking the symbol on the package and shows the
   Passover exclusion. Name/brand matching cannot validate a physical package,
   factory, batch, region, or future changes to certification.
 * Only an exact explicit negative OFF label can yield `NOT_KOSHER`, with the
   community source disclosed. Missing OU results, errors, ingredients, and
   “not kosher for Passover” never imply a year-round negative verdict.
-* A positive OFF label alone never certifies the product.
+* An exact explicit `kosher` OFF label can produce a green result when OU has
+  no exact match. The UI discloses that this is a community report, requires
+  checking the package, and explicitly says it is not OU certification.
+  Vegetarian, vegan, unrelated labels and partial text never certify products.
 * No certification cache: each scan checks current services. Requests have
   bounded timeouts, bounded JSON responses, cancellation, and HTTPS endpoints.
 * Product-not-found, offline, transport/DNS, timeout, malformed response,
@@ -51,6 +56,9 @@ in-flight image and prevents duplicate lookups while a card is visible.
 The model survives Activity recreation and cancels HTTP calls on destruction.
 The result card scrolls for large font sizes; barcode digits remain LTR.
 Custom vector launcher artwork is supplied for API 24+ and adaptive launchers.
+Manual-entry and permission-recovery controls use the same dark rounded cards
+and white buttons as the scanner. A custom barcode dialog avoids system-default
+purple buttons and plain rectangular dialogs.
 
 ## Verification scope
 

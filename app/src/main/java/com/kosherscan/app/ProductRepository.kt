@@ -26,7 +26,7 @@ class ProductRepository(
     private class ServiceException(val issue: LookupIssue) : IOException()
     private suspend fun get(url: HttpUrl): Pair<Int, String> = suspendCancellableCoroutine { continuation ->
         val call = client.newCall(Request.Builder().url(url).header("Accept", "application/json")
-            .header("User-Agent", "KosherScan/1.1 (Android; github.com/az0512124155azz-sys/kosher-scan)").build())
+            .header("User-Agent", "KosherScan/1.2 (Android; github.com/az0512124155azz-sys/kosher-scan)").build())
         continuation.invokeOnCancellation { call.cancel() }
         call.enqueue(object : Callback {
             override fun onFailure(call: Call, e: IOException) { if (!continuation.isCancelled) continuation.resumeWithException(e) }
@@ -67,7 +67,11 @@ class ProductRepository(
         if (KosherPolicy.explicitlyNotKosher(product)) return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
         if (product.brand.isBlank() || product.name.isBlank()) return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
         try {
-            val query = product.brand.substringBefore(',') + " " + product.englishName.ifBlank { product.name }
+            val brand = product.brand.substringBefore(',').trim()
+            val name = KosherPolicy.searchName(product.englishName.ifBlank { product.name })
+            val normalizedName = KosherPolicy.normalize(name)
+            val normalizedBrand = KosherPolicy.normalize(brand)
+            val query = if (normalizedName == normalizedBrand || normalizedName.startsWith("$normalizedBrand ")) name else "$brand $name"
             val url = ouBase.toHttpUrl().newBuilder().addPathSegments("api/v1/product")
                 .addQueryParameter("page", "1").addQueryParameter("limit", "50").addQueryParameter("query", query).build()
             val (status, body) = get(url)
@@ -92,8 +96,12 @@ class ProductRepository(
         e is SocketTimeoutException || e is java.io.InterruptedIOException -> LookupIssue.TIMEOUT
         else -> LookupIssue.NETWORK
     }
-    private fun ouFailure(p: Product) = LookupResult(p, Verdict(KosherStatus.UNKNOWN,
-        "המוצר זוהה, אך שירות OU אינו זמין כרגע. אפשר לנסות שוב; לא נקבעה כשרות."), LookupIssue.SERVICE_UNAVAILABLE)
+    private fun ouFailure(p: Product): LookupResult {
+        val fallback = KosherPolicy.resolve(p, emptyList())
+        val verdict = if (fallback.status == KosherStatus.KOSHER) fallback.copy(reason = fallback.reason + "\nשירות OU אינו זמין כרגע.")
+            else Verdict(KosherStatus.UNKNOWN, "המוצר זוהה, אך שירות OU אינו זמין כרגע. אפשר לנסות שוב; לא נקבעה כשרות.")
+        return LookupResult(p, verdict, LookupIssue.SERVICE_UNAVAILABLE)
+    }
     private fun failure(issue: LookupIssue) = LookupResult(null, Verdict(KosherStatus.UNKNOWN, when (issue) {
         LookupIssue.NOT_FOUND -> "הברקוד לא נמצא ב־Open Food Facts. אין מידע לקביעת כשרות."
         LookupIssue.OFFLINE -> "אין חיבור רשת פעיל. התחברו לרשת ונסו שוב."

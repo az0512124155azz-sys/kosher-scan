@@ -8,12 +8,14 @@ import android.net.NetworkCapabilities
 import android.net.Uri
 import android.os.Bundle
 import android.provider.Settings
-import android.text.InputType
+import android.app.Dialog
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.util.Size
 import android.view.View
+import android.view.WindowManager
 import android.widget.*
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.core.*
 import androidx.camera.lifecycle.ProcessCameraProvider
@@ -63,6 +65,7 @@ class MainActivity : AppCompatActivity() {
     private var cameraStarting = false
     private var needsSettings = false
     private var renderedImage = ""
+    private var barcodeDialog: Dialog? = null
     private val scanner = BarcodeScanning.getClient(BarcodeScannerOptions.Builder().setBarcodeFormats(
         Barcode.FORMAT_EAN_13, Barcode.FORMAT_EAN_8, Barcode.FORMAT_UPC_A,
         Barcode.FORMAT_UPC_E, Barcode.FORMAT_CODE_128, Barcode.FORMAT_ITF).build())
@@ -171,18 +174,35 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.hintText).visibility = View.INVISIBLE
     }
     private fun manualEntry() {
-        val input = EditText(this).apply {
-            inputType = InputType.TYPE_CLASS_NUMBER; hint = "לדוגמה: 3017620422003"
-            textDirection = View.TEXT_DIRECTION_LTR; setSingleLine()
-        }
-        val dialog = AlertDialog.Builder(this).setTitle("הקלדת ברקוד").setView(input)
-            .setPositiveButton("בדיקת מוצר", null).setNegativeButton("ביטול", null).create()
-        dialog.setOnShowListener { dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener {
+        if (barcodeDialog?.isShowing == true) return
+        busy.set(true)
+        overlay.animating = false
+        val dialog = Dialog(this)
+        dialog.setContentView(R.layout.dialog_barcode)
+        val input = dialog.findViewById<EditText>(R.id.barcodeInput)
+        val inputLayout = dialog.findViewById<com.google.android.material.textfield.TextInputLayout>(R.id.barcodeInputLayout)
+        val submit = {
             val code = input.text.toString().trim()
-            if (!code.matches(Regex("[0-9]{8,14}"))) input.error = "יש להזין 8 עד 14 ספרות"
+            if (!code.matches(Regex("[0-9]{8,14}"))) inputLayout.error = "יש להזין 8 עד 14 ספרות"
             else { busy.set(true); model.lookup(code, repository); dialog.dismiss() }
-        } }
+        }
+        dialog.findViewById<View>(R.id.barcodeSubmit).setOnClickListener { submit() }
+        dialog.findViewById<View>(R.id.barcodeCancel).setOnClickListener { dialog.dismiss() }
+        input.setOnEditorActionListener { _, action, _ ->
+            if (action == android.view.inputmethod.EditorInfo.IME_ACTION_DONE) { submit(); true } else false
+        }
+        barcodeDialog = dialog
+        dialog.setOnDismissListener {
+            barcodeDialog = null
+            busy.set(model.state.value.loading || model.state.value.result != null)
+            overlay.animating = !busy.get()
+        }
         dialog.show()
+        dialog.window?.apply {
+            setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+            setLayout((resources.displayMetrics.widthPixels - 48 * resources.displayMetrics.density).toInt(), WindowManager.LayoutParams.WRAP_CONTENT)
+            setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
+        }
     }
     private fun render(s: ScanState) {
         busy.set(s.loading || s.result != null)
@@ -220,6 +240,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
     override fun onDestroy() {
+        barcodeDialog?.dismiss()
         destroyed = true; analysis?.clearAnalyzer(); provider?.unbindAll(); executor.shutdown(); scanner.close()
         super.onDestroy()
     }

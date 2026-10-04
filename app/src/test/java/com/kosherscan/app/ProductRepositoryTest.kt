@@ -75,4 +75,28 @@ class ProductRepositoryTest {
         assertNotNull(result.product); assertEquals(KosherStatus.UNKNOWN, result.verdict.status)
         assertEquals(LookupIssue.SERVICE_UNAVAILABLE, result.issue)
     }
+    @Test fun nutellaExactPublicRecordRegression() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Nutella","product_name_en":"Nutella","brands":"Nutella, Ferrero","labels_tags":["en:vegetarian","en:no-gluten","fr:triman"]}}"""))
+        // Same fields returned by the public OU product endpoint on 2026-10-04.
+        server.enqueue(MockResponse().setBody("""{"results":[{"agencyUniqueId":"OUD3-ZAC2EZK","productName":"Nutella","brandName":"Nutella","symbol":["OU-D"],"status":"Symbol required. Not Kosher for Passover.","conditions":"Symbol required. Not Kosher for Passover."}]}"""))
+        val result = repo().lookup("3017620422003")
+        assertEquals(KosherStatus.KOSHER, result.verdict.status)
+        assertTrue(result.verdict.reason.contains("OU-D"))
+        assertTrue(server.takeRequest().path!!.contains("3017620422003"))
+        assertEquals("Nutella", server.takeRequest().requestUrl!!.queryParameter("query"))
+    }
+    @Test fun explicitPositiveRemainsAvailableWhenOuFails() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Cereal","brands":"Example","labels_tags":["en:kosher"]}}"""))
+        server.enqueue(MockResponse().setResponseCode(503))
+        val result = repo().lookup("12345678")
+        assertEquals(KosherStatus.KOSHER, result.verdict.status)
+        assertTrue(result.verdict.reason.contains("דיווח קהילתי"))
+        assertTrue(result.verdict.reason.contains("אינו אישור OU"))
+    }
+    @Test fun explicitNegativeStopsBeforeOuAndProducesRed() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Test","labels_tags":["en:not-kosher"]}}"""))
+        val result = repo().lookup("12345678")
+        assertEquals(KosherStatus.NOT_KOSHER, result.verdict.status)
+        assertEquals(1, server.requestCount)
+    }
 }
