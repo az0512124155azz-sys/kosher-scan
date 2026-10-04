@@ -19,6 +19,18 @@ Instrumented tests are executed locally, not on the CI runner.
 
 ## Data and status policy
 
+Version 1.4.1 runs OU fallback in parallel with the barcode source as soon as OFF
+metadata arrives. The normal lookup has a 12-second overall deadline, a five-second
+metadata budget, and an eight-second OU budget. An exact authority verdict waits
+at most another 1.5 seconds for optional OFF metadata, then cancels unused work.
+Missing slow metadata may mean a missing photo; the source remains disclosed.
+Completed OU verdicts survive a timeout in the other source. Available conflicting
+explicit labels still produce UNKNOWN. Matching requirements are unchanged.
+The loading message states the wait limit. TIMEOUT offers an explicit extended
+search, with a 35-second overall / 20-second OU budget, so slow source coverage
+remains available without imposing that wait on every scan. No verdict caching
+or barcode shortcuts were added.
+
 Version 1.4.0 removes Open Food Facts as a prerequisite for certification.
 An independent exact-barcode lookup checks [Kosharot's product catalogue](https://www.ikr.org.il/index2.php?id=2&lang=HEB)
 in parallel with OFF. A matching structured product record must contain the
@@ -75,7 +87,7 @@ to 2 MB. No barcode, brand or product-specific verdict overrides are present.
   bounded timeouts, bounded JSON responses, cancellation, and HTTPS endpoints.
 * OU searches try English and display-language names, multiple declared brands
   and a brand-only fallback. Flavors and variants remain significant. The search
-  has a 20-second total budget, at most six requests and two pages per query.
+  has at most six requests and two pages per query, within the selected time budget.
   Incomplete/truncated results cannot certify because unseen rows might conflict.
 * Product-not-found, offline, transport/DNS, timeout, malformed response,
   OFF unavailable, and OU unavailable have different messages. An OU failure

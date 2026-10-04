@@ -27,6 +27,25 @@ import java.util.concurrent.TimeUnit
 @RunWith(AndroidJUnit4::class)
 class ScannerSmokeTest {
     @get:Rule val permission: GrantPermissionRule = GrantPermissionRule.grant(Manifest.permission.CAMERA)
+    @Test fun timeoutOffersExplicitExtendedSearchAndPreservesLoadingMessage() {
+        ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+            scenario.onActivity { activity ->
+                ViewModelProvider(activity)[ScanModel::class.java].state.value = ScanState("7290100687109", result = LookupResult(
+                    Product("7290100687109", "מוצר בדיקה", "מותג"), Verdict(KosherStatus.UNKNOWN, "הבדיקה לא הושלמה בזמן"), LookupIssue.TIMEOUT))
+            }
+            androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
+            scenario.onActivity { activity ->
+                val button = activity.findViewById<TextView>(R.id.retryLookupButton)
+                assertEquals("בדיקה מעמיקה", button.text.toString())
+                assertTrue(button.isShown)
+                button.performClick()
+                val model = ViewModelProvider(activity)[ScanModel::class.java]
+                assertTrue(model.state.value.loading)
+                assertTrue(model.state.value.loadingMessage.contains("35"))
+                model.reset() // Cancel before the queued job can start external requests.
+            }
+        }
+    }
     @Test fun bundledMlKitDecodesEan13WithoutModelDownload() {
         val code = "3017620422003"
         val matrix = MultiFormatWriter().encode(code, BarcodeFormat.EAN_13, 640, 320)

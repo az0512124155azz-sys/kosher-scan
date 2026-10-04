@@ -1,4 +1,28 @@
-# Verification — version 1.4.0, 2026-10-05
+# Verification — version 1.4.1, 2026-10-05
+
+## Latency follow-up
+
+The former path could await OFF (15 seconds) before a serial OU search
+(20 seconds). OU now starts after metadata arrives, concurrently with the
+barcode source. Normal lookups have a 12-second overall budget; OFF metadata
+has five seconds and OU has eight. A completed exact authority result waits at
+most an additional 1.5 seconds for OFF before cancelling optional work. Slow
+metadata can leave a photo missing, disclosed in the card's reason. Matching
+criteria and the three-status policy are unchanged. No verdict cache was added.
+
+TIMEOUT exposes an explicit extended search (35-second total / 20-second OU),
+with a loading message stating the longer wait. A completed exact OU result is
+preserved if the other source times out. Conflicting explicit labels available
+within the metadata window still fail closed. No claim is made that a cancelled,
+unfinished source has been checked; its missing evidence is disclosed.
+
+Eight JVM latency regressions cover cancelled optional metadata, concurrent OU
+start, delayed conflicting evidence, partial product recovery, retained community
+disclosure, preservation of completed OU results, timeout classification and
+extended search. Five Android tests include the extended-search button and its
+loading state, in addition to the four scanner/UI tests below.
+
+## Version 1.4.0 coverage baseline
 
 Environment: Windows, Java 21, Gradle 8.7, SDK 35; Pixel 6 AVD running
 Android 17 / API 37. No physical phone was connected.

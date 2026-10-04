@@ -36,14 +36,20 @@ import kotlinx.coroutines.launch
 import java.util.concurrent.Executors
 import java.util.concurrent.atomic.AtomicBoolean
 
-data class ScanState(val code: String = "", val loading: Boolean = false, val result: LookupResult? = null)
+data class ScanState(val code: String = "", val loading: Boolean = false, val result: LookupResult? = null,
+    val loadingMessage: String = "בודק במאגרי הכשרות… עד כ־12 שניות")
 class ScanModel : ViewModel() {
     val state = MutableStateFlow(ScanState())
     private var job: Job? = null
-    fun lookup(code: String, repository: ProductLookup) {
+    fun lookup(code: String, repository: ProductLookup, loadingMessage: String = "בודק במאגרי הכשרות… עד כ־12 שניות") {
         if (state.value.loading) return
-        state.value = ScanState(code, true)
-        job = viewModelScope.launch { state.value = ScanState(code, result = repository.lookup(code)) }
+        state.value = ScanState(code, true, loadingMessage = loadingMessage)
+        job = viewModelScope.launch {
+            val started = android.os.SystemClock.elapsedRealtime()
+            val result = repository.lookup(code)
+            android.util.Log.d("KosherScan", "Lookup completed in ${android.os.SystemClock.elapsedRealtime() - started} ms; source=${result.verdict.sourceLabel}; status=${result.verdict.status}")
+            state.value = ScanState(code, result = result)
+        }
     }
     fun reset() { job?.cancel(); state.value = ScanState() }
 }
@@ -94,7 +100,12 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         findViewById<View>(R.id.scanAgainButton).setOnClickListener { model.reset() }
-        findViewById<View>(R.id.retryLookupButton).setOnClickListener { model.lookup(model.state.value.code, repository) }
+        findViewById<View>(R.id.retryLookupButton).setOnClickListener {
+            val extended = model.state.value.result?.issue == LookupIssue.TIMEOUT
+            model.lookup(model.state.value.code,
+                if (extended) (repository as? ProductRepository)?.extended() ?: repository else repository,
+                if (extended) "בדיקה מעמיקה במאגרים… עד כ־35 שניות" else "בודק במאגרי הכשרות… עד כ־12 שניות")
+        }
         findViewById<View>(R.id.sourceButton).setOnClickListener {
             val url = model.state.value.result?.verdict?.sourceUrl.orEmpty()
             if (url.startsWith("https://")) startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
@@ -215,7 +226,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.manualButton).isEnabled = !s.loading
         findViewById<View>(R.id.manualButton).visibility = if (s.result != null) View.INVISIBLE else View.VISIBLE
         findViewById<View>(R.id.hintText).visibility = if (busy.get() || errorPanel.visibility == View.VISIBLE) View.INVISIBLE else View.VISIBLE
-        findViewById<TextView>(R.id.loadingText).apply { visibility = if (s.loading) View.VISIBLE else View.GONE; text = "מזהה מוצר ובודק במאגרי הכשרות…" }
+        findViewById<TextView>(R.id.loadingText).apply { visibility = if (s.loading) View.VISIBLE else View.GONE; text = s.loadingMessage }
         val result = s.result
         if (result == null) { card.animate().cancel(); card.visibility = View.GONE; renderedImage = ""; return }
         findViewById<TextView>(R.id.productName).text = result.product?.name?.ifBlank { "מוצר ללא שם" } ?: "אין מידע על המוצר"
@@ -242,6 +253,7 @@ class MainActivity : AppCompatActivity() {
             text = "לצפייה במקור · ${result.verdict.sourceLabel}"
         }
         findViewById<View>(R.id.retryLookupButton).visibility = if (result.issue != null && result.issue != LookupIssue.NOT_FOUND) View.VISIBLE else View.GONE
+        findViewById<TextView>(R.id.retryLookupButton).text = if (result.issue == LookupIssue.TIMEOUT) "בדיקה מעמיקה" else "ניסיון חוזר"
         if (card.visibility != View.VISIBLE) {
             card.visibility = View.VISIBLE; card.alpha = 0f
             card.post { if (card.visibility == View.VISIBLE) { card.translationY = card.height.toFloat() + 30; card.animate().translationY(0f).alpha(1f).setDuration(340).start() } }
