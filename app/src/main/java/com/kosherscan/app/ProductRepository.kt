@@ -26,7 +26,7 @@ class ProductRepository(
     private class ServiceException(val issue: LookupIssue) : IOException()
     private suspend fun get(url: HttpUrl): Pair<Int, String> = suspendCancellableCoroutine { continuation ->
         val call = client.newCall(Request.Builder().url(url).header("Accept", "application/json")
-            .header("User-Agent", "KosherScan/1.2 (Android; github.com/az0512124155azz-sys/kosher-scan)").build())
+            .header("User-Agent", "KosherScan/1.3 (Android; github.com/az0512124155azz-sys/kosher-scan)").build())
         continuation.invokeOnCancellation { call.cancel() }
         call.enqueue(object : Callback {
             override fun onFailure(call: Call, e: IOException) { if (!continuation.isCancelled) continuation.resumeWithException(e) }
@@ -51,7 +51,7 @@ class ProductRepository(
         val product: Product
         try {
             val url = offBase.toHttpUrl().newBuilder().addPathSegments("api/v2/product").addPathSegment("$code.json")
-                .addQueryParameter("fields", "code,product_name,product_name_he,product_name_en,brands,image_front_small_url,labels_tags").build()
+                .addQueryParameter("fields", "code,product_name,product_name_he,product_name_en,brands,image_front_small_url,labels,labels_tags,categories_tags,ingredients_text,ingredients_text_en").build()
             val (status, body) = get(url)
             if (status != 200 && status != 404) return failure(LookupIssue.SERVICE_UNAVAILABLE)
             val json = JSONObject(body)
@@ -59,12 +59,16 @@ class ProductRepository(
             if (status != 200 || json.optInt("status") != 1) return failure(LookupIssue.INVALID_RESPONSE)
             val p = json.getJSONObject("product")
             val labels = p.optJSONArray("labels_tags")
+            val categories = p.optJSONArray("categories_tags")
             product = Product(code, p.optString("product_name_he").ifBlank { p.optString("product_name").ifBlank { p.optString("product_name_en") } },
                 p.optString("brands"), p.optString("product_name_en"), p.optString("image_front_small_url"),
-                (0 until (labels?.length() ?: 0)).map { labels!!.getString(it) })
+                (0 until (labels?.length() ?: 0)).map { labels!!.getString(it) },
+                (0 until (categories?.length() ?: 0)).map { categories!!.getString(it) },
+                p.optString("ingredients_text"), p.optString("ingredients_text_en"), p.optString("labels"))
         } catch (e: IOException) { return failure(classify(e)) }
           catch (e: org.json.JSONException) { return failure(LookupIssue.INVALID_RESPONSE) }
         if (KosherPolicy.explicitlyNotKosher(product)) return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
+        if (PlainWaterPolicy.matches(product)) return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
         if (product.brand.isBlank() || product.name.isBlank()) return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
         try {
             val brand = product.brand.substringBefore(',').trim()

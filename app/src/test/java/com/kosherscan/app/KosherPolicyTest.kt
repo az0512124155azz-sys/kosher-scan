@@ -4,6 +4,29 @@ import org.junit.Assert.*
 import org.junit.Test
 
 class KosherPolicyTest {
+    @Test fun specificCertificationLabelsNeedNotCarryGenericParent() {
+        listOf("en:orthodox-union-kosher", "en:kosher-parve", "en:star-k-kosher", "en:organized-kashrut-kosher", "en:mk-kosher").forEach {
+            assertTrue(it, KosherPolicy.explicitlyKosher(Product("12345678", "Test", "Test", labels = listOf(it))))
+        }
+    }
+    @Test fun rawLabelsAndLegacyCategoriesAreReadAsWholeLabels() {
+        assertTrue(KosherPolicy.explicitlyKosher(Product("12345678", "Test", "Test", labelsText = "Organic, OU Kosher")))
+        assertTrue(KosherPolicy.explicitlyKosher(Product("12345678", "Test", "Test", categories = listOf("en:kosher-parve"))))
+    }
+    @Test fun rawNegativeHasPriorityOverPositive() {
+        val product = Product("12345678", "Test", "Test", labels = listOf("en:kosher"), labelsText = "Organic; not kosher")
+        assertEquals(KosherStatus.NOT_KOSHER, KosherPolicy.resolve(product, emptyList()).status)
+    }
+    @Test fun arbitraryKosherSubstringAndSocialLabelsDoNotCertify() {
+        listOf("not kosher for passover", "possibly kosher", "kosher style", "en:magen-tzedek", "not certified kosher", "ללא הכשר").forEach {
+            val product = Product("12345678", "Test", "Test", labelsText = it)
+            assertEquals(it, KosherStatus.UNKNOWN, KosherPolicy.resolve(product, emptyList()).status)
+        }
+    }
+    @Test fun passoverNegativeRawLabelDoesNotOverrideYearRoundCertification() {
+        val product = Product("12345678", "Test", "Test", labelsText = "OU Kosher, not kosher for passover")
+        assertEquals(KosherStatus.KOSHER, KosherPolicy.resolve(product, emptyList()).status)
+    }
     private val p = Product("1234567890123", "Hazelnut spread with cocoa", "Example")
     private val r = OuRecord("OU123", p.name, p.brand, listOf("OU-D"), "Symbol required. Not Kosher for Passover.")
     @Test fun exactRecordMatches() { assertEquals(KosherStatus.KOSHER, KosherPolicy.resolve(p, listOf(r)).status) }

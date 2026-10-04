@@ -5,7 +5,11 @@ Android 17 / API 37. No physical phone was connected.
 
 ## Automated checks
 
-* 32 JVM tests: 17 certification/matching cases and 15 HTTP/repository cases.
+* 49 JVM tests: 22 certification/matching cases, 19 HTTP/repository cases,
+  and 8 conservative plain-water rule cases. All passed for version 1.3.0.
+  Regression coverage includes specific certification labels without the generic
+  kosher parent, raw labels, legacy categories, explicit negative precedence,
+  Passover-only negatives, and rejecting ambiguous/social labels.
 * 4 Android instrumented smoke tests: bundled ML Kit EAN-13 decoding,
   rendering all three verdicts / Activity recreation / scan-again reset,
   an unclipped scan-again button after result text changes, and custom barcode
@@ -21,6 +25,23 @@ Green/red cards are tested with deterministic fixtures, not asserted as live
 certification of any physical package.
 
 ## Manual emulator checks
+
+Version 1.3.0 follow-up:
+
+* Entered the user's screenshot barcode `3800000602733`. Live OFF returned Devin,
+  spring-water categories and the complete Bulgarian ingredient declaration
+  `Изворна вода`. The app displays KOSHER under OU's general water-only guidance,
+  requires checking that the package's only ingredient is water, and explicitly
+  disclaims OU certification of the brand. No barcode/brand exceptions exist.
+* Entered `0013764027053` (Dave's Killer Bread). Live OFF supplied explicit kosher
+  labels. The actual card/photo loaded and displayed KOSHER with the community
+  source and package-symbol condition. This is a separate non-water live case,
+  not a claim to have reproduced all of the user's unspecified regressions.
+* Unit fixtures reject flavored/vitamin/juice/coconut categories, additive or
+  missing ingredients, conflicting translations, and names contradicting water-only
+  metadata. The metadata still comes from a community source and may be incomplete.
+
+Previous 1.2.0 manual checks (UI/scanner unchanged in this follow-up):
 
 * Fresh launch requests camera permission; denial displays recovery controls.
 * Retry permits granting camera access; CameraX displays the virtual camera

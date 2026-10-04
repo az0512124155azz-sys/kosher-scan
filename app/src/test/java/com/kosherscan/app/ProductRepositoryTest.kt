@@ -10,6 +10,33 @@ import org.junit.Test
 import java.util.concurrent.TimeUnit
 
 class ProductRepositoryTest {
+    @Test fun devinPlainWaterUsesRealFieldsAndNeedsNoOuProductRecord() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Devin","product_name_en":"Devin","brands":"Devin","categories_tags":["en:beverages-and-beverages-preparations","en:beverages","en:waters","en:spring-waters"],"ingredients_text":"Изворна вода","labels_tags":["en:co2e-neutral"]}}"""))
+        val result = repo().lookup("3800000602733")
+        assertEquals(KosherStatus.KOSHER, result.verdict.status); assertNull(result.issue)
+        assertEquals(1, server.requestCount)
+        val fields = server.takeRequest().requestUrl!!.queryParameter("fields")!!
+        assertTrue(fields.contains("ingredients_text_en")); assertTrue(fields.contains("categories_tags"))
+    }
+    @Test fun specificOuLabelWithoutGenericParentSurvivesUnavailableOu() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Test","brands":"Test","labels_tags":["en:orthodox-union-kosher"]}}"""))
+        server.enqueue(MockResponse().setResponseCode(503))
+        val result = repo().lookup("12345678")
+        assertEquals(KosherStatus.KOSHER, result.verdict.status)
+        assertTrue(result.verdict.reason.contains("דיווח קהילתי"))
+    }
+    @Test fun rawLabelsAreFetchedAndParsedWithoutTags() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Test","brands":"Test","labels":"Organic, Kosher parve"}}"""))
+        server.enqueue(MockResponse().setBody("""{"results":[],"total":0}"""))
+        assertEquals(KosherStatus.KOSHER, repo().lookup("12345678").verdict.status)
+        assertTrue(server.takeRequest().requestUrl!!.queryParameter("fields")!!.split(',').contains("labels"))
+    }
+    @Test fun flavoredWaterDoesNotSkipCertificationLookup() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Devin lemon","brands":"Devin","categories_tags":["en:waters"],"ingredients_text":"water"}}"""))
+        server.enqueue(MockResponse().setBody("""{"results":[],"total":0}"""))
+        assertEquals(KosherStatus.UNKNOWN, repo().lookup("12345678").verdict.status)
+        assertEquals(2, server.requestCount)
+    }
     private val server = MockWebServer().apply { start() }
     private fun repo(online: Boolean = true, timeout: Long = 2000) = ProductRepository(
         OkHttpClient.Builder().callTimeout(timeout, TimeUnit.MILLISECONDS).build(), { online }, server.url("/").toString(), server.url("/").toString())

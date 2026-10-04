@@ -42,11 +42,28 @@ Instrumented tests are executed locally, not on the CI runner.
   no exact match. The UI discloses that this is a community report, requires
   checking the package, and explicitly says it is not OU certification.
   Vegetarian, vegan, unrelated labels and partial text never certify products.
+* Specific OFF certification labels (such as Orthodox Union Kosher, Kosher-parve,
+  Star-K and MK), raw comma/semicolon-separated `labels`, and explicit legacy
+  category labels are also read. They must match a whole allowlisted label;
+  `kosher style`, `possibly kosher`, social labels and Passover-only negatives
+  cannot certify or reject a product. These results carry the same community
+  source disclosure, rather than claiming a live certifier verification.
+* Plain water without flavors or additives has a separate category rule based on
+  [OU's water guidance](https://oukosher.org/passover/guidelines/food-items/seltzer-water/).
+  It requires a water category, no conflicting category or name, and a complete
+  ingredient declaration that matches an allowlisted water-only phrase. Missing
+  ingredients, additives, flavored/vitamin water and contradictory localized
+  ingredients fail closed. The UI requires checking the package's ingredients,
+  identifies OFF as the metadata source, and states this is not brand certification.
+  There are no barcode or brand exceptions, including for Devin.
 * No certification cache: each scan checks current services. Requests have
   bounded timeouts, bounded JSON responses, cancellation, and HTTPS endpoints.
 * Product-not-found, offline, transport/DNS, timeout, malformed response,
   OFF unavailable, and OU unavailable have different messages. An OU failure
   retains the identified product and photo with an unknown verdict.
+* These sources do not cover every product or certification agency. An identified
+  product without sufficient evidence remains UNKNOWN; this is not a network
+  error and cannot be fixed by treating every missing OU record as a verdict.
 
 ## Scanner and recovery
 

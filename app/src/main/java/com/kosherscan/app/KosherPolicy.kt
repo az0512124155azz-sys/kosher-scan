@@ -8,7 +8,10 @@ data class Verdict(val status: KosherStatus, val reason: String)
 data class Product(
     val barcode: String, val name: String, val brand: String,
     val englishName: String = "", val imageUrl: String = "",
-    val labels: List<String> = emptyList()
+    val labels: List<String> = emptyList(),
+    val categories: List<String> = emptyList(),
+    val ingredients: String = "", val englishIngredients: String = "",
+    val labelsText: String = ""
 )
 data class OuRecord(val id: String, val name: String, val brand: String,
     val symbols: List<String>, val conditions: String)
@@ -19,14 +22,31 @@ object KosherPolicy {
         .replace("&", " and ").replace(Regex("[^\\p{L}\\p{N}]+"), " ")
         .trim().replace(Regex("\\s+"), " ")
 
+    private fun labelValues(p: Product): List<String> =
+        (p.labels + p.categories + p.labelsText.split(',', ';', '\n'))
+            .map { normalize(it.substringAfter(':')) }
+
     // Exact labels only: 'not kosher for passover' is NOT a year-round rejection.
-    fun explicitlyNotKosher(p: Product) = p.labels.any {
-        normalize(it.substringAfter(':')) in setOf("not kosher", "non kosher", "לא כשר")
+    fun explicitlyNotKosher(p: Product) = labelValues(p).any {
+        it in setOf("not kosher", "non kosher", "לא כשר")
     }
 
-    fun explicitlyKosher(p: Product) = p.labels.any {
-        normalize(it.substringAfter(':')) in setOf("kosher", "כשר")
-    }
+    // Explicit certification labels from OFF's taxonomy, not arbitrary text that
+    // happens to contain 'kosher'. OFF reports remain community evidence.
+    // https://github.com/openfoodfacts/openfoodfacts-server/blob/main/taxonomies/labels.txt
+    private val kosherLabels = setOf(
+        "kosher", "kasher", "כשר", "kosher parve", "kosher pareve", "kosher dairy", "kosher meat",
+        "kosher for passover", "כשר פרווה", "כשר חלבי", "כשר לפסח",
+        "orthodox union kosher", "orthodox union", "ou kosher", "ou", "ou d", "ou de", "ou p",
+        "organized kashrut kosher", "organized kashrut", "ok kosher",
+        "star k kosher", "star d kosher", "kosher lbd", "mk kosher", "cor kosher",
+        "kosher supervision of america", "ksa kosher", "ksa", "manchester beth din", "manchester kosher",
+        "kashrut division of the london beth din", "london beth din", "klbd", "kosher london beth din",
+        "kosher check", "bc kosher", "tablet k kosher", "kosher under supervision of rabbi weitman tnuva",
+        "כשר בהשגחת רבי ויטמן תנובה", "sephardi kashrut autority", "sephardi beth din",
+        "union of orthodox synagogues of south africa")
+
+    fun explicitlyKosher(p: Product) = labelValues(p).any { it in kosherLabels }
 
     // Ignore packaging quantities and a repeated brand prefix, never flavors/variants.
     fun searchName(value: String): String = value
@@ -63,6 +83,7 @@ object KosherPolicy {
             "התאמת שם ומותג ב־OU · ${matches.first().symbols.joinToString()}\nיש לוודא שהסמל מופיע על האריזה. ${if (matches.first().conditions.contains("Not Kosher for Passover", true)) "לא לפסח." else ""}")
         else if (explicitlyKosher(p)) Verdict(KosherStatus.KOSHER,
             "מסומן ככשר ב־Open Food Facts · דיווח קהילתי.\nיש לוודא סימון כשרות על האריזה; זה אינו אישור OU.")
+        else if (PlainWaterPolicy.matches(p)) PlainWaterPolicy.verdict()
         else Verdict(KosherStatus.UNKNOWN, "לא נמצאה התאמה חד־משמעית ב־OU או סימון כשרות מפורש. היעדר התאמה אינו מעיד שהמוצר אינו כשר.")
     }
 }
