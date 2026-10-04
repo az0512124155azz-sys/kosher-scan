@@ -1,0 +1,12 @@
+﻿{
+    "code":  "7290110329952",
+    "product":  {
+                    "brands":  "Yoplait",
+                    "code":  "7290110329952",
+                    "image_front_small_url":  "https://images.openfoodfacts.org/images/products/729/011/032/9952/front_en.4.200.jpg",
+                    "product_name":  "Yoplait go youghurt coco",
+                    "product_name_en":  "Yoplait go youghurt coco"
+                },
+    "status":  1,
+    "status_verbose":  "product found"
+}

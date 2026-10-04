@@ -1,0 +1,21 @@
+﻿{
+    "code":  "7290116932484",
+    "product":  {
+                    "brands":  "Go",
+                    "categories_tags":  [
+                                            "en:dairies",
+                                            "en:fermented-foods",
+                                            "en:desserts",
+                                            "en:fermented-milk-products",
+                                            "en:dairy-desserts",
+                                            "en:fermented-dairy-desserts",
+                                            "en:yogurts"
+                                        ],
+                    "code":  "7290116932484",
+                    "product_name":  "Yoplait go",
+                    "product_name_en":  "Yoplait go",
+                    "product_name_he":  "בטעם וניל Go יוגורט"
+                },
+    "status":  1,
+    "status_verbose":  "product found"
+}

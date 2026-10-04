@@ -4,7 +4,7 @@ import java.text.Normalizer
 import java.util.Locale
 
 enum class KosherStatus { KOSHER, NOT_KOSHER, UNKNOWN }
-data class Verdict(val status: KosherStatus, val reason: String)
+data class Verdict(val status: KosherStatus, val reason: String, val sourceUrl: String = "", val sourceLabel: String = "")
 data class Product(
     val barcode: String, val name: String, val brand: String,
     val englishName: String = "", val imageUrl: String = "",
@@ -78,11 +78,11 @@ object KosherPolicy {
         if (explicitlyNotKosher(p)) return Verdict(KosherStatus.NOT_KOSHER,
             "המוצר מסומן במפורש כלא כשר ב־Open Food Facts (מאגר קהילתי).")
         val matches = if (related) emptyList() else records.filter { strongMatch(p, it) }
-        val distinct = matches.map { it.symbols.sorted() to it.conditions }.distinct()
+        val distinct = matches.map { it.symbols.sorted() to it.conditions.split('.').map(::normalize).filter { clause -> clause.isNotBlank() }.distinct().sorted() }.distinct()
         return if (matches.isNotEmpty() && distinct.size == 1) Verdict(KosherStatus.KOSHER,
-            "התאמת שם ומותג ב־OU · ${matches.first().symbols.joinToString()}\nיש לוודא שהסמל מופיע על האריזה. ${if (matches.first().conditions.contains("Not Kosher for Passover", true)) "לא לפסח." else ""}")
+            "התאמת שם ומותג ב־OU · ${matches.first().symbols.joinToString()}\nיש לוודא שהסמל מופיע על האריזה. ${if (matches.first().conditions.contains("Not Kosher for Passover", true)) "לא לפסח." else ""}", "https://oukosher.org/product-search/", "OU")
         else if (explicitlyKosher(p)) Verdict(KosherStatus.KOSHER,
-            "מסומן ככשר ב־Open Food Facts · דיווח קהילתי.\nיש לוודא סימון כשרות על האריזה; זה אינו אישור OU.")
+            "מסומן ככשר ב־Open Food Facts · דיווח קהילתי.\nיש לוודא סימון כשרות על האריזה; זה אינו אישור OU.", "https://world.openfoodfacts.org/product/${p.barcode}", "Open Food Facts")
         else if (PlainWaterPolicy.matches(p)) PlainWaterPolicy.verdict()
         else Verdict(KosherStatus.UNKNOWN, "לא נמצאה התאמה חד־משמעית ב־OU או סימון כשרות מפורש. היעדר התאמה אינו מעיד שהמוצר אינו כשר.")
     }

@@ -1,0 +1,137 @@
+﻿{
+    "total":  4,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUV3-ED0992E",
+                        "productName":  "BISSLI 2.0 BBQ Gluten Free - BBQ Flavored Corn Snack",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.60694176
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-1A48569",
+                        "productName":  "Bissli Extreme Smokey BBQ Extra Long",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.5860734
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-7B99A4B",
+                        "productName":  "Bissli 2.0 BBQ GF",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.5735118
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-GZYSG2F",
+                        "productName":  "Bamba BBQ",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.36134556
+                    }
+                ],
+    "elapsed_ms":  6339
+}

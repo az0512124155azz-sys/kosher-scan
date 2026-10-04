@@ -1,0 +1,1616 @@
+﻿{
+    "total":  327,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUV7-D2D5E3A",
+                        "productName":  "Oats \u0026 More with Almonds",
+                        "brandName":  "Signature Select",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1298398",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "company":  "Better Living Brands LLC./Safeway Inc./Lucerne Foods Inc.",
+                        "companySlug":  "Better-Living-Brands-LLC.Safeway-Inc.Lucerne-Foods-Inc.",
+                        "location":  "Pleasanton,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.08716692
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-5A788AF",
+                        "productName":  "Oats \u0026 More with Honey",
+                        "brandName":  "Signature Select",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1298398",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "company":  "Better Living Brands LLC./Safeway Inc./Lucerne Foods Inc.",
+                        "companySlug":  "Better-Living-Brands-LLC.Safeway-Inc.Lucerne-Foods-Inc.",
+                        "location":  "Pleasanton,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.0842289
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-F751060",
+                        "productName":  "Oats \u0027n More with Almonds Cereal",
+                        "brandName":  "Hannaford",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1359869",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "company":  "ADUSA Distribution, LLC",
+                        "companySlug":  "ADUSA-Distribution-LLC",
+                        "location":  "Salisbury,  NC",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.080249436
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-FA68054",
+                        "productName":  "Oats \u0026 More with Honey Cereal",
+                        "brandName":  "Food Lion",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1359869",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "company":  "ADUSA Distribution, LLC",
+                        "companySlug":  "ADUSA-Distribution-LLC",
+                        "location":  "Salisbury,  NC",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.06886879
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-2TQ7H2Y",
+                        "productName":  "Crunchy Mix of Sprouting Beans",
+                        "brandName":  "Food to Live",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1352774",
+                        "company":  "LexUnder Inc",
+                        "companySlug":  "LexUnder-Inc",
+                        "location":  "Brooklyn,  NY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-03-15T00:00:00.000Z",
+                        "_score":  0.050635003
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-XHMEPK1",
+                        "productName":  "Mafaldine NÂ°80",
+                        "brandName":  "Rummo Lenta Lavorazione",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1354919",
+                        "company":  "Rummo S.p.A",
+                        "companySlug":  "Rummo-S.p.A",
+                        "location":  "Benevento,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-05-25T00:00:00.000Z",
+                        "_score":  0.04503662
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-9OH9MXG",
+                        "productName":  "Lasagne",
+                        "brandName":  "Rummo Lenta Lavorazione",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1354919",
+                        "company":  "Rummo S.p.A",
+                        "companySlug":  "Rummo-S.p.A",
+                        "location":  "Benevento,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-09-20T00:00:00.000Z",
+                        "_score":  0.044385932
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-FHLRZ7B",
+                        "productName":  "Radiatori 24 x 500 G",
+                        "brandName":  "La Molisana",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1293948",
+                        "company":  "La Molisana S.p.A.",
+                        "companySlug":  "La-Molisana-S.p.A.",
+                        "location":  "Campobasso,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-05-02T00:00:00.000Z",
+                        "_score":  0.04345105
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-RIKQJD7",
+                        "productName":  "PASTA CLASSICA-DURUM WHEAT SEMOLINA",
+                        "brandName":  "Fratelli Mantova Since 1905",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1324749",
+                        "company":  "Compagnia Alimentare Italiana S.p.A.",
+                        "companySlug":  "Compagnia-Alimentare-Italiana-S.p.A.",
+                        "location":  "Broccostella, FR,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-08-23T00:00:00.000Z",
+                        "_score":  0.0428703
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-8ZNECWE",
+                        "productName":  "Fettuccine NÂ°89",
+                        "brandName":  "Rummo Lenta Lavorazione",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1354919",
+                        "company":  "Rummo S.p.A",
+                        "companySlug":  "Rummo-S.p.A",
+                        "location":  "Benevento,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-05-25T00:00:00.000Z",
+                        "_score":  0.04239202
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-380FIVG",
+                        "productName":  "Bruschette Tomato And Basil",
+                        "brandName":  "Meliora",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1335733",
+                        "company":  "Gruppo Milo S.p.A.",
+                        "companySlug":  "Gruppo-Milo-S.p.A.",
+                        "location":  "Milan,  MI ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-05-17T00:00:00.000Z",
+                        "_score":  0.039627768
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-8CDDFBE",
+                        "productName":  "BRAMATA BRESCIANA - MEDIUM CORN MEAL",
+                        "brandName":  "La Grande Ruota Srl",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1342889",
+                        "company":  "La Grande Ruota Srl",
+                        "companySlug":  "La-Grande-Ruota-Srl",
+                        "location":  "Dello, BC,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.03953867
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-775C4B5",
+                        "productName":  "Organic Farro",
+                        "brandName":  "Fratelli Mantova",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1324749",
+                        "company":  "Compagnia Alimentare Italiana S.p.A.",
+                        "companySlug":  "Compagnia-Alimentare-Italiana-S.p.A.",
+                        "location":  "Broccostella, FR,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-10-17T00:00:00.000Z",
+                        "_score":  0.03887651
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-3A63FEE",
+                        "productName":  "Lentils",
+                        "brandName":  "Signature Select",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1298398",
+                        "company":  "Better Living Brands LLC./Safeway Inc./Lucerne Foods Inc.",
+                        "companySlug":  "Better-Living-Brands-LLC.Safeway-Inc.Lucerne-Foods-Inc.",
+                        "location":  "Pleasanton,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.038138922
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-AGYXOAB",
+                        "productName":  "Focaccia Salt \u0026 Rosemary 8x7oz",
+                        "brandName":  "Meliora",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1335733",
+                        "company":  "Gruppo Milo S.p.A.",
+                        "companySlug":  "Gruppo-Milo-S.p.A.",
+                        "location":  "Milan,  MI ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-05-17T00:00:00.000Z",
+                        "_score":  0.037839137
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-YJ1CYNQ",
+                        "productName":  "Farfalle lisce",
+                        "brandName":  "Meliora",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1335733",
+                        "company":  "Gruppo Milo S.p.A.",
+                        "companySlug":  "Gruppo-Milo-S.p.A.",
+                        "location":  "Milan,  MI ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-21T00:00:00.000Z",
+                        "_score":  0.036579784
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-UKD9AEF",
+                        "productName":  "Tripoline NÂ°81",
+                        "brandName":  "Rummo Lenta Lavorazione",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1354919",
+                        "company":  "Rummo S.p.A",
+                        "companySlug":  "Rummo-S.p.A",
+                        "location":  "Benevento,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-05-25T00:00:00.000Z",
+                        "_score":  0.036538508
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-B0FF137",
+                        "productName":  "Large Lima Beans",
+                        "brandName":  "Signature Select",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1298398",
+                        "company":  "Better Living Brands LLC./Safeway Inc./Lucerne Foods Inc.",
+                        "companySlug":  "Better-Living-Brands-LLC.Safeway-Inc.Lucerne-Foods-Inc.",
+                        "location":  "Pleasanton,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.036538508
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-KA9XU6H",
+                        "productName":  "MEZZE MANICHE HIGH PROTEIN",
+                        "brandName":  "Garofalo",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1288417",
+                        "company":  "Pastificio Lucio Garofalo SPA",
+                        "companySlug":  "Pastificio-Lucio-Garofalo-SPA",
+                        "location":  "Gragnano (Naples),   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-07-22T00:00:00.000Z",
+                        "_score":  0.036209904
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-VRYCVKI",
+                        "productName":  "Yellow Split Lentil",
+                        "brandName":  "Food to Live",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1352774",
+                        "company":  "LexUnder Inc",
+                        "companySlug":  "LexUnder-Inc",
+                        "location":  "Brooklyn,  NY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-10-18T00:00:00.000Z",
+                        "_score":  0.03596532
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-C79EB03",
+                        "productName":  "Thick \u0026 Hearty Maple \u0026 Brown Sugar",
+                        "brandName":  "BetterOats",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1294648",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "company":  "Post Consumer Brands",
+                        "companySlug":  "Post-Consumer-Brands",
+                        "location":  "Lakeville,  MN",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.0350424
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-59D6FD5",
+                        "productName":  "100 Calories Apples \u0026 Cinnamon",
+                        "brandName":  "BetterOats",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1294648",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "company":  "Post Consumer Brands",
+                        "companySlug":  "Post-Consumer-Brands",
+                        "location":  "Lakeville,  MN",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.033872854
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-7EC83F0",
+                        "productName":  "Thick \u0026 Hearty Blueberry Muffin",
+                        "brandName":  "BetterOats",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1294648",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "company":  "Post Consumer Brands",
+                        "companySlug":  "Post-Consumer-Brands",
+                        "location":  "Lakeville,  MN",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.033226922
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-XVGA4ET",
+                        "productName":  "Armoniche dry",
+                        "brandName":  "Meliora",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1335733",
+                        "company":  "Gruppo Milo S.p.A.",
+                        "companySlug":  "Gruppo-Milo-S.p.A.",
+                        "location":  "Milan,  MI ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-10T00:00:00.000Z",
+                        "_score":  0.03292708
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-7614769",
+                        "productName":  "Steel Cut Maple \u0026 Brown Sugar",
+                        "brandName":  "BetterOats",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1294648",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "company":  "Post Consumer Brands",
+                        "companySlug":  "Post-Consumer-Brands",
+                        "location":  "Lakeville,  MN",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.032889787
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-DC06AE7",
+                        "productName":  "Steel Cut Original Quick Cooking Oatmeal with Flax Seeds",
+                        "brandName":  "BetterOats",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1294648",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "company":  "Post Consumer Brands",
+                        "companySlug":  "Post-Consumer-Brands",
+                        "location":  "Lakeville,  MN",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.03270392
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-KHYDZZU",
+                        "productName":  "Lentil Protein 80-C",
+                        "brandName":  "AGT Food PulsePlus",
+                        "category":  {
+                                         "category":  "Vegetable Products",
+                                         "categorySort":  "Vegetable Products",
+                                         "categorySearch":  "Vegetable Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1384621",
+                        "company":  "AGT Food \u0026 Ingredients and its subsidiaries",
+                        "companySlug":  "AGT-Food-and-Ingredients-and-its-subsidiaries",
+                        "location":  "Minot,  ND",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-31T00:00:00.000Z",
+                        "_score":  0.03270392
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-F742RRB",
+                        "productName":  "Lentil Protein 80-B",
+                        "brandName":  "AGT Food PulsePlus",
+                        "category":  {
+                                         "category":  "Vegetable Products",
+                                         "categorySort":  "Vegetable Products",
+                                         "categorySearch":  "Vegetable Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1384621",
+                        "company":  "AGT Food \u0026 Ingredients and its subsidiaries",
+                        "companySlug":  "AGT-Food-and-Ingredients-and-its-subsidiaries",
+                        "location":  "Minot,  ND",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-31T00:00:00.000Z",
+                        "_score":  0.031146845
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9E56F83",
+                        "productName":  "100 Calories Maple \u0026 Brown Sugar",
+                        "brandName":  "BetterOats",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1294648",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "company":  "Post Consumer Brands",
+                        "companySlug":  "Post-Consumer-Brands",
+                        "location":  "Lakeville,  MN",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of 9/15/2026 (when Containing Oats). If Product Contains Wheat, It Is Winter Wheat. (Malt TBD)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.031005697
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-HNGDJDA",
+                        "productName":  "Mini breadstick sea salt GLUTEN FREE",
+                        "brandName":  "PIU\u0027 BUONO",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1440932",
+                        "company":  "E.L.G. Foods S.R.L. - PiÃ¹ Buono S.R.L.",
+                        "companySlug":  "E.L.G.-Foods-S.R.L.-Piu-Buono-S.R.L.",
+                        "location":  "volla,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-30T00:00:00.000Z",
+                        "_score":  0.029493442
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-74552A9",
+                        "productName":  "Steel Cut Maple \u0026 Brown Sugar with Protein",
+                        "brandName":  "BetterOats",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1294648",
+                        "company":  "Post Consumer Brands",
+                        "companySlug":  "Post-Consumer-Brands",
+                        "location":  "Lakeville,  MN",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.027546074
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0CED28B",
+                        "productName":  "Organic Pearled Farro",
+                        "brandName":  "Food to Live",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1352774",
+                        "company":  "LexUnder Inc",
+                        "companySlug":  "LexUnder-Inc",
+                        "location":  "Brooklyn,  NY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.027358351
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-XV8MXXB",
+                        "productName":  "12 Bean Soup Mix",
+                        "brandName":  "Food to Live",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1352774",
+                        "company":  "LexUnder Inc",
+                        "companySlug":  "LexUnder-Inc",
+                        "location":  "Brooklyn,  NY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-01-09T00:00:00.000Z",
+                        "_score":  0.026741542
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-HZNFDUQ",
+                        "productName":  "Mediterranean 7-Bean Soup Mix",
+                        "brandName":  "Food to Live",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1352774",
+                        "company":  "LexUnder Inc",
+                        "companySlug":  "LexUnder-Inc",
+                        "location":  "Brooklyn,  NY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-09-14T00:00:00.000Z",
+                        "_score":  0.024857322
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-CIFFSXO",
+                        "productName":  "Italian Steel Cut Farro",
+                        "brandName":  "Food to Live",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1352774",
+                        "company":  "LexUnder Inc",
+                        "companySlug":  "LexUnder-Inc",
+                        "location":  "Brooklyn,  NY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-03-13T00:00:00.000Z",
+                        "_score":  0.024518725
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-2K72FMB",
+                        "productName":  "Scrocchi crackers rosemary",
+                        "brandName":  "PIU\u0027 BUONO",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1440932",
+                        "company":  "E.L.G. Foods S.R.L. - PiÃ¹ Buono S.R.L.",
+                        "companySlug":  "E.L.G.-Foods-S.R.L.-Piu-Buono-S.R.L.",
+                        "location":  "volla,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-30T00:00:00.000Z",
+                        "_score":  0.02396436
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-OCRWSTN",
+                        "productName":  "Scrocchi crackers sea salt",
+                        "brandName":  "PIU\u0027 BUONO",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1440932",
+                        "company":  "E.L.G. Foods S.R.L. - PiÃ¹ Buono S.R.L.",
+                        "companySlug":  "E.L.G.-Foods-S.R.L.-Piu-Buono-S.R.L.",
+                        "location":  "volla,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-30T00:00:00.000Z",
+                        "_score":  0.023208743
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-PN2S11F",
+                        "productName":  "Lenharts Mild Bx 50#",
+                        "brandName":  "4everfresh",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1424381",
+                        "company":  "Zimowski Food Specialties",
+                        "companySlug":  "Zimowski-Food-Specialties",
+                        "location":  "Chadwicks,  NY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-03-06T00:00:00.000Z",
+                        "_score":  0.02273532
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-PGINT5S",
+                        "productName":  "Frollini biscuits with sesame seeds and cranberry",
+                        "brandName":  "PIU\u0027 BUONO",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1440932",
+                        "company":  "E.L.G. Foods S.R.L. - PiÃ¹ Buono S.R.L.",
+                        "companySlug":  "E.L.G.-Foods-S.R.L.-Piu-Buono-S.R.L.",
+                        "location":  "volla,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-30T00:00:00.000Z",
+                        "_score":  0.022322435
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-7FC6BLL",
+                        "productName":  "Scrocchi crackers sesame seeds",
+                        "brandName":  "PIU\u0027 BUONO",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1440932",
+                        "company":  "E.L.G. Foods S.R.L. - PiÃ¹ Buono S.R.L.",
+                        "companySlug":  "E.L.G.-Foods-S.R.L.-Piu-Buono-S.R.L.",
+                        "location":  "volla,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-30T00:00:00.000Z",
+                        "_score":  0.022220362
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-UUKA3UB",
+                        "productName":  "Frollini biscuits with hazelnuts and cocoa",
+                        "brandName":  "PIU\u0027 BUONO",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1440932",
+                        "company":  "E.L.G. Foods S.R.L. - PiÃ¹ Buono S.R.L.",
+                        "companySlug":  "E.L.G.-Foods-S.R.L.-Piu-Buono-S.R.L.",
+                        "location":  "volla,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-30T00:00:00.000Z",
+                        "_score":  0.021866694
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-KWE3EXP",
+                        "productName":  "Biscuits with coconut and chocolate",
+                        "brandName":  "PIU\u0027 BUONO",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1440932",
+                        "company":  "E.L.G. Foods S.R.L. - PiÃ¹ Buono S.R.L.",
+                        "companySlug":  "E.L.G.-Foods-S.R.L.-Piu-Buono-S.R.L.",
+                        "location":  "volla,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-30T00:00:00.000Z",
+                        "_score":  0.021617446
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-7ZAVQO4",
+                        "productName":  "Cantucci Cranberry biscuits",
+                        "brandName":  "PIU\u0027 BUONO",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1440932",
+                        "company":  "E.L.G. Foods S.R.L. - PiÃ¹ Buono S.R.L.",
+                        "companySlug":  "E.L.G.-Foods-S.R.L.-Piu-Buono-S.R.L.",
+                        "location":  "volla,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-30T00:00:00.000Z",
+                        "_score":  0.02127316
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-GZSFG12",
+                        "productName":  "Biscuits with chocolate chips",
+                        "brandName":  "PIU\u0027 BUONO",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1440932",
+                        "company":  "E.L.G. Foods S.R.L. - PiÃ¹ Buono S.R.L.",
+                        "companySlug":  "E.L.G.-Foods-S.R.L.-Piu-Buono-S.R.L.",
+                        "location":  "volla,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-30T00:00:00.000Z",
+                        "_score":  0.021224413
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-13RPECI",
+                        "productName":  "The Magnificent Seven Mix of Raw Nuts and Berries",
+                        "brandName":  "Food to Live",
+                        "category":  {
+                                         "category":  "Food Mixes",
+                                         "categorySort":  "Food Mixes",
+                                         "categorySearch":  "Food Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1352774",
+                        "company":  "LexUnder Inc",
+                        "companySlug":  "LexUnder-Inc",
+                        "location":  "Brooklyn,  NY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-03-16T00:00:00.000Z",
+                        "_score":  0.021127257
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-N0XFDYE",
+                        "productName":  "Biscuits with cocoa and chocolate",
+                        "brandName":  "PIU\u0027 BUONO",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1440932",
+                        "company":  "E.L.G. Foods S.R.L. - PiÃ¹ Buono S.R.L.",
+                        "companySlug":  "E.L.G.-Foods-S.R.L.-Piu-Buono-S.R.L.",
+                        "location":  "volla,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-30T00:00:00.000Z",
+                        "_score":  0.020179294
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-0CX3DM2",
+                        "productName":  "Cantucci Cocoa and Almond biscuits",
+                        "brandName":  "PIU\u0027 BUONO",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1440932",
+                        "company":  "E.L.G. Foods S.R.L. - PiÃ¹ Buono S.R.L.",
+                        "companySlug":  "E.L.G.-Foods-S.R.L.-Piu-Buono-S.R.L.",
+                        "location":  "volla,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-30T00:00:00.000Z",
+                        "_score":  0.020133002
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-SAFOTD2",
+                        "productName":  "Cantucci almond biscuits",
+                        "brandName":  "PIU\u0027 BUONO",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1440932",
+                        "company":  "E.L.G. Foods S.R.L. - PiÃ¹ Buono S.R.L.",
+                        "companySlug":  "E.L.G.-Foods-S.R.L.-Piu-Buono-S.R.L.",
+                        "location":  "volla,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-30T00:00:00.000Z",
+                        "_score":  0.020133002
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-Q4BHPT3",
+                        "productName":  "Cantucci Con Pezzi Di Cioccolato",
+                        "brandName":  "PIU\u0027 BUONO",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1440932",
+                        "company":  "E.L.G. Foods S.R.L. - PiÃ¹ Buono S.R.L.",
+                        "companySlug":  "E.L.G.-Foods-S.R.L.-Piu-Buono-S.R.L.",
+                        "location":  "volla,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-04-13T00:00:00.000Z",
+                        "_score":  0.020040736
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-FLMJKMA",
+                        "productName":  "Roasted Milled Brown Flax Seeds",
+                        "brandName":  "Food to Live",
+                        "category":  {
+                                         "category":  "Nuts \u0026 Seeds",
+                                         "categorySort":  "Nuts \u0026 Seeds",
+                                         "categorySearch":  "Nuts \u0026 Seeds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1352774",
+                        "company":  "LexUnder Inc",
+                        "companySlug":  "LexUnder-Inc",
+                        "location":  "Brooklyn,  NY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-17T00:00:00.000Z",
+                        "_score":  0.01807096
+                    }
+                ],
+    "elapsed_ms":  4859
+}

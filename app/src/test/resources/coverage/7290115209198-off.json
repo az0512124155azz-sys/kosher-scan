@@ -1,0 +1,24 @@
+﻿{
+    "code":  "7290115209198",
+    "product":  {
+                    "brands":  "",
+                    "categories_tags":  [
+
+                                        ],
+                    "code":  "7290115209198",
+                    "ecoscore_tags":  [
+                                          "unknown"
+                                      ],
+                    "image_front_small_url":  "https://images.openfoodfacts.org/images/products/729/011/520/9198/front_en.5.200.jpg",
+                    "ingredients_text":  "",
+                    "ingredients_text_en":  "",
+                    "labels":  "",
+                    "labels_tags":  [
+
+                                    ],
+                    "product_name":  "بمبا اوسم هش الازرق 80gm",
+                    "product_name_en":  "بمبا اوسم هش الازرق 80gm"
+                },
+    "status":  1,
+    "status_verbose":  "product found"
+}

@@ -1,0 +1,25 @@
+﻿{
+    "code":  "7290107876889",
+    "product":  {
+                    "brands":  "אסם",
+                    "categories_tags":  [
+
+                                        ],
+                    "code":  "7290107876889",
+                    "ecoscore_tags":  [
+                                          "unknown"
+                                      ],
+                    "image_front_small_url":  "https://images.openfoodfacts.org/images/products/729/010/787/6889/front_en.6.200.jpg",
+                    "ingredients_text":  "",
+                    "ingredients_text_en":  "",
+                    "labels":  "",
+                    "labels_tags":  [
+
+                                    ],
+                    "product_name":  "بمبا اوسم محشي كريم نوغات 45gm",
+                    "product_name_en":  "بمبا اوسم محشي كريم نوغات 45gm",
+                    "product_name_he":  "במבה נוגט"
+                },
+    "status":  1,
+    "status_verbose":  "product found"
+}

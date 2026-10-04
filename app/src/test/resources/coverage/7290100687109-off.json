@@ -1,0 +1,23 @@
+﻿{
+    "code":  "7290100687109",
+    "product":  {
+                    "brands":  "Osem",
+                    "categories_tags":  [
+
+                                        ],
+                    "code":  "7290100687109",
+                    "image_front_small_url":  "https://images.openfoodfacts.org/images/products/729/010/068/7109/front_fr.12.200.jpg",
+                    "ingredients_text":  "",
+                    "ingredients_text_en":  "",
+                    "labels":  "Orthodox Union Kosher",
+                    "labels_tags":  [
+                                        "en:kosher",
+                                        "en:orthodox-union-kosher"
+                                    ],
+                    "product_name":  "במבה נוגט",
+                    "product_name_en":  "Bamba nugat",
+                    "product_name_he":  "במבה נוגט"
+                },
+    "status":  1,
+    "status_verbose":  "product found"
+}

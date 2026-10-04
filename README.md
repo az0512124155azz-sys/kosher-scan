@@ -19,6 +19,20 @@ Instrumented tests are executed locally, not on the CI runner.
 
 ## Data and status policy
 
+Version 1.4.0 removes Open Food Facts as a prerequisite for certification.
+An independent exact-barcode lookup checks [Kosharot's product catalogue](https://www.ikr.org.il/index2.php?id=2&lang=HEB)
+in parallel with OFF. A matching structured product record must contain the
+requested barcode, a recognized explicit status and, for a positive/negative
+verdict, named certification agencies. Its conditions and source link are shown
+on the result card. Missing entries, unapproved entries, mismatched barcodes,
+duplicate fields, missing agencies and malformed pages cannot certify a product.
+OFF failure or a missing OFF record no longer prevents a positive authority result.
+Conflicting explicit positive/negative evidence produces UNKNOWN.
+
+Kosharot's public scanner endpoint and product page are website integrations,
+not contracted third-party APIs. Lookup is bounded to 12 seconds and responses
+to 2 MB. No barcode, brand or product-specific verdict overrides are present.
+
 * Product names/photos: Open Food Facts API v2, a community-maintained source.
 * Certification: structured product rows from the public endpoint used by
   [OU's product search](https://oukosher.org/product-search/),
@@ -35,8 +49,9 @@ Instrumented tests are executed locally, not on the CI runner.
 * The UI explicitly requires checking the symbol on the package and shows the
   Passover exclusion. Name/brand matching cannot validate a physical package,
   factory, batch, region, or future changes to certification.
-* Only an exact explicit negative OFF label can yield `NOT_KOSHER`, with the
-  community source disclosed. Missing OU results, errors, ingredients, and
+* Only an exact explicit negative OFF label or an explicit negative exact-barcode
+  authority record can yield `NOT_KOSHER`, with its source disclosed.
+  Missing OU results, errors, ingredients, and
   “not kosher for Passover” never imply a year-round negative verdict.
 * An exact explicit `kosher` OFF label can produce a green result when OU has
   no exact match. The UI discloses that this is a community report, requires
@@ -58,6 +73,10 @@ Instrumented tests are executed locally, not on the CI runner.
   There are no barcode or brand exceptions, including for Devin.
 * No certification cache: each scan checks current services. Requests have
   bounded timeouts, bounded JSON responses, cancellation, and HTTPS endpoints.
+* OU searches try English and display-language names, multiple declared brands
+  and a brand-only fallback. Flavors and variants remain significant. The search
+  has a 20-second total budget, at most six requests and two pages per query.
+  Incomplete/truncated results cannot certify because unseen rows might conflict.
 * Product-not-found, offline, transport/DNS, timeout, malformed response,
   OFF unavailable, and OU unavailable have different messages. An OU failure
   retains the identified product and photo with an unknown verdict.
@@ -83,3 +102,11 @@ Unit tests cover matching safety and real HTTP parsing/error classification via
 MockWebServer. Device tests exercise the bundled ML Kit decoder with a generated
 EAN-13 image, all three status cards, Activity recreation and scan-again.
 These do not replace camera testing with physical packages on a real phone.
+
+The recorded coverage corpus contains 33 public records across 14 categories:
+28 approved records, three unapproved records and two invalid internal SKUs.
+On those same snapshots the previous OFF/first-OU-query path returned one green
+result; version 1.4 returns 28 and leaves the five controls UNKNOWN. Nine approved
+records were absent from OFF. This is a focused catalogue sample, not a random
+market survey or a claim to cover millions of products. Fixtures, source URLs
+and per-record before/after reports are included in the tests/CI reports.

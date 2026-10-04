@@ -1,0 +1,1606 @@
+﻿{
+    "total":  50,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUD3-B52ACAA",
+                        "productName":  "Ice Cream Premium-Peanut Butter Swirl",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.056014005
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-BA34ESW",
+                        "productName":  "Campfire Toasted S\u0027mores",
+                        "brandName":  "Pierre\u0027s Premium",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-03-03T00:00:00.000Z",
+                        "_score":  0.04394073
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-NB4ZMZN",
+                        "productName":  "Campfire Toasted Smores",
+                        "brandName":  "Reserve Bulk Can Ice Cream",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-04-24T00:00:00.000Z",
+                        "_score":  0.04140418
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-E8ORPIT",
+                        "productName":  "Campfire Toasted S\u0027mores",
+                        "brandName":  "Pierre\u0027s Premium Bulk 3 gallon container",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-03-10T00:00:00.000Z",
+                        "_score":  0.040076166
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-3EC9DA7",
+                        "productName":  "Chocolate Chip Cookie Dough Ice Cream",
+                        "brandName":  "Pierre\u0027s Premium 56 fl. oz (1.75 quart) or 48 fl. OZ (1.5 quart) container",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.03762639
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-745F545",
+                        "productName":  "Chocolate Chip Cookie Dough Ice Cream",
+                        "brandName":  "Pierre\u0027s Homestyle 56 fl. oz (1.75 quart) or 48 fl. oz (1.5 quart) container",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2009-04-27T00:00:00.000Z",
+                        "_score":  0.03616903
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-FCACBC1",
+                        "productName":  "Chocolate Chip Cookie Dough Ice Cream",
+                        "brandName":  "Pierre\u0027s Premium Bulk 3 gallon container",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2009-04-27T00:00:00.000Z",
+                        "_score":  0.035440832
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-0E869AA",
+                        "productName":  "Ice Cream Premium-Chocolate Chip Cookie Dough",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.034297254
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-FP9ZNER",
+                        "productName":  "Super Scoop Chocolate Parfait Frozen Dairy Dessert",
+                        "brandName":  "Pierre\u0027s Ice Cream #39-126",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1336711",
+                        "company":  "Pierre\u0027s Ice Cream Company",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-01-23T00:00:00.000Z",
+                        "_score":  0.03356739
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-055D885",
+                        "productName":  "Peach Sorbet",
+                        "brandName":  "Pierre\u0027s Sorbet Pints 16 fluid ounces",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.03315172
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0C00788",
+                        "productName":  "Chocolate Sorbet",
+                        "brandName":  "Pierre\u0027s Sorbet Pints 16 fluid ounces",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.032445416
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-5C7CAE9",
+                        "productName":  "Ice Cream Premium-Fireball",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.032152396
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0A7219C",
+                        "productName":  "Strawberry Sorbet",
+                        "brandName":  "Pierre\u0027s Sorbet Pints 16 fluid ounces",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.032079544
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-8133B82",
+                        "productName":  "Mango Sorbet",
+                        "brandName":  "Pierre\u0027s Sorbet Pints 16 fluid ounces",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.032006845
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-CB6F18D",
+                        "productName":  "Rainbow Sherbet Quart",
+                        "brandName":  "Pierre\u0027s Sherbet Quarts 32 fluid oz",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2009-04-27T00:00:00.000Z",
+                        "_score":  0.032006845
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-5EAF93C",
+                        "productName":  "Lemon Sorbet",
+                        "brandName":  "Pierre\u0027s Sorbet Pints 16 fluid ounces",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.031717658
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-580D7D6",
+                        "productName":  "Ice Cream Premium-Heavenly Hash",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.03107619
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-54FF5F2",
+                        "productName":  "Raspberry Sorbet",
+                        "brandName":  "Pierre\u0027s Sorbet Pints 16 fluid ounces",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.030585974
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-A4728B9",
+                        "productName":  "Assorted Jr. Pops (Cherry, Orange and Grape)",
+                        "brandName":  "Pierre\u0027s #18-497",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.030516557
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-6D9C597",
+                        "productName":  "Sherbet-Rainbow",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.029426433
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-95CACCE",
+                        "productName":  "Ice Cream-Soft Serve Chocolate Mix",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.02863371
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-1388D99",
+                        "productName":  "Ice Cream Premium-Rum Raisin",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.02850362
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-9C65851",
+                        "productName":  "Ice Cream Premium-Chocolate Chip Chunky",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.0281809
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-612276D",
+                        "productName":  "Mint Chocolate Chip Ice Cream",
+                        "brandName":  "Pierre\u0027s Premium 56 fl. oz (1.75 quart) or 48 fl. OZ (1.5 quart) container",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.027988976
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-95A33A7",
+                        "productName":  "Ice Cream Premium-Mint Chip",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.027798323
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-01A61E2",
+                        "productName":  "Mint Chocolate Chip Ice Cream",
+                        "brandName":  "Pierre\u0027s Homestyle 56 fl. oz (1.75 quart) or 48 fl. oz (1.5 quart) container",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2009-04-27T00:00:00.000Z",
+                        "_score":  0.027546074
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-ED29330",
+                        "productName":  "Moose Tracks Ice Cream",
+                        "brandName":  "Pierre\u0027s Premium Bulk 3 gallon container",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2009-04-27T00:00:00.000Z",
+                        "_score":  0.02729605
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-2708828",
+                        "productName":  "Mint Chocolate Chip Ice Cream",
+                        "brandName":  "Pierre\u0027s Pints 16 fluid oz containers",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2009-04-27T00:00:00.000Z",
+                        "_score":  0.027233893
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-A1E3FBD",
+                        "productName":  "Moose Tracks Ice Cream",
+                        "brandName":  "Pierre\u0027s Premium 56 fl. oz (1.75 quart) or 48 fl. OZ (1.5 quart) container",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.026741542
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-CE82CD8",
+                        "productName":  "Chocolate Chip Ice Cream",
+                        "brandName":  "Pierre\u0027s Premium 56 fl. oz (1.75 quart) or 48 fl. OZ (1.5 quart) container",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.026680605
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-4C84865",
+                        "productName":  "Cherries \u0026 Chocolate Chunk Ice Cream",
+                        "brandName":  "Pierre\u0027s Premium 56 fl. oz (1.75 quart) or 48 fl. OZ (1.5 quart) container",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.026619814
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-B671C99",
+                        "productName":  "Spumoni Ice Cream",
+                        "brandName":  "Pierre\u0027s Premium 56 fl. oz (1.75 quart) or 48 fl. OZ (1.5 quart) container",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.026498621
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-4BD3D0D",
+                        "productName":  "Ice Cream Premium-Pistachio Nut",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.02643823
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-EB34DC2",
+                        "productName":  "Ice Cream Premium-White Lightning",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.026317844
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-AB5733D",
+                        "productName":  "Chocolate Chip Ice Cream",
+                        "brandName":  "Pierre\u0027s Premium Bulk 3 gallon container",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2009-04-27T00:00:00.000Z",
+                        "_score":  0.026257854
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-BC9A819",
+                        "productName":  "Ice Cream Premium-Mint Ting A Ling",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.026138267
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-C1A81F0",
+                        "productName":  "Ice Cream Premium-Strawberry Cheesecake",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.025606656
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-82AE20F",
+                        "productName":  "Ice Cream Premium-Death By Chocolate",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.025548246
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-F5C9C5C",
+                        "productName":  "Ice Cream Premium-Zero Visibility",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.025431804
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-A4222A9",
+                        "productName":  "Extreme Moose Tracks",
+                        "brandName":  "Pierre\u0027s Premium 56 fl. oz (1.75 quart) or 48 fl. OZ (1.5 quart) container",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.025373781
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-660C579",
+                        "productName":  "Ice Cream Premium-All American Moose",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.025258118
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-N8V9R03",
+                        "productName":  "Mint Chocolate Chip Lactose Free Ice Cream",
+                        "brandName":  "Pierre\u0027s Premium 56 fl. oz (1.75 quart) or 48 fl. OZ (1.5 quart) container",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-02-02T00:00:00.000Z",
+                        "_score":  0.025142966
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-DE00C11",
+                        "productName":  "Ice Cream Premium-Orange Blossom",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.025028326
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-EE55692",
+                        "productName":  "Ice Cream Premium-Chocolate",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.024971198
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-D108878",
+                        "productName":  "Ice Cream Premium-Strawberry",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.024914194
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-1F43E87",
+                        "productName":  "Moose Tracks No Sugar Added Ice Cream",
+                        "brandName":  "Pierre\u0027s Slender NSA Reduced Fat Ice Cream Bulk 3 gallon containers",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2009-04-27T00:00:00.000Z",
+                        "_score":  0.024631085
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-DKNJCWF",
+                        "productName":  "Moose Tracks",
+                        "brandName":  "Reserve Bulk Can Ice Cream",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "3095",
+                        "company":  "Pierreâs Ice Cream Company Inc.",
+                        "companySlug":  "Pierre\u0027s-Ice-Cream-Company-Inc.",
+                        "location":  "Cleveland,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-04-24T00:00:00.000Z",
+                        "_score":  0.024574842
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-9D2D31C",
+                        "productName":  "Ice Cream Premium-Panda Paws Ice Cream",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.023746053
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-41B01C1",
+                        "productName":  "Ice Cream-Chocolate Panda Paws",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.023368675
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-FC7264C",
+                        "productName":  "Ice Cream-Cherry Panda Claus",
+                        "brandName":  "Perry\u0027s #36-3553 (Sealed Containers Only)",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3528",
+                        "company":  "Perry\u0027s Ice Cream Company",
+                        "companySlug":  "Perry\u0027s-Ice-Cream-Company",
+                        "location":  "Akron,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.02273532
+                    }
+                ],
+    "elapsed_ms":  1136
+}

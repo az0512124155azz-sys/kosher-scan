@@ -1,0 +1,12 @@
+﻿{
+    "code":  "7290002035312",
+    "product":  {
+                    "brands":  "אלדג",
+                    "code":  "7290002035312",
+                    "image_front_small_url":  "https://images.openfoodfacts.org/images/products/729/000/203/5312/front_he.3.200.jpg",
+                    "product_name":  "טונה מעושנת",
+                    "product_name_he":  "טונה מעושנת"
+                },
+    "status":  1,
+    "status_verbose":  "product found"
+}

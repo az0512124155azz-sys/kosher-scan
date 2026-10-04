@@ -1,0 +1,1649 @@
+﻿{
+    "total":  50,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUV3-1387424",
+                        "productName":  "Bamba with Nugat Filling (Kitniyot)",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "",
+                                         "categorySort":  "",
+                                         "categorySearch":  ""
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "K",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU Kitnyot"
+                                   ],
+                        "status":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required. Yoshon",
+                        "conditions":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.41606155
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-EC9F807",
+                        "productName":  "Bamba Nougat Cream Filling All Packaging",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-07T00:00:00.000Z",
+                        "_score":  0.41037872
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-F949E26",
+                        "productName":  "Bamba Halva Cream Filling All Packaging",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.3367895
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-WZ8S7Q8",
+                        "productName":  "Bamba Hazelnut Filling",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.28950274
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-664F3C5",
+                        "productName":  "Nougat Filled Peanut Corn Snack",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.28338754
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-GZYSG2F",
+                        "productName":  "Bamba BBQ",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.26835623
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-49D0082",
+                        "productName":  "Bamba Peanut Snack All Packaging",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-07T00:00:00.000Z",
+                        "_score":  0.26264012
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-EZIUNTO",
+                        "productName":  "Bamba Cheddar",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.26168382
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-255710A",
+                        "productName":  "Bissli Bamba Mix",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.25091782
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-7D4A7F1",
+                        "productName":  "Bamba Flat",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-07T00:00:00.000Z",
+                        "_score":  0.2276929
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-4CC7C8B",
+                        "productName":  "Bamba Peanut Corn Snack (Kitniyot)",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "",
+                                         "categorySort":  "",
+                                         "categorySearch":  ""
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "K",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU Kitnyot"
+                                   ],
+                        "status":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required. Yoshon",
+                        "conditions":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-07T00:00:00.000Z",
+                        "_score":  0.22423413
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-738C29C",
+                        "productName":  "Bamba Peanut Corn Snack (Kitniyot)",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "",
+                                         "categorySort":  "",
+                                         "categorySearch":  ""
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "K",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU Kitnyot"
+                                   ],
+                        "status":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required. Yoshon",
+                        "conditions":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-01-31T00:00:00.000Z",
+                        "_score":  0.22423413
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-CF96458",
+                        "productName":  "Bamba Peanut Corn Snack (Kitniyot)",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "",
+                                         "categorySort":  "",
+                                         "categorySearch":  ""
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "K",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU Kitnyot"
+                                   ],
+                        "status":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required. Yoshon",
+                        "conditions":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-07T00:00:00.000Z",
+                        "_score":  0.22423413
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-AD73BE5",
+                        "productName":  "Cream Cracker",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.18212019
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-38A1E7F",
+                        "productName":  "Cream Cracker",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.18212019
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-B910932",
+                        "productName":  "Crunch Nougat Rolls Cereal",
+                        "brandName":  "Nestle",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.13682763
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-CB63DF7",
+                        "productName":  "OSEM Cracker Sesame 24x250g US",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-04-19T00:00:00.000Z",
+                        "_score":  0.12742467
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-B4DA4E1",
+                        "productName":  "Nougat Rolls Cereal",
+                        "brandName":  "Nestle Crunch",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.12677461
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-240B1B3",
+                        "productName":  "Petit Beurre All Packaging",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.11288363
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-2E32837",
+                        "productName":  "Instant Pudding Chocolate 24x95g US",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Gels \u0026 Puddings",
+                                         "categorySort":  "Gels \u0026 Puddings",
+                                         "categorySearch":  "Gels \u0026 Puddings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-04-19T00:00:00.000Z",
+                        "_score":  0.10625414
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-877FF87",
+                        "productName":  "OSEM Chocolate \u0026 Chocolate Chips Cake 9x250g XI",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-04-19T00:00:00.000Z",
+                        "_score":  0.105698995
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-6762615",
+                        "productName":  "Instant Pudding Vanilla 24x80g US",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Gels \u0026 Puddings",
+                                         "categorySort":  "Gels \u0026 Puddings",
+                                         "categorySearch":  "Gels \u0026 Puddings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-04-19T00:00:00.000Z",
+                        "_score":  0.10520156
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-3AF5C88",
+                        "productName":  "Sesame Snack Cracker",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.10503621
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9659585",
+                        "productName":  "Pudding Chocolate Flavour",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Gels \u0026 Puddings",
+                                         "categorySort":  "Gels \u0026 Puddings",
+                                         "categorySearch":  "Gels \u0026 Puddings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.10076372
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-47DD5DF",
+                        "productName":  "Cream Crackers All Packaging",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.100128405
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-76A1E4C",
+                        "productName":  "OSEM Chocolate \u0026 Chocolate Chip Cake 6x400gXI",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.099917434
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-93EED2D",
+                        "productName":  "Petit Beurre Style Biscuit",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.097467884
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-4396FE9",
+                        "productName":  "Pudding Vanilla Flavour",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Gels \u0026 Puddings",
+                                         "categorySort":  "Gels \u0026 Puddings",
+                                         "categorySearch":  "Gels \u0026 Puddings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.09623781
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-C4556CC",
+                        "productName":  "Halva Filled Peanut Corn Snack",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-02-23T00:00:00.000Z",
+                        "_score":  0.09512246
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-155C220",
+                        "productName":  "Halva Filled Peanut Corn Snack",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.09512246
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-B6B9773",
+                        "productName":  "OSEM Cracker Golden 24x150g US",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-04-19T00:00:00.000Z",
+                        "_score":  0.09282766
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-CCDE316",
+                        "productName":  "Popco 36x75g US",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-07T00:00:00.000Z",
+                        "_score":  0.092532046
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-062E864",
+                        "productName":  "OSEM Marble Cake 9x250g XI",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-04-19T00:00:00.000Z",
+                        "_score":  0.08772801
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-621A723",
+                        "productName":  "Mini Petit Beurre Style - White Chocolate Coated Biscuits (Cholov Yisrael)",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySort":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySearch":  "Chocolate, Cocoa \u0026 Chocolate Compounds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1296917",
+                        "company":  "Osem USA",
+                        "companySlug":  "Osem-USA",
+                        "location":  "Englewood Cliffs,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.08486382
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-16F17F1",
+                        "productName":  "Strawberry Flavor Peanut Corn Snack",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-01-31T00:00:00.000Z",
+                        "_score":  0.08279386
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-5DC124D",
+                        "productName":  "Mini Petit Beurre Style - Milk Chocolate Coated Biscuits (Cholov Yisrael)",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySort":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySearch":  "Chocolate, Cocoa \u0026 Chocolate Compounds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1296917",
+                        "company":  "Osem USA",
+                        "companySlug":  "Osem-USA",
+                        "location":  "Englewood Cliffs,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.079818025
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-2C7C612",
+                        "productName":  "Pound (Vanilla) Cake",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-02-23T00:00:00.000Z",
+                        "_score":  0.07828243
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-14B6B46",
+                        "productName":  "Walnut Cake",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-02-23T00:00:00.000Z",
+                        "_score":  0.0755372
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9389EFE",
+                        "productName":  "Chocolate And Coconut Cake",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-02-23T00:00:00.000Z",
+                        "_score":  0.07288062
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-A7FDCD1",
+                        "productName":  "Chocolate And Chocolate Chips Cake",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-02-23T00:00:00.000Z",
+                        "_score":  0.07217119
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-124585E",
+                        "productName":  "Chocolate Chips Cake",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-02-23T00:00:00.000Z",
+                        "_score":  0.06947242
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-284C7C7",
+                        "productName":  "Chocolate Caramel Checker Cake",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.06738094
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-B820E26",
+                        "productName":  "Chocolate Flavored Wafers",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1293472",
+                        "company":  "Osem/Nestle Israel",
+                        "companySlug":  "OsemNestle-Israel",
+                        "location":  "Tel Aviv,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.0618591
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-ADFB923",
+                        "productName":  "Argaliot Cookies With Chocolate Flavoured Filling",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.060313307
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-A985710",
+                        "productName":  "Vanilla Flavored Wafers",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1293472",
+                        "company":  "Osem/Nestle Israel",
+                        "companySlug":  "OsemNestle-Israel",
+                        "location":  "Tel Aviv,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.06004818
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-11F0B37",
+                        "productName":  "Sea Salt Snack Cracker",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.059718315
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-AAE6A3C",
+                        "productName":  "Argaliot Cookies With Strawberry Filling",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.057456363
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-870CFC0",
+                        "productName":  "Thin Crackers",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.053944107
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-B26C7A6",
+                        "productName":  "Sunny Wheat Cracker with Oat Flakes \u0026 Multi Seeds",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.05086082
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-320A9D4",
+                        "productName":  "GF Table Crackers",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.04924507
+                    }
+                ],
+    "elapsed_ms":  349
+}

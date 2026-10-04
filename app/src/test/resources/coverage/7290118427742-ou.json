@@ -1,0 +1,1633 @@
+﻿{
+    "total":  50,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUD7-621A723",
+                        "productName":  "Mini Petit Beurre Style - White Chocolate Coated Biscuits (Cholov Yisrael)",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySort":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySearch":  "Chocolate, Cocoa \u0026 Chocolate Compounds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1296917",
+                        "company":  "Osem USA",
+                        "companySlug":  "Osem-USA",
+                        "location":  "Englewood Cliffs,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.63939893
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-5DC124D",
+                        "productName":  "Mini Petit Beurre Style - Milk Chocolate Coated Biscuits (Cholov Yisrael)",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySort":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySearch":  "Chocolate, Cocoa \u0026 Chocolate Compounds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1296917",
+                        "company":  "Osem USA",
+                        "companySlug":  "Osem-USA",
+                        "location":  "Englewood Cliffs,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.62633044
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-B820E26",
+                        "productName":  "Chocolate Flavored Wafers",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1293472",
+                        "company":  "Osem/Nestle Israel",
+                        "companySlug":  "OsemNestle-Israel",
+                        "location":  "Tel Aviv,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.5973971
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-ADFB923",
+                        "productName":  "Argaliot Cookies With Chocolate Flavoured Filling",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.5860734
+                    },
+                    {
+                        "agencyUniqueId":  "OUW7-136C763",
+                        "productName":  "Chocolate Orange Flavored Matzo",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "CANDY \u0026 CHOCOLATE",
+                                         "categorySort":  "CANDY \u0026 CHOCOLATE",
+                                         "categorySearch":  "CANDY \u0026 CHOCOLATE"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU-P"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-12-22T00:00:00.000Z",
+                        "_score":  0.48469776
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-A985710",
+                        "productName":  "Vanilla Flavored Wafers",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1293472",
+                        "company":  "Osem/Nestle Israel",
+                        "companySlug":  "OsemNestle-Israel",
+                        "location":  "Tel Aviv,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.46453777
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-76A1E4C",
+                        "productName":  "OSEM Chocolate \u0026 Chocolate Chip Cake 6x400gXI",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.464392
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-877FF87",
+                        "productName":  "OSEM Chocolate \u0026 Chocolate Chips Cake 9x250g XI",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-04-19T00:00:00.000Z",
+                        "_score":  0.46380913
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-PLDLC2C",
+                        "productName":  "Oreo Minis Chocolate Flavor Creme",
+                        "brandName":  "Nabisco",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-05-05T00:00:00.000Z",
+                        "_score":  0.4635177
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-E66839B",
+                        "productName":  "Feelin\u0027 Crispy Mini Chocolate Cookies 6oz Pouch",
+                        "brandName":  "Feed Your Soul",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1309823",
+                        "company":  "Feed Your Soul LLC",
+                        "companySlug":  "Feed-Your-Soul-LLC",
+                        "location":  "South Hackensack,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-20T00:00:00.000Z",
+                        "_score":  0.45188335
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-A7FDCD1",
+                        "productName":  "Chocolate And Chocolate Chips Cake",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-02-23T00:00:00.000Z",
+                        "_score":  0.44333586
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-124585E",
+                        "productName":  "Chocolate Chips Cake",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-02-23T00:00:00.000Z",
+                        "_score":  0.44333586
+                    },
+                    {
+                        "agencyUniqueId":  "OUW3-A8FD636",
+                        "productName":  "Instant Pudding Chocolate Flavor",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "SNACKS \u0026 DESSERTS",
+                                         "categorySort":  "SNACKS \u0026 DESSERTS",
+                                         "categorySearch":  "SNACKS \u0026 DESSERTS"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU-P"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification. Yoshon",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-02-23T00:00:00.000Z",
+                        "_score":  0.43036336
+                    },
+                    {
+                        "agencyUniqueId":  "OUW3-8341347",
+                        "productName":  "Instant Pudding Chocolate Flavor",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "SNACKS \u0026 DESSERTS",
+                                         "categorySort":  "SNACKS \u0026 DESSERTS",
+                                         "categorySearch":  "SNACKS \u0026 DESSERTS"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU-P"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification. Yoshon",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-11-04T00:00:00.000Z",
+                        "_score":  0.43036336
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-B6B9773",
+                        "productName":  "OSEM Cracker Golden 24x150g US",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-04-19T00:00:00.000Z",
+                        "_score":  0.42591617
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-JQGBWR8",
+                        "productName":  "Chocolate Obsession Mini Cookie, .8oz",
+                        "brandName":  "Cheryl\u0027s Cookies",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1384650",
+                        "company":  "1800-Flowers.com, Inc.",
+                        "companySlug":  "1800-Flowers.com-Inc.",
+                        "location":  "Jericho,  OR",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-17T00:00:00.000Z",
+                        "_score":  0.4108041
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-P8T4YW6",
+                        "productName":  "0.8OZ Mini Chocolate Obsession Cookie",
+                        "brandName":  "Cheryl\u0027s Cookies",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1384650",
+                        "company":  "1800-Flowers.com, Inc.",
+                        "companySlug":  "1800-Flowers.com-Inc.",
+                        "location":  "Jericho,  OR",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-23T00:00:00.000Z",
+                        "_score":  0.40570828
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-62A38BE",
+                        "productName":  "Mini Oreo Chocolate Creme Au Chocolat",
+                        "brandName":  "Christie Brown",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "94304",
+                        "company":  "Christie Brown",
+                        "companySlug":  "Christie-Brown",
+                        "location":  ",",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-04-25T00:00:00.000Z",
+                        "_score":  0.40077335
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9659585",
+                        "productName":  "Pudding Chocolate Flavour",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Gels \u0026 Puddings",
+                                         "categorySort":  "Gels \u0026 Puddings",
+                                         "categorySearch":  "Gels \u0026 Puddings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.40014032
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-NIUJRLS",
+                        "productName":  "Mini Crunchy Almond Flour Cookies, Chocolate Chip, Snack Pack 8ct. (0.8oz)",
+                        "brandName":  "Simple Mills",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1327952",
+                        "company":  "Simple Mills",
+                        "companySlug":  "Simple-Mills",
+                        "location":  "Chicago,  IL",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-02-03T00:00:00.000Z",
+                        "_score":  0.3995779
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-284C7C7",
+                        "productName":  "Chocolate Caramel Checker Cake",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.39866453
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9C8ABB2",
+                        "productName":  "Instant Pudding Chocolate Flavor",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Gels \u0026 Puddings",
+                                         "categorySort":  "Gels \u0026 Puddings",
+                                         "categorySearch":  "Gels \u0026 Puddings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-01-31T00:00:00.000Z",
+                        "_score":  0.39138326
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9389EFE",
+                        "productName":  "Chocolate And Coconut Cake",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-02-23T00:00:00.000Z",
+                        "_score":  0.38977933
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-TRRNDPB",
+                        "productName":  "Chocolate Chip Mini Cookie, .8oz",
+                        "brandName":  "Cheryl\u0027s Cookies",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1384650",
+                        "company":  "1800-Flowers.com, Inc.",
+                        "companySlug":  "1800-Flowers.com-Inc.",
+                        "location":  "Jericho,  OR",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-17T00:00:00.000Z",
+                        "_score":  0.38789952
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-F625E3A",
+                        "productName":  "Feelin\u0027 Crispy Mini Chocolate Chip Cookie Pouch 6oz",
+                        "brandName":  "Feed Your Soul",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1309823",
+                        "company":  "Feed Your Soul LLC",
+                        "companySlug":  "Feed-Your-Soul-LLC",
+                        "location":  "South Hackensack,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-20T00:00:00.000Z",
+                        "_score":  0.38214198
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-9K7JT2B",
+                        "productName":  "Mini Chocolate Chip Cookies Soft Baked Cookies with Sprinkles",
+                        "brandName":  "SNACKS: Pillsbury",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3337",
+                        "company":  "General Mills",
+                        "companySlug":  "General-Mills",
+                        "location":  "Minneapolis,  MN",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-11-21T00:00:00.000Z",
+                        "_score":  0.379241
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-TLAKEOY",
+                        "productName":  "Mini Chocolate Chip Cookies",
+                        "brandName":  "Otterbein\u0027s",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1427250",
+                        "company":  "Otterbein\u0027s Bakery Inc",
+                        "companySlug":  "Otterbein\u0027s-Bakery-Inc",
+                        "location":  "Windsor Mill,  MD",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-08-07T00:00:00.000Z",
+                        "_score":  0.3781381
+                    },
+                    {
+                        "agencyUniqueId":  "OUW3-6DF3543",
+                        "productName":  "Chocolate Chips Cake 7301",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "BAKED GOODS",
+                                         "categorySort":  "BAKED GOODS",
+                                         "categorySearch":  "BAKED GOODS"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU-P"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification. Yoshon",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-03-24T00:00:00.000Z",
+                        "_score":  0.37641734
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-5FB8926",
+                        "productName":  "Chocolate with Chocolate Chips Cake",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.36629558
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-1E24576",
+                        "productName":  "Chocolate Chips Cake",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.36310524
+                    },
+                    {
+                        "agencyUniqueId":  "OUW3-RARGSR7",
+                        "productName":  "Mini Chocolate Chip Cookies",
+                        "brandName":  "Glicks",
+                        "category":  {
+                                         "category":  "BAKED GOODS",
+                                         "categorySort":  "BAKED GOODS",
+                                         "categorySearch":  "BAKED GOODS"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "11610",
+                        "company":  "Kenover Marketing Corp.",
+                        "companySlug":  "Kenover-Marketing-Corp.",
+                        "location":  "Bayonne,  NJ",
+                        "symbol":  [
+                                       "OU-P"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-09-08T00:00:00.000Z",
+                        "_score":  0.36290202
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-22ED93D",
+                        "productName":  "Chocolate Chip Mini Cookie Bites",
+                        "brandName":  "Nice!",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "99507",
+                        "company":  "Walgreen Co.",
+                        "companySlug":  "Walgreen-Co.",
+                        "location":  "Deerfield,  IL",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.36195424
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-C593653",
+                        "productName":  "Sugar Free Chocolate Chip Mini Cookies Bites 5 oz",
+                        "brandName":  "Nice!",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "99507",
+                        "company":  "Walgreen Co.",
+                        "companySlug":  "Walgreen-Co.",
+                        "location":  "Deerfield,  IL",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.35374123
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-IS8JVXW",
+                        "productName":  "Bulk 5 Lb. Dk Chocolate mini Oreos with White Nonpareils",
+                        "brandName":  "Sweet Jubilee",
+                        "category":  {
+                                         "category":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySort":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySearch":  "Chocolate, Cocoa \u0026 Chocolate Compounds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1399427",
+                        "company":  "Sweet Jubilee",
+                        "companySlug":  "Sweet-Jubilee",
+                        "location":  "Mechanicsburg,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-04-28T00:00:00.000Z",
+                        "_score":  0.34793633
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-870CFC0",
+                        "productName":  "Thin Crackers",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.34707275
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-QGWBVJR",
+                        "productName":  "Buttercream Frosted Chocolate Chocolate Chip Mini Cookie .8oz",
+                        "brandName":  "Cheryl\u0027s Cookies",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1384650",
+                        "company":  "1800-Flowers.com, Inc.",
+                        "companySlug":  "1800-Flowers.com-Inc.",
+                        "location":  "Jericho,  OR",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-18T00:00:00.000Z",
+                        "_score":  0.33522078
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-60B1C7F",
+                        "productName":  "Mini Chocolate Creme Oreo-Chocolate Sandwich Cookies",
+                        "brandName":  "Nabisco",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "yoshon":  "Yoshon Always (Made with Winter Wheat)",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon Always (Made with Winter Wheat)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-06T00:00:00.000Z",
+                        "_score":  0.31700373
+                    },
+                    {
+                        "agencyUniqueId":  "OUW3-E18A2BC",
+                        "productName":  "Chocolate Chips Cake Kosher for Passover",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "BAKED GOODS",
+                                         "categorySort":  "BAKED GOODS",
+                                         "categorySearch":  "BAKED GOODS"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU-P"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification. Yoshon",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.3140931
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-89E1F4F",
+                        "productName":  "Chocolate Chip Mini Yummy Bites",
+                        "brandName":  "Weinz",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313245",
+                        "company":  "Wein\u0027s Foods Ltd.",
+                        "companySlug":  "Wein\u0027s-Foods-Ltd.",
+                        "location":  "Anjou,  QC CANADA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2008-01-14T00:00:00.000Z",
+                        "_score":  0.31198257
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-5BA4E23",
+                        "productName":  "Chocolate Cake All Packaging",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.30099258
+                    },
+                    {
+                        "agencyUniqueId":  "OUW3-2E69A23",
+                        "productName":  "Chocolate \u0026 Chocolate Chips Cake Kosher for Passover",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "BAKED GOODS",
+                                         "categorySort":  "BAKED GOODS",
+                                         "categorySearch":  "BAKED GOODS"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU-P"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification. Yoshon",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.30096173
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-CB63DF7",
+                        "productName":  "OSEM Cracker Sesame 24x250g US",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-04-19T00:00:00.000Z",
+                        "_score":  0.29804218
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-93EED2D",
+                        "productName":  "Petit Beurre Style Biscuit",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.29672605
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-11F0B37",
+                        "productName":  "Sea Salt Snack Cracker",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.23760289
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-2E32837",
+                        "productName":  "Instant Pudding Chocolate 24x95g US",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Gels \u0026 Puddings",
+                                         "categorySort":  "Gels \u0026 Puddings",
+                                         "categorySearch":  "Gels \u0026 Puddings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-04-19T00:00:00.000Z",
+                        "_score":  0.23351443
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-240B1B3",
+                        "productName":  "Petit Beurre All Packaging",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.21865308
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-5C5700C",
+                        "productName":  "GF Original Baked Mini Dippers",
+                        "brandName":  "Gratify",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.15044051
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-7F6E601",
+                        "productName":  "Mini Oreo Kids Snak Pak 12x180g",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.13779937
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-D7D8526",
+                        "productName":  "GF Mediterranean Herb Baked Mini Dippers",
+                        "brandName":  "Gratify",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.1349015
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-0D8952E",
+                        "productName":  "Chooclate Creme (Caco)-Mini Yummy Bites",
+                        "brandName":  "Weinz",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313245",
+                        "company":  "Wein\u0027s Foods Ltd.",
+                        "companySlug":  "Wein\u0027s-Foods-Ltd.",
+                        "location":  "Anjou,  QC CANADA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2008-01-14T00:00:00.000Z",
+                        "_score":  0.12619197
+                    }
+                ],
+    "elapsed_ms":  330
+}

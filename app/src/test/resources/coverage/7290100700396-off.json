@@ -1,0 +1,26 @@
+﻿{
+    "code":  "7290100700396",
+    "product":  {
+                    "brands":  "סוגת",
+                    "categories_tags":  [
+                                            "en:plant-based-foods-and-beverages",
+                                            "en:plant-based-foods",
+                                            "en:seeds",
+                                            "en:cereals-and-potatoes",
+                                            "en:cereals-and-their-products",
+                                            "en:cereal-grains",
+                                            "en:rices",
+                                            "en:aromatic-rices",
+                                            "en:indica-rices",
+                                            "en:long-grain-rices",
+                                            "en:jasmine-rice"
+                                        ],
+                    "code":  "7290100700396",
+                    "image_front_small_url":  "https://images.openfoodfacts.org/images/products/729/010/070/0396/front_en.21.200.jpg",
+                    "product_name":  "Classic Jasmin Rice",
+                    "product_name_en":  "Classic Jasmin Rice",
+                    "product_name_he":  "אורז יסמין קלאסי"
+                },
+    "status":  1,
+    "status_verbose":  "product found"
+}

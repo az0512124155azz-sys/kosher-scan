@@ -1,0 +1,39 @@
+﻿{
+    "total":  1,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUD3-TLFWGX2",
+                        "productName":  "Chocolate Bar Crispy Caramel Hazelnut (Pas Yisroel)",
+                        "brandName":  "Loacker Chocolate Bar",
+                        "category":  {
+                                         "category":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySort":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySearch":  "Chocolate, Cocoa \u0026 Chocolate Compounds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1290893",
+                        "yoshon":  "Certified Yoshon",
+                        "company":  "A. Loacker Ag/spa",
+                        "companySlug":  "A.-Loacker-Agspa",
+                        "location":  "I-39054 Auna di Sotto/Unterinn (BZ),   ITALY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Certified Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-09-25T00:00:00.000Z",
+                        "_score":  0.060846824
+                    }
+                ],
+    "elapsed_ms":  318
+}

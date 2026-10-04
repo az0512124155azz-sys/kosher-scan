@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
         WindowCompat.setDecorFitsSystemWindows(window, false)
         setContentView(R.layout.activity_main)
         model = ViewModelProvider(this)[ScanModel::class.java]
-        repository = ProductRepository(hasNetwork = {
+        repository = ProductRepository(barcodeLookup = IkrRepository(), hasNetwork = {
             val cm = applicationContext.getSystemService(ConnectivityManager::class.java)
             cm.getNetworkCapabilities(cm.activeNetwork)?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) == true
         })
@@ -95,6 +95,10 @@ class MainActivity : AppCompatActivity() {
         }
         findViewById<View>(R.id.scanAgainButton).setOnClickListener { model.reset() }
         findViewById<View>(R.id.retryLookupButton).setOnClickListener { model.lookup(model.state.value.code, repository) }
+        findViewById<View>(R.id.sourceButton).setOnClickListener {
+            val url = model.state.value.result?.verdict?.sourceUrl.orEmpty()
+            if (url.startsWith("https://")) startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
+        }
         findViewById<View>(R.id.manualButton).setOnClickListener { manualEntry() }
         findViewById<View>(R.id.cameraRetryButton).setOnClickListener {
             if (cameraGranted()) startCamera()
@@ -211,7 +215,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.manualButton).isEnabled = !s.loading
         findViewById<View>(R.id.manualButton).visibility = if (s.result != null) View.INVISIBLE else View.VISIBLE
         findViewById<View>(R.id.hintText).visibility = if (busy.get() || errorPanel.visibility == View.VISIBLE) View.INVISIBLE else View.VISIBLE
-        findViewById<TextView>(R.id.loadingText).apply { visibility = if (s.loading) View.VISIBLE else View.GONE; text = "מזהה מוצר ובודק מול OU…" }
+        findViewById<TextView>(R.id.loadingText).apply { visibility = if (s.loading) View.VISIBLE else View.GONE; text = "מזהה מוצר ובודק במאגרי הכשרות…" }
         val result = s.result
         if (result == null) { card.animate().cancel(); card.visibility = View.GONE; renderedImage = ""; return }
         findViewById<TextView>(R.id.productName).text = result.product?.name?.ifBlank { "מוצר ללא שם" } ?: "אין מידע על המוצר"
@@ -233,6 +237,10 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.statusBox).setBackgroundResource(background)
         findViewById<TextView>(R.id.statusTitle).apply { text = title; setTextColor(color) }
         findViewById<TextView>(R.id.statusText).text = result.verdict.reason
+        findViewById<TextView>(R.id.sourceButton).apply {
+            visibility = if (result.verdict.sourceUrl.startsWith("https://")) View.VISIBLE else View.GONE
+            text = "לצפייה במקור · ${result.verdict.sourceLabel}"
+        }
         findViewById<View>(R.id.retryLookupButton).visibility = if (result.issue != null && result.issue != LookupIssue.NOT_FOUND) View.VISIBLE else View.GONE
         if (card.visibility != View.VISIBLE) {
             card.visibility = View.VISIBLE; card.alpha = 0f

@@ -1,0 +1,1606 @@
+﻿{
+    "total":  51,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUV3-C526887",
+                        "productName":  "Barbecue Spice Blend",
+                        "brandName":  "Pacific Spice Company",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "3075",
+                        "company":  "Pacific Spice Co., Inc.",
+                        "companySlug":  "Pacific-Spice-Co.-Inc.",
+                        "location":  "Los Angeles,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-06-13T00:00:00.000Z",
+                        "_score":  0.08531997
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-6UWNNJX",
+                        "productName":  "Paprika Sweet Smoked Bx 25#",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.07685699
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-35NKRFO",
+                        "productName":  "Paprika Hungarian Bx 25#",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.07423823
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-01CF070",
+                        "productName":  "New Orleans Style Barbeque #319855; 104711",
+                        "brandName":  "Durkee Grill Creations",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2606",
+                        "company":  "B\u0026G Foods North America, Inc.",
+                        "companySlug":  "BandG-Foods-North-America-Inc.",
+                        "location":  "Parsippany,  NJ",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-04-15T00:00:00.000Z",
+                        "_score":  0.061115243
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-WZVPKZS",
+                        "productName":  "Mesquite BBQ Rub Lg Btl 20oz",
+                        "brandName":  "SGC Foodservice",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1443749",
+                        "company":  "SGC Foodservice",
+                        "companySlug":  "SGC-Foodservice",
+                        "location":  "Springfield,  MO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-06-29T00:00:00.000Z",
+                        "_score":  0.048159245
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-JVDBHTK",
+                        "productName":  "Pisanello Pizza Sce 8oz 700389",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.048105557
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-TADNXGP",
+                        "productName":  "Mesquite BBQ Rub Lg Btl 20oz",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.047518708
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-AJHX1RA",
+                        "productName":  "BBQ Spice Bx 50#",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.047201473
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-VGSRBO1",
+                        "productName":  "BBQ Spice Lg Btl 32 oz",
+                        "brandName":  "SGC Foodservice",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1443749",
+                        "company":  "SGC Foodservice",
+                        "companySlug":  "SGC-Foodservice",
+                        "location":  "Springfield,  MO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-06-29T00:00:00.000Z",
+                        "_score":  0.047043618
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-HFPSLON",
+                        "productName":  "BBQ Spice Lg Btl 32 oz",
+                        "brandName":  "SOFO",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "94524",
+                        "company":  "Sofo Foods",
+                        "companySlug":  "Sofo-Foods",
+                        "location":  "Toledo,  OH",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-05-09T00:00:00.000Z",
+                        "_score":  0.04683392
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-6002267",
+                        "productName":  "Classic BBQ Natural #118251",
+                        "brandName":  "Weber",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2606",
+                        "company":  "B\u0026G Foods North America, Inc.",
+                        "companySlug":  "BandG-Foods-North-America-Inc.",
+                        "location":  "Parsippany,  NJ",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-04-15T00:00:00.000Z",
+                        "_score":  0.046055444
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-6Z8EB8Y",
+                        "productName":  "BBQ Spice Bx 50#",
+                        "brandName":  "SOFO",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "94524",
+                        "company":  "Sofo Foods",
+                        "companySlug":  "Sofo-Foods",
+                        "location":  "Toledo,  OH",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-05-09T00:00:00.000Z",
+                        "_score":  0.044685133
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-59BA3A4",
+                        "productName":  "BBQ Mesquite Rotisserie Seasoning #316497; 104642",
+                        "brandName":  "Rotisserease",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2606",
+                        "company":  "B\u0026G Foods North America, Inc.",
+                        "companySlug":  "BandG-Foods-North-America-Inc.",
+                        "location":  "Parsippany,  NJ",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-04-15T00:00:00.000Z",
+                        "_score":  0.044535294
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-BJLX6XL",
+                        "productName":  "BBQ Spice Lg Btl 32 oz",
+                        "brandName":  "Lipari",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "98660",
+                        "company":  "Lipari Foods",
+                        "companySlug":  "Lipari-Foods",
+                        "location":  "Warren,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-11-11T00:00:00.000Z",
+                        "_score":  0.04389152
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-YYZYVP4",
+                        "productName":  "Mesquite BBQ Rub Bx 50#",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.04374423
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-2B99685",
+                        "productName":  "Bold\u0027N Smokey Chipotle Seasoning #118286",
+                        "brandName":  "Weber",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2606",
+                        "company":  "B\u0026G Foods North America, Inc.",
+                        "companySlug":  "BandG-Foods-North-America-Inc.",
+                        "location":  "Parsippany,  NJ",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-04-15T00:00:00.000Z",
+                        "_score":  0.042439613
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9R5IOPO",
+                        "productName":  "BBQ Bonanza Spice Blend",
+                        "brandName":  "UOM BY BTG",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1308332",
+                        "company":  "Box, Tray \u0026 Giraffe Limited",
+                        "companySlug":  "Box-Tray-and-Giraffe-Limited",
+                        "location":  "Tsim Sha Tsui East, Kowloon,   HONG KONG",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-01-04T00:00:00.000Z",
+                        "_score":  0.040529426
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-DEDH0YG",
+                        "productName":  "BBQ Rub Premium Lg Btl 20 oz",
+                        "brandName":  "SOFO",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "94524",
+                        "company":  "Sofo Foods",
+                        "companySlug":  "Sofo-Foods",
+                        "location":  "Toledo,  OH",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-05-09T00:00:00.000Z",
+                        "_score":  0.039941143
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-YFK1F1E",
+                        "productName":  "Korean BBQ Dry Pack Bg 10.05#",
+                        "brandName":  "SOFO",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "94524",
+                        "company":  "Sofo Foods",
+                        "companySlug":  "Sofo-Foods",
+                        "location":  "Toledo,  OH",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-05-09T00:00:00.000Z",
+                        "_score":  0.039851364
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-ZSAWVSC",
+                        "productName":  "Smokey BBQ Rub Bx 25#",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.039761785
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-3BE64D8",
+                        "productName":  "St. Louis Style Smokey Mesquite Seasoning #334755; 104920",
+                        "brandName":  "Durkee Grill Creations",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2606",
+                        "company":  "B\u0026G Foods North America, Inc.",
+                        "companySlug":  "BandG-Foods-North-America-Inc.",
+                        "location":  "Parsippany,  NJ",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-04-15T00:00:00.000Z",
+                        "_score":  0.03870174
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-JFIJNKA",
+                        "productName":  "BBQ Rub Premium Lg Btl 20 oz",
+                        "brandName":  "Front Street Market",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1306026",
+                        "company":  "Palmer Food Services",
+                        "companySlug":  "Palmer-Food-Services",
+                        "location":  "Rochester,  NY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-08-21T00:00:00.000Z",
+                        "_score":  0.038268104
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-UVHZVVU",
+                        "productName":  "Pistachio Meat R\u0026S Bg 2#",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.037967343
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-W9GW3LN",
+                        "productName":  "Kansas City BBQ Rub Seasoning",
+                        "brandName":  "Wellsley Farms",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1285728",
+                        "company":  "BJ\u0027s Wholesale Club, Inc.",
+                        "companySlug":  "BJ\u0027s-Wholesale-Club-Inc.",
+                        "location":  "Marlborough,  MA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-08-04T00:00:00.000Z",
+                        "_score":  0.03762639
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-7D5ZLRP",
+                        "productName":  "Seniores Sauce Mix Bg 25.8oz",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.036911618
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-BSOTARG",
+                        "productName":  "Pepper Chipotle GRD Lg Btl 16",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.036621105
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-AF37704",
+                        "productName":  "Blazin\u0027 Burger Seasoning #118019",
+                        "brandName":  "Weber",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2606",
+                        "company":  "B\u0026G Foods North America, Inc.",
+                        "companySlug":  "BandG-Foods-North-America-Inc.",
+                        "location":  "Parsippany,  NJ",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-04-15T00:00:00.000Z",
+                        "_score":  0.036414944
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-0DQIPT5",
+                        "productName":  "BBQ Rub Premium Bx 25#",
+                        "brandName":  "SOFO",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "94524",
+                        "company":  "Sofo Foods",
+                        "companySlug":  "Sofo-Foods",
+                        "location":  "Toledo,  OH",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-05-09T00:00:00.000Z",
+                        "_score":  0.036087416
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-U6ZNXIC",
+                        "productName":  "Papas Pizza Sauce Bg 17.8 oz",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.035601426
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-DN5TGJN",
+                        "productName":  "New Orleans Style Bub",
+                        "brandName":  "BBQ BROS",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "11690",
+                        "company":  "Tampico Spice Co.,Inc.",
+                        "companySlug":  "Tampico-Spice-Co.Inc.",
+                        "location":  "Los Angeles,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-12-06T00:00:00.000Z",
+                        "_score":  0.034687515
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-TOFTAKE",
+                        "productName":  "Napolitana Mix # 1 Bg 34.36oz",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.03337783
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-JPLQR91",
+                        "productName":  "BBQ Poultry Lg Btl 30 oz",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.033340044
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-F32AGVG",
+                        "productName":  "Andys Sauce Mix Bg 3.6 oz",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.032964423
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-CHRJLOD",
+                        "productName":  "Jamaican Jerk Lg Btl 20 oz",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-08-27T00:00:00.000Z",
+                        "_score":  0.03270392
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-LBQO1XU",
+                        "productName":  "Jamaican Jerk Lg Btl 20 oz",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.03270392
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-ULW7GMT",
+                        "productName":  "BBQ Rub Premium Bx 50#",
+                        "brandName":  "Front Street Market",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1306026",
+                        "company":  "Palmer Food Services",
+                        "companySlug":  "Palmer-Food-Services",
+                        "location":  "Rochester,  NY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-08-21T00:00:00.000Z",
+                        "_score":  0.03222541
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-2F44E11",
+                        "productName":  "Gourmet Burger Natural #118266",
+                        "brandName":  "Weber",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2606",
+                        "company":  "B\u0026G Foods North America, Inc.",
+                        "companySlug":  "BandG-Foods-North-America-Inc.",
+                        "location":  "Parsippany,  NJ",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-04-15T00:00:00.000Z",
+                        "_score":  0.032152396
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-EIZTHGO",
+                        "productName":  "Bambinos Pizza Sauce Bg 5.5 oz",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.031861935
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-DX7CIEC",
+                        "productName":  "Pepper BLK 28M Bx 25#",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.031502426
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-NWHDRVS",
+                        "productName":  "Pepper BLK 18M Bx 25#",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.031288605
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-WMN85EV",
+                        "productName":  "Jets Pizza Sauc Seas Bg 26.7oz",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.030795148
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-MIIUPM9",
+                        "productName":  "Montreal STK BLK Lg Btl 20oz",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-05-15T00:00:00.000Z",
+                        "_score":  0.029627915
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-SOIUUJT",
+                        "productName":  "Pepper BLK Butcher Lg Btl 16 oz",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-06-02T00:00:00.000Z",
+                        "_score":  0.029093578
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-KRHPLUT",
+                        "productName":  "Rib Rub Lg Btl 16 oz",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.028895615
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-RIZLQVV",
+                        "productName":  "Seasoning SLT PREM Bx 50#",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.028116787
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-QHWO21S",
+                        "productName":  "Slice of 80s Pizza Sc Bg 6oz",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.027233893
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-KP0IDVW",
+                        "productName":  "Mary Sacco Pizza Bg 1# 700024",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.026317844
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-UOJHMOX",
+                        "productName":  "Bucks Chicken Mar Bx 5# 700736",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.026138267
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-FE9PQD3",
+                        "productName":  "Bubbakoos Burritos Taco Bg10#",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.022892075
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-JGLNGQV",
+                        "productName":  "Chicken Rotisserie Bx 25#",
+                        "brandName":  "Bellissimo",
+                        "category":  {
+                                         "category":  "Spices \u0026 Seasonings",
+                                         "categorySort":  "Spices \u0026 Seasonings",
+                                         "categorySearch":  "Spices \u0026 Seasonings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295376",
+                        "company":  "Bellissimo Foods",
+                        "companySlug":  "Bellissimo-Foods",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-29T00:00:00.000Z",
+                        "_score":  0.02206811
+                    }
+                ],
+    "elapsed_ms":  3836
+}

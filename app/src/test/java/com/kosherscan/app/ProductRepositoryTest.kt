@@ -39,7 +39,7 @@ class ProductRepositoryTest {
     }
     private val server = MockWebServer().apply { start() }
     private fun repo(online: Boolean = true, timeout: Long = 2000) = ProductRepository(
-        OkHttpClient.Builder().callTimeout(timeout, TimeUnit.MILLISECONDS).build(), { online }, server.url("/").toString(), server.url("/").toString())
+        OkHttpClient.Builder().callTimeout(timeout, TimeUnit.MILLISECONDS).build(), { online }, server.url("/").toString(), server.url("/").toString(), enableOuFallback = false)
     private val product = """{"status":1,"product":{"product_name":"Hazelnut spread with cocoa","brands":"Example","image_front_small_url":"https://images.openfoodfacts.org/test.jpg"}}"""
     @After fun close() { server.shutdown() }
     @Test fun missingProduct() = runBlocking {

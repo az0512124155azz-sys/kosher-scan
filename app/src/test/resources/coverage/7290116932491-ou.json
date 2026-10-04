@@ -1,0 +1,1606 @@
+﻿{
+    "total":  50,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUD7-7EC5A6F",
+                        "productName":  "Yo Pri Forest Berry Lowfat Yogurt (Cholov Yisroel)",
+                        "brandName":  "Gevina Farms",
+                        "category":  {
+                                         "category":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySort":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySearch":  "Cheeses, Yogurts, Whey Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1331890",
+                        "company":  "Gevina Farms Inc.",
+                        "companySlug":  "Gevina-Farms-Inc.",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2014-10-29T00:00:00.000Z",
+                        "_score":  0.53866833
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-6769962",
+                        "productName":  "Yo Pri Bursting with Strawberry Lowfat Yogurt (Cholov Yisroel)",
+                        "brandName":  "Gevina Farms",
+                        "category":  {
+                                         "category":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySort":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySearch":  "Cheeses, Yogurts, Whey Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1331890",
+                        "company":  "Gevina Farms Inc.",
+                        "companySlug":  "Gevina-Farms-Inc.",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2014-10-29T00:00:00.000Z",
+                        "_score":  0.36731625
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-0193CBD",
+                        "productName":  "Yo Pri Peach Supreme Lowfat Yogurt (Cholov Yisroel)",
+                        "brandName":  "Gevina Farms",
+                        "category":  {
+                                         "category":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySort":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySearch":  "Cheeses, Yogurts, Whey Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1331890",
+                        "company":  "Gevina Farms Inc.",
+                        "companySlug":  "Gevina-Farms-Inc.",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2014-10-29T00:00:00.000Z",
+                        "_score":  0.18532747
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-619F7A3",
+                        "productName":  "Yo Pri Raspberry Lowfat Yogurt (Cholov Yisroel)",
+                        "brandName":  "Gevina Farms",
+                        "category":  {
+                                         "category":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySort":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySearch":  "Cheeses, Yogurts, Whey Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1331890",
+                        "company":  "Gevina Farms Inc.",
+                        "companySlug":  "Gevina-Farms-Inc.",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2014-10-29T00:00:00.000Z",
+                        "_score":  0.1543763
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-976BCAC",
+                        "productName":  "YO Smart Strawberry Yogurt (Cholov Yisroel)",
+                        "brandName":  "Mehadrin Kids!",
+                        "category":  {
+                                         "category":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySort":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySearch":  "Cheeses, Yogurts, Whey Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.12912819
+                    },
+                    {
+                        "agencyUniqueId":  "OUE3-6D94431",
+                        "productName":  "Blended Low fat Yogurt Strawberry (Cholov Yisroel)",
+                        "brandName":  "Mehadrin",
+                        "category":  {
+                                         "category":  "DAIRY",
+                                         "categorySort":  "DAIRY",
+                                         "categorySearch":  "DAIRY"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-P-D"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-01-09T00:00:00.000Z",
+                        "_score":  0.10912552
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-9V17N3Q",
+                        "productName":  "Cherry Fruit on the Bottom Lowfat Yogurt",
+                        "brandName":  "ShopRite",
+                        "category":  {
+                                         "category":  "Dairy Products",
+                                         "categorySort":  "Dairy Products",
+                                         "categorySearch":  "Dairy Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "99513",
+                        "company":  "Wakefern Food Corp.",
+                        "companySlug":  "Wakefern-Food-Corp.",
+                        "location":  "Keasbey,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-12-16T00:00:00.000Z",
+                        "_score":  0.10714773
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-D19FD11",
+                        "productName":  "Yo Pri Very Cherry Lowfat Yogurt (Cholov Yisroel)",
+                        "brandName":  "Gevina Farms",
+                        "category":  {
+                                         "category":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySort":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySearch":  "Cheeses, Yogurts, Whey Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1331890",
+                        "company":  "Gevina Farms Inc.",
+                        "companySlug":  "Gevina-Farms-Inc.",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2014-10-29T00:00:00.000Z",
+                        "_score":  0.10520156
+                    },
+                    {
+                        "agencyUniqueId":  "OUE3-103D551",
+                        "productName":  "Field Berry Nonfat Yogolite (Cholov Yisroel)",
+                        "brandName":  "Givat",
+                        "category":  {
+                                         "category":  "DAIRY",
+                                         "categorySort":  "DAIRY",
+                                         "categorySearch":  "DAIRY"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-P-D"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-01-09T00:00:00.000Z",
+                        "_score":  0.1002869
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-GXHGORK",
+                        "productName":  "Strawberry With Other Natural Flavors Greek Blended Nonfat Yogurt",
+                        "brandName":  "La Yogurt",
+                        "category":  {
+                                         "category":  "Dairy Products",
+                                         "categorySort":  "Dairy Products",
+                                         "categorySearch":  "Dairy Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2940",
+                        "company":  "Johanna Foods, Inc.",
+                        "companySlug":  "Johanna-Foods-Inc.",
+                        "location":  "Flemington,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-01-11T00:00:00.000Z",
+                        "_score":  0.0983996
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-1EHQNOD",
+                        "productName":  "Raspberry With Other Natural Flavors Greek Blended Nonfat Yogurt",
+                        "brandName":  "La Yogurt",
+                        "category":  {
+                                         "category":  "Dairy Products",
+                                         "categorySort":  "Dairy Products",
+                                         "categorySearch":  "Dairy Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2940",
+                        "company":  "Johanna Foods, Inc.",
+                        "companySlug":  "Johanna-Foods-Inc.",
+                        "location":  "Flemington,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-01-11T00:00:00.000Z",
+                        "_score":  0.097984545
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-22909D9",
+                        "productName":  "YC POG Sorbet",
+                        "brandName":  "Yocream",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "10603",
+                        "company":  "Danone North America",
+                        "companySlug":  "Danone-North-America",
+                        "location":  "White Plains,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-02-07T00:00:00.000Z",
+                        "_score":  0.09715906
+                    },
+                    {
+                        "agencyUniqueId":  "OUE3-B4C6811",
+                        "productName":  "Fit \u0027n\u0027 Free Mixed Berry Yogurt Fat Free Sugar Free (Cholov Yisroel)",
+                        "brandName":  "Mehadrin",
+                        "category":  {
+                                         "category":  "DAIRY",
+                                         "categorySort":  "DAIRY",
+                                         "categorySearch":  "DAIRY"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-P-D"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-01-09T00:00:00.000Z",
+                        "_score":  0.096441865
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-LH8VJZF",
+                        "productName":  "Peach Fruit on the Bottom Lowfat Yogurt",
+                        "brandName":  "ShopRite",
+                        "category":  {
+                                         "category":  "Dairy Products",
+                                         "categorySort":  "Dairy Products",
+                                         "categorySearch":  "Dairy Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "99513",
+                        "company":  "Wakefern Food Corp.",
+                        "companySlug":  "Wakefern-Food-Corp.",
+                        "location":  "Keasbey,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-12-16T00:00:00.000Z",
+                        "_score":  0.09572939
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-675F886",
+                        "productName":  "YC Pistachio Gelato",
+                        "brandName":  "Yocream",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "10603",
+                        "company":  "Danone North America",
+                        "companySlug":  "Danone-North-America",
+                        "location":  "White Plains,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-02-07T00:00:00.000Z",
+                        "_score":  0.094820276
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-K9TJKSK",
+                        "productName":  "Peach With Other Natural Flavors Greek Blended Nonfat Yogurt",
+                        "brandName":  "La Yogurt",
+                        "category":  {
+                                         "category":  "Dairy Products",
+                                         "categorySort":  "Dairy Products",
+                                         "categorySearch":  "Dairy Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2940",
+                        "company":  "Johanna Foods, Inc.",
+                        "companySlug":  "Johanna-Foods-Inc.",
+                        "location":  "Flemington,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-01-11T00:00:00.000Z",
+                        "_score":  0.0926305
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-67ED170",
+                        "productName":  "YC Green Apple Sorbet",
+                        "brandName":  "Yocream",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "10603",
+                        "company":  "Danone North America",
+                        "companySlug":  "Danone-North-America",
+                        "location":  "White Plains,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-02-07T00:00:00.000Z",
+                        "_score":  0.09174782
+                    },
+                    {
+                        "agencyUniqueId":  "OUE3-3BC9029",
+                        "productName":  "Slim 60 Mixed Berry Yogurt Fat Free Sugar Free (Cholov Yisroel)",
+                        "brandName":  "Givat",
+                        "category":  {
+                                         "category":  "DAIRY",
+                                         "categorySort":  "DAIRY",
+                                         "categorySearch":  "DAIRY"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-P-D"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.08876516
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-A109A0B",
+                        "productName":  "YC Pomegranate Raspberry Sorbet",
+                        "brandName":  "Yocream",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "10603",
+                        "company":  "Danone North America",
+                        "companySlug":  "Danone-North-America",
+                        "location":  "White Plains,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-02-07T00:00:00.000Z",
+                        "_score":  0.079217605
+                    },
+                    {
+                        "agencyUniqueId":  "OUE3-913ED99",
+                        "productName":  "Summer Strawberry Nonfat Yogolite (Cholov Yisroel)",
+                        "brandName":  "Givat",
+                        "category":  {
+                                         "category":  "DAIRY",
+                                         "categorySort":  "DAIRY",
+                                         "categorySearch":  "DAIRY"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-P-D"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-01-09T00:00:00.000Z",
+                        "_score":  0.076690875
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-ADA1955",
+                        "productName":  "Fruit on the Bottom Nonfat Peach Yogurt",
+                        "brandName":  "Hy-Vee #55-1224",
+                        "category":  {
+                                         "category":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySort":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySearch":  "Cheeses, Yogurts, Whey Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "99796",
+                        "company":  "Hy-Vee, Inc.",
+                        "companySlug":  "Hy-Vee-Inc.",
+                        "location":  "West Des Moines,  IA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.076277
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-282520F",
+                        "productName":  "YC Strawberry Lemonade Sorbet",
+                        "brandName":  "Yocream",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "10603",
+                        "company":  "Danone North America",
+                        "companySlug":  "Danone-North-America",
+                        "location":  "White Plains,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-02-07T00:00:00.000Z",
+                        "_score":  0.07570102
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-FHLGDRS",
+                        "productName":  "Cherry With Other Natural Flavors Greek Blended Nonfat Yogurt",
+                        "brandName":  "La Yogurt",
+                        "category":  {
+                                         "category":  "Dairy Products",
+                                         "categorySort":  "Dairy Products",
+                                         "categorySearch":  "Dairy Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2940",
+                        "company":  "Johanna Foods, Inc.",
+                        "companySlug":  "Johanna-Foods-Inc.",
+                        "location":  "Flemington,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-01-11T00:00:00.000Z",
+                        "_score":  0.074641936
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-FC95345",
+                        "productName":  "YC NF Simply Tart Yogurt",
+                        "brandName":  "Yocream",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "10603",
+                        "company":  "Danone North America",
+                        "companySlug":  "Danone-North-America",
+                        "location":  "White Plains,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-02-07T00:00:00.000Z",
+                        "_score":  0.07084848
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-E5CAD61",
+                        "productName":  "Fit \u0027n Free Greek Light Mixed Berry Vanilla Yogurt (Cholov Yisroel)",
+                        "brandName":  "Mehadrin",
+                        "category":  {
+                                         "category":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySort":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySearch":  "Cheeses, Yogurts, Whey Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.06992833
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-8120CD5",
+                        "productName":  "Fit \u0027n Free Greek Light Pomegranate + Strawberry Yogurt (Cholov Yisroel)",
+                        "brandName":  "Mehadrin",
+                        "category":  {
+                                         "category":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySort":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySearch":  "Cheeses, Yogurts, Whey Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.06947242
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-B761681",
+                        "productName":  "Nonfat Black Cherry Fruit on the Bottom Greek Yogurt",
+                        "brandName":  "Hy-Vee #55-1224",
+                        "category":  {
+                                         "category":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySort":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySearch":  "Cheeses, Yogurts, Whey Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "99796",
+                        "company":  "Hy-Vee, Inc.",
+                        "companySlug":  "Hy-Vee-Inc.",
+                        "location":  "West Des Moines,  IA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.06738094
+                    },
+                    {
+                        "agencyUniqueId":  "OUE3-9C5022A",
+                        "productName":  "Slim 60 Strawberry Yogurt Fat Free Sugar Free (Cholov Yisroel)",
+                        "brandName":  "Givat",
+                        "category":  {
+                                         "category":  "DAIRY",
+                                         "categorySort":  "DAIRY",
+                                         "categorySearch":  "DAIRY"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-P-D"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.06650261
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-VSRDG5C",
+                        "productName":  "Mango With Other Natural Flavors Greek Blended Nonfat Yogurt",
+                        "brandName":  "La Yogurt",
+                        "category":  {
+                                         "category":  "Dairy Products",
+                                         "categorySort":  "Dairy Products",
+                                         "categorySearch":  "Dairy Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2940",
+                        "company":  "Johanna Foods, Inc.",
+                        "companySlug":  "Johanna-Foods-Inc.",
+                        "location":  "Flemington,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-01-11T00:00:00.000Z",
+                        "_score":  0.06642989
+                    },
+                    {
+                        "agencyUniqueId":  "OUE3-777DDA4",
+                        "productName":  "Strawberry Natural Yogurt (Cholov Yisroel)",
+                        "brandName":  "Mehadrin",
+                        "category":  {
+                                         "category":  "DAIRY",
+                                         "categorySort":  "DAIRY",
+                                         "categorySearch":  "DAIRY"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-P-D"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-01-09T00:00:00.000Z",
+                        "_score":  0.06585085
+                    },
+                    {
+                        "agencyUniqueId":  "OUD7-B1F8CEC",
+                        "productName":  "Nonfat Light Fruit on the Bottom Greek Cherry Yogurt",
+                        "brandName":  "Hy-Vee #55-1224",
+                        "category":  {
+                                         "category":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySort":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySearch":  "Cheeses, Yogurts, Whey Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "99796",
+                        "company":  "Hy-Vee, Inc.",
+                        "companySlug":  "Hy-Vee-Inc.",
+                        "location":  "West Des Moines,  IA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.06585085
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-C12CB84",
+                        "productName":  "Authentic Greek Nonfat Yogurt Peach (Cholov Yisroel)",
+                        "brandName":  "Mehadrin",
+                        "category":  {
+                                         "category":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySort":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySearch":  "Cheeses, Yogurts, Whey Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2014-02-06T00:00:00.000Z",
+                        "_score":  0.064777754
+                    },
+                    {
+                        "agencyUniqueId":  "OUE3-F6953F8",
+                        "productName":  "Raspberry Natural Yogurt (Cholov Yisroel)",
+                        "brandName":  "Mehadrin",
+                        "category":  {
+                                         "category":  "DAIRY",
+                                         "categorySort":  "DAIRY",
+                                         "categorySearch":  "DAIRY"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-P-D"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-01-09T00:00:00.000Z",
+                        "_score":  0.06442369
+                    },
+                    {
+                        "agencyUniqueId":  "OUE3-377F6E2",
+                        "productName":  "Fit \u0027n Free Greek Light Mixed Berry Vanilla Yogurt (Cholov Yisroel)",
+                        "brandName":  "Mehadrin",
+                        "category":  {
+                                         "category":  "DAIRY",
+                                         "categorySort":  "DAIRY",
+                                         "categorySearch":  "DAIRY"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-P-D"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.06393101
+                    },
+                    {
+                        "agencyUniqueId":  "OUE3-D47B1F1",
+                        "productName":  "Strawberry/Banana Natural Yogurt (Cholov Yisroel)",
+                        "brandName":  "Mehadrin",
+                        "category":  {
+                                         "category":  "DAIRY",
+                                         "categorySort":  "DAIRY",
+                                         "categorySearch":  "DAIRY"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-P-D"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2014-02-21T00:00:00.000Z",
+                        "_score":  0.063163914
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-CB052B1",
+                        "productName":  "SFrog Mango Sorbet",
+                        "brandName":  "Yocream",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "10603",
+                        "company":  "Danone North America",
+                        "companySlug":  "Danone-North-America",
+                        "location":  "White Plains,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-02-07T00:00:00.000Z",
+                        "_score":  0.06302537
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-18B0E2F",
+                        "productName":  "Strawberry FroYo Bites",
+                        "brandName":  "Yoâs FroYo Bites",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1377708",
+                        "company":  "Yo\u0027s",
+                        "companySlug":  "Yo\u0027s",
+                        "location":  "Flushing,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-05-14T00:00:00.000Z",
+                        "_score":  0.062749125
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-EOMC2UJ",
+                        "productName":  "Black Cherry with Honey Yogurt 24 OZ",
+                        "brandName":  "Greek Gods",
+                        "category":  {
+                                         "category":  "Dairy Products",
+                                         "categorySort":  "Dairy Products",
+                                         "categorySearch":  "Dairy Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "10321",
+                        "company":  "The Hain Celestial Group",
+                        "companySlug":  "The-Hain-Celestial-Group",
+                        "location":  "Hoboken,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-12-22T00:00:00.000Z",
+                        "_score":  0.061115243
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-RRWO6P6",
+                        "productName":  "Black Cherry with Honey Yogurt 32 OZ",
+                        "brandName":  "Greek Gods",
+                        "category":  {
+                                         "category":  "Dairy Products",
+                                         "categorySort":  "Dairy Products",
+                                         "categorySearch":  "Dairy Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "10321",
+                        "company":  "The Hain Celestial Group",
+                        "companySlug":  "The-Hain-Celestial-Group",
+                        "location":  "Hoboken,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-12-22T00:00:00.000Z",
+                        "_score":  0.06104804
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-530B0C5",
+                        "productName":  "Fit \u0027n Free Greek Light Strawberry Yogurt (Cholov Yisroel)",
+                        "brandName":  "Mehadrin",
+                        "category":  {
+                                         "category":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySort":  "Cheeses, Yogurts, Whey Products",
+                                         "categorySearch":  "Cheeses, Yogurts, Whey Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.060180597
+                    },
+                    {
+                        "agencyUniqueId":  "OUE3-752EF3C",
+                        "productName":  "Authentic Greek Nonfat Yogurt Strawberry (Cholov Yisroel)",
+                        "brandName":  "Mehadrin",
+                        "category":  {
+                                         "category":  "DAIRY",
+                                         "categorySort":  "DAIRY",
+                                         "categorySearch":  "DAIRY"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-P-D"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-01-09T00:00:00.000Z",
+                        "_score":  0.059916034
+                    },
+                    {
+                        "agencyUniqueId":  "OUE3-7B00DF7",
+                        "productName":  "Authentic Greek Nonfat Yogurt Peach (Cholov Yisroel)",
+                        "brandName":  "Mehadrin",
+                        "category":  {
+                                         "category":  "DAIRY",
+                                         "categorySort":  "DAIRY",
+                                         "categorySearch":  "DAIRY"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-P-D"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-01-09T00:00:00.000Z",
+                        "_score":  0.059521202
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-08B9542",
+                        "productName":  "Raspberry FroYo Bites",
+                        "brandName":  "Yoâs FroYo Bites",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1377708",
+                        "company":  "Yo\u0027s",
+                        "companySlug":  "Yo\u0027s",
+                        "location":  "Flushing,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-05-14T00:00:00.000Z",
+                        "_score":  0.05564338
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-6331BD5",
+                        "productName":  "Apricot FroYo Bites",
+                        "brandName":  "Yoâs FroYo Bites",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1377708",
+                        "company":  "Yo\u0027s",
+                        "companySlug":  "Yo\u0027s",
+                        "location":  "Flushing,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-05-14T00:00:00.000Z",
+                        "_score":  0.055397574
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-4F9E417",
+                        "productName":  "Blueberry FroYo Bites",
+                        "brandName":  "Yoâs FroYo Bites",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1377708",
+                        "company":  "Yo\u0027s",
+                        "companySlug":  "Yo\u0027s",
+                        "location":  "Flushing,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-05-14T00:00:00.000Z",
+                        "_score":  0.0501304
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-3DF74DE",
+                        "productName":  "YC NF Original Tart Pom Raspberry",
+                        "brandName":  "Yocream",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "10603",
+                        "company":  "Danone North America",
+                        "companySlug":  "Danone-North-America",
+                        "location":  "White Plains,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-02-07T00:00:00.000Z",
+                        "_score":  0.04880799
+                    },
+                    {
+                        "agencyUniqueId":  "OUE3-77B8119",
+                        "productName":  "Authentic Greek Nonfat Yogurt Black Cherry (Cholov Yisroel)",
+                        "brandName":  "Mehadrin",
+                        "category":  {
+                                         "category":  "DAIRY",
+                                         "categorySort":  "DAIRY",
+                                         "categorySearch":  "DAIRY"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-P-D"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.047998354
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-8A428E4",
+                        "productName":  "YC NF Mountain Blackberry",
+                        "brandName":  "Yocream",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "10603",
+                        "company":  "Danone North America",
+                        "companySlug":  "Danone-North-America",
+                        "location":  "White Plains,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-02-07T00:00:00.000Z",
+                        "_score":  0.044885658
+                    },
+                    {
+                        "agencyUniqueId":  "OUE3-0739E7C",
+                        "productName":  "Fit \u0027n Free Greek Light Black Cherry Yogurt (Cholov Yisroel)",
+                        "brandName":  "Mehadrin",
+                        "category":  {
+                                         "category":  "DAIRY",
+                                         "categorySort":  "DAIRY",
+                                         "categorySearch":  "DAIRY"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "S",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1313193",
+                        "company":  "Mehadrin Dairy \u0026 Ice Cream",
+                        "companySlug":  "Mehadrin-Dairy-and-Ice-Cream",
+                        "location":  "Elizabeth,  NJ",
+                        "symbol":  [
+                                       "OU-P-D"
+                                   ],
+                        "status":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "conditions":  "Symbol required. Kosher for Passover ONLY when bearing special certification.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.044485457
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-196F702",
+                        "productName":  "SFrog LF Tart",
+                        "brandName":  "Yocream",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "10603",
+                        "company":  "Danone North America",
+                        "companySlug":  "Danone-North-America",
+                        "location":  "White Plains,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-02-07T00:00:00.000Z",
+                        "_score":  0.039717067
+                    }
+                ],
+    "elapsed_ms":  3855
+}

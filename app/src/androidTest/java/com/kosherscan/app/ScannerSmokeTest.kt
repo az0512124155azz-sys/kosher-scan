@@ -67,7 +67,8 @@ class ScannerSmokeTest {
             for (reason in listOf("בדיקת תצוגה", "לא נמצאה התאמה חד־משמעית ב־OU. היעדר התאמה אינו מעיד שהמוצר אינו כשר.")) {
                 scenario.onActivity { activity ->
                     ViewModelProvider(activity)[ScanModel::class.java].state.value = ScanState("3017620422003", result = LookupResult(
-                        Product("3017620422003", "Nutella", "Nutella, Ferrero"), Verdict(KosherStatus.UNKNOWN, reason)))
+                        Product("3017620422003", "Nutella", "Nutella, Ferrero"), Verdict(KosherStatus.UNKNOWN, reason,
+                            "https://www.ikr.org.il/", "כושרות")))
                 }
                 androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
                 scenario.onActivity { activity ->
@@ -76,6 +77,10 @@ class ScannerSmokeTest {
                     val visible = Rect()
                     assertTrue(button.getGlobalVisibleRect(visible))
                     assertEquals("Scan-again button must be fully visible", button.height, visible.height())
+                    val source = activity.findViewById<TextView>(R.id.sourceButton)
+                    assertTrue(source.text.contains("כושרות"))
+                    assertTrue(source.getGlobalVisibleRect(visible))
+                    assertEquals("Source button must be fully visible", source.height, visible.height())
                 }
             }
         }

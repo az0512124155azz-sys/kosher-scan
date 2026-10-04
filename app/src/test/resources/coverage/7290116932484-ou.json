@@ -1,0 +1,1608 @@
+﻿{
+    "total":  280,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUD3-A67C8B4",
+                        "productName":  "Kashi GO Crunch Peanut Butter Cereal",
+                        "brandName":  "Kashi GO",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-09-19T00:00:00.000Z",
+                        "_score":  0.062268417
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-1B79B62",
+                        "productName":  "Kashi GO Maple Brown Sugar Cereal",
+                        "brandName":  "Kashi",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-06-13T00:00:00.000Z",
+                        "_score":  0.05873887
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-DYFPJLD",
+                        "productName":  "Go Go Protein Peanuts, Dark Chocolate",
+                        "brandName":  "Orchard Valley Harvest",
+                        "category":  {
+                                         "category":  "Nuts \u0026 Seeds",
+                                         "categorySort":  "Nuts \u0026 Seeds",
+                                         "categorySearch":  "Nuts \u0026 Seeds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2909",
+                        "company":  "John B. Sanfilippo \u0026 Son, Inc.",
+                        "companySlug":  "John-B.-Sanfilippo-and-Son-Inc.",
+                        "location":  "Elgin,  IL",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-04-21T00:00:00.000Z",
+                        "_score":  0.05097407
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-0QERJYP",
+                        "productName":  "Toddler Drink Go \u0026 Grow Immune Support",
+                        "brandName":  "Similac",
+                        "category":  {
+                                         "category":  "Nutritional Supplements \u0026 Pharmaceuticals",
+                                         "categorySort":  "Nutritional Supplements \u0026 Pharmaceuticals",
+                                         "categorySearch":  "Nutritional Supplements \u0026 Pharmaceuticals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3147",
+                        "company":  "Abbott Nutrition",
+                        "companySlug":  "Abbott-Nutrition",
+                        "location":  "Columbus,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-01-28T00:00:00.000Z",
+                        "_score":  0.04979665
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-JCUCMCB",
+                        "productName":  "Toddler Drink Go \u0026 Grow Milk-Based Powder 12-36 Months",
+                        "brandName":  "Similac",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3147",
+                        "company":  "Abbott Nutrition",
+                        "companySlug":  "Abbott-Nutrition",
+                        "location":  "Columbus,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-07-09T00:00:00.000Z",
+                        "_score":  0.048699286
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-8YROYS7",
+                        "productName":  "Dairy Free Smoothie Go Go Greens",
+                        "brandName":  "Once Upon A Farm",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "1338629",
+                        "company":  "Once Upon a Farm, PBC",
+                        "companySlug":  "Once-Upon-a-Farm-PBC",
+                        "location":  "Berkeley,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-09-05T00:00:00.000Z",
+                        "_score":  0.04794482
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-HU9KWH6",
+                        "productName":  "Toddler Drink Go \u0026 Grow Sensitive Milk-Based Powder",
+                        "brandName":  "Similac",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3147",
+                        "company":  "Abbott Nutrition",
+                        "companySlug":  "Abbott-Nutrition",
+                        "location":  "Columbus,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-07-01T00:00:00.000Z",
+                        "_score":  0.047837958
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-HJRAEIR",
+                        "productName":  "4- Pack Multipack Dairy-Free Smoothies Organic Go Go Greens \u0026 Organic Berry Berry",
+                        "brandName":  "Once Upon A Farm",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy Equipment",
+                                        "dpmSearch":  "dairy-equipment"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1338629",
+                        "company":  "Once Upon a Farm, PBC",
+                        "companySlug":  "Once-Upon-a-Farm-PBC",
+                        "location":  "Berkeley,  CA",
+                        "symbol":  [
+                                       "OU-DE"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-01-30T00:00:00.000Z",
+                        "_score":  0.04539074
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-06YOCBX",
+                        "productName":  "Toddler Drink Go \u0026 Grow 360 Total Care Milk Based Powder 12-36 Months",
+                        "brandName":  "Similac",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3147",
+                        "company":  "Abbott Nutrition",
+                        "companySlug":  "Abbott-Nutrition",
+                        "location":  "Columbus,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-11-08T00:00:00.000Z",
+                        "_score":  0.044885658
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-1486793",
+                        "productName":  "Toddler Drink Go \u0026 Grow Vanilla",
+                        "brandName":  "Similac",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3147",
+                        "company":  "Abbott Nutrition",
+                        "companySlug":  "Abbott-Nutrition",
+                        "location":  "Columbus,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-06-09T00:00:00.000Z",
+                        "_score":  0.044735186
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-71TIAAL",
+                        "productName":  "Similac Go \u0026 Grow Powder",
+                        "brandName":  "Similac",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3147",
+                        "company":  "Abbott Nutrition",
+                        "companySlug":  "Abbott-Nutrition",
+                        "location":  "Columbus,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-08-13T00:00:00.000Z",
+                        "_score":  0.04408865
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-KWGH5VB",
+                        "productName":  "Organic Dairy-Free Smoothie Go-Go Greens",
+                        "brandName":  "Once Upon A Farm",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1338629",
+                        "company":  "Once Upon a Farm, PBC",
+                        "companySlug":  "Once-Upon-a-Farm-PBC",
+                        "location":  "Berkeley,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-20T00:00:00.000Z",
+                        "_score":  0.043063056
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-BPBIXU4",
+                        "productName":  "Nutella \u0026 Go",
+                        "brandName":  "Nutella \u0026 Go",
+                        "category":  {
+                                         "category":  "Candy \u0026 Candy Coatings",
+                                         "categorySort":  "Candy \u0026 Candy Coatings",
+                                         "categorySearch":  "Candy \u0026 Candy Coatings"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1440653",
+                        "company":  "Soremartec S.A. (Ferrero Export to Israel)",
+                        "companySlug":  "Soremartec-S.A.-(Ferrero-Export-to-Israel)",
+                        "location":  "Luxembourg,   LUXEMBOURG",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-02-19T00:00:00.000Z",
+                        "_score":  0.042060263
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-DC584B2",
+                        "productName":  "Nutella \u0026 Go, Pretzel",
+                        "brandName":  "Nutella",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1296585",
+                        "company":  "Soremartec S.A.",
+                        "companySlug":  "Soremartec-S.A.",
+                        "location":  "Luxembourg,   LUXEMBOURG",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.04201308
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-0BCCC70",
+                        "productName":  "Nutella \u0026 Go, Multigrains",
+                        "brandName":  "Nutella",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1296585",
+                        "company":  "Soremartec S.A.",
+                        "companySlug":  "Soremartec-S.A.",
+                        "location":  "Luxembourg,   LUXEMBOURG",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.041871805
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-89ED0FB",
+                        "productName":  "Teen Titans Go Sour Cherry Ice Cup",
+                        "brandName":  "Blue Bunny",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "12916",
+                        "company":  "Wells Enterprises Inc.",
+                        "companySlug":  "Wells-Enterprises-Inc.",
+                        "location":  "Le Mars,  IA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.041871805
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-BLGJQZH",
+                        "productName":  "Similac Sensitive Go and Grow",
+                        "brandName":  "Similac",
+                        "category":  {
+                                         "category":  "Nutritional Supplements \u0026 Pharmaceuticals",
+                                         "categorySort":  "Nutritional Supplements \u0026 Pharmaceuticals",
+                                         "categorySearch":  "Nutritional Supplements \u0026 Pharmaceuticals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3147",
+                        "company":  "Abbott Nutrition",
+                        "companySlug":  "Abbott-Nutrition",
+                        "location":  "Columbus,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-11-21T00:00:00.000Z",
+                        "_score":  0.04173098
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-4RB2ULJ",
+                        "productName":  "Similac Go \u0026 Grow iron CL 385ml",
+                        "brandName":  "Similac",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3147",
+                        "company":  "Abbott Nutrition",
+                        "companySlug":  "Abbott-Nutrition",
+                        "location":  "Columbus,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-09-19T00:00:00.000Z",
+                        "_score":  0.04163736
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-LE70MY2",
+                        "productName":  "Similac Sensitive Go \u0026 Grow Non GMO",
+                        "brandName":  "Similac",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3147",
+                        "company":  "Abbott Nutrition",
+                        "companySlug":  "Abbott-Nutrition",
+                        "location":  "Columbus,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-07-08T00:00:00.000Z",
+                        "_score":  0.040121272
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-5F0T6QW",
+                        "productName":  "Similac Go \u0026 Grow",
+                        "brandName":  "Similac",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3147",
+                        "company":  "Abbott Nutrition",
+                        "companySlug":  "Abbott-Nutrition",
+                        "location":  "Columbus,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-11-16T00:00:00.000Z",
+                        "_score":  0.039986104
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-96B1198",
+                        "productName":  "Mini Oreo 3x12x70g âSnacks to Go\u0027",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.03892032
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-CWPXRHC",
+                        "productName":  "Nutella \u0026 Go (breadsticks)",
+                        "brandName":  "Nutella",
+                        "category":  {
+                                         "category":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySort":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySearch":  "Chocolate, Cocoa \u0026 Chocolate Compounds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1296585",
+                        "company":  "Soremartec S.A.",
+                        "companySlug":  "Soremartec-S.A.",
+                        "location":  "Luxembourg,   LUXEMBOURG",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-01-23T00:00:00.000Z",
+                        "_score":  0.03870174
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-EF24B97",
+                        "productName":  "Nutella \u0026 Go, Breadstick",
+                        "brandName":  "Nutella",
+                        "category":  {
+                                         "category":  "Spreads",
+                                         "categorySort":  "Spreads",
+                                         "categorySearch":  "Spreads"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1296585",
+                        "company":  "Soremartec S.A.",
+                        "companySlug":  "Soremartec-S.A.",
+                        "location":  "Luxembourg,   LUXEMBOURG",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.038354453
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-776D94C",
+                        "productName":  "Grab \u0026 Go Fat Free Strawberry Milk",
+                        "brandName":  "Dairy Maid Dairy",
+                        "category":  {
+                                         "category":  "Milks",
+                                         "categorySort":  "Milks",
+                                         "categorySearch":  "Milks"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1390101",
+                        "company":  "DFA Dairy Brands Fluid LLC",
+                        "companySlug":  "DFA-Dairy-Brands-Fluid-LLC",
+                        "location":  "Dallas,  TX",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-01-13T00:00:00.000Z",
+                        "_score":  0.03737261
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-D338B41",
+                        "productName":  "Ritz To Go Italian Herb",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2014-12-01T00:00:00.000Z",
+                        "_score":  0.036621105
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-H5ODV1G",
+                        "productName":  "Canada Go and Grow Toddler 2â-FL Non Vanilla",
+                        "brandName":  "Abbott Nutrition",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3147",
+                        "company":  "Abbott Nutrition",
+                        "companySlug":  "Abbott-Nutrition",
+                        "location":  "Columbus,  OH",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-11-04T00:00:00.000Z",
+                        "_score":  0.036332797
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-CB2F3E6",
+                        "productName":  "Grab \u0026 Go Fat Free Chocolate Milk",
+                        "brandName":  "Dairy Maid Dairy",
+                        "category":  {
+                                         "category":  "Milks",
+                                         "categorySort":  "Milks",
+                                         "categorySearch":  "Milks"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1390101",
+                        "company":  "DFA Dairy Brands Fluid LLC",
+                        "companySlug":  "DFA-Dairy-Brands-Fluid-LLC",
+                        "location":  "Dallas,  TX",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-01-13T00:00:00.000Z",
+                        "_score":  0.036128204
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-3463269",
+                        "productName":  "Ritz To Go Buttery Flavour",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.03580315
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-M5SXJ82",
+                        "productName":  "Strawberry Banana - OAT SHAKE \u0026 GO - US Only",
+                        "brandName":  "Quaker",
+                        "category":  {
+                                         "category":  "Beverages \u0026 Drink Mixes",
+                                         "categorySort":  "Beverages \u0026 Drink Mixes",
+                                         "categorySearch":  "Beverages \u0026 Drink Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3363",
+                        "company":  "Quaker",
+                        "companySlug":  "Quaker",
+                        "location":  "Chicago,  IL",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-01-27T00:00:00.000Z",
+                        "_score":  0.035320852
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-9XCE453",
+                        "productName":  "Cinnamon Vanilla - OAT SHAKE \u0026 GO - US Only",
+                        "brandName":  "Quaker",
+                        "category":  {
+                                         "category":  "Beverages \u0026 Drink Mixes",
+                                         "categorySort":  "Beverages \u0026 Drink Mixes",
+                                         "categorySearch":  "Beverages \u0026 Drink Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3363",
+                        "company":  "Quaker",
+                        "companySlug":  "Quaker",
+                        "location":  "Chicago,  IL",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-01-27T00:00:00.000Z",
+                        "_score":  0.035082057
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-D247438",
+                        "productName":  "Pancake On The Go Chocolate Chip Pancake Mix",
+                        "brandName":  "Pearl Milling",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3363",
+                        "company":  "Quaker",
+                        "companySlug":  "Quaker",
+                        "location":  "Chicago,  IL",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.03488425
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-KOZHZFF",
+                        "productName":  "GO AHEAD ÃILEKLI HURMA BAR 40X18X6",
+                        "brandName":  "GO AHEAD",
+                        "category":  {
+                                         "category":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySort":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySearch":  "Chocolate, Cocoa \u0026 Chocolate Compounds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1310516",
+                        "company":  "Ulker BiskÃ¼vi Sanayi. A.s",
+                        "companySlug":  "Ulker-Biskuvi-Sanayi.-A.s",
+                        "location":  "Istanbul,   TURKIYE",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-24T00:00:00.000Z",
+                        "_score":  0.033264585
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-M8NXHFT",
+                        "productName":  "Everyday 5 oz Pretzelmania Grab-N-Go [12/case]",
+                        "brandName":  "Sweet Jubilee",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1399427",
+                        "company":  "Sweet Jubilee",
+                        "companySlug":  "Sweet-Jubilee",
+                        "location":  "Mechanicsburg,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-07-20T00:00:00.000Z",
+                        "_score":  0.032889787
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-EOP2CUW",
+                        "productName":  "Everyday 5 oz Roasted Peanut Grab-N-Go [12/case]",
+                        "brandName":  "Sweet Jubilee",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1399427",
+                        "company":  "Sweet Jubilee",
+                        "companySlug":  "Sweet-Jubilee",
+                        "location":  "Mechanicsburg,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-07-20T00:00:00.000Z",
+                        "_score":  0.03248222
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-GMOUWGZ",
+                        "productName":  "POP Display Individually Wrapped Oreos Grab N Go [6/case]",
+                        "brandName":  "Sweet Jubilee",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1399427",
+                        "company":  "Sweet Jubilee",
+                        "companySlug":  "Sweet-Jubilee",
+                        "location":  "Mechanicsburg,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-07-20T00:00:00.000Z",
+                        "_score":  0.031861935
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-HJQF5JK",
+                        "productName":  "GO AHEAD KIRMIZI MEYVELI KURUYEMIS BAR 35GX18X6",
+                        "brandName":  "GO AHEAD",
+                        "category":  {
+                                         "category":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySort":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySearch":  "Chocolate, Cocoa \u0026 Chocolate Compounds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1310516",
+                        "company":  "Ulker BiskÃ¼vi Sanayi. A.s",
+                        "companySlug":  "Ulker-Biskuvi-Sanayi.-A.s",
+                        "location":  "Istanbul,   TURKIYE",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-24T00:00:00.000Z",
+                        "_score":  0.031789716
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-LL0UTPQ",
+                        "productName":  "Organic Chocolate Hazelnut Filled Crepes To Go",
+                        "brandName":  "Bakerly",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1346155",
+                        "company":  "Bakerly Barn, LLC",
+                        "companySlug":  "Bakerly-Barn-LLC",
+                        "location":  "Easton,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-08-12T00:00:00.000Z",
+                        "_score":  0.031430993
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-3VALUTV",
+                        "productName":  "Cheeze-It On-The-Go Taco Kit",
+                        "brandName":  "Ortega",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2606",
+                        "company":  "B\u0026G Foods North America, Inc.",
+                        "companySlug":  "BandG-Foods-North-America-Inc.",
+                        "location":  "Parsippany,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-12-29T00:00:00.000Z",
+                        "_score":  0.031217646
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-65D97AB",
+                        "productName":  "Giant Eagle Get-Go Picnic Brownie",
+                        "brandName":  "MJAY\u0027S Specialty Baked Foods",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1304013",
+                        "company":  "MJAY\u0027s Specialty Baked Foods",
+                        "companySlug":  "MJAY\u0027s-Specialty-Baked-Foods",
+                        "location":  "Norcross,  GA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-08-19T00:00:00.000Z",
+                        "_score":  0.03107619
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-KZOEUWC",
+                        "productName":  "Blueberry Filled Crepes to Go",
+                        "brandName":  "Bakerly",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1346155",
+                        "company":  "Bakerly Barn, LLC",
+                        "companySlug":  "Bakerly-Barn-LLC",
+                        "location":  "Easton,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-05-03T00:00:00.000Z",
+                        "_score":  0.030935358
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-AGZBZCP",
+                        "productName":  "Easter To Go Cookies Chick Lemon White Chocolate",
+                        "brandName":  "Too Good Gourmet",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1415486",
+                        "company":  "Too Good Gourmet",
+                        "companySlug":  "Too-Good-Gourmet",
+                        "location":  "San Lorenzo,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-10-30T00:00:00.000Z",
+                        "_score":  0.030034896
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-ATQMTSR",
+                        "productName":  "Easter To Go Cookies Bunny Strawberry Shortcake",
+                        "brandName":  "Too Good Gourmet",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1415486",
+                        "company":  "Too Good Gourmet",
+                        "companySlug":  "Too-Good-Gourmet",
+                        "location":  "San Lorenzo,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-10-30T00:00:00.000Z",
+                        "_score":  0.030034896
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-J84GIMZ",
+                        "productName":  "Give \u0026 Go Creme Cake 15% Base",
+                        "brandName":  "Komplet",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "9679",
+                        "company":  "Abel \u0026 Schafer, Inc.",
+                        "companySlug":  "Abel-and-Schafer-Inc.",
+                        "location":  "Ronkonkoma,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-05-09T00:00:00.000Z",
+                        "_score":  0.029762978
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-KID1GJM",
+                        "productName":  "Cut\u0026Go MULATE chocolate with MCT \"COFFEE\"",
+                        "brandName":  "Mulate",
+                        "category":  {
+                                         "category":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySort":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySearch":  "Chocolate, Cocoa \u0026 Chocolate Compounds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1360128",
+                        "company":  "Choco Group",
+                        "companySlug":  "Choco-Group",
+                        "location":  "Kaunas,   LITHUANIA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-09-01T00:00:00.000Z",
+                        "_score":  0.029627915
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-18LPONK",
+                        "productName":  "POP Display Individually Wrapped Twists Grab N Go [6/case]",
+                        "brandName":  "Sweet Jubilee",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1399427",
+                        "company":  "Sweet Jubilee",
+                        "companySlug":  "Sweet-Jubilee",
+                        "location":  "Mechanicsburg,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-07-20T00:00:00.000Z",
+                        "_score":  0.029560601
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-KR53WSM",
+                        "productName":  "Cut\u0026Go MULATE chocolate with MCT \"SESAME\"",
+                        "brandName":  "Mulate",
+                        "category":  {
+                                         "category":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySort":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySearch":  "Chocolate, Cocoa \u0026 Chocolate Compounds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1360128",
+                        "company":  "Choco Group",
+                        "companySlug":  "Choco-Group",
+                        "location":  "Kaunas,   LITHUANIA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-09-01T00:00:00.000Z",
+                        "_score":  0.029426433
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-FXS4X9O",
+                        "productName":  "Cut\u0026Go MULATE chocolate with MCT \"CAYENNE\"",
+                        "brandName":  "Mulate",
+                        "category":  {
+                                         "category":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySort":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySearch":  "Chocolate, Cocoa \u0026 Chocolate Compounds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1360128",
+                        "company":  "Choco Group",
+                        "companySlug":  "Choco-Group",
+                        "location":  "Kaunas,   LITHUANIA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-09-01T00:00:00.000Z",
+                        "_score":  0.029359564
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-GW8TV88",
+                        "productName":  "Holiday - Peppermint Bark Grab-n-Go Bag (2.5 oz.)",
+                        "brandName":  "Sweet Jubilee",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1399427",
+                        "company":  "Sweet Jubilee",
+                        "companySlug":  "Sweet-Jubilee",
+                        "location":  "Mechanicsburg,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-07-20T00:00:00.000Z",
+                        "_score":  0.028309563
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-F48A95D",
+                        "productName":  "Simply To Go - Large Resealable Bags - All Varieties",
+                        "brandName":  "Astor",
+                        "category":  {
+                                         "category":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySort":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySearch":  "Chocolate, Cocoa \u0026 Chocolate Compounds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2570",
+                        "company":  "Astor Chocolate Corporation",
+                        "companySlug":  "Astor-Chocolate-Corporation",
+                        "location":  "Lakewood,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.027608924
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-F199118",
+                        "productName":  "Simply To Go - Snack Size Bags - All Varieties",
+                        "brandName":  "Astor",
+                        "category":  {
+                                         "category":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySort":  "Chocolate, Cocoa \u0026 Chocolate Compounds",
+                                         "categorySearch":  "Chocolate, Cocoa \u0026 Chocolate Compounds"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2570",
+                        "company":  "Astor Chocolate Corporation",
+                        "companySlug":  "Astor-Chocolate-Corporation",
+                        "location":  "Lakewood,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.026317844
+                    }
+                ],
+    "elapsed_ms":  4468
+}

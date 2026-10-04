@@ -1,0 +1,399 @@
+﻿{
+    "total":  12,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUV3-1387424",
+                        "productName":  "Bamba with Nugat Filling (Kitniyot)",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "",
+                                         "categorySort":  "",
+                                         "categorySearch":  ""
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "K",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU Kitnyot"
+                                   ],
+                        "status":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required. Yoshon",
+                        "conditions":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.46526662
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-EC9F807",
+                        "productName":  "Bamba Nougat Cream Filling All Packaging",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-07T00:00:00.000Z",
+                        "_score":  0.4119392
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-49D0082",
+                        "productName":  "Bamba Peanut Snack All Packaging",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-07T00:00:00.000Z",
+                        "_score":  0.19650257
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-EZIUNTO",
+                        "productName":  "Bamba Cheddar",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.15988557
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-GZYSG2F",
+                        "productName":  "Bamba BBQ",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.15059036
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-WZ8S7Q8",
+                        "productName":  "Bamba Hazelnut Filling",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.13926782
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-738C29C",
+                        "productName":  "Bamba Peanut Corn Snack (Kitniyot)",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "",
+                                         "categorySort":  "",
+                                         "categorySearch":  ""
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "K",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU Kitnyot"
+                                   ],
+                        "status":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required. Yoshon",
+                        "conditions":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-01-31T00:00:00.000Z",
+                        "_score":  0.1191314
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-4CC7C8B",
+                        "productName":  "Bamba Peanut Corn Snack (Kitniyot)",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "",
+                                         "categorySort":  "",
+                                         "categorySearch":  ""
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "K",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU Kitnyot"
+                                   ],
+                        "status":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required. Yoshon",
+                        "conditions":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-07T00:00:00.000Z",
+                        "_score":  0.1191314
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-CF96458",
+                        "productName":  "Bamba Peanut Corn Snack (Kitniyot)",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "",
+                                         "categorySort":  "",
+                                         "categorySearch":  ""
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "K",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU Kitnyot"
+                                   ],
+                        "status":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required. Yoshon",
+                        "conditions":  "Symbol required. Acceptable for Passover Kitniyot users. OU Kitniyot symbol required.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-07T00:00:00.000Z",
+                        "_score":  0.1191314
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-7D4A7F1",
+                        "productName":  "Bamba Flat",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-07T00:00:00.000Z",
+                        "_score":  0.11845669
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-F949E26",
+                        "productName":  "Bamba Halva Cream Filling All Packaging",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.10470616
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-255710A",
+                        "productName":  "Bissli Bamba Mix",
+                        "brandName":  "Osem",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3525",
+                        "yoshon":  "Yoshon",
+                        "company":  "Osem Export Ltd.",
+                        "companySlug":  "Osem-Export-Ltd.",
+                        "location":  "Shoham,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.09944416
+                    }
+                ],
+    "elapsed_ms":  364
+}

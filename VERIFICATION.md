@@ -1,73 +1,76 @@
-# Verification — 2026-10-04
+# Verification — version 1.4.0, 2026-10-05
 
-Environment: Windows host, Java 21, Gradle 8.7, SDK 35; Pixel 6 AVD running
+Environment: Windows, Java 21, Gradle 8.7, SDK 35; Pixel 6 AVD running
 Android 17 / API 37. No physical phone was connected.
 
 ## Automated checks
 
-* 49 JVM tests: 22 certification/matching cases, 19 HTTP/repository cases,
-  and 8 conservative plain-water rule cases. All passed for version 1.3.0.
-  Regression coverage includes specific certification labels without the generic
-  kosher parent, raw labels, legacy categories, explicit negative precedence,
-  Passover-only negatives, and rejecting ambiguous/social labels.
-* 4 Android instrumented smoke tests: bundled ML Kit EAN-13 decoding,
-  rendering all three verdicts / Activity recreation / scan-again reset,
-  an unclipped scan-again button after result text changes, and custom barcode
-  dialog validation/cancellation.
-* Android lint and APK compilation. Lint has no errors; warnings include
-  newer dependency availability, Hebrew string localization, drawing allocations,
-  portrait orientation, and the existing AGP 8.5 / SDK 35 compatibility warning.
+* 102 JVM tests: 23 matching/status cases, 19 original HTTP cases, eight water
+  policy cases, 15 independent authority/integration cases, four OU search cases
+  and 33 recorded product cases. All passed.
+* Four Android instrumented smoke tests cover bundled ML Kit EAN-13 decoding,
+  all three cards/recreation/reset, unclipped source/scan-again controls and
+  manual-entry validation/cancellation.
+* Android lint, debug APK and instrumented-test APK compilation passed. Lint
+  has no errors; existing AGP/SDK compatibility and localization/style warnings
+  remain.
 
-HTTP tests use MockWebServer to exercise 404/status=0, 503, malformed JSON,
-offline, DNS/transport failure, timeout, OU unavailable/malformed/timeout,
-positive structured OU matching, empty results, image metadata and cancellation.
-Green/red cards are tested with deterministic fixtures, not asserted as live
-certification of any physical package.
+New HTTP tests cover exact authority barcode matching, leading-zero equivalence,
+missing/duplicate fields, contradictory labels, unavailable/malformed services,
+cancelled requests and positive authority results with OFF 404 or 503. An
+unapproved catalogue record does not become NOT_KOSHER. OU tests check a later
+declared brand, second-page matches, both languages, preserved variants and
+incomplete result rejection. Explicit negative fixtures render/test the red
+status; they are not assertions that a live physical product is non-kosher.
 
-## Manual emulator checks
+## Recorded coverage comparison
 
-Version 1.3.0 follow-up:
+Public catalogue responses were captured on 2026-10-04 UTC / 2026-10-05 Israel.
+The corpus has 33 records in 14 categories: snacks, milk, oil, coffee, chocolate,
+tuna, cookies, bread, rice, yogurt, cheese, ketchup, juice and Bisli. It contains
+28 approved records, three unapproved yogurt records and two invalid internal
+five-digit SKUs retained as controls. OFF identified 22 records and lacked 11,
+including nine approved records.
 
-* Entered the user's screenshot barcode `3800000602733`. Live OFF returned Devin,
-  spring-water categories and the complete Bulgarian ingredient declaration
-  `Изворна вода`. The app displays KOSHER under OU's general water-only guidance,
-  requires checking that the package's only ingredient is water, and explicitly
-  disclaims OU certification of the brand. No barcode/brand exceptions exist.
-* Entered `0013764027053` (Dave's Killer Bread). Live OFF supplied explicit kosher
-  labels. The actual card/photo loaded and displayed KOSHER with the community
-  source and package-symbol condition. This is a separate non-water live case,
-  not a claim to have reproduced all of the user's unspecified regressions.
-* Unit fixtures reject flavored/vitamin/juice/coconut categories, additive or
-  missing ingredients, conflicting translations, and names contradicting water-only
-  metadata. The metadata still comes from a community source and may be incomplete.
+On the same saved OFF/OU snapshots, the previous OFF/first-OU-query path returned
+KOSHER for one record and UNKNOWN for 32. The independent source path returns
+KOSHER for 28 and UNKNOWN for five. No controls turn red or green. This compares
+recorded responses and source coverage; it does not establish that every package
+in every country, batch or date is certified. The sample was selected from the
+authority's catalogue, not randomly from the whole market. It proves a broad
+repair beyond water/Nutella, not universal coverage.
 
-Previous 1.2.0 manual checks (UI/scanner unchanged in this follow-up):
+Fixtures and source links are in `app/src/test/resources/coverage/manifest.json`.
+Tests emit per-record before/after JSON into `app/build/reports/coverage`, which
+GitHub Actions uploads in `verification-reports`.
 
-* Fresh launch requests camera permission; denial displays recovery controls.
-* Retry permits granting camera access; CameraX displays the virtual camera
-  scene full-screen with the rounded scanning corners and animated green line.
-* Entered `3017620422003` through the visible manual-entry dialog. Live OFF
-  returned Nutella/Ferrero and its actual product photo, which loaded in the card.
-  Live OU returned the exact product row `Nutella` / `Nutella`, symbol `OU-D`.
-  Version 1.2 correctly displays KOSHER with the package-symbol condition and
-  Passover exclusion. This fixes the previous rule that incorrectly rejected
-  explicit product records whose name equaled the brand.
-* Disabled both Wi-Fi and mobile data in the emulator: lookup displayed the
-  explicit offline message with UNKNOWN and a retry button.
-* Restored network and tapped retry: the product/photo returned successfully
-  without restarting the application.
-* Crash log buffer was empty during these manual checks.
-* Manual-entry and camera-denial screens were inspected after replacing default
-  rectangular/purple controls with the application's dark rounded cards and
-  white rounded buttons.
+## Live emulator checks
+
+* Manually entered `7290019587538` (Tomer canola oil). The live card showed KOSHER
+  from an exact Kosharot barcode record, named agencies, package conditions and
+  the product image. The source control opened the exact record URL in Chrome.
+* CameraX displayed the virtual camera after granting the current Android camera
+  permission. The scanning overlay and custom rounded manual-entry dialog ran.
+* Entered `7290119380459` (Elite hazelnut instant coffee), absent from OFF in the
+  captured response. The live app still identified it from the exact Kosharot
+  record and showed KOSHER with named agencies and the source link. This checks
+  the previously blocked path with a non-water product.
+* Disabled Wi-Fi and mobile data: lookup displayed the explicit offline message
+  and a retry control, rather than treating an unknown product as a network error.
+  Restored both and tapped retry: the oil's name, photo and positive authority
+  result returned without restarting the app. The crash log buffer was empty.
+
+Earlier versions also exercised Nutella's live OU result, Devin's conditional
+water rule, a community-labelled bread, denied permission recovery, offline
+lookup and retry after restoring connectivity. These historical checks are
+separate from the new source coverage corpus.
 
 ## Limits
 
-No physical-camera/package, autofocus under poor light, or real-device OEM
-permission testing was possible. ML Kit decoded a generated barcode image and
-CameraX's virtual camera ran; those are separate checks, not a claim that a real
-package was scanned. Live external services can change. OU's public website
-endpoint is not a contracted API, and name/brand matching cannot verify a
-specific package, plant, batch or regional certification. Package-symbol
-conditions are shown in positive results. The app intentionally returns UNKNOWN
-where evidence is insufficient.
+No physical-camera/package, poor-light autofocus or OEM permission testing was
+possible. ML Kit decoded a generated image; CameraX displayed the emulator's
+virtual scene. Public website integrations may change and none covers every
+product. Positive cards disclose the source and require checking package
+details/conditions. Missing evidence stays UNKNOWN, never an invented verdict.
+The former 2 GB emulator was killed by Android's low-memory killer; verification
+used a restarted 4 GB AVD. This was not an application exception.

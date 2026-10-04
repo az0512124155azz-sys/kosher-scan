@@ -1,0 +1,1606 @@
+﻿{
+    "total":  400,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUV3-C1C6986",
+                        "productName":  "Thai Jasmin Rice (Conventional, Organic and Fair-Trade)",
+                        "brandName":  "Agrover",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1354864",
+                        "company":  "Agrover SRL",
+                        "companySlug":  "Agrover-SRL",
+                        "location":  "Lignana,   ITALY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-01-31T00:00:00.000Z",
+                        "_score":  0.3183373
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-535907A",
+                        "productName":  "Jasmine Rice",
+                        "brandName":  "Oriental Flower",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1285505",
+                        "company":  "Gulf Pacific Rice Co., LLC.",
+                        "companySlug":  "Gulf-Pacific-Rice-Co.-LLC.",
+                        "location":  "Houston,  TX",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.285034
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-9B1374F",
+                        "productName":  "Jasmine Rice",
+                        "brandName":  "Imperial Dragon",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1298576",
+                        "company":  "JFC International, Inc.",
+                        "companySlug":  "JFC-International-Inc.",
+                        "location":  "Los Angeles,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2011-11-11T00:00:00.000Z",
+                        "_score":  0.28121358
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-9545BA8",
+                        "productName":  "Jasmine Rice",
+                        "brandName":  "Hy-Vee Select",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "99796",
+                        "company":  "Hy-Vee, Inc.",
+                        "companySlug":  "Hy-Vee-Inc.",
+                        "location":  "West Des Moines,  IA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.27941832
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-FE9B686",
+                        "productName":  "Jasmine Rice",
+                        "brandName":  "Eminence",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1285505",
+                        "company":  "Gulf Pacific Rice Co., LLC.",
+                        "companySlug":  "Gulf-Pacific-Rice-Co.-LLC.",
+                        "location":  "Houston,  TX",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-01-10T00:00:00.000Z",
+                        "_score":  0.2762771
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-ADQZODC",
+                        "productName":  "Jasmine Rice",
+                        "brandName":  "Sarita",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1285505",
+                        "company":  "Gulf Pacific Rice Co., LLC.",
+                        "companySlug":  "Gulf-Pacific-Rice-Co.-LLC.",
+                        "location":  "Houston,  TX",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-06-10T00:00:00.000Z",
+                        "_score":  0.2739656
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-3E62F57",
+                        "productName":  "Jasmine Rice",
+                        "brandName":  "Thai Orchid",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3535",
+                        "company":  "Producers Rice Mill, Inc.",
+                        "companySlug":  "Producers-Rice-Mill-Inc.",
+                        "location":  "Stuttgart,  AR",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.2677504
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0OIFOFY",
+                        "productName":  "THAI JASMINE WHITE RICE",
+                        "brandName":  "Oriental Flower",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1285505",
+                        "company":  "Gulf Pacific Rice Co., LLC.",
+                        "companySlug":  "Gulf-Pacific-Rice-Co.-LLC.",
+                        "location":  "Houston,  TX",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-03-14T00:00:00.000Z",
+                        "_score":  0.26071915
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-20F0C60",
+                        "productName":  "Jasmine Rice",
+                        "brandName":  "Della",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "7346",
+                        "company":  "Specialty Rice, Inc.",
+                        "companySlug":  "Specialty-Rice-Inc.",
+                        "location":  "Brinkley,  AR",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.25994346
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-D51524E",
+                        "productName":  "Jasmin Rice (Pouch)",
+                        "brandName":  "Thai Union Value Added Manufacturing Co., Ltd.",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1355069",
+                        "company":  "Thai Union Manufacturing Co., Ltd.",
+                        "companySlug":  "Thai-Union-Manufacturing-Co.-Ltd.",
+                        "location":  "Bangkok,   THAILAND",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.2596618
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-60DF4AC",
+                        "productName":  "Jasmine Rice",
+                        "brandName":  "Signature Select",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1298398",
+                        "company":  "Better Living Brands LLC./Safeway Inc./Lucerne Foods Inc.",
+                        "companySlug":  "Better-Living-Brands-LLC.Safeway-Inc.Lucerne-Foods-Inc.",
+                        "location":  "Pleasanton,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.25089028
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-33563D5",
+                        "productName":  "Jasmine Rice",
+                        "brandName":  "Roundy\u0027s",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3674",
+                        "company":  "The Kroger Co. Grocery Products Division",
+                        "companySlug":  "The-Kroger-Co.-Grocery-Products-Division",
+                        "location":  "Cincinnati,  OH",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2011-03-22T00:00:00.000Z",
+                        "_score":  0.25039503
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-8B0CE55",
+                        "productName":  "Thai Jasmine Rice",
+                        "brandName":  "Dynasty Gold Brand",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1298576",
+                        "company":  "JFC International, Inc.",
+                        "companySlug":  "JFC-International-Inc.",
+                        "location":  "Los Angeles,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2011-11-11T00:00:00.000Z",
+                        "_score":  0.24492286
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-59C909B",
+                        "productName":  "Jasmine Rice",
+                        "brandName":  "FredMeyer",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "94066",
+                        "company":  "Inter-American Products (Subsidiary Of The Kroger Company)",
+                        "companySlug":  "Inter-American-Products-(Subsidiary-Of-The-Kroger-Company)",
+                        "location":  "Cincinnati,  OH",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-12-25T00:00:00.000Z",
+                        "_score":  0.24281597
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-HP8L9XT",
+                        "productName":  "Jasmine White Rice",
+                        "brandName":  "Krasdale",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "97966",
+                        "company":  "Krasdale Foods, Inc.",
+                        "companySlug":  "Krasdale-Foods-Inc.",
+                        "location":  "White Plains,  NY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-03-04T00:00:00.000Z",
+                        "_score":  0.23975894
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-PKOCBIA",
+                        "productName":  "Jasmine Rice",
+                        "brandName":  "Simple Earth",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "98278",
+                        "company":  "Moran Foods, LLC d/b/a Save A Lot, Ltd.",
+                        "companySlug":  "Moran-Foods-LLC-dba-Save-A-Lot-Ltd.",
+                        "location":  "St  Ann,  MO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-05-21T00:00:00.000Z",
+                        "_score":  0.2358296
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-QQ5OXJQ",
+                        "productName":  "Jasmine Rice",
+                        "brandName":  "Sunny Select",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1297891",
+                        "company":  "Save Mart Supermarkets LLC",
+                        "companySlug":  "Save-Mart-Supermarkets-LLC",
+                        "location":  "Modesto,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-11-21T00:00:00.000Z",
+                        "_score":  0.23411803
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-3F1A602",
+                        "productName":  "Jasmine Rice",
+                        "brandName":  "First Street",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "94661",
+                        "company":  "Smart \u0026 Final Inc. DBA Amerifoods Trading Co.",
+                        "companySlug":  "Smart-and-Final-Inc.-DBA-Amerifoods-Trading-Co.",
+                        "location":  "Commerce,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-14T00:00:00.000Z",
+                        "_score":  0.22906101
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-UGOOJFI",
+                        "productName":  "Jasmine Rice",
+                        "brandName":  "Casbah",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6514",
+                        "company":  "U.S. Durum Products Ltd.",
+                        "companySlug":  "U.S.-Durum-Products-Ltd.",
+                        "location":  "Harrisburg,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-05T00:00:00.000Z",
+                        "_score":  0.2282859
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-810448B",
+                        "productName":  "Jasmine Rice Thai Hom Mali Long Grain Rice",
+                        "brandName":  "Winco",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1295687",
+                        "company":  "WinCo Foods, LLC",
+                        "companySlug":  "WinCo-Foods-LLC",
+                        "location":  "Boise,  ID",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-03-08T00:00:00.000Z",
+                        "_score":  0.22494844
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-NZP8R9Y",
+                        "productName":  "Prime Grade Thai Hom Mali (Jasmine Rice) SRP",
+                        "brandName":  "Golden Star",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1307636",
+                        "company":  "Golden Star Trading, Inc.",
+                        "companySlug":  "Golden-Star-Trading-Inc.",
+                        "location":  "Torrance,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-08-29T00:00:00.000Z",
+                        "_score":  0.22314034
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-1F805C1",
+                        "productName":  "White Jasmine Rice",
+                        "brandName":  "Royal",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1322988",
+                        "company":  "LT Foods America Inc",
+                        "companySlug":  "LT-Foods-America-Inc",
+                        "location":  "Cypress,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-10-24T00:00:00.000Z",
+                        "_score":  0.22179744
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-YX8KTEX",
+                        "productName":  "Organic Jasmine Rice Regenerative Organic Certified",
+                        "brandName":  "Whole Foods Market",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1287363",
+                        "company":  "WFM Private Label, L.P.",
+                        "companySlug":  "WFM-Private-Label-L.P.",
+                        "location":  "Austin,  TX",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-03-04T00:00:00.000Z",
+                        "_score":  0.21762875
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0265785",
+                        "productName":  "Organic White Jasmine Rice - 2lb",
+                        "brandName":  "Lundberg Family Farms",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1300575",
+                        "company":  "Lundberg Family Farms",
+                        "companySlug":  "Lundberg-Family-Farms",
+                        "location":  "Richvale,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-07-28T00:00:00.000Z",
+                        "_score":  0.20866264
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9CD3894",
+                        "productName":  "Brown Jasmine Rice",
+                        "brandName":  "Royal",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1322988",
+                        "company":  "LT Foods America Inc",
+                        "companySlug":  "LT-Foods-America-Inc",
+                        "location":  "Cypress,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-10-19T00:00:00.000Z",
+                        "_score":  0.2025855
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9024FA1",
+                        "productName":  "IQF Organic Steamed Jasmine Rice",
+                        "brandName":  "Grain Trust",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "12742",
+                        "company":  "Sage V Foods",
+                        "companySlug":  "Sage-V-Foods",
+                        "location":  "Boulder,  CO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.20197095
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-6E8DB4C",
+                        "productName":  "Organic Jasmine Rice",
+                        "brandName":  "Simply Balanced",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "97153",
+                        "company":  "Target Corporation",
+                        "companySlug":  "Target-Corporation",
+                        "location":  "Minneapolis,  MN",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.19821969
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-XWLBZNT",
+                        "productName":  "ROC White Jasmine Rice 907g CDN",
+                        "brandName":  "Lundberg Family Farms",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1300575",
+                        "company":  "Lundberg Family Farms",
+                        "companySlug":  "Lundberg-Family-Farms",
+                        "location":  "Richvale,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-01-02T00:00:00.000Z",
+                        "_score":  0.1964563
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-BB43E86",
+                        "productName":  "Organic Jasmine Rice",
+                        "brandName":  "O Organics",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1298398",
+                        "company":  "Better Living Brands LLC./Safeway Inc./Lucerne Foods Inc.",
+                        "companySlug":  "Better-Living-Brands-LLC.Safeway-Inc.Lucerne-Foods-Inc.",
+                        "location":  "Pleasanton,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.19571738
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-WTE16W5",
+                        "productName":  "ROC White Jasmine Rice 4lb US",
+                        "brandName":  "Lundberg Family Farms",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1300575",
+                        "company":  "Lundberg Family Farms",
+                        "companySlug":  "Lundberg-Family-Farms",
+                        "location":  "Richvale,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-01-29T00:00:00.000Z",
+                        "_score":  0.19360471
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-GRAYVXD",
+                        "productName":  "ROC White Jasmine Rice 2lb US",
+                        "brandName":  "Lundberg Family Farms",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1300575",
+                        "company":  "Lundberg Family Farms",
+                        "companySlug":  "Lundberg-Family-Farms",
+                        "location":  "Richvale,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-01-02T00:00:00.000Z",
+                        "_score":  0.19314773
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-3D346E5",
+                        "productName":  "Thai Jasmine White Rice",
+                        "brandName":  "Gulf Pacific",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1285505",
+                        "company":  "Gulf Pacific Rice Co., LLC.",
+                        "companySlug":  "Gulf-Pacific-Rice-Co.-LLC.",
+                        "location":  "Houston,  TX",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.19060381
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-2326300",
+                        "productName":  "Thai Hom Mali Jasmine Rice",
+                        "brandName":  "Royal",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1382176",
+                        "company":  "LT Foods America Inc.,",
+                        "companySlug":  "LT-Foods-America-Inc.",
+                        "location":  "Cypress,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-05-06T00:00:00.000Z",
+                        "_score":  0.1902425
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-VT3MXIL",
+                        "productName":  "Organic White Jasmine Rice",
+                        "brandName":  "Wild Harvest",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1286060",
+                        "company":  "UNFI dba SUPERVALU Inc.",
+                        "companySlug":  "UNFI-dba-SUPERVALU-Inc.",
+                        "location":  "Providence,  RI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-11-21T00:00:00.000Z",
+                        "_score":  0.19006205
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-LJ0F1IQ",
+                        "productName":  "Organic Jasmine Brown rice",
+                        "brandName":  "Sarita",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1285505",
+                        "company":  "Gulf Pacific Rice Co., LLC.",
+                        "companySlug":  "Gulf-Pacific-Rice-Co.-LLC.",
+                        "location":  "Houston,  TX",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-04-29T00:00:00.000Z",
+                        "_score":  0.1897015
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-1N2JWOC",
+                        "productName":  "Organic Jasmine White Rice",
+                        "brandName":  "Sarita",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1285505",
+                        "company":  "Gulf Pacific Rice Co., LLC.",
+                        "companySlug":  "Gulf-Pacific-Rice-Co.-LLC.",
+                        "location":  "Houston,  TX",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-04-29T00:00:00.000Z",
+                        "_score":  0.18889222
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-34F0B46",
+                        "productName":  "Eco-Farmed California White Jasmine Rice - 2lb",
+                        "brandName":  "Lundberg Family Farms",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1300575",
+                        "company":  "Lundberg Family Farms",
+                        "companySlug":  "Lundberg-Family-Farms",
+                        "location":  "Richvale,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2014-12-04T00:00:00.000Z",
+                        "_score":  0.18826461
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-6609050",
+                        "productName":  "Organic California White Jasmine Rice - 25lb",
+                        "brandName":  "Lundberg Family Farms",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1300575",
+                        "company":  "Lundberg Family Farms",
+                        "companySlug":  "Lundberg-Family-Farms",
+                        "location":  "Richvale,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-10-29T00:00:00.000Z",
+                        "_score":  0.18585886
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-49KUTPP",
+                        "productName":  "Organic White Jasmine Rice",
+                        "brandName":  "Texas Best",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1409378",
+                        "company":  "Inland Cape Rice Company",
+                        "companySlug":  "Inland-Cape-Rice-Company",
+                        "location":  "Scott City ,  MO USA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-03-27T00:00:00.000Z",
+                        "_score":  0.18413617
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-1DCF788",
+                        "productName":  "Thai Jasmine White Rice",
+                        "brandName":  "Krasdale",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "97966",
+                        "company":  "Krasdale Foods, Inc.",
+                        "companySlug":  "Krasdale-Foods-Inc.",
+                        "location":  "White Plains,  NY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.18404816
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-EG9GKL6",
+                        "productName":  "Organic American Brown Jasmine Rice - 25lb",
+                        "brandName":  "Lundberg Family Farms",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1300575",
+                        "company":  "Lundberg Family Farms",
+                        "companySlug":  "Lundberg-Family-Farms",
+                        "location":  "Richvale,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-10-13T00:00:00.000Z",
+                        "_score":  0.18198931
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-6CD760F",
+                        "productName":  "Thai Jasmine Organic White Rice",
+                        "brandName":  "Gulf Pacific",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1285505",
+                        "company":  "Gulf Pacific Rice Co., LLC.",
+                        "companySlug":  "Gulf-Pacific-Rice-Co.-LLC.",
+                        "location":  "Houston,  TX",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.1793871
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-72E291A",
+                        "productName":  "Thai Jasmine White Rice",
+                        "brandName":  "Southern Home",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1338729",
+                        "company":  "The Winn-Dixie Company, LLC",
+                        "companySlug":  "The-Winn-Dixie-Company-LLC",
+                        "location":  "Jacksonville,  FL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.17566562
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-995A869",
+                        "productName":  "Thai Jasmine Organic Brown Rice",
+                        "brandName":  "Gulf Pacific",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1285505",
+                        "company":  "Gulf Pacific Rice Co., LLC.",
+                        "companySlug":  "Gulf-Pacific-Rice-Co.-LLC.",
+                        "location":  "Houston,  TX",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.16963993
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-L0RHNU7",
+                        "productName":  "Organic Brown Jasmine Rice",
+                        "brandName":  "Texas Best",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1409378",
+                        "company":  "Inland Cape Rice Company",
+                        "companySlug":  "Inland-Cape-Rice-Company",
+                        "location":  "Scott City ,  MO USA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-03-27T00:00:00.000Z",
+                        "_score":  0.1686107
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-MF1XOK3",
+                        "productName":  "Organic Red Jasmine Gourmet Rice - 1lb",
+                        "brandName":  "Lundberg Family Farms",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1300575",
+                        "company":  "Lundberg Family Farms",
+                        "companySlug":  "Lundberg-Family-Farms",
+                        "location":  "Richvale,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-10-19T00:00:00.000Z",
+                        "_score":  0.1636194
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-CVU3IGJ",
+                        "productName":  "Organic White Jasmine Rescue Rice 25lb US",
+                        "brandName":  "Lundberg Family Farms",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1300575",
+                        "company":  "Lundberg Family Farms",
+                        "companySlug":  "Lundberg-Family-Farms",
+                        "location":  "Richvale,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-07-01T00:00:00.000Z",
+                        "_score":  0.16305888
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-D180AB7",
+                        "productName":  "Organic Thai Jasmine Rice",
+                        "brandName":  "O Organics",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1298398",
+                        "company":  "Better Living Brands LLC./Safeway Inc./Lucerne Foods Inc.",
+                        "companySlug":  "Better-Living-Brands-LLC.Safeway-Inc.Lucerne-Foods-Inc.",
+                        "location":  "Pleasanton,  CA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.15878677
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-1BE376A",
+                        "productName":  "Organic White Rice Thai Jasmine",
+                        "brandName":  "365 Everyday Value",
+                        "category":  {
+                                         "category":  "Grains \u0026 Legumes",
+                                         "categorySort":  "Grains \u0026 Legumes",
+                                         "categorySearch":  "Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1287363",
+                        "company":  "WFM Private Label, L.P.",
+                        "companySlug":  "WFM-Private-Label-L.P.",
+                        "location":  "Austin,  TX",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.12945801
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-41FE1CA",
+                        "productName":  "Parboiled Rice",
+                        "brandName":  "Classic Grains",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "3535",
+                        "company":  "Producers Rice Mill, Inc.",
+                        "companySlug":  "Producers-Rice-Mill-Inc.",
+                        "location":  "Stuttgart,  AR",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.09184551
+                    }
+                ],
+    "elapsed_ms":  8218
+}

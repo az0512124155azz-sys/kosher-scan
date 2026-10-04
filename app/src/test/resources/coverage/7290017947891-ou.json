@@ -1,0 +1,1608 @@
+﻿{
+    "total":  400,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUV3-552FB4F",
+                        "productName":  "Whole Wheat Bread",
+                        "brandName":  "Angel\u0027s",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1305317",
+                        "yoshon":  "Yoshon",
+                        "company":  "Angel Bakeries",
+                        "companySlug":  "Angel-Bakeries",
+                        "location":  "Jerusalem,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.016393442622950817
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-F515147",
+                        "productName":  "White Wheat Whole Wheat Flour",
+                        "brandName":  "Angel White",
+                        "category":  {
+                                         "category":  "Flours \u0026 Starches",
+                                         "categorySort":  "Flours \u0026 Starches",
+                                         "categorySearch":  "Flours \u0026 Starches"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1302593",
+                        "company":  "OKeene Milling Co.",
+                        "companySlug":  "OKeene-Milling-Co.",
+                        "location":  "OKeene,  OK",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2009-01-12T00:00:00.000Z",
+                        "_score":  0.012417582417582418
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-264A666",
+                        "productName":  "WG 100% Whole Wheat Bread",
+                        "brandName":  "Alpha Baking",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1300457",
+                        "company":  "Alpha Baking",
+                        "companySlug":  "Alpha-Baking",
+                        "location":  "Chicago,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.010411297804350067
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-KLEHMLO",
+                        "productName":  "Clean Label Whole Grains 100% Whole Wheat Bread, 16 Sl, 24 Oz",
+                        "brandName":  "Arnold",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy Equipment",
+                                        "dpmSearch":  "dairy-equipment"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3152",
+                        "company":  "Bimbo Bakeries, USA",
+                        "companySlug":  "Bimbo-Bakeries-USA",
+                        "location":  "Irving,  TX",
+                        "symbol":  [
+                                       "OU-DE"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-05-01T00:00:00.000Z",
+                        "_score":  0.010020554984583761
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-GURCGEA",
+                        "productName":  "Whole Wheat Pita (Pas Yisroel)",
+                        "brandName":  "Angel\u0027s",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1305317",
+                        "company":  "Angel Bakeries",
+                        "companySlug":  "Angel-Bakeries",
+                        "location":  "Jerusalem,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-07T00:00:00.000Z",
+                        "_score":  0.00967741935483871
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-ULUHTEH",
+                        "productName":  "Organic Whole Wheat Pita (Pas Yisroel)",
+                        "brandName":  "Angel\u0027s",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1305317",
+                        "company":  "Angel Bakeries",
+                        "companySlug":  "Angel-Bakeries",
+                        "location":  "Jerusalem,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-07T00:00:00.000Z",
+                        "_score":  0.009523809523809523
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-8GUCYXE",
+                        "productName":  "Whole Wheat Mini Pita (Pas Yisroel)",
+                        "brandName":  "Angel\u0027s",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1305317",
+                        "company":  "Angel Bakeries",
+                        "companySlug":  "Angel-Bakeries",
+                        "location":  "Jerusalem,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-07T00:00:00.000Z",
+                        "_score":  0.009375
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-L4DB39M",
+                        "productName":  "Organic Whole Wheat Mini Pita (Pas Yisroel)",
+                        "brandName":  "Angel\u0027s",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1305317",
+                        "company":  "Angel Bakeries",
+                        "companySlug":  "Angel-Bakeries",
+                        "location":  "Jerusalem,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-07T00:00:00.000Z",
+                        "_score":  0.00923076923076923
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-1BE6AIW",
+                        "productName":  "Burger Buns (W/ Sesame Seeds) (Pas Yisroel)",
+                        "brandName":  "Angel\u0027s",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1305317",
+                        "company":  "Angel Bakeries",
+                        "companySlug":  "Angel-Bakeries",
+                        "location":  "Jerusalem,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-07T00:00:00.000Z",
+                        "_score":  0.00909090909090909
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-MD0D9IK",
+                        "productName":  "Burger Buns (No Sesame Seeds) (Pas Yisroel)",
+                        "brandName":  "Angel\u0027s",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1305317",
+                        "company":  "Angel Bakeries",
+                        "companySlug":  "Angel-Bakeries",
+                        "location":  "Jerusalem,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-07T00:00:00.000Z",
+                        "_score":  0.008955223880597015
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-34827EE",
+                        "productName":  "Pita Bread 110g",
+                        "brandName":  "Angel\u0027s",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1305317",
+                        "yoshon":  "Yoshon",
+                        "company":  "Angel Bakeries",
+                        "companySlug":  "Angel-Bakeries",
+                        "location":  "Jerusalem,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.008823529411764706
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-VPDVITC",
+                        "productName":  "KU227 (Yeast Extract)",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-06-17T00:00:00.000Z",
+                        "_score":  0.008695652173913044
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-F8A520D",
+                        "productName":  "Multi Grain Bread",
+                        "brandName":  "Golden Hearth",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1300457",
+                        "company":  "Alpha Baking",
+                        "companySlug":  "Alpha-Baking",
+                        "location":  "Chicago,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.008450704225352112
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-DP4GTY1",
+                        "productName":  "KU720 (Yeast Extract)",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-06-17T00:00:00.000Z",
+                        "_score":  0.008333333333333333
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-2O1YKR3",
+                        "productName":  "KU248:(YEAST EXTRACT)",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.00821917808219178
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-DM2YLC2",
+                        "productName":  "KU612 :(YEAST EXTRACT)",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.008108108108108109
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-72D35A8",
+                        "productName":  "100% Whole Grain Bread",
+                        "brandName":  "Natural Ovens",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1300457",
+                        "company":  "Alpha Baking",
+                        "companySlug":  "Alpha-Baking",
+                        "location":  "Chicago,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-09-16T00:00:00.000Z",
+                        "_score":  0.008
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-Z1NCFIO",
+                        "productName":  "Classic Pita (Pas Yisroel)",
+                        "brandName":  "Angel\u0027s",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1305317",
+                        "company":  "Angel Bakeries",
+                        "companySlug":  "Angel-Bakeries",
+                        "location":  "Jerusalem,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-07T00:00:00.000Z",
+                        "_score":  0.007894736842105263
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-FA2SBQZ",
+                        "productName":  "KU229 (Yeast Extract)",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-06-17T00:00:00.000Z",
+                        "_score":  0.007792207792207792
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-EHDHQAS",
+                        "productName":  "KU228 (Yeast Extract)",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-06-17T00:00:00.000Z",
+                        "_score":  0.007692307692307692
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-T2G26LB",
+                        "productName":  "SG010 (Yeast Extract)",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-06-17T00:00:00.000Z",
+                        "_score":  0.007594936708860759
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-PBSZ80I",
+                        "productName":  "Cocktail Pita (Pas Yisroel)",
+                        "brandName":  "Angel\u0027s",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1305317",
+                        "company":  "Angel Bakeries",
+                        "companySlug":  "Angel-Bakeries",
+                        "location":  "Jerusalem,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-07T00:00:00.000Z",
+                        "_score":  0.0075
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-NZ18AZE",
+                        "productName":  "F84 : (YEAST PROTEIN)",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.007407407407407407
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-F0FVVAJ",
+                        "productName":  "SG020 (Yeast Extract)",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-06-17T00:00:00.000Z",
+                        "_score":  0.007317073170731707
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-LNPAJ20",
+                        "productName":  "Instant Dry Yeast",
+                        "brandName":  "Good Mouthful HaoKouFu",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1416162",
+                        "company":  "Angel yeast (Puer) Co. Ltd",
+                        "companySlug":  "Angel-yeast-(Puer)-Co.-Ltd",
+                        "location":  "Pu\u0027er City, Yunnan Province,   P.R. CHINA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-11-15T00:00:00.000Z",
+                        "_score":  0.007228915662650602
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0DBMW03",
+                        "productName":  "KA806 :(YEAST EXTRACT)",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.007058823529411764
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-VIYH09X",
+                        "productName":  "Classic Oval Pita (Pas Yisroel)",
+                        "brandName":  "Angel\u0027s",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1305317",
+                        "company":  "Angel Bakeries",
+                        "companySlug":  "Angel-Bakeries",
+                        "location":  "Jerusalem,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-07T00:00:00.000Z",
+                        "_score":  0.0069767441860465115
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-55GSN1T",
+                        "productName":  "SA523 (Yeast Extract)",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-06-17T00:00:00.000Z",
+                        "_score":  0.006896551724137931
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-THLITUJ",
+                        "productName":  "Classic Mini Pita (Pas Yisroel)",
+                        "brandName":  "Angel\u0027s",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1305317",
+                        "company":  "Angel Bakeries",
+                        "companySlug":  "Angel-Bakeries",
+                        "location":  "Jerusalem,   ISRAEL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-07T00:00:00.000Z",
+                        "_score":  0.006818181818181818
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-4FD761A",
+                        "productName":  "4.5\" Sesame Hamburger",
+                        "brandName":  "Mary Ann",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1300457",
+                        "company":  "Alpha Baking",
+                        "companySlug":  "Alpha-Baking",
+                        "location":  "Chicago,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2008-11-19T00:00:00.000Z",
+                        "_score":  0.006666666666666666
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-A3MQIV2",
+                        "productName":  "Peptone",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1309756",
+                        "company":  "Angel Yeast Co., Ltd",
+                        "companySlug":  "Angel-Yeast-Co.-Ltd",
+                        "location":  "Yichang,  Hubei,   P.R. CHINA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.006593406593406593
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-RYVOLIN",
+                        "productName":  "Yeast peptone",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1309756",
+                        "company":  "Angel Yeast Co., Ltd",
+                        "companySlug":  "Angel-Yeast-Co.-Ltd",
+                        "location":  "Yichang,  Hubei,   P.R. CHINA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-02-03T00:00:00.000Z",
+                        "_score":  0.006521739130434782
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-1AE1175",
+                        "productName":  "Whole Wheat Bread",
+                        "brandName":  "City Bread",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1305654",
+                        "company":  "City Bread Co. Ltd.",
+                        "companySlug":  "City-Bread-Co.-Ltd.",
+                        "location":  "Winnipeg,  MB CANADA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2011-10-04T00:00:00.000Z",
+                        "_score":  0.0064516129032258064
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-IMC8QT0",
+                        "productName":  "KA852 (Yeast Extract)",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-06-17T00:00:00.000Z",
+                        "_score":  0.0064516129032258064
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-23776F3",
+                        "productName":  "Angel Food Cake",
+                        "brandName":  "Harvest Bakery Baker Source",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1293929",
+                        "company":  "Harvest Bakery",
+                        "companySlug":  "Harvest-Bakery",
+                        "location":  "Holtsville,  NY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.006382978723404255
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-LPJPSGE",
+                        "productName":  "Whole Wheat Bread",
+                        "brandName":  "Geshmak",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1403003",
+                        "company":  "Biener\u0027s Bakery, Inc. DBA Geshmak Foods",
+                        "companySlug":  "Biener\u0027s-Bakery-Inc.-DBA-Geshmak-Foods",
+                        "location":  "Montreal,  QC CANADA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-21T00:00:00.000Z",
+                        "_score":  0.006349206349206349
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-E7B05E4",
+                        "productName":  "ARNOLD Clean Label WHOLE GRAINS 100% WHOLE WHEAT BREAD, 16 SL, 24 OZ UPC CODE : 73410-01375 CL",
+                        "brandName":  "Arnold",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy Equipment",
+                                        "dpmSearch":  "dairy-equipment"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "3152",
+                        "company":  "Bimbo Bakeries, USA",
+                        "companySlug":  "Bimbo-Bakeries-USA",
+                        "location":  "Irving,  TX",
+                        "symbol":  [
+                                       "OU-DE"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-05-23T00:00:00.000Z",
+                        "_score":  0.00631578947368421
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-085817E",
+                        "productName":  "Whole Wheat Bread",
+                        "brandName":  "Alpha Baking",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1300457",
+                        "company":  "Alpha Baking",
+                        "companySlug":  "Alpha-Baking",
+                        "location":  "Chicago,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2008-11-19T00:00:00.000Z",
+                        "_score":  0.00625
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-OWVMTFD",
+                        "productName":  "Yeast powder",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1309756",
+                        "company":  "Angel Yeast Co., Ltd",
+                        "companySlug":  "Angel-Yeast-Co.-Ltd",
+                        "location":  "Yichang,  Hubei,   P.R. CHINA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-02-03T00:00:00.000Z",
+                        "_score":  0.0062499999999999995
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-UZVELLG",
+                        "productName":  "KA02 BK (Yeast Extract)",
+                        "brandName":  "Angel",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-06-17T00:00:00.000Z",
+                        "_score":  0.006185567010309278
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-E1D06E8",
+                        "productName":  "Whole Grain Whole Wheat French Bread",
+                        "brandName":  "Modern Italian Bakery",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "4022",
+                        "company":  "Modern Italian Bakery of West Babylon",
+                        "companySlug":  "Modern-Italian-Bakery-of-West-Babylon",
+                        "location":  "Oakdale,  NY",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.006153846153846154
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9BA2DE7",
+                        "productName":  "Old Fashioned Split Top Wheat \u0027n All Honey",
+                        "brandName":  "Kreamo",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1300457",
+                        "company":  "Alpha Baking",
+                        "companySlug":  "Alpha-Baking",
+                        "location":  "Chicago,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2008-11-19T00:00:00.000Z",
+                        "_score":  0.006122448979591836
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-BE85819",
+                        "productName":  "Healthy Begginings White Wheat Bread",
+                        "brandName":  "Natural Ovens",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1300457",
+                        "company":  "Alpha Baking",
+                        "companySlug":  "Alpha-Baking",
+                        "location":  "Chicago,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-09-16T00:00:00.000Z",
+                        "_score":  0.006060606060606061
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-3GVVOG2",
+                        "productName":  "Pita Bread Whole Wheat",
+                        "brandName":  "365 Whole Foods Market",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1287363",
+                        "company":  "WFM Private Label, L.P.",
+                        "companySlug":  "WFM-Private-Label-L.P.",
+                        "location":  "Austin,  TX",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-15T00:00:00.000Z",
+                        "_score":  0.006060606060606061
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-24B2F5F",
+                        "productName":  "Autolyzed Yeast",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.006
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-21B2E1C",
+                        "productName":  "100% Whole Wheat Bread",
+                        "brandName":  "Wonder",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "11946",
+                        "company":  "Flowers Bakeries, LLC",
+                        "companySlug":  "Flowers-Bakeries-LLC",
+                        "location":  "Thomasville,  GA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-10-29T00:00:00.000Z",
+                        "_score":  0.005970149253731343
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-YGKE6A2",
+                        "productName":  "FIG00 : (YEAST EXTRACT)",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.005940594059405941
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-3EBAED8",
+                        "productName":  "100% Whole Wheat Bread",
+                        "brandName":  "Nature\u0027s Own",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "11946",
+                        "company":  "Flowers Bakeries, LLC",
+                        "companySlug":  "Flowers-Bakeries-LLC",
+                        "location":  "Thomasville,  GA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.0058823529411764705
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-C6B4EE8",
+                        "productName":  "4.5\" Plain Hamburger",
+                        "brandName":  "Mary Ann",
+                        "category":  {
+                                         "category":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySort":  "Breads, Muffins \u0026 Rolls",
+                                         "categorySearch":  "Breads, Muffins \u0026 Rolls"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1300457",
+                        "company":  "Alpha Baking",
+                        "companySlug":  "Alpha-Baking",
+                        "location":  "Chicago,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2008-11-19T00:00:00.000Z",
+                        "_score":  0.0058823529411764705
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-K0KKF62",
+                        "productName":  "Yeast Extract KA02",
+                        "brandName":  "Angest",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348541",
+                        "company":  "Angel Yeast Egypt",
+                        "companySlug":  "Angel-Yeast-Egypt",
+                        "location":  "Cairo,   EGYPT",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.005825242718446602
+                    }
+                ],
+    "elapsed_ms":  11941
+}

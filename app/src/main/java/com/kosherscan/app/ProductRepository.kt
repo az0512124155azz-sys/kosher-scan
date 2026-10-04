@@ -3,6 +3,9 @@ package com.kosherscan.app
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.async
+import kotlinx.coroutines.withTimeoutOrNull
 import okhttp3.*
 import okhttp3.HttpUrl.Companion.toHttpUrl
 import org.json.JSONObject
@@ -21,12 +24,14 @@ class ProductRepository(
         .readTimeout(10, TimeUnit.SECONDS).callTimeout(15, TimeUnit.SECONDS).build(),
     private val hasNetwork: () -> Boolean = { true },
     private val offBase: String = "https://world.openfoodfacts.org/",
-    private val ouBase: String = "https://productsearch-v2.oukosher.org/"
+    private val ouBase: String = "https://productsearch-v2.oukosher.org/",
+    private val barcodeLookup: ProductLookup? = null,
+    private val enableOuFallback: Boolean = true
 ) : ProductLookup {
     private class ServiceException(val issue: LookupIssue) : IOException()
     private suspend fun get(url: HttpUrl): Pair<Int, String> = suspendCancellableCoroutine { continuation ->
         val call = client.newCall(Request.Builder().url(url).header("Accept", "application/json")
-            .header("User-Agent", "KosherScan/1.3 (Android; github.com/az0512124155azz-sys/kosher-scan)").build())
+            .header("User-Agent", "KosherScan/1.4 (Android; github.com/az0512124155azz-sys/kosher-scan)").build())
         continuation.invokeOnCancellation { call.cancel() }
         call.enqueue(object : Callback {
             override fun onFailure(call: Call, e: IOException) { if (!continuation.isCancelled) continuation.resumeWithException(e) }
@@ -46,8 +51,7 @@ class ProductRepository(
 
     override suspend fun lookup(code: String): LookupResult = withContext(Dispatchers.IO) { lookupProduct(code) }
 
-    private suspend fun lookupProduct(code: String): LookupResult {
-        if (!hasNetwork()) return failure(LookupIssue.OFFLINE)
+    private suspend fun fetchOff(code: String): LookupResult {
         val product: Product
         try {
             val url = offBase.toHttpUrl().newBuilder().addPathSegments("api/v2/product").addPathSegment("$code.json")
@@ -67,32 +71,90 @@ class ProductRepository(
                 p.optString("ingredients_text"), p.optString("ingredients_text_en"), p.optString("labels"))
         } catch (e: IOException) { return failure(classify(e)) }
           catch (e: org.json.JSONException) { return failure(LookupIssue.INVALID_RESPONSE) }
+        return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
+    }
+
+    private suspend fun lookupProduct(code: String): LookupResult = coroutineScope {
+        if (!hasNetwork()) return@coroutineScope failure(LookupIssue.OFFLINE)
+        val direct = async { barcodeLookup?.lookup(code) }
+        val metadata = fetchOff(code)
+        val authority = direct.await()
+        val product = metadata.product
+        if (authority?.product != null && IkrRepository.sameBarcode(code, authority.product.barcode) && authority.verdict.status != KosherStatus.UNKNOWN) {
+            if (product != null && ((KosherPolicy.explicitlyNotKosher(product) && authority.verdict.status == KosherStatus.KOSHER) ||
+                (KosherPolicy.explicitlyKosher(product) && authority.verdict.status == KosherStatus.NOT_KOSHER))) {
+                return@coroutineScope LookupResult(product, Verdict(KosherStatus.UNKNOWN,
+                    "המקורות מחזירים מידע סותר. יש לבדוק את הרשומה וסימון האריזה.", authority.verdict.sourceUrl, authority.verdict.sourceLabel))
+            }
+            val merged = authority.product.copy(imageUrl = product?.imageUrl?.ifBlank { authority.product.imageUrl } ?: authority.product.imageUrl)
+            return@coroutineScope authority.copy(product = merged)
+        }
+        if (product == null) {
+            if (authority?.product != null) return@coroutineScope authority
+            return@coroutineScope if (authority?.issue != null) metadata.copy(verdict = metadata.verdict.copy(
+                reason = metadata.verdict.reason + "\nמאגר כושרות אינו זמין; הבדיקה מולו לא הושלמה."), issue = authority.issue) else metadata
+        }
+        val resolved = resolveIdentified(product)
+        if (resolved.verdict.status == KosherStatus.UNKNOWN && authority?.product != null) {
+            return@coroutineScope authority.copy(product = authority.product.copy(imageUrl = product.imageUrl.ifBlank { authority.product.imageUrl }),
+                verdict = authority.verdict.copy(reason = authority.verdict.reason + if (resolved.issue != null) "\n" + resolved.verdict.reason else ""), issue = resolved.issue)
+        }
+        if (resolved.verdict.status == KosherStatus.UNKNOWN && authority?.issue != null) {
+            return@coroutineScope resolved.copy(verdict = resolved.verdict.copy(reason = resolved.verdict.reason +
+                "\nמאגר כושרות אינו זמין כרגע; אפשר לנסות שוב."), issue = authority.issue)
+        }
+        resolved
+    }
+
+    private suspend fun resolveIdentified(product: Product): LookupResult {
         if (KosherPolicy.explicitlyNotKosher(product)) return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
         if (PlainWaterPolicy.matches(product)) return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
         if (product.brand.isBlank() || product.name.isBlank()) return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
         try {
-            val brand = product.brand.substringBefore(',').trim()
-            val name = KosherPolicy.searchName(product.englishName.ifBlank { product.name })
-            val normalizedName = KosherPolicy.normalize(name)
-            val normalizedBrand = KosherPolicy.normalize(brand)
-            val query = if (normalizedName == normalizedBrand || normalizedName.startsWith("$normalizedBrand ")) name else "$brand $name"
-            val url = ouBase.toHttpUrl().newBuilder().addPathSegments("api/v1/product")
-                .addQueryParameter("page", "1").addQueryParameter("limit", "50").addQueryParameter("query", query).build()
-            val (status, body) = get(url)
-            if (status != 200) throw ServiceException(LookupIssue.SERVICE_UNAVAILABLE)
-            val json = JSONObject(body)
-            if (json.optString("status") == "error") throw ServiceException(LookupIssue.SERVICE_UNAVAILABLE)
-            val rows = json.getJSONArray("results")
-            val records = (0 until rows.length()).map { i ->
-                val r = rows.getJSONObject(i)
-                val symbols = r.optJSONArray("symbol")
-                OuRecord(r.optString("agencyUniqueId"), r.optString("productName"), r.optString("brandName"),
-                    (0 until (symbols?.length() ?: 0)).map { symbols!!.getString(it) },
-                    listOf(r.optString("status"), r.optString("conditions")).filter { it.isNotBlank() }.distinct().joinToString(". "))
-            }
-            return LookupResult(product, KosherPolicy.resolve(product, records, json.optBoolean("relatedResults")))
+            return withTimeoutOrNull(20_000) {
+                var requests = 0
+                for (query in ouQueries(product).take(if (enableOuFallback) 6 else 1)) {
+                    val records = mutableListOf<OuRecord>()
+                    var complete = false
+                    for (page in 1..2) {
+                        if (++requests > 6) break
+                        val url = ouBase.toHttpUrl().newBuilder().addPathSegments("api/v1/product")
+                            .addQueryParameter("page", page.toString()).addQueryParameter("limit", "50").addQueryParameter("query", query).build()
+                        val (status, body) = get(url)
+                        if (status != 200) throw ServiceException(LookupIssue.SERVICE_UNAVAILABLE)
+                        val json = JSONObject(body)
+                        if (json.optString("status") == "error") throw ServiceException(LookupIssue.SERVICE_UNAVAILABLE)
+                        val rows = json.getJSONArray("results")
+                        if (json.optBoolean("relatedResults")) break
+                        records += (0 until rows.length()).map { i ->
+                            val r = rows.getJSONObject(i)
+                            val symbols = r.optJSONArray("symbol")
+                            OuRecord(r.optString("agencyUniqueId"), r.optString("productName"), r.optString("brandName"),
+                                (0 until (symbols?.length() ?: 0)).map { symbols!!.getString(it) },
+                                listOf(r.optString("status"), r.optString("conditions")).filter { it.isNotBlank() }.distinct().joinToString(". "))
+                        }
+                        if (json.optInt("total", rows.length()) <= page * 50) { complete = true; break }
+                    }
+                    // Incomplete pages can hide conflicting records; they cannot certify.
+                    val verdict = KosherPolicy.resolve(product, if (complete) records else emptyList())
+                    if (verdict.status != KosherStatus.UNKNOWN) return@withTimeoutOrNull LookupResult(product, verdict)
+                    if (requests >= 6) break
+                }
+                LookupResult(product, KosherPolicy.resolve(product, emptyList()))
+            } ?: ouFailure(product)
         } catch (e: IOException) { return ouFailure(product) }
           catch (e: org.json.JSONException) { return ouFailure(product) }
+    }
+    companion object {
+        fun ouQueries(product: Product): List<String> {
+            val brands = product.brand.split(',').map { it.trim() }.filter { it.isNotBlank() }.distinct().take(3)
+            val names = listOf(product.englishName, product.name).map { KosherPolicy.searchName(it) }.filter { it.isNotBlank() }.distinct()
+            val full = names.flatMap { name -> brands.map { brand ->
+                val n = KosherPolicy.normalize(name); val b = KosherPolicy.normalize(brand)
+                if (n == b || n.startsWith("$b ")) name else "$brand $name"
+            } }
+            return (full + brands).distinct()
+        }
     }
     private fun classify(e: IOException) = when {
         e is ServiceException -> e.issue

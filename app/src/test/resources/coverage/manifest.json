@@ -1,0 +1,266 @@
+﻿[
+    {
+        "barcode":  "7290100687109",
+        "category":  "במבה",
+        "name":  "במבה במילוי קרם נוגט כלפ 40*60גרם - מומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=371919\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290115209198",
+        "category":  "במבה",
+        "name":  "במבה אורירית כלפ 40*80גרם - מומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=371918\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290107876889",
+        "category":  "במבה",
+        "name":  "במבה במילוי קרם נוגט כלפ 56*45גרם חדש - מומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=371917\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290001794852",
+        "category":  "חלב",
+        "name":  "חלב רמת הגולן - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=402887\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290119385607",
+        "category":  "חלב",
+        "name":  "חלב סויה אלפרו - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=402286\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "42541",
+        "category":  "חלב",
+        "name":  "חלב דל עמיד - מומלץ כושרות",
+        "status":  "לא מאושר ע\"פ נהלי כשרות",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=372086\u0026lang=HEB\u0026from=2",
+        "offFound":  false
+    },
+    {
+        "barcode":  "7290019587538",
+        "category":  "שמן",
+        "name":  "שמן קנולה תומר - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=404154\u0026lang=HEB\u0026from=2",
+        "offFound":  false
+    },
+    {
+        "barcode":  "7290119672318",
+        "category":  "שמן",
+        "name":  "שמן קנולה - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=404804\u0026lang=HEB\u0026from=2",
+        "offFound":  false
+    },
+    {
+        "barcode":  "729000941466",
+        "category":  "שמן",
+        "name":  "שמן קנולה שווה מהדרין - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=404815\u0026lang=HEB\u0026from=2",
+        "offFound":  false
+    },
+    {
+        "barcode":  "7290119380459",
+        "category":  "קפה",
+        "name":  "קפה נמס בטעם אגוזי לוז - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=412984\u0026lang=HEB\u0026from=2",
+        "offFound":  false
+    },
+    {
+        "barcode":  "7290119382576",
+        "category":  "שוקולד",
+        "name":  "שוקולד לבן עוגיות - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=393401\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290112915030",
+        "category":  "שוקולד",
+        "name":  "שוקולד חלב ממולא בקרם אגוזים - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=394638\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290112912879",
+        "category":  "שוקולד",
+        "name":  "שוקולד מריר מעולה DARK CHOCOLATE 70% COCOA - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=394642\u0026lang=HEB\u0026from=2",
+        "offFound":  false
+    },
+    {
+        "barcode":  "7290002035312",
+        "category":  "טונה",
+        "name":  "טונה מעושנת - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=383532\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290004252649",
+        "category":  "עוגיות",
+        "name":  "עוגיות סנדביץ\u0027 OLALA בטעם שוקושוקו - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=406808\u0026lang=HEB\u0026from=2",
+        "offFound":  false
+    },
+    {
+        "barcode":  "7290118427742",
+        "category":  "עוגיות",
+        "name":  "עוגיות בטעם שוקו - כשר לפסח ומומלץ כושרות",
+        "status":  "כשרות רגילה",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=403837\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290010561049",
+        "category":  "עוגיות",
+        "name":  "עוגיות בטעם שוקולד EXTRA קקאו - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=403835\u0026lang=HEB\u0026from=2",
+        "offFound":  false
+    },
+    {
+        "barcode":  "7290017947891",
+        "category":  "לחם",
+        "name":  "לחם מלא פרוס כוסמין וחיטה מלאה - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=377414\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290014321168",
+        "category":  "לחם",
+        "name":  "לחם לס פרוס - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=382933\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290013358356",
+        "category":  "לחם",
+        "name":  "פיררוי לחם מוזהבים - מומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=371909\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290019621713",
+        "category":  "אורז",
+        "name":  "אורז לבן בסמטי טילדה TILDA - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=402312\u0026lang=HEB\u0026from=2",
+        "offFound":  false
+    },
+    {
+        "barcode":  "7290100700396",
+        "category":  "אורז",
+        "name":  "אורז יסמין קלאסי - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=387914\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290116932484",
+        "category":  "יוגורט",
+        "name":  "יוגורט גו במרקם אוורירי בטעם וניל - מומלץ כושרות",
+        "status":  "לא מאושר ע\"פ נהלי כשרות",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=371987\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290116932491",
+        "category":  "יוגורט",
+        "name":  "יוגורט גו במרקם אוורירי בטעם פירות יער - מומלץ כושרות",
+        "status":  "לא מאושר ע\"פ נהלי כשרות",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=371988\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290110329952",
+        "category":  "יוגורט",
+        "name":  "יוגורט גו סמיך 0.4% קוקוס - מומלץ כושרות",
+        "status":  "לא מאושר ע\"פ נהלי כשרות",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=371986\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290011499686",
+        "category":  "גבינה",
+        "name":  "גבינה צפתית - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=402292\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "55206",
+        "category":  "גבינה",
+        "name":  "גבינה לבנה 5% בטעם בצל 0.225 גר - מומלץ כושרות",
+        "status":  "לא מאושר ע\"פ נהלי כשרות",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=371989\u0026lang=HEB\u0026from=2",
+        "offFound":  false
+    },
+    {
+        "barcode":  "7290010654291",
+        "category":  "גבינה",
+        "name":  "גבינה צהובה מגורדת - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=371828\u0026lang=HEB\u0026from=2",
+        "offFound":  false
+    },
+    {
+        "barcode":  "7290018711729",
+        "category":  "קטשופ",
+        "name":  "קטשופ הילדה hilda - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=384377\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290006644510",
+        "category":  "מיץ",
+        "name":  "מיץ תפוזינה בטעם ענבים - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=403610\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290118426240",
+        "category":  "ביסלי",
+        "name":  "ביסלי ברביקיו במבה mix - מומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=371861\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290118426226",
+        "category":  "ביסלי",
+        "name":  "ביסלי בצל במבה mix - מומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=371862\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    },
+    {
+        "barcode":  "7290115201703",
+        "category":  "ביסלי",
+        "name":  "ביסלי ברביקיו 200 גר\u0027 - כשר לפסח ומומלץ כושרות",
+        "status":  "כשר למהדרין",
+        "source":  "https://www.ikr.org.il/index2.php?id=20\u0026productId=390371\u0026lang=HEB\u0026from=2",
+        "offFound":  true
+    }
+]

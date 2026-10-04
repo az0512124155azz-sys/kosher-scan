@@ -4,6 +4,12 @@ import org.junit.Assert.*
 import org.junit.Test
 
 class KosherPolicyTest {
+    @Test fun equivalentConditionOrderAndCaseAreNotFalseConflicts() {
+        val row = OuRecord("123", "Specific cereal", "Example", listOf("OU-D"), "Symbol required. Not Kosher for Passover.")
+        val product = Product("12345678", "Specific cereal", "Example")
+        val duplicate = row.copy(id = "456", conditions = "not kosher for passover. symbol required.")
+        assertEquals(KosherStatus.KOSHER, KosherPolicy.resolve(product, listOf(row, duplicate)).status)
+    }
     @Test fun specificCertificationLabelsNeedNotCarryGenericParent() {
         listOf("en:orthodox-union-kosher", "en:kosher-parve", "en:star-k-kosher", "en:organized-kashrut-kosher", "en:mk-kosher").forEach {
             assertTrue(it, KosherPolicy.explicitlyKosher(Product("12345678", "Test", "Test", labels = listOf(it))))
