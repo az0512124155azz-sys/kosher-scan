@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no" />
+  <meta name="theme-color" content="#000000" />
+  <title>Kosher Scan</title>
+  <style>
+    *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+    html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000;font-family:Arial,system-ui,-apple-system,"Segoe UI",sans-serif;color:#fff}
+    button{font:inherit}
+    .app{position:relative;width:100%;height:100svh;overflow:hidden;background:#000}
+    #camera{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#000}
+    .shade{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 42%,transparent 0 24%,rgba(0,0,0,.05) 42%,rgba(0,0,0,.42) 100%);pointer-events:none}
+    .top{position:absolute;z-index:5;top:0;left:0;right:0;padding:calc(env(safe-area-inset-top) + 14px) 16px 0;display:flex;justify-content:center;pointer-events:none}
+    .brand{background:rgba(0,0,0,.45);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.14);padding:8px 14px;border-radius:999px;font-size:14px;font-weight:800;box-shadow:0 8px 30px rgba(0,0,0,.25)}
+    .scanner{position:absolute;z-index:4;inset:0;display:grid;place-items:center;padding-bottom:15vh;pointer-events:none;transition:.25s ease}
+    .scanbox{position:relative;width:min(82vw,400px);height:150px}
+    .corner{position:absolute;width:52px;height:52px;border-style:solid;border-color:#fff;filter:drop-shadow(0 2px 7px #000)}
+    .a{right:0;top:0;border-width:4px 4px 0 0;border-radius:0 22px 0 0}.b{left:0;top:0;border-width:4px 0 0 4px;border-radius:22px 0 0 0}.c{right:0;bottom:0;border-width:0 4px 4px 0;border-radius:0 0 22px 0}.d{left:0;bottom:0;border-width:0 0 4px 4px;border-radius:0 0 0 22px}
+    .line{position:absolute;right:17px;left:17px;height:2px;top:18px;background:#4ff397;box-shadow:0 0 16px #4ff397;animation:scan 1.7s ease-in-out infinite}
+    @keyframes scan{50%{top:128px}}
+    .hint{position:absolute;z-index:4;left:20px;right:20px;top:calc(50% + 78px);text-align:center;font-size:15px;font-weight:800;text-shadow:0 2px 9px #000;pointer-events:none}
+    .state{position:absolute;z-index:6;left:16px;right:16px;bottom:calc(env(safe-area-inset-bottom) + 22px);display:flex;justify-content:center;pointer-events:none}
+    .pill{display:none;max-width:92%;background:rgba(0,0,0,.65);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:10px 15px;font-size:14px;font-weight:700;text-align:center}
+    .pill.show{display:block}
+    .result{position:absolute;z-index:10;left:12px;right:12px;bottom:calc(env(safe-area-inset-bottom) + 12px);transform:translateY(calc(100% + 30px));opacity:0;transition:.34s cubic-bezier(.2,.8,.2,1);background:rgba(16,18,17,.92);backdrop-filter:blur(28px);border:1px solid rgba(255,255,255,.14);border-radius:30px;padding:14px;box-shadow:0 24px 80px rgba(0,0,0,.55)}
+    .result.show{transform:translateY(0);opacity:1}
+    .product{display:grid;grid-template-columns:92px 1fr;gap:14px;align-items:center}
+    .photo{width:92px;height:92px;border-radius:22px;background:#fff;object-fit:contain;padding:5px}
+    .photo.placeholder{padding:20px;opacity:.7}
+    .meta{min-width:0}.meta h1{font-size:22px;line-height:1.15;margin:0 0 6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.meta p{margin:3px 0;color:rgba(255,255,255,.66);font-size:13px}.barcode{direction:ltr;text-align:right;letter-spacing:.7px}
+    .status{margin-top:13px;border-radius:22px;padding:17px 18px;display:flex;align-items:center;gap:13px;border:1px solid transparent}
+    .status.kosher{background:rgba(58,221,130,.16);border-color:rgba(58,221,130,.37);color:#99f6c3}.status.notkosher{background:rgba(255,82,82,.16);border-color:rgba(255,82,82,.38);color:#ffb0b0}.status.unknown{background:rgba(255,205,66,.16);border-color:rgba(255,205,66,.38);color:#ffe590}
+    .statusIcon{font-size:34px;line-height:1}.status strong{display:block;font-size:27px;line-height:1}.status small{display:block;margin-top:5px;color:rgba(255,255,255,.72);font-size:13px}
+    .again{margin-top:12px;width:100%;border:0;border-radius:18px;background:#fff;color:#111;font-weight:900;padding:14px 16px;font-size:16px;cursor:pointer}
+    .errorScreen{position:absolute;z-index:20;inset:0;background:#080908;display:none;align-items:center;justify-content:center;padding:28px;text-align:center}.errorScreen.show{display:flex}.errorCard{max-width:370px}.errorIcon{font-size:52px;margin-bottom:15px}.errorCard h2{font-size:24px;margin:0 0 9px}.errorCard p{color:#b8b8b8;line-height:1.55;margin:0 0 18px}.retry{border:0;border-radius:16px;background:#fff;color:#111;font-weight:900;padding:13px 20px;cursor:pointer}
+    .flash{position:absolute;inset:0;z-index:7;background:#fff;opacity:0;pointer-events:none}.flash.go{animation:flash .22s ease}@keyframes flash{40%{opacity:.18}}
+    @media(min-width:700px){body{background:#101110}.app{max-width:480px;margin:auto;box-shadow:0 0 80px rgba(0,0,0,.6)}}
+  </style>
+</head>
+<body>
+  <main class="app" aria-live="polite">
+    <video id="camera" autoplay muted playsinline></video>
+    <div class="shade"></div>
+    <div class="top"><div class="brand">Kosher Scan</div></div>
+    <div class="scanner" id="scanner">
+      <div class="scanbox"><i class="corner a"></i><i class="corner b"></i><i class="corner c"></i><i class="corner d"></i><div class="line"></div></div>
+    </div>
+    <div class="hint" id="hint">כוון את הברקוד למרכז המסגרת</div>
+    <div class="state"><div class="pill" id="pill"></div></div>
+    <div class="flash" id="flash"></div>
+
+    <section class="result" id="result" aria-hidden="true">
+      <div class="product">
+        <img class="photo" id="productImage" alt="תמונת מוצר" />
+        <div class="meta">
+          <h1 id="productName">מוצר</h1>
+          <p id="productBrand"></p>
+          <p class="barcode" id="productBarcode"></p>
+        </div>
+      </div>
+      <div class="status unknown" id="statusBox">
+        <div class="statusIcon" id="statusIcon">❓</div>
+        <div><strong id="statusTitle">לא ידוע</strong><small id="statusText">המוצר נשלח לבדיקה אוטומטית.</small></div>
+      </div>
+      <button class="again" id="scanAgain" type="button">סרוק מוצר נוסף</button>
+    </section>
+
+    <section class="errorScreen" id="errorScreen">
+      <div class="errorCard">
+        <div class="errorIcon">📷</div>
+        <h2>צריך גישה למצלמה</h2>
+        <p id="errorText">אשר גישה למצלמה כדי לסרוק ברקודים.</p>
+        <button class="retry" id="retry" type="button">נסה שוב</button>
+      </div>
+    </section>
+  </main>
+
+<script src="https://cdn.jsdelivr.net/npm/@ericblade/quagga2@1.8.4/dist/quagga.min.js"></script>
+<input id="captureInput" type="file" accept="image/*" capture="environment" hidden>
+<script>
+(() => {
+  const video = document.getElementById('camera');
+  const result = document.getElementById('result');
+  const hint = document.getElementById('hint');
+  const scanner = document.getElementById('scanner');
+  const pill = document.getElementById('pill');
+  const flash = document.getElementById('flash');
+  const errorScreen = document.getElementById('errorScreen');
+  const errorText = document.getElementById('errorText');
+  const retry = document.getElementById('retry');
+  const scanAgain = document.getElementById('scanAgain');
+  const captureInput = document.getElementById('captureInput');
+
+  let stream = null;
+  let detector = null;
+  let scanning = false;
+  let busy = false;
+  let raf = null;
+  let lastCode = '';
+  let lastSeenAt = 0;
+
+  const supportedFormats = ['ean_13','ean_8','upc_a','upc_e','code_128','code_39','itf','codabar'];
+
+  function setPill(text='') {
+    pill.textContent = text;
+    pill.classList.toggle('show', Boolean(text));
+  }
+
+  function setStatus(type, title, text) {
+    const box = document.getElementById('statusBox');
+    box.className = 'status ' + type;
+    document.getElementById('statusIcon').textContent = type === 'kosher' ? '✅' : type === 'notkosher' ? '❌' : '❓';
+    document.getElementById('statusTitle').textContent = title;
+    document.getElementById('statusText').textContent = text;
+  }
+
+  function stopCamera() {
+    scanning = false;
+    if (raf) cancelAnimationFrame(raf);
+    raf = null;
+    if (stream) {
+      stream.getTracks().forEach(track => track.stop());
+      stream = null;
+    }
+    video.srcObject = null;
+  }
+
+  function showError(message) {
+    stopCamera();
+    errorText.textContent = message;
+    errorScreen.classList.add('show');
+  }
+
+  async function createDetector() {
+    if (!('BarcodeDetector' in window)) return null;
+    try {
+      const available = await BarcodeDetector.getSupportedFormats();
+      const formats = supportedFormats.filter(f => available.includes(f));
+      return new BarcodeDetector(formats.length ? { formats } : undefined);
+    } catch {
+      try { return new BarcodeDetector(); } catch { return null; }
+    }
+  }
+
+  function showLocalCaptureMode() {
+    stopCamera();
+    errorScreen.classList.remove('show');
+    result.classList.remove('show');
+    scanner.style.opacity = '1';
+    hint.style.opacity = '1';
+    hint.textContent = 'לחץ על המסך וצלם את הברקוד';
+    setPill('מצב צילום מקומי');
+    document.querySelector('.app').onclick = (e) => {
+      if (e.target.closest('button') || result.classList.contains('show')) return;
+      captureInput.click();
+    };
+  }
+
+  function decodeImageWithQuagga(src) {
+    return new Promise((resolve, reject) => {
+      if (!window.Quagga) return reject(new Error('scanner library unavailable'));
+      window.Quagga.decodeSingle({
+        src,
+        numOfWorkers: 0,
+        locate: true,
+        decoder: { readers: ['ean_reader','ean_8_reader','upc_reader','upc_e_reader','code_128_reader','code_39_reader','codabar_reader','i2of5_reader'] }
+      }, result => {
+        const code = result && result.codeResult && result.codeResult.code;
+        code ? resolve(String(code).trim()) : reject(new Error('barcode not found'));
+      });
+    });
+  }
+
+  async function handleCapturedFile(file) {
+    if (!file) return;
+    setPill('קורא את הברקוד…');
+    try {
+      const url = URL.createObjectURL(file);
+      try {
+        const code = await decodeImageWithQuagga(url);
+        await handleBarcode(code);
+      } finally {
+        URL.revokeObjectURL(url);
+      }
+    } catch (_) {
+      setPill('לא זוהה ברקוד. לחץ וצלם שוב');
+    } finally {
+      captureInput.value = '';
+    }
+  }
+
+  async function startCamera() {
+    errorScreen.classList.remove('show');
+    result.classList.remove('show');
+    result.setAttribute('aria-hidden','true');
+    scanner.style.opacity = '1';
+    hint.style.opacity = '1';
+    setPill('');
+    busy = false;
+    lastCode = '';
+
+    if (!window.isSecureContext || !navigator.mediaDevices?.getUserMedia) {
+      showLocalCaptureMode();
+      return;
+    }
+
+    try {
+      detector = await createDetector();
+
+      stream = await navigator.mediaDevices.getUserMedia({
+        audio:false,
+        video:{
+          facingMode:{ideal:'environment'},
+          width:{ideal:1920},
+          height:{ideal:1080}
+        }
+      });
+      video.srcObject = stream;
+      await video.play();
+      scanning = true;
+      scanLoop();
+    } catch (err) {
+      const denied = err && (err.name === 'NotAllowedError' || err.name === 'SecurityError');
+      showError(denied ? 'גישה למצלמה נחסמה. אפשר הרשאת מצלמה לאתר ונסה שוב.' : 'לא הצלחתי לפתוח את המצלמה. ודא שאין אפליקציה אחרת שמשתמשת בה ונסה שוב.');
+    }
+  }
+
+  async function scanLoop() {
+    if (!scanning || busy) return;
+    if (video.readyState < 2) { raf = requestAnimationFrame(scanLoop); return; }
+
+    try {
+      let code = '';
+      if (detector) {
+        const barcodes = await detector.detect(video);
+        if (barcodes && barcodes.length) code = String(barcodes[0].rawValue || '').trim();
+      } else if (window.Quagga) {
+        const canvas = document.createElement('canvas');
+        const scale = Math.min(1, 900 / Math.max(video.videoWidth || 1, video.videoHeight || 1));
+        canvas.width = Math.max(1, Math.round((video.videoWidth || 640) * scale));
+        canvas.height = Math.max(1, Math.round((video.videoHeight || 480) * scale));
+        canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
+        try { code = await decodeImageWithQuagga(canvas.toDataURL('image/jpeg', .8)); } catch (_) {}
+      }
+      const now = Date.now();
+      if (code && (code !== lastCode || now - lastSeenAt > 1500)) {
+        lastCode = code;
+        lastSeenAt = now;
+        await handleBarcode(code);
+        return;
+      }
+    } catch (_) {}
+    setTimeout(() => { if (scanning && !busy) raf = requestAnimationFrame(scanLoop); }, detector ? 0 : 420);
+  }
+
+  function inferKosher(product) {
+    const tags = [
+      ...(product.labels_tags || []),
+      ...(product.categories_tags || [])
+    ].map(x => String(x).toLowerCase());
+    const labels = String(product.labels || '').toLowerCase();
+    const hasKosher = tags.some(t => t.includes('kosher')) || labels.includes('kosher') || labels.includes('כשר');
+    const hasNonKosher = tags.some(t => t.includes('non-kosher') || t.includes('not-kosher')) || labels.includes('non-kosher') || labels.includes('not kosher');
+    if (hasNonKosher) return {type:'notkosher', title:'לא כשר', text:'כך המוצר מסומן במקור המידע.'};
+    if (hasKosher) return {type:'kosher', title:'כשר', text:'המוצר מסומן ככשר במקור המידע.'};
+    return {type:'unknown', title:'לא ידוע', text:'אין כרגע אימות כשרות. המוצר יישלח לבדיקה.'};
+  }
+
+  async function handleBarcode(code) {
+    busy = true;
+    scanning = false;
+    if (raf) cancelAnimationFrame(raf);
+    raf = null;
+    flash.classList.remove('go'); void flash.offsetWidth; flash.classList.add('go');
+    if (navigator.vibrate) navigator.vibrate(60);
+    setPill('מזהה את המוצר…');
+
+    try {
+      const fields = 'code,product_name,product_name_he,brands,image_front_url,image_url,labels,labels_tags,categories_tags';
+      const url = 'https://world.openfoodfacts.org/api/v2/product/' + encodeURIComponent(code) + '.json?fields=' + fields;
+      const response = await fetch(url, { headers: { 'Accept':'application/json' } });
+      if (!response.ok) throw new Error('http');
+      const data = await response.json();
+
+      if (!data || data.status !== 1 || !data.product) {
+        renderUnknownProduct(code);
+      } else {
+        renderProduct(code, data.product);
+      }
+    } catch (err) {
+      renderLookupError(code);
+    } finally {
+      setPill('');
+      stopCamera();
+    }
+  }
+
+  function renderProduct(code, product) {
+    const name = product.product_name_he || product.product_name || 'מוצר ללא שם';
+    const brand = product.brands || 'יצרן לא ידוע';
+    const image = product.image_front_url || product.image_url || '';
+    document.getElementById('productName').textContent = name;
+    document.getElementById('productBrand').textContent = brand;
+    document.getElementById('productBarcode').textContent = code;
+    const img = document.getElementById('productImage');
+    if (image) {
+      img.src = image; img.classList.remove('placeholder');
+    } else {
+      img.src = makePlaceholder(); img.classList.add('placeholder');
+    }
+    const verdict = inferKosher(product);
+    setStatus(verdict.type, verdict.title, verdict.text);
+    revealResult();
+  }
+
+  function renderUnknownProduct(code) {
+    document.getElementById('productName').textContent = 'מוצר חדש';
+    document.getElementById('productBrand').textContent = 'לא נמצא ב-Open Food Facts';
+    document.getElementById('productBarcode').textContent = code;
+    const img = document.getElementById('productImage');
+    img.src = makePlaceholder(); img.classList.add('placeholder');
+    setStatus('unknown','לא ידוע','המוצר לא קיים במאגר ויישלח לבדיקה.');
+    revealResult();
+  }
+
+  function renderLookupError(code) {
+    document.getElementById('productName').textContent = 'לא ניתן לטעון את המוצר';
+    document.getElementById('productBrand').textContent = 'בדוק את חיבור האינטרנט';
+    document.getElementById('productBarcode').textContent = code;
+    const img = document.getElementById('productImage');
+    img.src = makePlaceholder(); img.classList.add('placeholder');
+    setStatus('unknown','לא ידוע','לא הצלחנו להגיע למאגר כרגע.');
+    revealResult();
+  }
+
+  function revealResult() {
+    scanner.style.opacity = '.18';
+    hint.style.opacity = '0';
+    result.classList.add('show');
+    result.setAttribute('aria-hidden','false');
+  }
+
+  function makePlaceholder() {
+    return 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180"><rect width="180" height="180" rx="28" fill="white"/><path d="M52 50h76v80H52z" fill="none" stroke="#222" stroke-width="8"/><path d="M66 68h48M66 85h48M66 102h30" stroke="#222" stroke-width="7" stroke-linecap="round"/></svg>');
+  }
+
+  retry.addEventListener('click', startCamera);
+  scanAgain.addEventListener('click', startCamera);
+  captureInput.addEventListener('change', e => handleCapturedFile(e.target.files && e.target.files[0]));
+
+  window.__kosherScanTest = {
+    renderBarcode: handleBarcode,
+    renderMockProduct(code='3017620422003') {
+      renderProduct(code, {product_name:'Nutella', brands:'Ferrero', image_front_url:'https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.633.400.jpg', labels_tags:[]});
+    }
+  };
+
+  startCamera();
+})();
+</script>
+</body>
+</html>
