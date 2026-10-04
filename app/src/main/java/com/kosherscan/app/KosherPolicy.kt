@@ -4,7 +4,9 @@ import java.text.Normalizer
 import java.util.Locale
 
 enum class KosherStatus { KOSHER, NOT_KOSHER, UNKNOWN }
-data class Verdict(val status: KosherStatus, val reason: String, val sourceUrl: String = "", val sourceLabel: String = "")
+// Evidence stays available internally; the screen uses separate, plain-language copy.
+data class Verdict(val status: KosherStatus, val reason: String, val sourceUrl: String = "", val sourceLabel: String = "",
+    val displayText: String = "")
 data class Product(
     val barcode: String, val name: String, val brand: String,
     val englishName: String = "", val imageUrl: String = "",
@@ -80,9 +82,16 @@ object KosherPolicy {
         val matches = if (related) emptyList() else records.filter { strongMatch(p, it) }
         val distinct = matches.map { it.symbols.sorted() to it.conditions.split('.').map(::normalize).filter { clause -> clause.isNotBlank() }.distinct().sorted() }.distinct()
         return if (matches.isNotEmpty() && distinct.size == 1) Verdict(KosherStatus.KOSHER,
-            "התאמת שם ומותג ב־OU · ${matches.first().symbols.joinToString()}\nיש לוודא שהסמל מופיע על האריזה. ${if (matches.first().conditions.split('.').any { normalize(it) == "not kosher for passover" }) "לא לפסח." else ""}", "https://oukosher.org/product-search/", "OU")
+            "התאמת שם ומותג ב־OU · ${matches.first().symbols.joinToString()}\nיש לוודא שהסמל מופיע על האריזה. ${if (matches.first().conditions.split('.').any { normalize(it) == "not kosher for passover" }) "לא לפסח." else ""}", "https://oukosher.org/product-search/", "OU",
+            listOfNotNull(
+                if (matches.first().symbols == listOf("OU-D")) "חלבי." else null,
+                "יש לבדוק שעל האריזה מופיע סימון כשרות.",
+                if (matches.first().conditions.split('.').any { normalize(it) == "not kosher for passover" }) "לא מתאים לפסח." else null
+            ).joinToString("\n"))
         else if (explicitlyKosher(p)) Verdict(KosherStatus.KOSHER,
-            "מסומן ככשר ב־Open Food Facts · דיווח קהילתי.\nיש לוודא סימון כשרות על האריזה; זה אינו אישור OU.", "https://world.openfoodfacts.org/product/${p.barcode}", "Open Food Facts")
+            "מסומן ככשר ב־Open Food Facts · דיווח קהילתי.\nיש לוודא סימון כשרות על האריזה; זה אינו אישור OU.", "https://world.openfoodfacts.org/product/${p.barcode}", "Open Food Facts",
+            "נמצא דיווח שהמוצר כשר. יש לבדוק שעל האריזה מופיע סימון כשרות." +
+                if (labelValues(p).any { it == "not kosher for passover" }) "\nלא מתאים לפסח." else "")
         else if (PlainWaterPolicy.matches(p)) PlainWaterPolicy.verdict()
         else Verdict(KosherStatus.UNKNOWN, "לא נמצאה התאמה חד־משמעית ב־OU או סימון כשרות מפורש. היעדר התאמה אינו מעיד שהמוצר אינו כשר.")
     }

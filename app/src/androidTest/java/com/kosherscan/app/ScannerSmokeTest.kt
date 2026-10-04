@@ -96,10 +96,11 @@ class ScannerSmokeTest {
                     val visible = Rect()
                     assertTrue(button.getGlobalVisibleRect(visible))
                     assertEquals("Scan-again button must be fully visible", button.height, visible.height())
-                    val source = activity.findViewById<TextView>(R.id.sourceButton)
-                    assertTrue(source.text.contains("כושרות"))
-                    assertTrue(source.getGlobalVisibleRect(visible))
-                    assertEquals("Source button must be fully visible", source.height, visible.height())
+                    val explanation = activity.findViewById<TextView>(R.id.statusText)
+                    assertFalse(explanation.text.contains("OU"))
+                    assertFalse(explanation.text.contains("כושרות"))
+                    assertTrue(explanation.getGlobalVisibleRect(visible))
+                    assertEquals("Explanation must be fully visible", explanation.height, visible.height())
                 }
             }
         }

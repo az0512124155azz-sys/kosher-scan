@@ -135,7 +135,8 @@ class ProductRepository(
             if (product != null && ((KosherPolicy.explicitlyNotKosher(product) && authority.verdict.status == KosherStatus.KOSHER) ||
                 (KosherPolicy.explicitlyKosher(product) && authority.verdict.status == KosherStatus.NOT_KOSHER))) {
                 return LookupResult(product, Verdict(KosherStatus.UNKNOWN,
-                    "המקורות מחזירים מידע סותר. יש לבדוק את הרשומה וסימון האריזה.", authority.verdict.sourceUrl, authority.verdict.sourceLabel))
+                    "המקורות מחזירים מידע סותר. יש לבדוק את הרשומה וסימון האריזה.", authority.verdict.sourceUrl, authority.verdict.sourceLabel,
+                    "נמצא מידע סותר על כשרות המוצר. יש לבדוק את סימון הכשרות שעל האריזה."))
             }
             val merged = authorityProduct.copy(imageUrl = product?.imageUrl?.ifBlank { authorityProduct.imageUrl } ?: authorityProduct.imageUrl)
             return certified.copy(product = merged, verdict = certified.verdict.copy(reason = certified.verdict.reason +

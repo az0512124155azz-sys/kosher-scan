@@ -124,7 +124,12 @@ separate from the new source coverage corpus.
 No physical-camera/package, poor-light autofocus or OEM permission testing was
 possible. ML Kit decoded a generated image; CameraX displayed the emulator's
 virtual scene. Public website integrations may change and none covers every
-product. Positive cards disclose the source and require checking package
+product. Positive cards retain source evidence internally and require checking package
 details/conditions. Missing evidence stays UNKNOWN, never an invented verdict.
 The former 2 GB emulator was killed by Android's low-memory killer; verification
 used a restarted 4 GB AVD. This was not an application exception.
+
+## Version 1.4.3 result presentation
+
+Local build, lint and all 12,117 JVM cases pass (12,000 generated adversarial cases, 117 other cases). Seven new presentation cases verify retained OU dairy/Passover conditions, conditional water guidance, community report qualification, distinct transport failures, and preserved barcode-record conditions without administrative/source labels. The five Android smoke tests check the simplified explanation and scan-again visibility along with existing scanner, state, timeout and input flows. Real-device camera/OEM checks remain unavailable.
+Live emulator lookup of Nutella (3017620422003) returned KOSHER in 5.874 seconds and displayed only: dairy, check the package certification marking, and not suitable for Passover. The source button is removed from the layout. All five Android smoke tests passed on the API 37 Pixel 6 AVD.

@@ -76,7 +76,19 @@ class IkrRepository(
                 KosherStatus.NOT_KOSHER -> "המוצר מסומן במקור במפורש כלא כשר."
                 KosherStatus.UNKNOWN -> "הרשומה אינה מספקת אישור כשרות; זה אינו קובע שהמוצר לא כשר."
             }
-            return LookupResult(product, Verdict(status, reason, sourceUrl, "כושרות"))
+            // Keep actual conditions, but omit agency names and administrative product metadata.
+            val conditions = fields.filterKeys { it !in setOf("ברקוד", "שם מפעל", "שם ספק", "גופי כשרות", "כשרות",
+                "שם היבואן", "ארץ ייצור", "שם היצרן") }.entries.filter { it.value.isNotBlank() }
+                .joinToString("\n") { (key, value) ->
+                    if (key == "כשרות פסח" && value in setOf("לא", "לא כשר", "לא כשר לפסח")) "לא מתאים לפסח."
+                    else "$key: $value"
+                }
+            val display = when (status) {
+                KosherStatus.KOSHER -> listOf("יש לבדוק שעל האריזה מופיע סימון כשרות.", conditions).filter { it.isNotBlank() }.joinToString("\n")
+                KosherStatus.NOT_KOSHER -> "המוצר מסומן כלא כשר."
+                KosherStatus.UNKNOWN -> "לא נמצא אישור כשרות למוצר."
+            }
+            return LookupResult(product, Verdict(status, reason, sourceUrl, "כושרות", display))
         }
     }
 }

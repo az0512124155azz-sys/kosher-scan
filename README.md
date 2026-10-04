@@ -23,7 +23,7 @@ Version 1.4.1 runs OU fallback in parallel with the barcode source as soon as OF
 metadata arrives. The normal lookup has a 12-second overall deadline, a five-second
 metadata budget, and an eight-second OU budget. An exact authority verdict waits
 at most another 1.5 seconds for optional OFF metadata, then cancels unused work.
-Missing slow metadata may mean a missing photo; the source remains disclosed.
+Missing slow metadata may mean a missing photo; source evidence remains internal.
 Completed OU verdicts survive a timeout in the other source. Available conflicting
 explicit labels still produce UNKNOWN. Matching requirements are unchanged.
 The loading message is simply `בודק במאגרי כשרות` as of version 1.4.2, with no
@@ -36,7 +36,7 @@ Version 1.4.0 removes Open Food Facts as a prerequisite for certification.
 An independent exact-barcode lookup checks [Kosharot's product catalogue](https://www.ikr.org.il/index2.php?id=2&lang=HEB)
 in parallel with OFF. A matching structured product record must contain the
 requested barcode, a recognized explicit status and, for a positive/negative
-verdict, named certification agencies. Its conditions and source link are shown
+verdict, named certification agencies. Its relevant conditions are shown
 on the result card. Missing entries, unapproved entries, mismatched barcodes,
 duplicate fields, missing agencies and malformed pages cannot certify a product.
 OFF failure or a missing OFF record no longer prevents a positive authority result.
@@ -63,12 +63,12 @@ to 2 MB. No barcode, brand or product-specific verdict overrides are present.
   Passover exclusion. Name/brand matching cannot validate a physical package,
   factory, batch, region, or future changes to certification.
 * Only an exact explicit negative OFF label or an explicit negative exact-barcode
-  authority record can yield `NOT_KOSHER`, with its source disclosed.
+  authority record can yield `NOT_KOSHER`, with its source retained internally.
   Missing OU results, errors, ingredients, and
   “not kosher for Passover” never imply a year-round negative verdict.
 * An exact explicit `kosher` OFF label can produce a green result when OU has
-  no exact match. The UI discloses that this is a community report, requires
-  checking the package, and explicitly says it is not OU certification.
+  no exact match. The UI calls this a report and requires
+  checking the package.
   Vegetarian, vegan, unrelated labels and partial text never certify products.
 * Specific OFF certification labels (such as Orthodox Union Kosher, Kosher-parve,
   Star-K and MK), raw comma/semicolon-separated `labels`, and explicit legacy
@@ -136,3 +136,6 @@ result; version 1.4 returns 28 and leaves the five controls UNKNOWN. Nine approv
 records were absent from OFF. This is a focused catalogue sample, not a random
 market survey or a claim to cover millions of products. Fixtures, source URLs
 and per-record before/after reports are included in the tests/CI reports.
+
+
+Version 1.4.3 removes source names, diagnostic matching text and the source button from result cards. Separate plain Hebrew copy retains package checks, water ingredient conditions, dairy designation and Passover exclusions. Evidence remains internal; matching and status rules are unchanged.

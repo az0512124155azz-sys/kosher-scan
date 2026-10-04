@@ -105,10 +105,6 @@ class MainActivity : AppCompatActivity() {
             model.lookup(model.state.value.code,
                 if (extended) (repository as? ProductRepository)?.extended() ?: repository else repository)
         }
-        findViewById<View>(R.id.sourceButton).setOnClickListener {
-            val url = model.state.value.result?.verdict?.sourceUrl.orEmpty()
-            if (url.startsWith("https://")) startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
-        }
         findViewById<View>(R.id.manualButton).setOnClickListener { manualEntry() }
         findViewById<View>(R.id.cameraRetryButton).setOnClickListener {
             if (cameraGranted()) startCamera()
@@ -229,7 +225,7 @@ class MainActivity : AppCompatActivity() {
         val result = s.result
         if (result == null) { card.animate().cancel(); card.visibility = View.GONE; renderedImage = ""; return }
         findViewById<TextView>(R.id.productName).text = result.product?.name?.ifBlank { "מוצר ללא שם" } ?: "אין מידע על המוצר"
-        findViewById<TextView>(R.id.productBrand).text = result.product?.brand?.ifBlank { "מותג לא ידוע" } ?: "Open Food Facts"
+        findViewById<TextView>(R.id.productBrand).text = result.product?.brand?.ifBlank { "מותג לא ידוע" }.orEmpty()
         findViewById<TextView>(R.id.productBarcode).text = s.code
         val imageUrl = result.product?.imageUrl.orEmpty().takeIf { it.startsWith("https://") }.orEmpty()
         val image = findViewById<ImageView>(R.id.productImage)
@@ -246,11 +242,7 @@ class MainActivity : AppCompatActivity() {
         }
         findViewById<View>(R.id.statusBox).setBackgroundResource(background)
         findViewById<TextView>(R.id.statusTitle).apply { text = title; setTextColor(color) }
-        findViewById<TextView>(R.id.statusText).text = result.verdict.reason
-        findViewById<TextView>(R.id.sourceButton).apply {
-            visibility = if (result.verdict.sourceUrl.startsWith("https://")) View.VISIBLE else View.GONE
-            text = "לצפייה במקור · ${result.verdict.sourceLabel}"
-        }
+        findViewById<TextView>(R.id.statusText).text = ResultCopy.text(result)
         findViewById<View>(R.id.retryLookupButton).visibility = if (result.issue != null && result.issue != LookupIssue.NOT_FOUND) View.VISIBLE else View.GONE
         findViewById<TextView>(R.id.retryLookupButton).text = if (result.issue == LookupIssue.TIMEOUT) "בדיקה מעמיקה" else "ניסיון חוזר"
         if (card.visibility != View.VISIBLE) {
