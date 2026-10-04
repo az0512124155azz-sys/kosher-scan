@@ -1,4 +1,18 @@
-# Verification — version 1.4.2, 2026-10-05
+# Verification history and current version 1.4.4, 2026-10-05
+
+## Version 1.4.4 verdict consistency
+
+Conditional name/brand matches, community positive labels, and the water rule
+now return UNKNOWN, rather than green plus a request to confirm certification.
+Explicit exact-barcode approvals remain green only without unresolved conditions.
+Unrecognized notes/restrictions downgrade approval; ordinary pareve/dairy/meat
+and recognized Passover classifications do not. Green cards contain no instruction
+to check whether the product is kosher. Source evidence stays internal.
+
+The 12,000-case adversarial matrix now asserts this stricter policy. Dedicated
+presentation tests cover conditional UNKNOWN and an unconditional exact-barcode
+green result, and a new Android smoke flow exercises both colors/copy. Earlier
+validation counts and live outcomes below document previous versions.
 
 ## Validation expansion
 
@@ -133,3 +147,4 @@ used a restarted 4 GB AVD. This was not an application exception.
 
 Local build, lint and all 12,117 JVM cases pass (12,000 generated adversarial cases, 117 other cases). Seven new presentation cases verify retained OU dairy/Passover conditions, conditional water guidance, community report qualification, distinct transport failures, and preserved barcode-record conditions without administrative/source labels. The five Android smoke tests check the simplified explanation and scan-again visibility along with existing scanner, state, timeout and input flows. Real-device camera/OEM checks remain unavailable.
 Live emulator lookup of Nutella (3017620422003) returned KOSHER in 5.874 seconds and displayed only: dairy, check the package certification marking, and not suitable for Passover. The source button is removed from the layout. All five Android smoke tests passed on the API 37 Pixel 6 AVD.
+Current local validation: all 12,118 JVM cases passed, including 12,000 generated adversarial cases (not live product checks). Lint, debug APK and instrumented-test APK builds passed. All six Android smoke tests passed on the API 37 Pixel 6 AVD, including yellow conditional evidence versus green unconditional barcode approval. No physical device was available.

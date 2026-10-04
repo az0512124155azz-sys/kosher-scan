@@ -27,8 +27,8 @@ object PlainWaterPolicy {
         return !conflictingNames.containsMatchIn(KosherPolicy.normalize(p.name + " " + p.englishName))
     }
 
-    fun verdict() = Verdict(KosherStatus.KOSHER,
+    fun verdict() = Verdict(KosherStatus.UNKNOWN,
         "לפי הנחיית OU למים רגילים ללא טעמים ותוספים.\n" +
             "פרטי הרכיבים ממאגר קהילתי; יש לוודא שעל האריזה הרכיב היחיד הוא מים. זה אינו אישור OU למותג.",
-        displayText = "כשר בתנאי שהרכיב היחיד הוא מים, ללא טעמים ותוספים. יש לבדוק את רשימת הרכיבים שעל האריזה.")
+        displayText = "לא ניתן לאשר כשרות על סמך פרטי הרכיבים בלבד. יש לבדוק שהמוצר מכיל מים בלבד, ללא טעמים ותוספים.")
 }

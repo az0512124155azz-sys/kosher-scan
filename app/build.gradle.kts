@@ -11,8 +11,8 @@ android {
         applicationId = "com.kosherscan.app"
         minSdk = 24
         targetSdk = 35
-        versionCode = 8
-        versionName = "1.4.3"
+        versionCode = 9
+        versionName = "1.4.4"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 

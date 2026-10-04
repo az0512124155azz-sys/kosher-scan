@@ -19,6 +19,15 @@ Instrumented tests are executed locally, not on the CI runner.
 
 ## Data and status policy
 
+Version 1.4.4 makes the verdict agree with the required verification. A name/brand
+match with package-symbol conditions, a community positive label, or a conditional
+water ingredient rule now yields UNKNOWN. These paths cannot establish approval
+for the scanned package. Green requires an explicit exact-barcode catalogue
+approval with no unresolved restrictions; its card no longer asks the user to
+verify certification. Simple dairy/meat/pareve and Passover classifications may
+remain. Unknown notes/restrictions fail closed. The historical positive fallback
+behavior described below applies to versions before 1.4.4.
+
 Version 1.4.1 runs OU fallback in parallel with the barcode source as soon as OFF
 metadata arrives. The normal lookup has a 12-second overall deadline, a five-second
 metadata budget, and an eight-second OU budget. An exact authority verdict waits

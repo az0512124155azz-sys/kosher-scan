@@ -10,9 +10,10 @@ class ResultCopyTest {
         val verdict = KosherPolicy.resolve(Product("3017620422003", "Nutella", "Ferrero"),
             listOf(OuRecord("1", "Nutella", "Ferrero", listOf("OU-D"), "Symbol required. Not kosher for passover.")))
         val copy = text(verdict)
+        assertEquals(KosherStatus.UNKNOWN, verdict.status)
         assertTrue(copy.contains("חלבי"))
         assertTrue(copy.contains("לא מתאים לפסח"))
-        assertTrue(copy.contains("סימון כשרות"))
+        assertTrue(copy.contains("סימון הכשרות"))
         assertFalse(copy.contains("OU"))
         assertFalse(copy.contains("התאמת"))
         assertTrue(verdict.sourceUrl.isNotBlank())
@@ -25,7 +26,8 @@ class ResultCopyTest {
 
     @Test fun waterRemainsConditional() {
         val copy = text(PlainWaterPolicy.verdict())
-        assertTrue(copy.contains("בתנאי"))
+        assertEquals(KosherStatus.UNKNOWN, PlainWaterPolicy.verdict().status)
+        assertTrue(copy.contains("לא ניתן לאשר"))
         assertTrue(copy.contains("ללא טעמים ותוספים"))
         assertFalse(copy.contains("OU"))
     }
@@ -34,6 +36,7 @@ class ResultCopyTest {
         val verdict = KosherPolicy.resolve(Product("12345678", "Bread", "Brand",
             labels = listOf("en:kosher", "en:not-kosher-for-passover")), emptyList())
         assertTrue(text(verdict).contains("דיווח"))
+        assertEquals(KosherStatus.UNKNOWN, verdict.status)
         assertTrue(text(verdict).contains("לא מתאים לפסח"))
         assertFalse(text(verdict).contains("Open Food Facts"))
     }
@@ -60,10 +63,22 @@ class ResultCopyTest {
             </table></div></section>"""
         val verdict = IkrRepository.parse("12345678", html, "https://www.ikr.org.il/")!!.verdict
         val copy = text(verdict)
+        assertEquals(KosherStatus.UNKNOWN, verdict.status)
         assertTrue(copy.contains("לא מתאים לפסח"))
         assertTrue(copy.contains("רק באריזה סגורה"))
         assertFalse(copy.contains("Agency"))
         assertFalse(copy.contains("Importer"))
         assertFalse(copy.contains("כושרות"))
+    }
+
+    @Test fun unconditionalBarcodeApprovalIsGreenWithoutRequestingVerification() {
+        val html = """<section class="main-product"><h2 class="primary-title">מוצר</h2><div class="productDetail"><table>
+            <tr><th>ברקוד:</th><td>12345678</td></tr><tr><th>כשרות:</th><td>כשר</td></tr>
+            <tr><th>גופי כשרות:</th><td>Agency</td></tr><tr><th>כשרות פסח:</th><td>לא</td></tr>
+            </table></div></section>"""
+        val verdict = IkrRepository.parse("12345678", html, "https://www.ikr.org.il/")!!.verdict
+        assertEquals(KosherStatus.KOSHER, verdict.status)
+        assertFalse(text(verdict).contains("יש לבדוק"))
+        assertTrue(text(verdict).contains("לא מתאים לפסח"))
     }
 }

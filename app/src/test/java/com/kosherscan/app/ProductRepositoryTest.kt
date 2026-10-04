@@ -13,7 +13,7 @@ class ProductRepositoryTest {
     @Test fun devinPlainWaterUsesRealFieldsAndNeedsNoOuProductRecord() = runBlocking {
         server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Devin","product_name_en":"Devin","brands":"Devin","categories_tags":["en:beverages-and-beverages-preparations","en:beverages","en:waters","en:spring-waters"],"ingredients_text":"Изворна вода","labels_tags":["en:co2e-neutral"]}}"""))
         val result = repo().lookup("3800000602733")
-        assertEquals(KosherStatus.KOSHER, result.verdict.status); assertNull(result.issue)
+        assertEquals(KosherStatus.UNKNOWN, result.verdict.status); assertNull(result.issue)
         assertEquals(1, server.requestCount)
         val fields = server.takeRequest().requestUrl!!.queryParameter("fields")!!
         assertTrue(fields.contains("ingredients_text_en")); assertTrue(fields.contains("categories_tags"))
@@ -22,13 +22,13 @@ class ProductRepositoryTest {
         server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Test","brands":"Test","labels_tags":["en:orthodox-union-kosher"]}}"""))
         server.enqueue(MockResponse().setResponseCode(503))
         val result = repo().lookup("12345678")
-        assertEquals(KosherStatus.KOSHER, result.verdict.status)
+        assertEquals(KosherStatus.UNKNOWN, result.verdict.status)
         assertTrue(result.verdict.reason.contains("דיווח קהילתי"))
     }
     @Test fun rawLabelsAreFetchedAndParsedWithoutTags() = runBlocking {
         server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Test","brands":"Test","labels":"Organic, Kosher parve"}}"""))
         server.enqueue(MockResponse().setBody("""{"results":[],"total":0}"""))
-        assertEquals(KosherStatus.KOSHER, repo().lookup("12345678").verdict.status)
+        assertEquals(KosherStatus.UNKNOWN, repo().lookup("12345678").verdict.status)
         assertTrue(server.takeRequest().requestUrl!!.queryParameter("fields")!!.split(',').contains("labels"))
     }
     @Test fun flavoredWaterDoesNotSkipCertificationLookup() = runBlocking {
@@ -71,7 +71,7 @@ class ProductRepositoryTest {
         server.enqueue(MockResponse().setBody(product))
         server.enqueue(MockResponse().setBody("""{"results":[{"agencyUniqueId":"OUD123","productName":"Hazelnut spread with cocoa","brandName":"Example","symbol":["OU-D"],"status":"Symbol required. Not Kosher for Passover.","conditions":"Symbol required. Not Kosher for Passover."}]}"""))
         val result = repo().lookup("12345678")
-        assertEquals(KosherStatus.KOSHER, result.verdict.status)
+        assertEquals(KosherStatus.UNKNOWN, result.verdict.status)
         assertTrue(result.verdict.reason.contains("האריזה"))
         assertTrue(server.takeRequest().path!!.contains("image_front_small_url"))
         assertTrue(server.takeRequest().path!!.startsWith("/api/v1/product?"))
@@ -107,7 +107,7 @@ class ProductRepositoryTest {
         // Same fields returned by the public OU product endpoint on 2026-10-04.
         server.enqueue(MockResponse().setBody("""{"results":[{"agencyUniqueId":"OUD3-ZAC2EZK","productName":"Nutella","brandName":"Nutella","symbol":["OU-D"],"status":"Symbol required. Not Kosher for Passover.","conditions":"Symbol required. Not Kosher for Passover."}]}"""))
         val result = repo().lookup("3017620422003")
-        assertEquals(KosherStatus.KOSHER, result.verdict.status)
+        assertEquals(KosherStatus.UNKNOWN, result.verdict.status)
         assertTrue(result.verdict.reason.contains("OU-D"))
         assertTrue(server.takeRequest().path!!.contains("3017620422003"))
         assertEquals("Nutella", server.takeRequest().requestUrl!!.queryParameter("query"))
@@ -116,7 +116,7 @@ class ProductRepositoryTest {
         server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Cereal","brands":"Example","labels_tags":["en:kosher"]}}"""))
         server.enqueue(MockResponse().setResponseCode(503))
         val result = repo().lookup("12345678")
-        assertEquals(KosherStatus.KOSHER, result.verdict.status)
+        assertEquals(KosherStatus.UNKNOWN, result.verdict.status)
         assertTrue(result.verdict.reason.contains("דיווח קהילתי"))
         assertTrue(result.verdict.reason.contains("אינו אישור OU"))
     }

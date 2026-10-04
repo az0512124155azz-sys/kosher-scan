@@ -10,7 +10,7 @@ class PlainWaterPolicyTest {
         assertTrue(PlainWaterPolicy.matches(water))
         assertTrue(PlainWaterPolicy.matches(water.copy(barcode = "12345678", name = "Other", brand = "Other")))
         val verdict = KosherPolicy.resolve(water, emptyList())
-        assertEquals(KosherStatus.KOSHER, verdict.status)
+        assertEquals(KosherStatus.UNKNOWN, verdict.status)
         assertTrue(verdict.reason.contains("הרכיב היחיד")); assertTrue(verdict.reason.contains("אינו אישור OU למותג"))
     }
     @Test fun missingIngredientsOrCategoryCannotCertify() {

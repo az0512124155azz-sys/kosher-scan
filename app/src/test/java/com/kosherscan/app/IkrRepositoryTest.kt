@@ -17,12 +17,13 @@ class IkrRepositoryTest {
             assertEquals(KosherStatus.KOSHER, result.verdict.status); assertNull(result.issue)
         }
     }
-    @Test fun offPositiveSurvivesAuthorityServiceFailure() = runBlocking {
+    @Test fun communityReportCannotCertifyWhenAuthorityIsUnavailable() = runBlocking {
         val direct = object : ProductLookup { override suspend fun lookup(code: String) = LookupResult(null, Verdict(KosherStatus.UNKNOWN,"unavailable"),LookupIssue.SERVICE_UNAVAILABLE) }
         MockWebServer().use { server ->
             server.start(); server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Test","labels_tags":["en:kosher"]}}"""))
             val result = ProductRepository(offBase = server.url("/").toString(), barcodeLookup = direct).lookup(code)
-            assertEquals(KosherStatus.KOSHER, result.verdict.status); assertNull(result.issue)
+            assertEquals(KosherStatus.UNKNOWN, result.verdict.status)
+            assertEquals(LookupIssue.SERVICE_UNAVAILABLE, result.issue)
         }
     }
     @Test fun offlineMakesNoAuthorityRequest() = runBlocking {

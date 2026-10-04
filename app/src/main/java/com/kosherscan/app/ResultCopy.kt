@@ -8,7 +8,7 @@ object ResultCopy {
         if (verdict.status != KosherStatus.UNKNOWN || result.issue == null) {
             return verdict.displayText.ifBlank {
                 when (verdict.status) {
-                    KosherStatus.KOSHER -> "יש לבדוק שעל האריזה מופיע סימון כשרות."
+                    KosherStatus.KOSHER -> "נמצא אישור כשרות למוצר."
                     KosherStatus.NOT_KOSHER -> "המוצר מסומן כלא כשר."
                     KosherStatus.UNKNOWN -> "לא נמצא מידע מספיק כדי לקבוע אם המוצר כשר."
                 }
@@ -21,7 +21,6 @@ object ResultCopy {
             LookupIssue.TIMEOUT -> "הבדיקה לא הושלמה. אפשר לנסות בדיקה מעמיקה."
             LookupIssue.SERVICE_UNAVAILABLE -> "שירות הבדיקה אינו זמין כרגע. נסו שוב מאוחר יותר."
             LookupIssue.INVALID_RESPONSE -> "לא התקבלה תשובה תקינה. נסו שוב מאוחר יותר."
-            null -> error("Handled above")
         }
     }
 }

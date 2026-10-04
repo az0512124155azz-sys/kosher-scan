@@ -190,7 +190,7 @@ class ProductRepository(
                     }
                     // Incomplete pages can hide conflicting records; they cannot certify.
                     val verdict = KosherPolicy.resolve(product, if (complete) records else emptyList())
-                    if (verdict.status != KosherStatus.UNKNOWN) return@withTimeoutOrNull LookupResult(product, verdict)
+                    if (verdict.status != KosherStatus.UNKNOWN || verdict.sourceLabel == "OU") return@withTimeoutOrNull LookupResult(product, verdict)
                     if (requests >= 6) break
                 }
                 LookupResult(product, KosherPolicy.resolve(product, emptyList()))
@@ -218,7 +218,7 @@ class ProductRepository(
     private fun ouFailure(p: Product, timedOut: Boolean = false): LookupResult {
         val fallback = KosherPolicy.resolve(p, emptyList())
         val message = if (timedOut) "בדיקת OU לא הושלמה בזמן. אפשר לבקש בדיקה מעמיקה." else "שירות OU אינו זמין כרגע. אפשר לנסות שוב; לא נקבעה כשרות."
-        val verdict = if (fallback.status == KosherStatus.KOSHER) fallback.copy(reason = fallback.reason + "\n" + message)
+        val verdict = if (fallback.sourceLabel.isNotBlank()) fallback.copy(reason = fallback.reason + "\n" + message)
             else Verdict(KosherStatus.UNKNOWN, "המוצר זוהה, אך $message")
         return LookupResult(p, verdict, if (timedOut) LookupIssue.TIMEOUT else LookupIssue.SERVICE_UNAVAILABLE)
     }
