@@ -1,396 +1,226 @@
 package com.kosherscan.app
 
 import android.Manifest
+import android.content.Intent
 import android.content.pm.PackageManager
+import android.net.ConnectivityManager
+import android.net.NetworkCapabilities
+import android.net.Uri
 import android.os.Bundle
+import android.provider.Settings
+import android.text.InputType
+import android.util.Size
 import android.view.View
-import android.widget.LinearLayout
-import android.widget.TextView
+import android.widget.*
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.camera.core.CameraSelector
-import androidx.camera.core.ImageAnalysis
-import androidx.camera.core.Preview
+import androidx.camera.core.*
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.camera.view.PreviewView
 import androidx.core.content.ContextCompat
-import androidx.lifecycle.lifecycleScope
-import com.google.android.material.button.MaterialButton
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.lifecycle.*
+import coil.load
 import com.google.mlkit.vision.barcode.BarcodeScannerOptions
 import com.google.mlkit.vision.barcode.BarcodeScanning
 import com.google.mlkit.vision.barcode.common.Barcode
 import com.google.mlkit.vision.common.InputImage
-import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
-import okhttp3.OkHttpClient
-import okhttp3.Request
-import org.json.JSONObject
-import org.jsoup.Jsoup
-import java.net.URLEncoder
 import java.util.concurrent.Executors
-import java.util.concurrent.TimeUnit
-import kotlin.math.max
+import java.util.concurrent.atomic.AtomicBoolean
+
+data class ScanState(val code: String = "", val loading: Boolean = false, val result: LookupResult? = null)
+class ScanModel : ViewModel() {
+    val state = MutableStateFlow(ScanState())
+    private var job: Job? = null
+    fun lookup(code: String, repository: ProductLookup) {
+        if (state.value.loading) return
+        state.value = ScanState(code, true)
+        job = viewModelScope.launch { state.value = ScanState(code, result = repository.lookup(code)) }
+    }
+    fun reset() { job?.cancel(); state.value = ScanState() }
+}
 
 class MainActivity : AppCompatActivity() {
-
-    private lateinit var previewView: PreviewView
-    private lateinit var hintText: TextView
-    private lateinit var loadingText: TextView
-    private lateinit var resultCard: View
-    private lateinit var productName: TextView
-    private lateinit var productBrand: TextView
-    private lateinit var productBarcode: TextView
-    private lateinit var statusBox: LinearLayout
-    private lateinit var statusTitle: TextView
-    private lateinit var statusText: TextView
-    private lateinit var scanAgainButton: MaterialButton
-
-    private val cameraExecutor = Executors.newSingleThreadExecutor()
-    private var imageAnalysis: ImageAnalysis? = null
-    private var busy = false
-    private var lastCode = ""
-    private var lastCodeAt = 0L
-
-    private val http = OkHttpClient.Builder()
-        .connectTimeout(12, TimeUnit.SECONDS)
-        .readTimeout(15, TimeUnit.SECONDS)
-        .callTimeout(20, TimeUnit.SECONDS)
-        .build()
-
-    private val scanner by lazy {
-        val options = BarcodeScannerOptions.Builder()
-            .setBarcodeFormats(
-                Barcode.FORMAT_EAN_13,
-                Barcode.FORMAT_EAN_8,
-                Barcode.FORMAT_UPC_A,
-                Barcode.FORMAT_UPC_E,
-                Barcode.FORMAT_CODE_128,
-                Barcode.FORMAT_CODE_39,
-                Barcode.FORMAT_ITF,
-                Barcode.FORMAT_CODABAR
-            )
-            .build()
-        BarcodeScanning.getClient(options)
-    }
-
-    private val requestCameraPermission =
-        registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
-            if (granted) startCamera() else showFatal("כדי לסרוק ברקודים צריך לאפשר גישה למצלמה.")
+    private lateinit var model: ScanModel
+    private lateinit var repository: ProductLookup
+    private lateinit var preview: PreviewView
+    private lateinit var overlay: ScanOverlay
+    private lateinit var card: View
+    private lateinit var errorPanel: View
+    private var provider: ProcessCameraProvider? = null
+    private var analysis: ImageAnalysis? = null
+    private val executor = Executors.newSingleThreadExecutor()
+    private val busy = AtomicBoolean(false)
+    private val processing = AtomicBoolean(false)
+    @Volatile private var destroyed = false
+    private var scannerFailures = 0
+    private var cameraStarting = false
+    private var needsSettings = false
+    private var renderedImage = ""
+    private val scanner = BarcodeScanning.getClient(BarcodeScannerOptions.Builder().setBarcodeFormats(
+        Barcode.FORMAT_EAN_13, Barcode.FORMAT_EAN_8, Barcode.FORMAT_UPC_A,
+        Barcode.FORMAT_UPC_E, Barcode.FORMAT_CODE_128, Barcode.FORMAT_ITF).build())
+    private val permission = registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+        if (granted) startCamera() else {
+            needsSettings = !shouldShowRequestPermissionRationale(Manifest.permission.CAMERA)
+            cameraError("כדי לסרוק, יש לאפשר גישה למצלמה. אפשר גם להקליד ברקוד.")
         }
-
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        WindowCompat.setDecorFitsSystemWindows(window, false)
         setContentView(R.layout.activity_main)
-
-        previewView = findViewById(R.id.previewView)
-        hintText = findViewById(R.id.hintText)
-        loadingText = findViewById(R.id.loadingText)
-        resultCard = findViewById(R.id.resultCard)
-        productName = findViewById(R.id.productName)
-        productBrand = findViewById(R.id.productBrand)
-        productBarcode = findViewById(R.id.productBarcode)
-        statusBox = findViewById(R.id.statusBox)
-        statusTitle = findViewById(R.id.statusTitle)
-        statusText = findViewById(R.id.statusText)
-        scanAgainButton = findViewById(R.id.scanAgainButton)
-
-        scanAgainButton.setOnClickListener { resetScanner() }
-
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) ==
-            PackageManager.PERMISSION_GRANTED
-        ) {
-            startCamera()
-        } else {
-            requestCameraPermission.launch(Manifest.permission.CAMERA)
+        model = ViewModelProvider(this)[ScanModel::class.java]
+        repository = ProductRepository(hasNetwork = {
+            val cm = applicationContext.getSystemService(ConnectivityManager::class.java)
+            cm.getNetworkCapabilities(cm.activeNetwork)?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) == true
+        })
+        preview = findViewById(R.id.previewView)
+        overlay = findViewById(R.id.scanFrame)
+        card = findViewById(R.id.resultCard)
+        errorPanel = findViewById(R.id.errorPanel)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.safeContent)) { view, insets ->
+            val bars = insets.getInsets(WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout())
+            view.setPadding(bars.left, bars.top, bars.right, bars.bottom)
+            insets
+        }
+        findViewById<View>(R.id.scanAgainButton).setOnClickListener { model.reset() }
+        findViewById<View>(R.id.retryLookupButton).setOnClickListener { model.lookup(model.state.value.code, repository) }
+        findViewById<View>(R.id.manualButton).setOnClickListener { manualEntry() }
+        findViewById<View>(R.id.cameraRetryButton).setOnClickListener {
+            if (cameraGranted()) startCamera()
+            else if (needsSettings) startActivity(Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS, Uri.parse("package:$packageName")))
+            else permission.launch(Manifest.permission.CAMERA)
+        }
+        lifecycleScope.launch {
+            repeatOnLifecycle(Lifecycle.State.STARTED) { model.state.collect { render(it) } }
+        }
+        if (cameraGranted()) startCamera() else permission.launch(Manifest.permission.CAMERA)
+    }
+    private fun cameraGranted() = ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED
+    override fun onResume() {
+        super.onResume()
+        if (::preview.isInitialized) {
+            overlay.animating = !busy.get()
+            if (cameraGranted() && provider == null) startCamera()
+            else if (!cameraGranted()) {
+                provider?.unbindAll(); provider = null
+                cameraError("יש לאפשר גישה למצלמה כדי לסרוק. אפשר גם להקליד ברקוד.")
+            }
         }
     }
+    override fun onPause() { overlay.animating = false; super.onPause() }
+    override fun onStart() { super.onStart(); if (::overlay.isInitialized) overlay.animating = !busy.get() }
 
+    @androidx.annotation.OptIn(ExperimentalGetImage::class)
     private fun startCamera() {
+        if (cameraStarting || destroyed) return
+        cameraStarting = true
         val future = ProcessCameraProvider.getInstance(this)
         future.addListener({
+            cameraStarting = false
+            if (destroyed) return@addListener
             try {
-                val provider = future.get()
-
-                val preview = Preview.Builder().build().also {
-                    it.setSurfaceProvider(previewView.surfaceProvider)
+                val cameraProvider = future.get()
+                val selector = if (cameraProvider.hasCamera(CameraSelector.DEFAULT_BACK_CAMERA)) CameraSelector.DEFAULT_BACK_CAMERA else CameraSelector.DEFAULT_FRONT_CAMERA
+                val cameraPreview = Preview.Builder().build().also { it.setSurfaceProvider(preview.surfaceProvider) }
+                val analyzer = ImageAnalysis.Builder().setTargetResolution(Size(1280, 720))
+                    .setBackpressureStrategy(ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST).build()
+                analyzer.setAnalyzer(executor) { proxy ->
+                    if (destroyed || busy.get() || !processing.compareAndSet(false, true)) { proxy.close(); return@setAnalyzer }
+                    val media = proxy.image
+                    if (media == null) { processing.set(false); proxy.close(); return@setAnalyzer }
+                    try {
+                        scanner.process(InputImage.fromMediaImage(media, proxy.imageInfo.rotationDegrees))
+                            .addOnSuccessListener { codes ->
+                                scannerFailures = 0
+                                if (!destroyed && lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)) {
+                                    codes.firstOrNull { it.rawValue?.matches(Regex("[0-9]{8,14}")) == true }
+                                        ?.rawValue?.let { code -> if (busy.compareAndSet(false, true)) model.lookup(code, repository) }
+                                }
+                            }.addOnFailureListener {
+                                if (!destroyed && ++scannerFailures >= 3) {
+                                    analysis?.clearAnalyzer()
+                                    cameraError("סורק הברקודים לא הצליח לפעול. נסו שוב או הקלידו ברקוד.")
+                                }
+                            }.addOnCompleteListener { proxy.close(); processing.set(false) }
+                    } catch (_: Exception) { proxy.close(); processing.set(false) }
                 }
-
-                val analysis = ImageAnalysis.Builder()
-                    .setBackpressureStrategy(ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST)
-                    .build()
-
-                analysis.setAnalyzer(cameraExecutor) { proxy ->
-                    if (busy) {
-                        proxy.close()
-                        return@setAnalyzer
-                    }
-
-                    val mediaImage = proxy.image
-                    if (mediaImage == null) {
-                        proxy.close()
-                        return@setAnalyzer
-                    }
-
-                    val image = InputImage.fromMediaImage(mediaImage, proxy.imageInfo.rotationDegrees)
-                    scanner.process(image)
-                        .addOnSuccessListener { barcodes ->
-                            val code = barcodes.firstOrNull()?.rawValue?.trim().orEmpty()
-                            if (code.isNotBlank()) maybeHandleBarcode(code)
-                        }
-                        .addOnCompleteListener { proxy.close() }
-                }
-
-                imageAnalysis = analysis
-                provider.unbindAll()
-                provider.bindToLifecycle(
-                    this,
-                    CameraSelector.DEFAULT_BACK_CAMERA,
-                    preview,
-                    analysis
-                )
-            } catch (e: Exception) {
-                showFatal("לא הצלחתי לפתוח את המצלמה. נסה לסגור אפליקציות אחרות שמשתמשות במצלמה.")
-            }
+                cameraProvider.unbindAll()
+                cameraProvider.bindToLifecycle(this, selector, cameraPreview, analyzer)
+                provider = cameraProvider
+                analysis = analyzer
+                errorPanel.visibility = View.GONE
+                overlay.visibility = View.VISIBLE
+                findViewById<View>(R.id.hintText).visibility = View.VISIBLE
+                needsSettings = false
+            } catch (_: Exception) { cameraError("לא ניתן לפתוח את המצלמה. סגרו אפליקציות שמשתמשות בה ונסו שוב.") }
         }, ContextCompat.getMainExecutor(this))
     }
-
-    private fun maybeHandleBarcode(code: String) {
-        val now = System.currentTimeMillis()
-        if (busy) return
-        if (code == lastCode && now - lastCodeAt < 2500) return
-
-        busy = true
-        lastCode = code
-        lastCodeAt = now
-
-        runOnUiThread {
-            loadingText.visibility = View.VISIBLE
-            loadingText.text = "מזהה את המוצר…"
-            hintText.visibility = View.INVISIBLE
-        }
-
-        lifecycleScope.launch {
-            val product = withContext(Dispatchers.IO) { fetchProduct(code) }
-
-            if (product == null) {
-                showUnknownProduct(code, "המוצר לא נמצא ב-Open Food Facts.")
-                return@launch
-            }
-
-            productName.text = product.name.ifBlank { "מוצר ללא שם" }
-            productBrand.text = product.brand.ifBlank { "יצרן לא ידוע" }
-            productBarcode.text = code
-            resultCard.visibility = View.VISIBLE
-            loadingText.text = "בודק כשרות מול OU…"
-
-            val verdict = withContext(Dispatchers.IO) { resolveKosher(product) }
-            showVerdict(verdict)
-            loadingText.visibility = View.GONE
-        }
+    private fun cameraError(message: String) {
+        errorPanel.visibility = View.VISIBLE
+        findViewById<TextView>(R.id.cameraErrorText).text = message
+        findViewById<TextView>(R.id.cameraRetryButton).text = if (needsSettings) "פתיחת הגדרות" else "ניסיון נוסף"
+        overlay.visibility = View.INVISIBLE
+        findViewById<View>(R.id.hintText).visibility = View.INVISIBLE
     }
-
-    private fun fetchProduct(code: String): Product? {
-        val fields = listOf(
-            "code", "product_name", "product_name_en", "product_name_he",
-            "brands", "manufacturing_places", "countries", "ingredients_text",
-            "labels", "labels_tags", "categories_tags"
-        ).joinToString(",")
-
-        val url = "https://world.openfoodfacts.org/api/v2/product/" +
-            URLEncoder.encode(code, "UTF-8") + ".json?fields=" + URLEncoder.encode(fields, "UTF-8")
-
-        return try {
-            val request = Request.Builder()
-                .url(url)
-                .header("Accept", "application/json")
-                .header("User-Agent", "KosherScan/1.0 (Android)")
-                .build()
-
-            http.newCall(request).execute().use { response ->
-                if (!response.isSuccessful) return null
-                val body = response.body?.string().orEmpty()
-                val json = JSONObject(body)
-                if (json.optInt("status") != 1) return null
-                val p = json.optJSONObject("product") ?: return null
-
-                val labelsArray = p.optJSONArray("labels_tags")
-                val labels = buildList {
-                    if (labelsArray != null) {
-                        for (i in 0 until labelsArray.length()) add(labelsArray.optString(i))
-                    }
-                }
-
-                Product(
-                    barcode = code,
-                    name = p.optString("product_name_he").ifBlank {
-                        p.optString("product_name").ifBlank { p.optString("product_name_en") }
-                    },
-                    brand = p.optString("brands").substringBefore(",").trim(),
-                    labels = labels,
-                    labelsText = p.optString("labels"),
-                    ingredients = p.optString("ingredients_text"),
-                    countries = p.optString("countries"),
-                    manufacturingPlaces = p.optString("manufacturing_places")
-                )
-            }
-        } catch (_: Exception) {
-            null
+    private fun manualEntry() {
+        val input = EditText(this).apply {
+            inputType = InputType.TYPE_CLASS_NUMBER; hint = "לדוגמה: 3017620422003"
+            textDirection = View.TEXT_DIRECTION_LTR; setSingleLine()
+        }
+        val dialog = AlertDialog.Builder(this).setTitle("הקלדת ברקוד").setView(input)
+            .setPositiveButton("בדיקת מוצר", null).setNegativeButton("ביטול", null).create()
+        dialog.setOnShowListener { dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener {
+            val code = input.text.toString().trim()
+            if (!code.matches(Regex("[0-9]{8,14}"))) input.error = "יש להזין 8 עד 14 ספרות"
+            else { busy.set(true); model.lookup(code, repository); dialog.dismiss() }
+        } }
+        dialog.show()
+    }
+    private fun render(s: ScanState) {
+        busy.set(s.loading || s.result != null)
+        overlay.animating = !busy.get()
+        overlay.alpha = if (busy.get()) 0.25f else 1f
+        findViewById<View>(R.id.manualButton).isEnabled = !s.loading
+        findViewById<View>(R.id.manualButton).visibility = if (s.result != null) View.INVISIBLE else View.VISIBLE
+        findViewById<View>(R.id.hintText).visibility = if (busy.get() || errorPanel.visibility == View.VISIBLE) View.INVISIBLE else View.VISIBLE
+        findViewById<TextView>(R.id.loadingText).apply { visibility = if (s.loading) View.VISIBLE else View.GONE; text = "מזהה מוצר ובודק מול OU…" }
+        val result = s.result
+        if (result == null) { card.animate().cancel(); card.visibility = View.GONE; renderedImage = ""; return }
+        findViewById<TextView>(R.id.productName).text = result.product?.name?.ifBlank { "מוצר ללא שם" } ?: "אין מידע על המוצר"
+        findViewById<TextView>(R.id.productBrand).text = result.product?.brand?.ifBlank { "מותג לא ידוע" } ?: "Open Food Facts"
+        findViewById<TextView>(R.id.productBarcode).text = s.code
+        val imageUrl = result.product?.imageUrl.orEmpty().takeIf { it.startsWith("https://") }.orEmpty()
+        val image = findViewById<ImageView>(R.id.productImage)
+        image.clipToOutline = true
+        if (renderedImage != s.code + imageUrl) {
+            renderedImage = s.code + imageUrl
+            image.contentDescription = "תמונת ${result.product?.name ?: "מוצר"}"
+            image.load(imageUrl.ifEmpty { null }) { crossfade(true); placeholder(R.drawable.ic_product); error(R.drawable.ic_product); fallback(R.drawable.ic_product) }
+        }
+        val (title, color, background) = when (result.verdict.status) {
+            KosherStatus.KOSHER -> Triple("✓  כשר", 0xFF99F6C3.toInt(), R.drawable.status_kosher)
+            KosherStatus.NOT_KOSHER -> Triple("×  לא כשר", 0xFFFFB0B0.toInt(), R.drawable.status_not_kosher)
+            KosherStatus.UNKNOWN -> Triple("?  לא ידוע", 0xFFFFE590.toInt(), R.drawable.status_unknown)
+        }
+        findViewById<View>(R.id.statusBox).setBackgroundResource(background)
+        findViewById<TextView>(R.id.statusTitle).apply { text = title; setTextColor(color) }
+        findViewById<TextView>(R.id.statusText).text = result.verdict.reason
+        findViewById<View>(R.id.retryLookupButton).visibility = if (result.issue != null && result.issue != LookupIssue.NOT_FOUND) View.VISIBLE else View.GONE
+        if (card.visibility != View.VISIBLE) {
+            card.visibility = View.VISIBLE; card.alpha = 0f
+            card.post { if (card.visibility == View.VISIBLE) { card.translationY = card.height.toFloat() + 30; card.animate().translationY(0f).alpha(1f).setDuration(340).start() } }
         }
     }
-
-    private fun resolveKosher(product: Product): Verdict {
-        val labelText = normalize((product.labels + product.labelsText).joinToString(" "))
-        if ("non kosher" in labelText || "not kosher" in labelText) {
-            return Verdict.NotKosher("המוצר מסומן במפורש כלא כשר ב-Open Food Facts.")
-        }
-
-        val offKosher = "kosher" in labelText || "כשר" in labelText
-
-        val queries = listOf(
-            listOf(product.brand, product.name).filter { it.isNotBlank() }.joinToString(" "),
-            listOf(product.brand, product.nameWords().take(5).joinToString(" "))
-                .filter { it.isNotBlank() }.joinToString(" ")
-        ).distinct().filter { it.isNotBlank() }
-
-        for (query in queries) {
-            val ou = searchOu(query, product)
-            if (ou != null) return ou
-        }
-
-        if (offKosher) {
-            return Verdict.Kosher("המוצר מסומן ככשר ב-Open Food Facts.")
-        }
-
-        return Verdict.Unknown("לא נמצאה התאמה מאומתת במאגר OU או ב-Open Food Facts.")
-    }
-
-    private fun searchOu(query: String, product: Product): Verdict? {
-        val encoded = URLEncoder.encode(query, "UTF-8")
-        val url = "https://oukosher.org/search/?q=$encoded"
-
-        return try {
-            val request = Request.Builder()
-                .url(url)
-                .header("Accept", "text/html")
-                .header("User-Agent", "Mozilla/5.0 KosherScan/1.0")
-                .build()
-
-            http.newCall(request).execute().use { response ->
-                if (!response.isSuccessful) return null
-                val html = response.body?.string().orEmpty()
-                if (html.length < 400) return null
-
-                val text = Jsoup.parse(html).text()
-                val normalized = normalize(text)
-                val brand = normalize(product.brand)
-                val nameWords = product.nameWords()
-
-                if (brand.isBlank() || nameWords.isEmpty()) return null
-                if (!normalized.contains(brand)) return null
-
-                val matched = nameWords.count { normalized.contains(it) }
-                val score = matched.toDouble() / max(1, nameWords.size)
-                if (score < 0.60) return null
-
-                val type = when {
-                    Regex("\\bou[ -]?d\\b|\\bdairy\\b", RegexOption.IGNORE_CASE).containsMatchIn(text) ->
-                        "חלבי"
-                    Regex("\\bpareve\\b|\\bparve\\b", RegexOption.IGNORE_CASE).containsMatchIn(text) ->
-                        "פרווה"
-                    Regex("\\bmeat\\b", RegexOption.IGNORE_CASE).containsMatchIn(text) ->
-                        "בשרי"
-                    else -> ""
-                }
-
-                val suffix = if (type.isBlank()) "" else " · $type"
-                Verdict.Kosher("אומת מול מאגר OU Kosher$suffix")
-            }
-        } catch (_: Exception) {
-            null
-        }
-    }
-
-    private fun showVerdict(verdict: Verdict) {
-        when (verdict) {
-            is Verdict.Kosher -> {
-                statusBox.setBackgroundResource(R.drawable.status_kosher)
-                statusTitle.text = "✅ כשר"
-                statusTitle.setTextColor(ContextCompat.getColor(this, android.R.color.holo_green_light))
-                statusText.text = verdict.reason
-            }
-            is Verdict.NotKosher -> {
-                statusBox.setBackgroundResource(R.drawable.status_not_kosher)
-                statusTitle.text = "❌ לא כשר"
-                statusTitle.setTextColor(ContextCompat.getColor(this, android.R.color.holo_red_light))
-                statusText.text = verdict.reason
-            }
-            is Verdict.Unknown -> {
-                statusBox.setBackgroundResource(R.drawable.status_unknown)
-                statusTitle.text = "❓ לא ידוע"
-                statusTitle.setTextColor(0xFFFFE58F.toInt())
-                statusText.text = verdict.reason
-            }
-        }
-    }
-
-    private fun showUnknownProduct(code: String, reason: String) {
-        productName.text = "מוצר חדש"
-        productBrand.text = "לא נמצא במאגר המוצרים"
-        productBarcode.text = code
-        resultCard.visibility = View.VISIBLE
-        loadingText.visibility = View.GONE
-        showVerdict(Verdict.Unknown(reason))
-    }
-
-    private fun resetScanner() {
-        resultCard.visibility = View.GONE
-        loadingText.visibility = View.GONE
-        hintText.visibility = View.VISIBLE
-        hintText.text = "כוון את הברקוד למרכז המסגרת"
-        lastCode = ""
-        busy = false
-    }
-
-    private fun showFatal(message: String) {
-        loadingText.visibility = View.VISIBLE
-        loadingText.text = message
-    }
-
-    private fun normalize(value: String): String =
-        value.lowercase()
-            .replace("&amp;", "&")
-            .replace(Regex("[^a-z0-9א-ת]+"), " ")
-            .replace(Regex("\\s+"), " ")
-            .trim()
-
-    private fun Product.nameWords(): List<String> {
-        val stop = setOf("the", "and", "with", "for", "from", "original", "flavor", "flavoured", "flavored")
-        return normalize(name).split(" ")
-            .filter { it.length > 2 && it !in stop }
-            .take(8)
-    }
-
     override fun onDestroy() {
+        destroyed = true; analysis?.clearAnalyzer(); provider?.unbindAll(); executor.shutdown(); scanner.close()
         super.onDestroy()
-        scanner.close()
-        cameraExecutor.shutdown()
-    }
-
-    data class Product(
-        val barcode: String,
-        val name: String,
-        val brand: String,
-        val labels: List<String>,
-        val labelsText: String,
-        val ingredients: String,
-        val countries: String,
-        val manufacturingPlaces: String
-    )
-
-    sealed class Verdict(open val reason: String) {
-        data class Kosher(override val reason: String) : Verdict(reason)
-        data class NotKosher(override val reason: String) : Verdict(reason)
-        data class Unknown(override val reason: String) : Verdict(reason)
     }
 }

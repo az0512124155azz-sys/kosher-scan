@@ -1,150 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#000000">
-
-    <androidx.camera.view.PreviewView
-        android:id="@+id/previewView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:implementationMode="performance"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <TextView
-        android:id="@+id/titleChip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:background="#99000000"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="8dp"
-        android:text="Kosher Scan"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <View
-        android:id="@+id/scanFrame"
-        android:layout_width="330dp"
-        android:layout_height="150dp"
-        android:background="@drawable/scan_frame"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.42" />
-
-    <TextView
-        android:id="@+id/hintText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
-        android:shadowColor="#000000"
-        android:shadowDx="0"
-        android:shadowDy="2"
-        android:shadowRadius="6"
-        android:text="כוון את הברקוד למרכז המסגרת"
-        android:textColor="#FFFFFF"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/scanFrame"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <TextView
-        android:id="@+id/loadingText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
-        android:background="#B3000000"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="10dp"
-        android:textColor="#FFFFFF"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <LinearLayout
-        android:id="@+id/resultCard"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="12dp"
-        android:background="@drawable/result_bg"
-        android:orientation="vertical"
-        android:padding="14dp"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-
-        <TextView
-            android:id="@+id/productName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/productBrand"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:textColor="#B3FFFFFF"
-            android:textSize="14sp" />
-
-        <TextView
-            android:id="@+id/productBarcode"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:textColor="#99FFFFFF"
-            android:textDirection="ltr"
-            android:textSize="13sp" />
-
-        <LinearLayout
-            android:id="@+id/statusBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
-            android:background="@drawable/status_unknown"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <TextView
-                android:id="@+id/statusTitle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="❓ לא ידוע"
-                android:textColor="#FFE58F"
-                android:textSize="26sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/statusText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:textColor="#D9FFFFFF"
-                android:textSize="13sp" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#080908" android:layoutDirection="rtl">
+    <androidx.camera.view.PreviewView android:id="@+id/previewView" android:layout_width="match_parent" android:layout_height="match_parent" app:implementationMode="compatible" app:scaleType="fillCenter" />
+    <com.kosherscan.app.ScanOverlay android:id="@+id/scanFrame" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/safeContent" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@+id/titleChip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp"
+            android:background="@drawable/chip_bg" android:paddingHorizontal="14dp" android:paddingVertical="8dp" android:text="Kosher Scan" android:textSize="14sp" android:textStyle="bold" android:textColor="#FFFFFF"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+        <TextView android:id="@+id/hintText" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginHorizontal="20dp"
+            android:text="כוונו את הברקוד למרכז המסגרת" android:textColor="#FFFFFF" android:textSize="15sp" android:textStyle="bold" android:gravity="center"
+            android:shadowColor="#000000" android:shadowDy="2" android:shadowRadius="9"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.62" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+        <LinearLayout android:id="@+id/errorPanel" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginHorizontal="28dp" android:padding="24dp" android:background="@drawable/result_bg" android:orientation="vertical" android:gravity="center" android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.38" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="גישה למצלמה" android:textSize="24sp" android:textColor="#FFFFFF" android:textStyle="bold" />
+            <TextView android:id="@+id/cameraErrorText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textColor="#CCCCCC" android:gravity="center" android:textSize="16sp" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/cameraRetryButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ניסיון נוסף" android:layout_marginTop="16dp" />
         </LinearLayout>
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/scanAgainButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:text="סרוק מוצר נוסף"
-            android:textAllCaps="false"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView android:id="@+id/loadingText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:padding="14dp" android:background="@drawable/chip_bg" android:textColor="#FFFFFF" android:textSize="14sp" android:visibility="gone" android:accessibilityLiveRegion="polite"
+            app:layout_constraintBottom_toTopOf="@id/manualButton" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/manualButton" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginBottom="12dp" android:text="הקלדת ברקוד" android:textColor="#FFFFFF" android:backgroundTint="#99000000" app:cornerRadius="24dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+        <androidx.core.widget.NestedScrollView android:id="@+id/resultCard" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="12dp" android:background="@drawable/result_bg" android:fillViewport="true" android:visibility="gone" android:elevation="12dp"
+            app:layout_constrainedHeight="true" app:layout_constraintTop_toBottomOf="@id/titleChip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="14dp" android:orientation="vertical">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:id="@+id/productImage" android:layout_width="92dp" android:layout_height="92dp" android:background="@drawable/photo_bg" android:clipToOutline="true" android:padding="5dp" android:scaleType="fitCenter" android:contentDescription="תמונת מוצר" android:src="@drawable/ic_product" />
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="14dp" android:orientation="vertical">
+                        <TextView android:id="@+id/productName" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="22sp" android:textStyle="bold" android:textColor="#FFFFFF" android:maxLines="2" android:ellipsize="end" android:textDirection="firstStrong" />
+                        <TextView android:id="@+id/productBrand" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:textSize="13sp" android:textColor="#AAFFFFFF" android:maxLines="2" android:ellipsize="end" android:textDirection="firstStrong" />
+                        <TextView android:id="@+id/productBarcode" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:textSize="13sp" android:textColor="#AAFFFFFF" android:textDirection="ltr" android:gravity="right" android:letterSpacing="0.05" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/statusBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:paddingHorizontal="18dp" android:paddingVertical="17dp" android:background="@drawable/status_unknown" android:orientation="vertical" android:accessibilityLiveRegion="polite">
+                    <TextView android:id="@+id/statusTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="27sp" android:textStyle="bold" android:textColor="#FFE590" />
+                    <TextView android:id="@+id/statusText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:textSize="13sp" android:textColor="#CCFFFFFF" />
+                </LinearLayout>
+                <com.google.android.material.button.MaterialButton android:id="@+id/retryLookupButton" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="ניסיון חוזר" android:textColor="#FFFFFF" app:strokeColor="#66FFFFFF" app:cornerRadius="18dp" android:visibility="gone" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/scanAgainButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="54dp" android:layout_marginTop="12dp" android:text="סריקת מוצר נוסף" android:textSize="16sp" android:textStyle="bold" android:textColor="#111111" android:backgroundTint="#FFFFFF" app:cornerRadius="18dp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
