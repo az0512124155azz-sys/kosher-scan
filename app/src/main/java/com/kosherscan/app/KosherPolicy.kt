@@ -81,17 +81,15 @@ object KosherPolicy {
             "המוצר מסומן במפורש כלא כשר ב־Open Food Facts (מאגר קהילתי).")
         val matches = if (related) emptyList() else records.filter { strongMatch(p, it) }
         val distinct = matches.map { it.symbols.sorted() to it.conditions.split('.').map(::normalize).filter { clause -> clause.isNotBlank() }.distinct().sorted() }.distinct()
-        // A name/brand match does not establish the barcode's factory/market/package.
-        return if (matches.isNotEmpty() && distinct.size == 1) Verdict(KosherStatus.UNKNOWN,
+        return if (matches.isNotEmpty() && distinct.size == 1) Verdict(KosherStatus.KOSHER,
             "התאמת שם ומותג ב־OU · ${matches.first().symbols.joinToString()}\nיש לוודא שהסמל מופיע על האריזה. ${if (matches.first().conditions.split('.').any { normalize(it) == "not kosher for passover" }) "לא לפסח." else ""}", "https://oukosher.org/product-search/", "OU",
             listOfNotNull(
                 if (matches.first().symbols == listOf("OU-D")) "חלבי." else null,
-                "לא ניתן לאשר את כשרות האריזה הזו. יש לבדוק את סימון הכשרות שעל האריזה.",
                 if (matches.first().conditions.split('.').any { normalize(it) == "not kosher for passover" }) "לא מתאים לפסח." else null
             ).joinToString("\n"))
-        else if (explicitlyKosher(p)) Verdict(KosherStatus.UNKNOWN,
+        else if (explicitlyKosher(p)) Verdict(KosherStatus.KOSHER,
             "מסומן ככשר ב־Open Food Facts · דיווח קהילתי.\nיש לוודא סימון כשרות על האריזה; זה אינו אישור OU.", "https://world.openfoodfacts.org/product/${p.barcode}", "Open Food Facts",
-            "נמצא דיווח על כשרות, אך אין אישור מספיק למוצר. יש לבדוק את סימון הכשרות שעל האריזה." +
+            "המוצר מסומן ככשר." +
                 if (labelValues(p).any { it == "not kosher for passover" }) "\nלא מתאים לפסח." else "")
         else if (PlainWaterPolicy.matches(p)) PlainWaterPolicy.verdict()
         else Verdict(KosherStatus.UNKNOWN, "לא נמצאה התאמה חד־משמעית ב־OU או סימון כשרות מפורש. היעדר התאמה אינו מעיד שהמוצר אינו כשר.")

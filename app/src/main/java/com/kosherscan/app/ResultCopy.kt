@@ -8,7 +8,7 @@ object ResultCopy {
         if (verdict.status != KosherStatus.UNKNOWN || result.issue == null) {
             return verdict.displayText.ifBlank {
                 when (verdict.status) {
-                    KosherStatus.KOSHER -> "נמצא אישור כשרות למוצר."
+                    KosherStatus.KOSHER -> "המוצר מסומן ככשר."
                     KosherStatus.NOT_KOSHER -> "המוצר מסומן כלא כשר."
                     KosherStatus.UNKNOWN -> "לא נמצא מידע מספיק כדי לקבוע אם המוצר כשר."
                 }

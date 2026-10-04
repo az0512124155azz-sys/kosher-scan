@@ -83,20 +83,12 @@ class IkrRepository(
                     if (key == "כשרות פסח" && value in setOf("לא", "לא כשר", "לא כשר לפסח")) "לא מתאים לפסח."
                     else "$key: $value"
                 }
-            // Only non-conditional, exact-barcode approval can be green. Unrecognized
-            // restrictions/notes require package verification and remain unknown.
-            val requiresCheck = fields.any { (key, value) -> value.isNotBlank() && key !in setOf(
-                "ברקוד", "שם מפעל", "שם ספק", "גופי כשרות", "כשרות", "שם היבואן", "ארץ ייצור", "שם היצרן", "כשרות פסח") &&
-                !(key == "תיאור המוצר" && value in setOf("פרווה", "חלבי", "בשרי")) } ||
-                fields["כשרות פסח"]?.let { it.isNotBlank() && it !in setOf("לא", "לא כשר", "לא כשר לפסח", "לא כשל\"פ", "כשר לפסח", "כשל\"פ", "כן", "כשר למהדרין לפסח") } == true
-            val finalStatus = if (status == KosherStatus.KOSHER && requiresCheck) KosherStatus.UNKNOWN else status
-            val display = when (finalStatus) {
-                KosherStatus.KOSHER -> conditions.ifBlank { "נמצא אישור כשרות למוצר." }
+            val display = when (status) {
+                KosherStatus.KOSHER -> conditions.ifBlank { "המוצר מסומן ככשר." }
                 KosherStatus.NOT_KOSHER -> "המוצר מסומן כלא כשר."
-                KosherStatus.UNKNOWN -> if (requiresCheck && status == KosherStatus.KOSHER)
-                    "האישור כולל תנאים שדורשים בדיקה נוספת.\n$conditions" else "לא נמצא אישור כשרות למוצר."
+                KosherStatus.UNKNOWN -> "לא נמצא אישור כשרות למוצר."
             }
-            return LookupResult(product, Verdict(finalStatus, reason, sourceUrl, "כושרות", display))
+            return LookupResult(product, Verdict(status, reason, sourceUrl, "כושרות", display))
         }
     }
 }

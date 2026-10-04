@@ -8,7 +8,7 @@ class KosherPolicyTest {
         val row = OuRecord("123", "Specific cereal", "Example", listOf("OU-D"), "Symbol required. Not Kosher for Passover.")
         val product = Product("12345678", "Specific cereal", "Example")
         val duplicate = row.copy(id = "456", conditions = "not kosher for passover. symbol required.")
-        assertEquals(KosherStatus.UNKNOWN, KosherPolicy.resolve(product, listOf(row, duplicate)).status)
+        assertEquals(KosherStatus.KOSHER, KosherPolicy.resolve(product, listOf(row, duplicate)).status)
     }
     @Test fun specificCertificationLabelsNeedNotCarryGenericParent() {
         listOf("en:orthodox-union-kosher", "en:kosher-parve", "en:star-k-kosher", "en:organized-kashrut-kosher", "en:mk-kosher").forEach {
@@ -31,11 +31,11 @@ class KosherPolicyTest {
     }
     @Test fun passoverNegativeRawLabelDoesNotOverrideYearRoundCertification() {
         val product = Product("12345678", "Test", "Test", labelsText = "OU Kosher, not kosher for passover")
-        assertEquals(KosherStatus.UNKNOWN, KosherPolicy.resolve(product, emptyList()).status)
+        assertEquals(KosherStatus.KOSHER, KosherPolicy.resolve(product, emptyList()).status)
     }
     private val p = Product("1234567890123", "Hazelnut spread with cocoa", "Example")
     private val r = OuRecord("OU123", p.name, p.brand, listOf("OU-D"), "Symbol required. Not Kosher for Passover.")
-    @Test fun exactRecordMatches() { assertEquals(KosherStatus.UNKNOWN, KosherPolicy.resolve(p, listOf(r)).status) }
+    @Test fun exactRecordMatches() { assertEquals(KosherStatus.KOSHER, KosherPolicy.resolve(p, listOf(r)).status) }
     @Test fun missingNeverMeansNotKosher() { assertEquals(KosherStatus.UNKNOWN, KosherPolicy.resolve(p, emptyList()).status) }
     @Test fun relatedResultsNeverCertify() { assertEquals(KosherStatus.UNKNOWN, KosherPolicy.resolve(p, listOf(r), true).status) }
     @Test fun brandMustMatchWholeField() { assertFalse(KosherPolicy.strongMatch(p, r.copy(brand = "Example Other"))) }
@@ -54,7 +54,7 @@ class KosherPolicyTest {
     @Test fun explicitNegativeOnly() { assertEquals(KosherStatus.NOT_KOSHER, KosherPolicy.resolve(p.copy(labels = listOf("en:not-kosher")), listOf(r)).status) }
     @Test fun explicitCommunityPositiveDisclosesSource() {
         val verdict = KosherPolicy.resolve(p.copy(labels = listOf("en:kosher")), emptyList())
-        assertEquals(KosherStatus.UNKNOWN, verdict.status)
+        assertEquals(KosherStatus.KOSHER, verdict.status)
         assertTrue(verdict.reason.contains("דיווח קהילתי")); assertTrue(verdict.reason.contains("אינו אישור OU"))
     }
     @Test fun vegetarianOrPassoverNegativeCannotBecomePositive() {

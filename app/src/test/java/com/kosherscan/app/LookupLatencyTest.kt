@@ -46,7 +46,7 @@ class LookupLatencyTest {
                 }
                 assertFalse(task.isCompleted)
                 release.complete(LookupResult(null, Verdict(KosherStatus.UNKNOWN, "No record")))
-                assertEquals(KosherStatus.UNKNOWN, task.await().verdict.status)
+                assertEquals(KosherStatus.KOSHER, task.await().verdict.status)
             } finally { task.cancelAndJoin() }
         }
     }
@@ -80,7 +80,7 @@ class LookupLatencyTest {
             s.enqueue(MockResponse().setBody(row).setBodyDelay(2, TimeUnit.SECONDS))
             val result = ProductRepository(offBase = s.url("/").toString(), ouBase = s.url("/").toString(),
                 lookupTimeoutMs = 250).lookup(code)
-            assertEquals(KosherStatus.UNKNOWN, result.verdict.status)
+            assertEquals(KosherStatus.KOSHER, result.verdict.status)
             assertTrue(result.verdict.reason.contains("דיווח קהילתי"))
             assertEquals(LookupIssue.TIMEOUT, result.issue)
         }
@@ -92,7 +92,7 @@ class LookupLatencyTest {
             s.enqueue(MockResponse().setBody(row).setBodyDelay(500, TimeUnit.MILLISECONDS))
             val result = ProductRepository(offBase = s.url("/").toString(), ouBase = s.url("/").toString(),
                 lookupTimeoutMs = 100, ouTimeoutMs = 100, enableOuFallback = false).extended().lookup(code)
-            assertEquals(KosherStatus.UNKNOWN, result.verdict.status)
+            assertEquals(KosherStatus.KOSHER, result.verdict.status)
             assertEquals("OU", result.verdict.sourceLabel)
             assertNull(result.issue)
         }
@@ -106,7 +106,7 @@ class LookupLatencyTest {
             s.start(); s.enqueue(MockResponse().setBody(product)); s.enqueue(MockResponse().setBody(row))
             val result = ProductRepository(offBase = s.url("/").toString(), ouBase = s.url("/").toString(),
                 barcodeLookup = pending, lookupTimeoutMs = 500, enableOuFallback = false).lookup(code)
-            assertEquals(KosherStatus.UNKNOWN, result.verdict.status)
+            assertEquals(KosherStatus.KOSHER, result.verdict.status)
             assertEquals("OU", result.verdict.sourceLabel)
             assertEquals(LookupIssue.TIMEOUT, result.issue)
         }

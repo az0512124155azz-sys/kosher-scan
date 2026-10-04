@@ -78,7 +78,7 @@ class AdversarialMatrixTest(private val case: Case) {
             19 -> { p = p.copy(name = "מוצר ${case.sample}", englishName = p.name); row = row.copy(name = row.name + " original") }
         }
         val result = KosherPolicy.resolve(p, rows ?: listOf(row), related)
-        assertEquals(case.toString(), KosherStatus.UNKNOWN, result.status)
+        assertEquals(case.toString(), if (positive) KosherStatus.KOSHER else KosherStatus.UNKNOWN, result.status)
         if (positive) {
             assertEquals("OU", result.sourceLabel)
             assertTrue(result.reason.contains("האריזה"))
@@ -168,13 +168,13 @@ class AdversarialMatrixTest(private val case: Case) {
             else -> error("Unknown mutation")
         }
         val expected = when (case.mutation) {
-            0, 1, 2, 3, 7, 15, 16, 17 -> KosherStatus.UNKNOWN
+            0, 1, 2, 3, 7, 15, 16, 17 -> KosherStatus.KOSHER
             4, 5, 6, 14 -> KosherStatus.NOT_KOSHER
             else -> KosherStatus.UNKNOWN
         }
         val result = KosherPolicy.resolve(input, emptyList())
         assertEquals(case.toString(), expected, result.status)
-        if (case.mutation in setOf(0, 1, 2, 3, 7, 15, 16, 17)) {
+        if (expected == KosherStatus.KOSHER) {
             assertEquals("Open Food Facts", result.sourceLabel)
             assertTrue(result.reason.contains("דיווח קהילתי"))
         }
@@ -209,7 +209,7 @@ class AdversarialMatrixTest(private val case: Case) {
         val positive = case.mutation in setOf(0, 1, 2, 3, 16, 19)
         assertEquals(case.toString(), positive, PlainWaterPolicy.matches(input))
         val result = KosherPolicy.resolve(input, emptyList())
-        assertEquals(case.toString(), KosherStatus.UNKNOWN, result.status)
+        assertEquals(case.toString(), if (positive) KosherStatus.KOSHER else KosherStatus.UNKNOWN, result.status)
         if (positive) assertTrue(result.reason.contains("זה אינו אישור OU למותג"))
     }
 }

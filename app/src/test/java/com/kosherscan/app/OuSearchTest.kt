@@ -13,7 +13,7 @@ class OuSearchTest {
             s.start(); s.enqueue(MockResponse().setBody(p))
             s.enqueue(MockResponse().setBody("""{"results":[],"total":0}""")); s.enqueue(MockResponse().setBody("""{"results":[$row],"total":1}"""))
             val result = ProductRepository(offBase = s.url("/").toString(), ouBase = s.url("/").toString()).lookup("12345678")
-            assertEquals(KosherStatus.UNKNOWN, result.verdict.status)
+            assertEquals(KosherStatus.KOSHER, result.verdict.status)
             s.takeRequest(); assertEquals("Parent Test Spread", s.takeRequest().requestUrl!!.queryParameter("query"))
             assertEquals("Actual Test Spread", s.takeRequest().requestUrl!!.queryParameter("query"))
         }
@@ -23,7 +23,7 @@ class OuSearchTest {
             s.start(); s.enqueue(MockResponse().setBody(p))
             s.enqueue(MockResponse().setBody("""{"results":[],"total":51}""")); s.enqueue(MockResponse().setBody("""{"results":[$row],"total":51}"""))
             val result = ProductRepository(offBase = s.url("/").toString(), ouBase = s.url("/").toString()).lookup("12345678")
-            assertEquals(KosherStatus.UNKNOWN, result.verdict.status)
+            assertEquals(KosherStatus.KOSHER, result.verdict.status)
             s.takeRequest(); s.takeRequest(); assertEquals("2", s.takeRequest().requestUrl!!.queryParameter("page"))
         }
     }

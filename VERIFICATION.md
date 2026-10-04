@@ -1,4 +1,14 @@
-# Verification history and current version 1.4.4, 2026-10-05
+# Verification history and current version 1.4.5, 2026-10-05
+
+## Version 1.4.5 restoration
+
+The user clarified that the request concerned package-check wording only.
+All domain/status and repository logic from 1.4.3 has been restored, including
+the previous 12,000-case adversarial expectations. No additional restrictions
+from 1.4.4 remain. Positive display copy no longer asks to check certification
+on the package. Dairy and Passover information remain. A new Android regression
+checks that OU matches, community positive labels and the water rule still
+render green without the removed instruction. Earlier entries below are history.
 
 ## Version 1.4.4 verdict consistency
 
@@ -148,3 +158,4 @@ used a restarted 4 GB AVD. This was not an application exception.
 Local build, lint and all 12,117 JVM cases pass (12,000 generated adversarial cases, 117 other cases). Seven new presentation cases verify retained OU dairy/Passover conditions, conditional water guidance, community report qualification, distinct transport failures, and preserved barcode-record conditions without administrative/source labels. The five Android smoke tests check the simplified explanation and scan-again visibility along with existing scanner, state, timeout and input flows. Real-device camera/OEM checks remain unavailable.
 Live emulator lookup of Nutella (3017620422003) returned KOSHER in 5.874 seconds and displayed only: dairy, check the package certification marking, and not suitable for Passover. The source button is removed from the layout. All five Android smoke tests passed on the API 37 Pixel 6 AVD.
 Current local validation: all 12,118 JVM cases passed, including 12,000 generated adversarial cases (not live product checks). Lint, debug APK and instrumented-test APK builds passed. All six Android smoke tests passed on the API 37 Pixel 6 AVD, including yellow conditional evidence versus green unconditional barcode approval. No physical device was available.
+Version 1.4.5 local validation: 12,117 JVM cases passed, including the restored 12,000 generated adversarial cases. Lint and APK builds passed. All six Android emulator tests passed on API 37 Pixel 6, including original positive paths rendering green without package-check instructions. No physical device checks were possible.

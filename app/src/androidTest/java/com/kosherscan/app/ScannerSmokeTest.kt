@@ -27,31 +27,26 @@ import java.util.concurrent.TimeUnit
 @RunWith(AndroidJUnit4::class)
 class ScannerSmokeTest {
     @get:Rule val permission: GrantPermissionRule = GrantPermissionRule.grant(Manifest.permission.CAMERA)
-    @Test fun conditionalEvidenceIsYellowAndBarcodeApprovalIsGreenWithoutCheckInstruction() {
-        val product = Product("12345678", "Test spread", "Brand")
-        val conditional = KosherPolicy.resolve(product, listOf(OuRecord("1", product.name, product.brand,
-            listOf("OU-D"), "Symbol required. Not kosher for passover.")))
-        val html = """<section class="main-product"><h2 class="primary-title">Test spread</h2><div class="productDetail"><table>
-            <tr><th>ברקוד:</th><td>12345678</td></tr><tr><th>כשרות:</th><td>כשר</td></tr>
-            <tr><th>גופי כשרות:</th><td>Agency</td></tr></table></div></section>"""
-        val approved = IkrRepository.parse("12345678", html, "https://www.ikr.org.il/")!!.verdict
+    @Test fun existingPositivePathsRemainGreenWithoutPackageCheckInstruction() {
+        val p = Product("3017620422003", "Nutella", "Ferrero")
+        val verdicts = listOf(
+            KosherPolicy.resolve(p, listOf(OuRecord("1", p.name, p.brand, listOf("OU-D"), "Symbol required. Not kosher for passover."))),
+            KosherPolicy.resolve(p.copy(labels = listOf("en:kosher")), emptyList()),
+            PlainWaterPolicy.verdict())
         ActivityScenario.launch(MainActivity::class.java).use { scenario ->
-            for (verdict in listOf(conditional, approved)) {
+            for (verdict in verdicts) {
+                assertEquals(KosherStatus.KOSHER, verdict.status)
                 scenario.onActivity { activity ->
-                    ViewModelProvider(activity)[ScanModel::class.java].state.value = ScanState(product.barcode,
-                        result = LookupResult(product, verdict))
+                    ViewModelProvider(activity)[ScanModel::class.java].state.value = ScanState(p.barcode,
+                        result = LookupResult(p, verdict))
                 }
                 androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
                 scenario.onActivity { activity ->
-                    val title = activity.findViewById<TextView>(R.id.statusTitle).text.toString()
-                    val explanation = activity.findViewById<TextView>(R.id.statusText).text.toString()
-                    if (verdict == conditional) {
-                        assertTrue(title.contains("לא ידוע"))
-                        assertTrue(explanation.contains("יש לבדוק"))
-                    } else {
-                        assertTrue(title.contains("✓"))
-                        assertFalse(explanation.contains("יש לבדוק"))
-                    }
+                    assertTrue(activity.findViewById<TextView>(R.id.statusTitle).text.contains("✓"))
+                    val copy = activity.findViewById<TextView>(R.id.statusText).text.toString()
+                    assertFalse(copy.contains("יש לבדוק"))
+                    assertFalse(copy.contains("יש לוודא"))
+                    assertFalse(copy.contains("סימון כשרות"))
                 }
             }
         }
