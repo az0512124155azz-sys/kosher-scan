@@ -3,6 +3,7 @@ package com.kosherscan.app
 import android.Manifest
 import android.graphics.Bitmap
 import android.graphics.Color
+import android.graphics.Rect
 import android.view.View
 import android.widget.TextView
 import androidx.lifecycle.ViewModelProvider
@@ -56,6 +57,24 @@ class ScannerSmokeTest {
             }
             androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
             scenario.onActivity { activity -> assertEquals(View.GONE, activity.findViewById<View>(R.id.resultCard).visibility) }
+        }
+    }
+    @Test fun resultCardDoesNotClipScanAgainAfterTextChanges() {
+        ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+            for (reason in listOf("בדיקת תצוגה", "לא נמצאה התאמה חד־משמעית ב־OU. היעדר התאמה אינו מעיד שהמוצר אינו כשר.")) {
+                scenario.onActivity { activity ->
+                    ViewModelProvider(activity)[ScanModel::class.java].state.value = ScanState("3017620422003", result = LookupResult(
+                        Product("3017620422003", "Nutella", "Nutella, Ferrero"), Verdict(KosherStatus.UNKNOWN, reason)))
+                }
+                androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
+                scenario.onActivity { activity ->
+                    activity.findViewById<View>(R.id.resultCard).apply { animate().cancel(); translationY = 0f }
+                    val button = activity.findViewById<View>(R.id.scanAgainButton)
+                    val visible = Rect()
+                    assertTrue(button.getGlobalVisibleRect(visible))
+                    assertEquals("Scan-again button must be fully visible", button.height, visible.height())
+                }
+            }
         }
     }
 }

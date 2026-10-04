@@ -6,8 +6,9 @@ Android 17 / API 37. No physical phone was connected.
 ## Automated checks
 
 * 27 JVM tests: 15 certification/matching cases and 12 HTTP/repository cases.
-* 2 Android instrumented smoke tests: bundled ML Kit EAN-13 decoding, and
-  rendering all three verdicts / Activity recreation / scan-again reset.
+* 3 Android instrumented smoke tests: bundled ML Kit EAN-13 decoding,
+  rendering all three verdicts / Activity recreation / scan-again reset,
+  and an unclipped scan-again button after result text changes.
 * Android lint and APK compilation. Lint has no errors; warnings include
   newer dependency availability, Hebrew string localization, drawing allocations,
   portrait orientation, and the existing AGP 8.5 / SDK 35 compatibility warning.

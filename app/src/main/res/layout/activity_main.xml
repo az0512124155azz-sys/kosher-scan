@@ -21,8 +21,8 @@
             app:layout_constraintBottom_toTopOf="@id/manualButton" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" />
         <com.google.android.material.button.MaterialButton android:id="@+id/manualButton" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginBottom="12dp" android:text="הקלדת ברקוד" android:textColor="#FFFFFF" android:backgroundTint="#99000000" app:cornerRadius="24dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" />
-        <androidx.core.widget.NestedScrollView android:id="@+id/resultCard" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="12dp" android:background="@drawable/result_bg" android:fillViewport="true" android:visibility="gone" android:elevation="12dp"
-            app:layout_constrainedHeight="true" app:layout_constraintTop_toBottomOf="@id/titleChip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent">
+        <com.kosherscan.app.ResultScrollView android:id="@+id/resultCard" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="12dp" android:background="@drawable/result_bg" android:visibility="gone" android:elevation="12dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent">
             <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="14dp" android:orientation="vertical">
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
                     <ImageView android:id="@+id/productImage" android:layout_width="92dp" android:layout_height="92dp" android:background="@drawable/photo_bg" android:clipToOutline="true" android:padding="5dp" android:scaleType="fitCenter" android:contentDescription="תמונת מוצר" android:src="@drawable/ic_product" />
@@ -39,6 +39,6 @@
                 <com.google.android.material.button.MaterialButton android:id="@+id/retryLookupButton" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="ניסיון חוזר" android:textColor="#FFFFFF" app:strokeColor="#66FFFFFF" app:cornerRadius="18dp" android:visibility="gone" />
                 <com.google.android.material.button.MaterialButton android:id="@+id/scanAgainButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="54dp" android:layout_marginTop="12dp" android:text="סריקת מוצר נוסף" android:textSize="16sp" android:textStyle="bold" android:textColor="#111111" android:backgroundTint="#FFFFFF" app:cornerRadius="18dp" />
             </LinearLayout>
-        </androidx.core.widget.NestedScrollView>
+        </com.kosherscan.app.ResultScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
