@@ -3,6 +3,12 @@
 Native CameraX + bundled ML Kit scanner, Hebrew RTL UI based on `index.html`.
 The HTML remains the original design reference; the Android APK does not load it.
 
+Version 1.6.0 adds an optional unknown-product agent connection, durable background
+uploads, a private RTL dashboard, Gemini research and a paired Telegram bot.
+See [agent setup](agent/README.md). It requires deployment and a BotFather token
+before it is live. AI suggestions never automatically become certification.
+The existing lookup sources and status policy continue to operate independently.
+
 ## Build and test
 
 Use Java 17 or 21, Android SDK 35 and the checked-in Gradle 8.7 wrapper:

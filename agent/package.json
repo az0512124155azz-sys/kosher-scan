@@ -1,0 +1,1 @@
+{"name":"kosher-scan-agent","version":"1.6.0","private":true,"type":"module","scripts":{"dev":"wrangler dev --port 8787","test":"node --test test/*.test.mjs","check":"wrangler deploy --dry-run","migrate:local":"wrangler d1 migrations apply DB --local","deploy":"wrangler deploy"},"devDependencies":{"agent-browser":"^0.38.2","miniflare":"^4.0.0","wrangler":"^4.0.0"}}

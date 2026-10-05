@@ -37,24 +37,66 @@ import java.util.concurrent.Executors
 import java.util.concurrent.atomic.AtomicBoolean
 
 data class ScanState(val code: String = "", val loading: Boolean = false, val result: LookupResult? = null,
-    val loadingMessage: String = "בודק במאגרי כשרות")
+    val loadingMessage: String = "בודק במאגרי כשרות", val agentMessage: String = "")
 class ScanModel : ViewModel() {
     val state = MutableStateFlow(ScanState())
     private var job: Job? = null
-    fun lookup(code: String, repository: ProductLookup, loadingMessage: String = "בודק במאגרי כשרות") {
+    private var agent: AgentApi? = null
+    private var agentMarket = "IL"
+    fun lookup(code: String, repository: ProductLookup, loadingMessage: String = "בודק במאגרי כשרות",
+        agentApi: AgentApi? = null, outbox: AgentOutbox? = null, market: String = "IL", photo: ByteArray? = null) {
         if (state.value.loading) return
+        job?.cancel(); agent = agentApi; agentMarket = market
         state.value = ScanState(code, true, loadingMessage = loadingMessage)
         job = viewModelScope.launch {
             val started = android.os.SystemClock.elapsedRealtime()
             val result = repository.lookup(code)
             android.util.Log.d("KosherScan", "Lookup completed in ${android.os.SystemClock.elapsedRealtime() - started} ms; source=${result.verdict.sourceLabel}; status=${result.verdict.status}")
-            state.value = ScanState(code, result = result)
+            val sent = if (result.verdict.status == KosherStatus.UNKNOWN) try { outbox?.enqueue(code, market, result, photo) } catch (_: java.io.IOException) { null } else null
+            state.value = ScanState(code, result = result, agentMessage = if (sent != null) "נשמר לבדיקה נוספת" else "")
+            if (sent != null && agentApi != null) repeat(6) {
+                kotlinx.coroutines.delay(5000)
+                if (state.value.code != code) return@launch
+                when (outbox?.state(sent)) {
+                    androidx.work.WorkInfo.State.SUCCEEDED -> state.value = state.value.copy(agentMessage = "נשלח לבדיקה נוספת")
+                    androidx.work.WorkInfo.State.FAILED, androidx.work.WorkInfo.State.CANCELLED -> {
+                        state.value = state.value.copy(agentMessage = "לא ניתן לשלוח לבדיקה נוספת")
+                        return@launch
+                    }
+                    else -> Unit
+                }
+                val updated = agentApi.result(code, market)
+                if (updated != null) {
+                    state.value = state.value.copy(result = AgentAwareLookup.combine(result, updated), agentMessage = "")
+                    return@launch
+                }
+            }
+        }
+    }
+    fun refreshAgent() {
+        val api = agent ?: return
+        val snapshot = state.value
+        job?.cancel()
+        job = viewModelScope.launch {
+            val result = api.result(snapshot.code, agentMarket)
+            if (state.value.code == snapshot.code) state.value = snapshot.copy(
+                result = result?.let { AgentAwareLookup.combine(snapshot.result!!, it) } ?: snapshot.result,
+                agentMessage = if (result != null) "" else "עדיין אין תשובה מאומתת")
         }
     }
     fun reset() { job?.cancel(); state.value = ScanState() }
 }
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var agentPreferences: android.content.SharedPreferences
+    private lateinit var marketProvider: () -> String
+    private fun agentConnection() = AgentConnection(agentPreferences.getString("url", "").orEmpty(), agentPreferences.getString("token", "").orEmpty())
+    private fun agentApi(): AgentApi? = agentConnection().takeIf { it.valid(BuildConfig.DEBUG) }?.let { AgentApi(it) }
+    private fun scan(code: String, selectedRepository: ProductLookup = repository, photo: ByteArray? = null) {
+        val connection = agentConnection().takeIf { it.valid(BuildConfig.DEBUG) }
+        model.lookup(code, selectedRepository, agentApi = connection?.let { AgentApi(it) },
+            outbox = connection?.let { AgentOutbox(applicationContext, it) }, market = marketProvider(), photo = photo)
+    }
     private lateinit var model: ScanModel
     private lateinit var repository: ProductLookup
     private lateinit var preview: PreviewView
@@ -89,6 +131,10 @@ class MainActivity : AppCompatActivity() {
         model = ViewModelProvider(this)[ScanModel::class.java]
         val preferences = getSharedPreferences("market", MODE_PRIVATE)
         fun market() = preferences.getString("country", "IL") ?: "IL"
+        marketProvider = ::market
+        agentPreferences = getSharedPreferences("agent", MODE_PRIVATE)
+        findViewById<View>(R.id.agentSettingsButton).setOnClickListener { if (!model.state.value.loading) showAgentSettings() }
+        findViewById<View>(R.id.agentRefreshButton).setOnClickListener { model.refreshAgent() }
         val marketButton = findViewById<TextView>(R.id.marketButton)
         fun showMarket() { marketButton.text = when (market()) { "IL" -> "מדינת רכישה: ישראל ▾"; "GB" -> "מדינת רכישה: בריטניה ▾"; else -> "מדינת רכישה: אחרת ▾" } }
         showMarket()
@@ -99,13 +145,13 @@ class MainActivity : AppCompatActivity() {
                     showMarket(); model.reset()
                 }.show()
         }
-        repository = ProductRepository(barcodeLookup = IkrRepository(), additionalLookup = AuthoritySources(market = ::market,
+        repository = AgentAwareLookup(ProductRepository(barcodeLookup = IkrRepository(), additionalLookup = AuthoritySources(market = ::market,
             diagnostic = { android.util.Log.d("KosherScan", "Authority: $it") }), onOuEvent = {
             android.util.Log.d("KosherScan", "OU: $it")
         }, hasNetwork = {
             val cm = applicationContext.getSystemService(ConnectivityManager::class.java)
             cm.getNetworkCapabilities(cm.activeNetwork)?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) == true
-        })
+        }), ::agentApi, ::market)
         preview = findViewById(R.id.previewView)
         overlay = findViewById(R.id.scanFrame)
         card = findViewById(R.id.resultCard)
@@ -118,8 +164,8 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.scanAgainButton).setOnClickListener { model.reset() }
         findViewById<View>(R.id.retryLookupButton).setOnClickListener {
             val extended = model.state.value.result?.issue == LookupIssue.TIMEOUT
-            model.lookup(model.state.value.code,
-                if (extended) (repository as? ProductRepository)?.extended() ?: repository else repository)
+            scan(model.state.value.code,
+                if (extended) (repository as? AgentAwareLookup)?.extended() ?: repository else repository)
         }
         findViewById<View>(R.id.manualButton).setOnClickListener { manualEntry() }
         findViewById<View>(R.id.cameraRetryButton).setOnClickListener {
@@ -170,8 +216,10 @@ class MainActivity : AppCompatActivity() {
                             .addOnSuccessListener { codes ->
                                 scannerFailures = 0
                                 if (!destroyed && lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)) {
-                                    codes.firstOrNull { it.rawValue?.matches(Regex("[0-9]{8,14}")) == true }
-                                        ?.rawValue?.let { code -> if (busy.compareAndSet(false, true)) model.lookup(code, repository) }
+                                    codes.firstOrNull { it.rawValue?.matches(Regex("[0-9]{8,14}")) == true }?.let { barcode ->
+                                        if (busy.compareAndSet(false, true)) scan(barcode.rawValue!!, photo =
+                                            if (agentConnection().valid(BuildConfig.DEBUG)) BarcodePhoto.capture(proxy, barcode.boundingBox) else null)
+                                    }
                                 }
                             }.addOnFailureListener {
                                 if (!destroyed && ++scannerFailures >= 3) {
@@ -210,7 +258,7 @@ class MainActivity : AppCompatActivity() {
         val submit = {
             val code = input.text.toString().trim()
             if (!code.matches(Regex("[0-9]{8,14}"))) inputLayout.error = "יש להזין 8 עד 14 ספרות"
-            else { busy.set(true); model.lookup(code, repository); dialog.dismiss() }
+            else { busy.set(true); scan(code); dialog.dismiss() }
         }
         dialog.findViewById<View>(R.id.barcodeSubmit).setOnClickListener { submit() }
         dialog.findViewById<View>(R.id.barcodeCancel).setOnClickListener { dialog.dismiss() }
@@ -238,6 +286,8 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.manualButton).visibility = if (s.result != null) View.INVISIBLE else View.VISIBLE
         findViewById<View>(R.id.hintText).visibility = if (busy.get() || errorPanel.visibility == View.VISIBLE) View.INVISIBLE else View.VISIBLE
         findViewById<TextView>(R.id.loadingText).apply { visibility = if (s.loading) View.VISIBLE else View.GONE; text = s.loadingMessage }
+        findViewById<TextView>(R.id.agentStatusText).apply { visibility = if (s.agentMessage.isNotBlank()) View.VISIBLE else View.GONE; text = s.agentMessage }
+        findViewById<View>(R.id.agentRefreshButton).visibility = if (s.agentMessage.isNotBlank()) View.VISIBLE else View.GONE
         val result = s.result
         if (result == null) { card.animate().cancel(); card.visibility = View.GONE; renderedImage = ""; return }
         findViewById<TextView>(R.id.productName).text = result.product?.name?.ifBlank { "מוצר ללא שם" } ?: "אין מידע על המוצר"
@@ -270,5 +320,31 @@ class MainActivity : AppCompatActivity() {
         barcodeDialog?.dismiss()
         destroyed = true; analysis?.clearAnalyzer(); provider?.unbindAll(); executor.shutdown(); scanner.close()
         super.onDestroy()
+    }
+    private fun showAgentSettings() {
+        val dialog = Dialog(this)
+        dialog.setContentView(R.layout.dialog_agent)
+        val url = dialog.findViewById<EditText>(R.id.agentUrl)
+        val token = dialog.findViewById<EditText>(R.id.agentToken)
+        val error = dialog.findViewById<TextView>(R.id.agentSettingsError)
+        url.setText(agentConnection().url); token.setText(agentConnection().token)
+        dialog.findViewById<View>(R.id.agentSave).setOnClickListener {
+            val connection = AgentConnection(url.text.toString().trim().trimEnd('/') + "/", token.text.toString().trim())
+            if (!connection.valid(BuildConfig.DEBUG)) error.text = "יש להזין כתובת מאובטחת וקוד חיבור תקין"
+            else { agentPreferences.edit().putString("url", connection.url).putString("token", connection.token).apply(); model.reset(); dialog.dismiss() }
+        }
+        dialog.findViewById<View>(R.id.agentDisconnect).setOnClickListener {
+            androidx.work.WorkManager.getInstance(applicationContext).cancelAllWorkByTag("agent-upload")
+            agentPreferences.edit().clear().apply()
+            java.io.File(noBackupFilesDir, "agent-outbox").listFiles()?.forEach { it.delete() }
+            model.reset(); dialog.dismiss()
+        }
+        dialog.findViewById<View>(R.id.agentCancel).setOnClickListener { dialog.dismiss() }
+        dialog.show()
+        dialog.window?.apply {
+            setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+            setLayout((resources.displayMetrics.widthPixels - 48 * resources.displayMetrics.density).toInt(), WindowManager.LayoutParams.WRAP_CONTENT)
+            setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
+        }
     }
 }

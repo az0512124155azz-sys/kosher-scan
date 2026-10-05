@@ -11,8 +11,8 @@ android {
         applicationId = "com.kosherscan.app"
         minSdk = 24
         targetSdk = 35
-        versionCode = 13
-        versionName = "1.5.0"
+        versionCode = 14
+        versionName = "1.6.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -31,9 +31,11 @@ android {
         jvmTarget = "17"
     }
     testOptions { unitTests.isReturnDefaultValues = true }
+    buildFeatures { buildConfig = true }
 }
 
 dependencies {
+    implementation("androidx.work:work-runtime:2.10.1")
     implementation("androidx.core:core-ktx:1.15.0")
     implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
@@ -60,4 +62,5 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
     androidTestImplementation("com.google.zxing:core:3.5.3")
+    androidTestImplementation("com.squareup.okhttp3:mockwebserver:4.12.0")
 }

@@ -1,4 +1,34 @@
-# Verification history and current version 1.4.7, 2026-10-05
+# Verification history and current version 1.6.0, 2026-10-05
+
+## Version 1.6.0 dashboard, research agent and Android connection
+
+Local Gradle test/lint/build and 12 instrumented tests passed on Pixel 6 / API 37.
+There are 12,159 JVM cases, including the existing 12,000 generated adversarial
+matching cases; these are not 12,159 real scanned products. New coverage checks
+exact barcode/market/expiry, unapproved AI data, conflicts, background upload,
+actual cropped JPEG bytes, connection validation and a native UNKNOWN card
+changing to KOSHER after a reviewed response from an isolated MockWebServer.
+No invented test verdict was published into the real dashboard database.
+
+Worker tests run against Miniflare and real local D1 SQL, covering role access,
+durable/idempotent submission, repeated observations, reviewed result publication,
+deletion, webhook isolation and recovery of interrupted final research attempts.
+Telegram and Gemini contract tests use mocked transport. Wrangler deployment
+dry-run succeeds. CI verifies the agent separately from the Android APK build.
+
+A real emulator manual scan of 9999999999999 returned an OFF test product
+Salatgurke / MarcaTest and UNKNOWN, then automatically appeared in the private
+local dashboard. Gemini completed a real Google-grounded research request in
+approximately 10 seconds, found no supporting certification and kept its
+suggestion UNKNOWN. This verifies actual cloud research, not broad coverage.
+Dashboard browser checks verified RTL rendering, search/filter, product details
+and no JavaScript errors. A manual scan correctly has no barcode camera photo.
+
+No Cloudflare account or BotFather bot exists yet. The configured D1 ID in the
+repository is explicitly a placeholder. Public deployment, real Telegram delivery
+and production webhook operation remain unverified until those are supplied.
+The original independent product lookup sources remain active without the agent.
+
 
 ## Version 1.4.7 product identity and transient lookup recovery
 

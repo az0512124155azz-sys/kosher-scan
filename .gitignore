@@ -4,3 +4,10 @@
 local.properties
 .idea/
 *.iml
+.dev.vars
+.env*
+!.env.example
+node_modules/
+.wrangler/
+agent/secrets*.json
+agent/local-settings*.json
