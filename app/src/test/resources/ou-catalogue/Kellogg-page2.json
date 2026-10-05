@@ -1,0 +1,2271 @@
+﻿{
+    "total":  169,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUV3-IVWAXK7",
+                        "productName":  "Raisin Bran Maple Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-11-02T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-COGNBFR",
+                        "productName":  "Raisin Bran Protein Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-10-20T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-SLQR2JQ",
+                        "productName":  "Raisin Bran Protein Touch of Cinnamon Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-02-04T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-LYPZEXH",
+                        "productName":  "Raisin Bran Toasted Oats \u0026 Honey Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-09-04T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-LP4MT2L",
+                        "productName":  "Raisin Bran with Cranberries Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-06-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-T08E7N3",
+                        "productName":  "Rice Krispies",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-06-12T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-NO16XBZ",
+                        "productName":  "Rice Krispies (CA Retail \u0026 Club)",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-XEK1JU9",
+                        "productName":  "Rice Krispies Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-06-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-NROYLQA",
+                        "productName":  "Rice Krispies Cinnamon Sugar Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-07-02T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-JUOOXVH",
+                        "productName":  "Rice Krispies Cookies and Creme Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-01-13T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-Y4J2CTP",
+                        "productName":  "Rice Krispies Holiday Cereal (US, CA, WIP)",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-05-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-8APIKHD",
+                        "productName":  "Rice Krispies Made with Whole Grain Brown Rice",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-08-06T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-MMTTMVQ",
+                        "productName":  "Rice Krispies Spring Colored Holiday Cereal (US, CA)",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-05-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-H3HBGBN",
+                        "productName":  "Rice Krispies Valentine\u0027s Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-06-24T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-SJJTENK",
+                        "productName":  "Rice Krispies Vanilla - Canadian",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-08-23T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-OXP9YIV",
+                        "productName":  "Rice Krispies W/ Red and Blue Krispies Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-07-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-WVUS5M2",
+                        "productName":  "Schedule B to be added",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-08-27T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-GP0LQYC",
+                        "productName":  "Scooby Doo - Cinnamon Crunch",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-05-12T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-9RTBUAY",
+                        "productName":  "Special K Baked Cinnamon Crunch Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-08-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0WQ90HB",
+                        "productName":  "Special K Banana Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-05-06T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-FT2IFV2",
+                        "productName":  "Special K Banana \u0026 Creme Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-SF33ME2",
+                        "productName":  "Special K Banana \u0026 Creme made with Yogurty Oat Clusters",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-7DQ4B3L",
+                        "productName":  "Special K Blueberry Cereal (CA)",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-08-18T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-KRKWJ5W",
+                        "productName":  "Special K Blueberry Cereal (US)",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-22T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-MOJVAVU",
+                        "productName":  "Special K Brown Sugar Cinnamon Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-08-06T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-RV6XW1G",
+                        "productName":  "Special K Caramel Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-07-31T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-RYCR0BA",
+                        "productName":  "Special K Chocolatey Delight Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-06-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-FIWLIRT",
+                        "productName":  "Special K Chocolatey Strawberry Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-06-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-YVG4YET",
+                        "productName":  "Special K Cinnamon Maple Crumble Cereal-CA",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-08-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-ZZIDU2F",
+                        "productName":  "Special K Cinnamon \u0026 Pecan Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-06-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-GIOWP28",
+                        "productName":  "Special K Extra Red Berries Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-08-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-8DSC2RF",
+                        "productName":  "Special K Fruit and Yogurt Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-06-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-TAV2RZ1",
+                        "productName":  "Special K Fruit \u0026 Yogurt Cereal - Canadian",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-03-06T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-TXIQVOT",
+                        "productName":  "Special K Fruit \u0026 Yogurt Flakes Only WIP",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-06-04T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-HOQLSPY",
+                        "productName":  "Special K Gluten Free Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-06-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-LZOCXQC",
+                        "productName":  "Special K Granola for Dannon YoCrunch",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-11-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-1FAHNL5",
+                        "productName":  "Special K Iced Vanilla Latte",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-03-15T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-UQCLGLO",
+                        "productName":  "Special K Limited Edition Iced Vanilla Latte Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-01-18T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-C07CEFD",
+                        "productName":  "Special K lowfat Granola",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-09-10T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-NO0EMJO",
+                        "productName":  "Special K Low Fat Granola",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-11-05T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-OAUHNM9",
+                        "productName":  "Special K Multigrain Granola",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-04-19T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0PSPBYS",
+                        "productName":  "Special K Oat Crunch Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-11-02T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-TQQEKVL",
+                        "productName":  "Special K Oat Crunch Honey Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-12-12T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-O8DBY2K",
+                        "productName":  "Special K Original Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-06-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-XUL5IPF",
+                        "productName":  "Special K Plus High Protein Strawberry CrÃ¨me Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-07-31T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-8PAOEB8",
+                        "productName":  "Special K Plus - Triple Berry and Cocoa",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-18T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-QWJVDN6",
+                        "productName":  "Special K Protein Banana Nut Bread Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-10-30T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-VFLPLYS",
+                        "productName":  "Special K Protein Crunch Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-02-16T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-FYLUMLA",
+                        "productName":  "Special K Protein Original Multi-Grain Touch of Cinnamon",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-SGBNH0H",
+                        "productName":  "Special K Pumpkin Spice Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-05-23T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-FTFFXRV",
+                        "productName":  "Special K Red Berries Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-08-13T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-APMPEQP",
+                        "productName":  "Special K Red Berries Granola",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-18T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-2NVK76U",
+                        "productName":  "Special K Strawberry Chocolatey Delight Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-08-13T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-ARGKE1U",
+                        "productName":  "Special K Strawberry \u0026 Vanilla Made with YOGURTY OAT CLUSTERS",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-08-19T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-E5JKVPP",
+                        "productName":  "Special K Triple Berry Blend Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-04-08T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-BXWLPDT",
+                        "productName":  "Special K Vanilla Almond Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-06-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-R5NBONR",
+                        "productName":  "Special K Vanilla \u0026 Almond Granola",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-19T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-UKOG21D",
+                        "productName":  "Special K W/Berries Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-06-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-PZB7DQN",
+                        "productName":  "Special K Zero Sugar Cinnamon Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-XNC43PX",
+                        "productName":  "Spk Peaches \u0026 Cream",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-12-05T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-106B4FD",
+                        "productName":  "Strawberry Rice Krispies",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-08-22T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-8IKGHI8",
+                        "productName":  "Super Stars Cinnamon Crunch",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-05-21T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-DDPUXBS",
+                        "productName":  "Super Stars Confetti Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-05-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-M2I5DOB",
+                        "productName":  "Super Stars Fruity",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-05-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-AGKNH3R",
+                        "productName":  "Super Stars Honey",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-05-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-M2YOBW9",
+                        "productName":  "Toy Story 5 - Vanilla Flavored Loops",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-25T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-XXK2FQQ",
+                        "productName":  "Unfortified Puffed Rice WIP",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-07-02T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-LV3CAIW",
+                        "productName":  "Wednesday - Howlinâ Confetti Cake",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-03-04T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-YRUHB4W",
+                        "productName":  "Peanut Butter Crunch Cereal",
+                        "brandName":  "Kellogg\u0027s Vector",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-08-05T00:00:00.000Z",
+                        "_score":  "1.0"
+                    }
+                ],
+    "elapsed_ms":  156
+}

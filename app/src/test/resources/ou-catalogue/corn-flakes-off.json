@@ -1,0 +1,30 @@
+﻿{
+    "code":  "5050083393693",
+    "product":  {
+                    "brands":  "Kellogg\u0027s",
+                    "categories_tags":  [
+                                            "en:plant-based-foods-and-beverages",
+                                            "en:plant-based-foods",
+                                            "en:breakfasts",
+                                            "en:cereals-and-potatoes",
+                                            "en:cereals-and-their-products",
+                                            "en:breakfast-cereals",
+                                            "en:flakes",
+                                            "en:cereal-flakes",
+                                            "en:extruded-cereals",
+                                            "en:extruded-flakes",
+                                            "en:corn-flakes"
+                                        ],
+                    "code":  "5050083393693",
+                    "labels_tags":  [
+                                        "en:vegetarian",
+                                        "en:kosher",
+                                        "en:made-in-the-eu",
+                                        "en:manchester-beth-din"
+                                    ],
+                    "product_name":  "Corn Flakes",
+                    "product_name_en":  "Corn Flakes"
+                },
+    "status":  1,
+    "status_verbose":  "product found"
+}

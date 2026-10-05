@@ -21,7 +21,7 @@ class OuSearchTest {
     @Test fun exactMatchOnSecondPageIsNotMissed() = runBlocking {
         MockWebServer().use { s ->
             s.start(); s.enqueue(MockResponse().setBody(p))
-            s.enqueue(MockResponse().setBody("""{"results":[],"total":51}""")); s.enqueue(MockResponse().setBody("""{"results":[$row],"total":51}"""))
+            s.enqueue(MockResponse().setBody("""{"results":[],"total":101}""")); s.enqueue(MockResponse().setBody("""{"results":[$row],"total":101}"""))
             val result = ProductRepository(offBase = s.url("/").toString(), ouBase = s.url("/").toString()).lookup("12345678")
             assertEquals(KosherStatus.KOSHER, result.verdict.status)
             s.takeRequest(); s.takeRequest(); assertEquals("2", s.takeRequest().requestUrl!!.queryParameter("page"))
@@ -35,9 +35,9 @@ class OuSearchTest {
     @Test fun truncatedResultsCannotCertifyAndRequestsAreBounded() = runBlocking {
         MockWebServer().use { s ->
             s.start(); s.enqueue(MockResponse().setBody(p))
-            repeat(6) { s.enqueue(MockResponse().setBody("""{"results":[$row],"total":101}""")) }
+            repeat(12) { s.enqueue(MockResponse().setBody("""{"results":[$row],"total":501}""")) }
             val result = ProductRepository(offBase = s.url("/").toString(), ouBase = s.url("/").toString()).lookup("12345678")
-            assertEquals(KosherStatus.UNKNOWN, result.verdict.status); assertEquals(7, s.requestCount)
+            assertEquals(KosherStatus.UNKNOWN, result.verdict.status); assertEquals(13, s.requestCount)
         }
     }
 }

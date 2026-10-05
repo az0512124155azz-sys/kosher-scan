@@ -1,0 +1,262 @@
+﻿{
+    "total":  8,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUV7-J2WJGFZ",
+                        "productName":  "Earl Grey - pod",
+                        "brandName":  "Twinings",
+                        "category":  {
+                                         "category":  "Coffees \u0026 Teas",
+                                         "categorySort":  "Coffees \u0026 Teas",
+                                         "categorySearch":  "Coffees \u0026 Teas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1428139",
+                        "company":  "Twinings North America, Inc.",
+                        "companySlug":  "Twinings-North-America-Inc.",
+                        "location":  "Greensboro,  NC",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-08-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-ILO5KXV",
+                        "productName":  "English Breakfast Decaf - pod",
+                        "brandName":  "Twinings",
+                        "category":  {
+                                         "category":  "Coffees \u0026 Teas",
+                                         "categorySort":  "Coffees \u0026 Teas",
+                                         "categorySearch":  "Coffees \u0026 Teas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1428139",
+                        "company":  "Twinings North America, Inc.",
+                        "companySlug":  "Twinings-North-America-Inc.",
+                        "location":  "Greensboro,  NC",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-08-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-XZGXAID",
+                        "productName":  "English Breakfast - pod",
+                        "brandName":  "Twinings",
+                        "category":  {
+                                         "category":  "Coffees \u0026 Teas",
+                                         "categorySort":  "Coffees \u0026 Teas",
+                                         "categorySearch":  "Coffees \u0026 Teas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1428139",
+                        "company":  "Twinings North America, Inc.",
+                        "companySlug":  "Twinings-North-America-Inc.",
+                        "location":  "Greensboro,  NC",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-08-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-LZWHW00",
+                        "productName":  "Green Tea - pod",
+                        "brandName":  "Twinings",
+                        "category":  {
+                                         "category":  "Coffees \u0026 Teas",
+                                         "categorySort":  "Coffees \u0026 Teas",
+                                         "categorySearch":  "Coffees \u0026 Teas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1428139",
+                        "company":  "Twinings North America, Inc.",
+                        "companySlug":  "Twinings-North-America-Inc.",
+                        "location":  "Greensboro,  NC",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-08-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-HGBIYHR",
+                        "productName":  "Immune Support",
+                        "brandName":  "Twinings",
+                        "category":  {
+                                         "category":  "Coffees \u0026 Teas",
+                                         "categorySort":  "Coffees \u0026 Teas",
+                                         "categorySearch":  "Coffees \u0026 Teas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1304818",
+                        "company":  "Twinings North America, Inc.",
+                        "companySlug":  "Twinings-North-America-Inc.",
+                        "location":  "Clifton,  NJ",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-04-19T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-INFK53Z",
+                        "productName":  "Immune Support + Zinc",
+                        "brandName":  "Twinings",
+                        "category":  {
+                                         "category":  "Coffees \u0026 Teas",
+                                         "categorySort":  "Coffees \u0026 Teas",
+                                         "categorySearch":  "Coffees \u0026 Teas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1304818",
+                        "company":  "Twinings North America, Inc.",
+                        "companySlug":  "Twinings-North-America-Inc.",
+                        "location":  "Clifton,  NJ",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-03-11T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-PG61ZBQ",
+                        "productName":  "Lemon \u0026 Ginger - pod",
+                        "brandName":  "Twinings",
+                        "category":  {
+                                         "category":  "Coffees \u0026 Teas",
+                                         "categorySort":  "Coffees \u0026 Teas",
+                                         "categorySearch":  "Coffees \u0026 Teas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1428139",
+                        "company":  "Twinings North America, Inc.",
+                        "companySlug":  "Twinings-North-America-Inc.",
+                        "location":  "Greensboro,  NC",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-08-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-DWTC5JG",
+                        "productName":  "Sleep",
+                        "brandName":  "Twinings",
+                        "category":  {
+                                         "category":  "Coffees \u0026 Teas",
+                                         "categorySort":  "Coffees \u0026 Teas",
+                                         "categorySearch":  "Coffees \u0026 Teas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1304818",
+                        "company":  "Twinings North America, Inc.",
+                        "companySlug":  "Twinings-North-America-Inc.",
+                        "location":  "Clifton,  NJ",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-04-19T00:00:00.000Z",
+                        "_score":  "1.0"
+                    }
+                ],
+    "elapsed_ms":  154
+}

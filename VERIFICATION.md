@@ -1,4 +1,18 @@
-# Verification history and current version 1.4.5, 2026-10-05
+# Verification history and current version 1.4.6, 2026-10-05
+
+## Version 1.4.6 OU catalogue coverage
+
+Inspection of OU's current official search frontend and live endpoint found that
+`status` includes supplemental dairy-equipment/Yoshon annotations, while the
+underlying `conditions` field is separate. The former concatenation rejected
+these records. First-page snapshots across six brands contain 459 actual rows.
+Tests run all rows through the production parser and matching policy, with
+dedicated adversarial cases for unknown status text, revoked entries, variants,
+composite brands and category-dependent descriptors. These are catalogue rows,
+not 459 scanned barcodes. Additional repository tests exercise recorded OFF/OU
+responses, a match beyond the old 100-row limit, and a conflicting later page.
+The existing 12,000 generated adversarial cases and 33 recorded barcode cases
+remain. Yoshon eligibility is not inferred from the year-round kosher status.
 
 ## Version 1.4.5 restoration
 
@@ -159,3 +173,4 @@ Local build, lint and all 12,117 JVM cases pass (12,000 generated adversarial ca
 Live emulator lookup of Nutella (3017620422003) returned KOSHER in 5.874 seconds and displayed only: dairy, check the package certification marking, and not suitable for Passover. The source button is removed from the layout. All five Android smoke tests passed on the API 37 Pixel 6 AVD.
 Current local validation: all 12,118 JVM cases passed, including 12,000 generated adversarial cases (not live product checks). Lint, debug APK and instrumented-test APK builds passed. All six Android smoke tests passed on the API 37 Pixel 6 AVD, including yellow conditional evidence versus green unconditional barcode approval. No physical device was available.
 Version 1.4.5 local validation: 12,117 JVM cases passed, including the restored 12,000 generated adversarial cases. Lint and APK builds passed. All six Android emulator tests passed on API 37 Pixel 6, including original positive paths rendering green without package-check instructions. No physical device checks were possible.
+Current local validation: 12,127 JVM tests passed (12,000 synthetic adversarial cases plus 127 other tests). The catalogue test also checks 459 recorded rows, including 81 supplemental DE/Yoshon rows. All six Android smoke tests passed on API 37 Pixel 6. Lint and APK builds passed. No physical device testing was available. The emulator was initially stopped; it was restarted and the six tests then passed.

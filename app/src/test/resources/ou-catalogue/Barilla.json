@@ -1,0 +1,3206 @@
+﻿{
+    "total":  118,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUV3-ITM1QE6",
+                        "productName":  "Al Bronzo Bucatini",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-06-07T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-Z4VJHLX",
+                        "productName":  "Al Bronzo Conchiglie",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-08-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-YNIZKKS",
+                        "productName":  "Al Bronzo Fusilli",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-06-07T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-RT1Q2OP",
+                        "productName":  "Al Bronzo Fusilloni",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-15T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-XJJJODE",
+                        "productName":  "Al Bronzo Linguine",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-06-07T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-HFCLI8K",
+                        "productName":  "Al Bronzo Mezzi Rigatoni",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-06-07T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-N9YXVVN",
+                        "productName":  "Al Bronzo Orecchiette",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-15T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-IFG2QGP",
+                        "productName":  "Al Bronzo Penne Rigate",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-06-07T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-FIHIUQG",
+                        "productName":  "Al Bronzo Radiatori",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-10T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-O6UFKPW",
+                        "productName":  "Al Bronzo Spaghetti",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-06-07T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-A299C6D",
+                        "productName":  "Angel Hair",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0B04E1B",
+                        "productName":  "Bucatini",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0B7D40E",
+                        "productName":  "Campanelle",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-F738990",
+                        "productName":  "Capellini",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-B17DB60",
+                        "productName":  "Capelli O\u0027angelo",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0E378AD",
+                        "productName":  "Casarecce",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0227DAA",
+                        "productName":  "Cellentani",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-12A581F",
+                        "productName":  "Chickpea Casarecce",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-BF4F99E",
+                        "productName":  "Conchiglie Rigati",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-7RL8DS7",
+                        "productName":  "Cut Macaroni",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-02-05T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-32BC69D",
+                        "productName":  "Cut Spaghetti",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-859A643",
+                        "productName":  "Cut Ziti",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-FE6963B",
+                        "productName":  "Ditalini",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-4A34766",
+                        "productName":  "Egg Fettuccine",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-02C9654",
+                        "productName":  "Egg Oven Ready Lasagne",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-01-20T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-E1FA4A2",
+                        "productName":  "Egg Tagliatelle",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-331DEC9",
+                        "productName":  "Elbows",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-CJIOXJA",
+                        "productName":  "Elbows",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-19T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-958ACFC",
+                        "productName":  "Farfalle",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-8076ED3",
+                        "productName":  "Farfelle",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2008-10-30T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-96EF0DE",
+                        "productName":  "Fettuccine Rigati",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-D19D3F3",
+                        "productName":  "Fettuccini",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-661A6BB",
+                        "productName":  "Fideo Cut Spaghetti",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-8229C3E",
+                        "productName":  "Fire Roasted Marinara Sauce",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-863D801",
+                        "productName":  "Gemelli",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-05A3617",
+                        "productName":  "Gluten Free Elbows",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-11B9171",
+                        "productName":  "Gluten Free Fettucine",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-242133D",
+                        "productName":  "Gluten Free Penne",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0AA457B",
+                        "productName":  "Gluten Free Rotini",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-1746025",
+                        "productName":  "Gluten Free Spaghetti",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-F4LIRFJ",
+                        "productName":  "Heart Shaped",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-04-08T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-AWMHDBV",
+                        "productName":  "Jumbo Shells",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-05-25T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-9Y24OP2",
+                        "productName":  "Lasagna",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-TLKD3QA",
+                        "productName":  "Lasagne",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-19T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-UJDAXFD",
+                        "productName":  "Linguine",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-01-31T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-05512DE",
+                        "productName":  "Linguini",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-51A19CF",
+                        "productName":  "Linguini Fini",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-GTWNTUY",
+                        "productName":  "Macaroni",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-04-08T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-ARKJ9Q1",
+                        "productName":  "Manicotti",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-05-25T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-5CB64AA",
+                        "productName":  "Marinara Sauce",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-01-08T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-3E9FF20",
+                        "productName":  "Medium Shells",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-F590E30",
+                        "productName":  "Mezze Penne",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2008-03-05T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-B16EFE4",
+                        "productName":  "Mezzi Rigatoni",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-D992D29",
+                        "productName":  "Mini Farfalle",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-12-10T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-4F1CBFC",
+                        "productName":  "Mini Fusili",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2008-03-05T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9525D5D",
+                        "productName":  "Mini Penne Rigate",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-797FD0D",
+                        "productName":  "Mini Wheels",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2008-03-05T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-38FB6FC",
+                        "productName":  "Mostaccioli",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9DD8306",
+                        "productName":  "Orecchiette",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-02-07T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-QEPAKDZ",
+                        "productName":  "Orzo",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-09-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-QUUB9DC",
+                        "productName":  "Oven Ready Lasagne",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-04-08T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-YYWWTAL",
+                        "productName":  "Oven-Ready Lasagne Gluten Free",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-03-13T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-1235EDB",
+                        "productName":  "Pappardelle",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-ZITAHKL",
+                        "productName":  "Pastina",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-07-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-D5F379D",
+                        "productName":  "Penne",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-687871E",
+                        "productName":  "Penne Lisce",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-E93FBD7",
+                        "productName":  "Penne Rigate",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2008-10-30T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-7BMQPQB",
+                        "productName":  "Penne Rigate",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-19T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-KWI1O3X",
+                        "productName":  "Pennette",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-02-24T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-C676453",
+                        "productName":  "Pennette Rigate",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-B05BE31",
+                        "productName":  "Pennoni Rigate",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-3C5A7CA",
+                        "productName":  "Pipette",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0UBWVUP",
+                        "productName":  "Protein Star",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-04-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-14FD3D9",
+                        "productName":  "Rigatoni",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-G0JOVBG",
+                        "productName":  "Rigatoni",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-01-31T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0F352C0",
+                        "productName":  "Roasted Garlic Sauce",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-01-08T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-009FDDB",
+                        "productName":  "Rotini",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-PDZZUYD",
+                        "productName":  "Snowfall",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-09-20T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-FDB75A5",
+                        "productName":  "Spaghetti",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-YQSSFJ5",
+                        "productName":  "Spaghetti",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-06-07T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV7-2GWHUEC",
+                        "productName":  "Spaghetti",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-19T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-ISRL0UT",
+                        "productName":  "Spaghettini",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-04-08T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-4458C6D",
+                        "productName":  "Spaghetti Rigati",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-2C80A4A",
+                        "productName":  "Stelline",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-04-30T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-HAIRAUO",
+                        "productName":  "Tagliatelle",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-11-21T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-5445F79",
+                        "productName":  "Thick Spaghetti",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-349619F",
+                        "productName":  "Thin Fettucine",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-C91F7A5",
+                        "productName":  "Thin Spaghetti",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-09-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-7A32A23",
+                        "productName":  "Tomato \u0026 Basil Sauce",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-01-08T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-2F9E9D2",
+                        "productName":  "Traditional Sauce",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-01-08T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-A39AE2B",
+                        "productName":  "Tri Colored Rotini",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0F430C4",
+                        "productName":  "Tricolor Penne",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-OIF43TH",
+                        "productName":  "Wavy Lasagne",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-05-25T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-CDD890D",
+                        "productName":  "Whole Grain Angel Hair",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-C204CB8",
+                        "productName":  "Whole Grain Elbows",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-ON59UDD",
+                        "productName":  "Whole Grain Lasagne",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-03-05T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-5709ABB",
+                        "productName":  "Whole Grain Linguine",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2006-10-23T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-7C5A1CA",
+                        "productName":  "Whole Grain Penne",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2006-10-23T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-F4E821A",
+                        "productName":  "Whole Grain Rotini",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2007-01-22T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-4B6D58C",
+                        "productName":  "Whole Grain Spaghetti",
+                        "brandName":  "Barilla",
+                        "category":  {
+                                         "category":  "Pasta Products",
+                                         "categorySort":  "Pasta Products",
+                                         "categorySearch":  "Pasta Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "6675",
+                        "company":  "Barilla America, Inc.",
+                        "companySlug":  "Barilla-America-Inc.",
+                        "location":  "Northbrook,  IL",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2006-10-23T00:00:00.000Z",
+                        "_score":  "1.0"
+                    }
+                ],
+    "elapsed_ms":  329
+}

@@ -16,11 +16,12 @@ data class Product(
     val labelsText: String = ""
 )
 data class OuRecord(val id: String, val name: String, val brand: String,
-    val symbols: List<String>, val conditions: String)
+    val symbols: List<String>, val conditions: String, val officialStatus: String = "",
+    val dairyEquipment: Boolean = false, val yoshon: String = "")
 
 object KosherPolicy {
     fun normalize(value: String): String = Normalizer.normalize(value, Normalizer.Form.NFKD)
-        .lowercase(Locale.ROOT).replace(Regex("\\p{M}+"), "")
+        .lowercase(Locale.ROOT).replace(Regex("\\p{M}+"), "").replace(Regex("['’]"), "")
         .replace("&", " and ").replace(Regex("[^\\p{L}\\p{N}]+"), " ")
         .trim().replace(Regex("\\s+"), " ")
 
@@ -52,7 +53,7 @@ object KosherPolicy {
 
     // Ignore packaging quantities and a repeated brand prefix, never flavors/variants.
     fun searchName(value: String): String = value
-        .replace(Regex("\\b(?:\\d+\\s*[x×]\\s*)?\\d+(?:[.,]\\d+)?\\s*(?:kg|g|mg|ml|cl|l|oz|lb)\\b", RegexOption.IGNORE_CASE), " ")
+        .replace(Regex("\\b(?:\\d+\\s*[x×]\\s*)?\\d+(?:[.,]\\d+)?\\s*(?:fl\\s*oz|kg|g|mg|ml|cl|l|oz|lb|qt|gallon|ct)\\b", RegexOption.IGNORE_CASE), " ")
         .trim().replace(Regex("\\s+"), " ")
 
     private fun productIdentity(value: String, brand: String): String {
@@ -63,28 +64,49 @@ object KosherPolicy {
 
     fun strongMatch(p: Product, r: OuRecord): Boolean {
         val brand = normalize(r.brand)
-        if (r.id.isBlank() || brand.isBlank() || p.brand.split(',').none { normalize(it) == brand }) return false
-        if (r.symbols.isEmpty() || r.symbols.any { it !in setOf("OU", "OU-D", "OU-DE", "OU-M", "OU-P") }) return false
+        val brands = p.brand.split(',').map(::normalize).filter { it.isNotBlank() }
+        val composedBrand = brands.flatMap { it.split(' ') }.distinct().sorted()
+        if (r.id.isBlank() || brand.isBlank() ||
+            (brands.none { it == brand } && brand.split(' ').distinct().sorted() != composedBrand)) return false
+        if (r.symbols.isEmpty() || r.symbols.any { it !in setOf("OU", "OU-D", "OU-DE", "OU-M", "OU-P", "OU-Fish") }) return false
         // Fail closed on new/unknown restrictions, revoked entries, dates or batch conditions.
         val clauses = r.conditions.split('.').map { normalize(it) }.filter { it.isNotBlank() }
         if (clauses.isEmpty() || clauses.any { it !in setOf("symbol required", "not kosher for passover", "kosher for passover") }) return false
+        // OU renders supplemental DE/Yoshon fields in `status`. They are not
+        // additional certification restrictions. Never ignore arbitrary status text.
+        if (r.officialStatus.isNotBlank()) {
+            var status = normalize(r.officialStatus)
+            if (r.yoshon.isNotBlank()) {
+                val date = "(?:January|February|March|April|May|June|July|August|September|October|November|December) \\d{1,2}, \\d{4}"
+                val knownYoshon = r.yoshon == "Certified Yoshon" ||
+                    Regex("Yoshon with Best Before date \\(or earlier\\) of (?:$date)?(?:\\s*\\(best by dates through $date\\))?").matches(r.yoshon)
+                if (!knownYoshon) return false
+                status = status.removeSuffix(normalize(r.yoshon)).trim()
+            }
+            if (r.dairyEquipment) status = status.removeSuffix("dairy equipment").trim()
+            if (status != normalize(r.conditions)) return false
+        }
         val name = productIdentity(r.name, brand)
         if (name.isBlank()) return false
         val generic = setOf("milk", "water", "chocolate", "bread", "coffee", "tea", "salt", "sugar")
         if (name in generic) return false
+        fun identityTokens(value: String): List<String> = productIdentity(value, brand).split(' ')
+            .filterNot { it == "cereal" && "en:breakfast-cereals" in p.categories }.sorted()
         return listOf(p.name, p.englishName).filter { it.isNotBlank() }
-            .any { productIdentity(it, brand) == name }
+            .any { identityTokens(it) == identityTokens(r.name) }
     }
 
     fun resolve(p: Product, records: List<OuRecord>, related: Boolean = false): Verdict {
         if (explicitlyNotKosher(p)) return Verdict(KosherStatus.NOT_KOSHER,
             "המוצר מסומן במפורש כלא כשר ב־Open Food Facts (מאגר קהילתי).")
         val matches = if (related) emptyList() else records.filter { strongMatch(p, it) }
-        val distinct = matches.map { it.symbols.sorted() to it.conditions.split('.').map(::normalize).filter { clause -> clause.isNotBlank() }.distinct().sorted() }.distinct()
+        val distinct = matches.map { Triple(it.symbols.sorted(), it.conditions.split('.').map(::normalize).filter { clause -> clause.isNotBlank() }.distinct().sorted(), it.dairyEquipment) }.distinct()
         return if (matches.isNotEmpty() && distinct.size == 1) Verdict(KosherStatus.KOSHER,
             "התאמת שם ומותג ב־OU · ${matches.first().symbols.joinToString()}\nיש לוודא שהסמל מופיע על האריזה. ${if (matches.first().conditions.split('.').any { normalize(it) == "not kosher for passover" }) "לא לפסח." else ""}", "https://oukosher.org/product-search/", "OU",
             listOfNotNull(
-                if (matches.first().symbols == listOf("OU-D")) "חלבי." else null,
+                if (matches.first().dairyEquipment || matches.first().symbols == listOf("OU-DE")) "ציוד חלבי."
+                else if (matches.first().symbols == listOf("OU-D")) "חלבי."
+                else if (matches.first().symbols == listOf("OU-Fish")) "מכיל דגים." else null,
                 if (matches.first().conditions.split('.').any { normalize(it) == "not kosher for passover" }) "לא מתאים לפסח." else null
             ).joinToString("\n"))
         else if (explicitlyKosher(p)) Verdict(KosherStatus.KOSHER,

@@ -1,0 +1,3206 @@
+﻿{
+    "total":  395,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUV3-EBD6227",
+                        "productName":  "Assortment #10 - Grape Jelly and Mixed Fruit Jelly",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-F0EED85",
+                        "productName":  "Assortment #10 Grape Jelly and Mixed Fruit Jelly",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-106F655",
+                        "productName":  "Assortment # 11 â Grape Jelly, Mixed Fruit Jelly, \u0026 Strawberry Jam",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-AA673C0",
+                        "productName":  "Assortment # 11 â Grape Jelly, Mixed Fruit Jelly, \u0026 Strawberry Jam",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-BED1E3F",
+                        "productName":  "Assortment #12 (Grape Jelly, Mixed Fruit Jelly \u0026 Strawberry Jam)",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-75C6AB5",
+                        "productName":  "Assortment #1 (Apple Jelly, Strawberry Jam \u0026 Grape Jelly)",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-F538EFC",
+                        "productName":  "Assortment # 1 â Grape Jelly, Apple Jelly, \u0026 Strawberry Jam",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-05559AC",
+                        "productName":  "Assortment #5 - Mixed Fruit Jelly, Grape Jelly, and Strawberry Jam",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9659181",
+                        "productName":  "Cook Out Special Sauce",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-CFA3C61",
+                        "productName":  "Grape Jelly",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-25DE6BE",
+                        "productName":  "Honey",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Honey",
+                                         "categorySort":  "Honey",
+                                         "categorySearch":  "Honey"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-57AF0D3",
+                        "productName":  "Italian Dressing",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Salad Dressings \u0026 Mayonnaise",
+                                         "categorySort":  "Salad Dressings \u0026 Mayonnaise",
+                                         "categorySearch":  "Salad Dressings \u0026 Mayonnaise"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-E1A51C8",
+                        "productName":  "Marinara Sauce",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-682A066",
+                        "productName":  "Meat Sauce Base",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0C73770",
+                        "productName":  "Strawberry Jam",
+                        "brandName":  "Dist. by Kraft Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-FA8D345",
+                        "productName":  "100% Natural Spicy Brown Mustard",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-14CE3BB",
+                        "productName":  "57 Sauce",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2009-03-23T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-725CF15",
+                        "productName":  "57 Sauce",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-B2BOVO3",
+                        "productName":  "57 Sauce",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-0E51D97",
+                        "productName":  "57 Steak Sauce Made With Lea \u0026 Perrins",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve Fish",
+                                        "dpmSearch":  "pareve-fish"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU-Fish"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2006-10-04T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-JC4LMU2",
+                        "productName":  "Aderezo de Mayonesa con Finas Hierbas",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Salad Dressings \u0026 Mayonnaise",
+                                         "categorySort":  "Salad Dressings \u0026 Mayonnaise",
+                                         "categorySearch":  "Salad Dressings \u0026 Mayonnaise"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1341055",
+                        "company":  "Delimex de Mexico, S.A. De C.V.",
+                        "companySlug":  "Delimex-de-Mexico-S.A.-De-C.V.",
+                        "location":  "San Pedro Tlaquepaque,  Jal. MEXICO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-EBE3DB7",
+                        "productName":  "Aderezo Mayonesa/ Mayonnaise Dressing",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1341055",
+                        "company":  "Delimex de Mexico, S.A. De C.V.",
+                        "companySlug":  "Delimex-de-Mexico-S.A.-De-C.V.",
+                        "location":  "San Pedro Tlaquepaque,  Jal. MEXICO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-12-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-8B30EB5",
+                        "productName":  "All Natural Cleaning Vinegar",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Vinegars",
+                                         "categorySort":  "Vinegars",
+                                         "categorySearch":  "Vinegars"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9BED03C",
+                        "productName":  "All Natural Cleaning Vinegar 6% Acidity",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Vinegars",
+                                         "categorySort":  "Vinegars",
+                                         "categorySearch":  "Vinegars"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-04-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9B038EA",
+                        "productName":  "All Natural Picnic Pack Yellow Mustard",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-11-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-8BCECF9",
+                        "productName":  "All Natural Unfiltered Apple Cider Vinegar",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Vinegars",
+                                         "categorySort":  "Vinegars",
+                                         "categorySearch":  "Vinegars"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-7B452EB",
+                        "productName":  "All Sugar Strawberry Jam",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-84470E6",
+                        "productName":  "Apple Cider Flavored Distilled Vinegar 5% Acidity",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Vinegars",
+                                         "categorySort":  "Vinegars",
+                                         "categorySearch":  "Vinegars"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-357C5EA",
+                        "productName":  "Apple Cider Vinegar",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Vinegars",
+                                         "categorySort":  "Vinegars",
+                                         "categorySearch":  "Vinegars"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2001-08-08T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-C358E6B",
+                        "productName":  "Apple Jelly",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-033736B",
+                        "productName":  "Assortment #1 (Apple Jelly, Strawberry Jam \u0026 Concord Grape Jelly)",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-09-10T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-C02BA86",
+                        "productName":  "Assortment #3 (Mixed Fruit Jelly, Apple Jelly, Grape Jelly)",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-7E4AFE9",
+                        "productName":  "Assortment # 5 (Strawberry, Mixed Fruit, Grape)",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-6D3AB87",
+                        "productName":  "Assortment # 5 (Strawberry, Mixed Fruit , Grape Jelly)",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-C751DAC",
+                        "productName":  "Baby Dill Pickles",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySort":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySearch":  "Pickled Products, Sauerkrauts \u0026 Relishes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-1F5YLR2",
+                        "productName":  "Barbecue Sauce 34.2 oz",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-F612D32",
+                        "productName":  "Barbeque Sauce",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-5112419",
+                        "productName":  "BBQ Sauce-Easy Squeeze",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-0ZUKCVA",
+                        "productName":  "Black Garlic Ranch",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Salads \u0026 Dips",
+                                         "categorySort":  "Salads \u0026 Dips",
+                                         "categorySearch":  "Salads \u0026 Dips"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-BD5D69E",
+                        "productName":  "Black Garlic Ranch",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Salad Dressings \u0026 Mayonnaise",
+                                         "categorySort":  "Salad Dressings \u0026 Mayonnaise",
+                                         "categorySearch":  "Salad Dressings \u0026 Mayonnaise"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-ALDPRV2",
+                        "productName":  "Brauhaus Mustard",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-IGHA1G2",
+                        "productName":  "Brauhaus Mustard",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-2FE62AD",
+                        "productName":  "Bread \u0026 Butter Chips",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySort":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySearch":  "Pickled Products, Sauerkrauts \u0026 Relishes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-E328298",
+                        "productName":  "Bread \u0027n Butter Cucumber Slices",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySort":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySearch":  "Pickled Products, Sauerkrauts \u0026 Relishes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-827EA4A",
+                        "productName":  "Bread \u0027n Butter Spears",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySort":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySearch":  "Pickled Products, Sauerkrauts \u0026 Relishes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-2A6ECD1",
+                        "productName":  "Breakfast Syrup",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Syrups",
+                                         "categorySort":  "Syrups",
+                                         "categorySearch":  "Syrups"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-387CD3B",
+                        "productName":  "Breakfast Syrup",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Syrups",
+                                         "categorySort":  "Syrups",
+                                         "categorySearch":  "Syrups"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-E7B2D9C",
+                        "productName":  "Brewery Mustard",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-36CDFF2",
+                        "productName":  "Brown Spicy Mustard Tote",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-E15F742",
+                        "productName":  "Buffaranch Sauce",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-STGEJR2",
+                        "productName":  "Buttermilk Garlic Ranch Dressing",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Salad Dressings \u0026 Mayonnaise",
+                                         "categorySort":  "Salad Dressings \u0026 Mayonnaise",
+                                         "categorySearch":  "Salad Dressings \u0026 Mayonnaise"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-X2EVNL2",
+                        "productName":  "Buttermilk Ranch Mayonnaise Style Dip",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-E802BE9",
+                        "productName":  "Cage Free Mayonnaise",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Salad Dressings \u0026 Mayonnaise",
+                                         "categorySort":  "Salad Dressings \u0026 Mayonnaise",
+                                         "categorySearch":  "Salad Dressings \u0026 Mayonnaise"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-CB67763",
+                        "productName":  "Carolina Mustard Style BBQ Sauce",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-09-06T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-6F0946A",
+                        "productName":  "Chile Quebrado/ Crushed Chili",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1341055",
+                        "company":  "Delimex de Mexico, S.A. De C.V.",
+                        "companySlug":  "Delimex-de-Mexico-S.A.-De-C.V.",
+                        "location":  "San Pedro Tlaquepaque,  Jal. MEXICO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-12-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-4C8F352",
+                        "productName":  "Chili Sauce",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-85FDB3F",
+                        "productName":  "Chili Sauce",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Tomato Products",
+                                         "categorySort":  "Tomato Products",
+                                         "categorySearch":  "Tomato Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-F8F6F7E",
+                        "productName":  "Chili Sauce",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-348B4D5",
+                        "productName":  "Chipotle Flavored Tomato Ketchup",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-7YN7R93",
+                        "productName":  "Chipotle Honey Flavored Mustard",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-C23B96E",
+                        "productName":  "Chipotle Honey Flavored Mustard",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-VZSHKP4",
+                        "productName":  "Chipotle Honey Flavored Mustard",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-F586E28",
+                        "productName":  "Chipotle Pepper Flavored Light Mayonnaise",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Salad Dressings \u0026 Mayonnaise",
+                                         "categorySort":  "Salad Dressings \u0026 Mayonnaise",
+                                         "categorySearch":  "Salad Dressings \u0026 Mayonnaise"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-EE3A4AC",
+                        "productName":  "Ciruela Pasa/ Prune Baby Food",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1341055",
+                        "company":  "Delimex de Mexico, S.A. De C.V.",
+                        "companySlug":  "Delimex-de-Mexico-S.A.-De-C.V.",
+                        "location":  "San Pedro Tlaquepaque,  Jal. MEXICO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-12-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-3F76063",
+                        "productName":  "Ciruela/Plum Baby Food",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1341055",
+                        "company":  "Delimex de Mexico, S.A. De C.V.",
+                        "companySlug":  "Delimex-de-Mexico-S.A.-De-C.V.",
+                        "location":  "San Pedro Tlaquepaque,  Jal. MEXICO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-12-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-C97CE09",
+                        "productName":  "Classic Marinara Sauce",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-O82YF92",
+                        "productName":  "Classic Pack â 2 Simply Heinz Tomato Ketchup, 1 Heinz Yellow Mustard, 1 Heinz Barbecue Sauce",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-B3285BF",
+                        "productName":  "Classic Sweet \u0026 Thick BBQ Sauce, Club Twin Pack",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-4463722",
+                        "productName":  "Cocktail Sauce",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-E9E185B",
+                        "productName":  "Cocktail Sauce",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-370B1E9",
+                        "productName":  "Colado de Frutas Mixtas/Strained Mixed Fruit Baby Food",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1341055",
+                        "company":  "Delimex de Mexico, S.A. De C.V.",
+                        "companySlug":  "Delimex-de-Mexico-S.A.-De-C.V.",
+                        "location":  "San Pedro Tlaquepaque,  Jal. MEXICO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-12-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-562EB73",
+                        "productName":  "Colado de Pera/Strained Pear Baby Food",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1341055",
+                        "company":  "Delimex de Mexico, S.A. De C.V.",
+                        "companySlug":  "Delimex-de-Mexico-S.A.-De-C.V.",
+                        "location":  "San Pedro Tlaquepaque,  Jal. MEXICO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-12-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-A54C3CB",
+                        "productName":  "Colado Manzana/Strained Apple Baby Food",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1341055",
+                        "company":  "Delimex de Mexico, S.A. De C.V.",
+                        "companySlug":  "Delimex-de-Mexico-S.A.-De-C.V.",
+                        "location":  "San Pedro Tlaquepaque,  Jal. MEXICO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-12-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-88D5151",
+                        "productName":  "Colado Postre de Frutas/Strained Fruit Dessert",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1341055",
+                        "company":  "Delimex de Mexico, S.A. De C.V.",
+                        "companySlug":  "Delimex-de-Mexico-S.A.-De-C.V.",
+                        "location":  "San Pedro Tlaquepaque,  Jal. MEXICO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-12-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-B846AE0",
+                        "productName":  "Colado/Strained Melocoton Baby Food",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Baby Foods \u0026 Formulas",
+                                         "categorySort":  "Baby Foods \u0026 Formulas",
+                                         "categorySearch":  "Baby Foods \u0026 Formulas"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1341055",
+                        "company":  "Delimex de Mexico, S.A. De C.V.",
+                        "companySlug":  "Delimex-de-Mexico-S.A.-De-C.V.",
+                        "location":  "San Pedro Tlaquepaque,  Jal. MEXICO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-12-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-8197333",
+                        "productName":  "Concentrated Apple Cider Vinegar",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Vinegars",
+                                         "categorySort":  "Vinegars",
+                                         "categorySearch":  "Vinegars"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-E6FEDF4",
+                        "productName":  "Concentrated Distilled White Vinegar",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Vinegars",
+                                         "categorySort":  "Vinegars",
+                                         "categorySearch":  "Vinegars"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-98E386E",
+                        "productName":  "Concentrated White Vinegar",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Vinegars",
+                                         "categorySort":  "Vinegars",
+                                         "categorySearch":  "Vinegars"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2001-08-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-036F599",
+                        "productName":  "Crave Sauce",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Sauces",
+                                         "categorySort":  "Sauces",
+                                         "categorySearch":  "Sauces"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2008-12-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-2F4C504",
+                        "productName":  "Creamy Horseradish Sauce 12.5 oz",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-9ECC01F",
+                        "productName":  "Creamy Horseradish Sauce 32 oz",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-3C98A0E",
+                        "productName":  "Crunchy Pickle Spears",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySort":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySearch":  "Pickled Products, Sauerkrauts \u0026 Relishes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2006-11-08T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-FD569F7",
+                        "productName":  "Crushed Tomatoes In Puree",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Tomato Products",
+                                         "categorySort":  "Tomato Products",
+                                         "categorySearch":  "Tomato Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-A8FAB5A",
+                        "productName":  "Deli Mustard",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-10-16T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-E30F479",
+                        "productName":  "Deluxe Sweet Relish",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySort":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySearch":  "Pickled Products, Sauerkrauts \u0026 Relishes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-6878EDC",
+                        "productName":  "Deluxe Sweet Relish (cans)",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySort":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySearch":  "Pickled Products, Sauerkrauts \u0026 Relishes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-8566F0D",
+                        "productName":  "Diced Tomatoes In Juice",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Tomato Products",
+                                         "categorySort":  "Tomato Products",
+                                         "categorySearch":  "Tomato Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-6EDCEB3",
+                        "productName":  "Dijon Mustard",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-B7AA255",
+                        "productName":  "Dijon Mustard",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-CF55FC1",
+                        "productName":  "Dijon Mustard â Room Service",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2001-08-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-E78CA0B",
+                        "productName":  "Dill Pickles",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySort":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySearch":  "Pickled Products, Sauerkrauts \u0026 Relishes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-7BF0EB5",
+                        "productName":  "Dill Pickle Slices",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySort":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySearch":  "Pickled Products, Sauerkrauts \u0026 Relishes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-D5450DA",
+                        "productName":  "Dill Relish",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySort":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySearch":  "Pickled Products, Sauerkrauts \u0026 Relishes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-487BF0A",
+                        "productName":  "Dill Relish Glass Jar",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-A6688F5",
+                        "productName":  "Dispenser Sweet Relish",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySort":  "Pickled Products, Sauerkrauts \u0026 Relishes",
+                                         "categorySearch":  "Pickled Products, Sauerkrauts \u0026 Relishes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2006-12-06T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-1EA0973",
+                        "productName":  "Distilled White Vinegar 5% Acidity",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Vinegars",
+                                         "categorySort":  "Vinegars",
+                                         "categorySearch":  "Vinegars"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-04-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-285CF98",
+                        "productName":  "Distilled White Vinegar 5% Acidity",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Vinegars",
+                                         "categorySort":  "Vinegars",
+                                         "categorySearch":  "Vinegars"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-26E23F5",
+                        "productName":  "Durazno-Manzana 100%/ 100% Apple Peach Baby Food",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySort":  "Condiments, Jams, Jellies \u0026 Preserves",
+                                         "categorySearch":  "Condiments, Jams, Jellies \u0026 Preserves"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1341055",
+                        "company":  "Delimex de Mexico, S.A. De C.V.",
+                        "companySlug":  "Delimex-de-Mexico-S.A.-De-C.V.",
+                        "location":  "San Pedro Tlaquepaque,  Jal. MEXICO",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-12-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-FA7DD73",
+                        "productName":  "English Style Malt Vinegar",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Vinegars",
+                                         "categorySort":  "Vinegars",
+                                         "categorySearch":  "Vinegars"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-558B66C",
+                        "productName":  "Fat Free Mayonnaise",
+                        "brandName":  "Heinz",
+                        "category":  {
+                                         "category":  "Salad Dressings \u0026 Mayonnaise",
+                                         "categorySort":  "Salad Dressings \u0026 Mayonnaise",
+                                         "categorySearch":  "Salad Dressings \u0026 Mayonnaise"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "2843",
+                        "company":  "Kraft Heinz Company",
+                        "companySlug":  "Kraft-Heinz-Company",
+                        "location":  "Pittsburgh,  PA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    }
+                ],
+    "elapsed_ms":  165
+}

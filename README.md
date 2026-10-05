@@ -19,6 +19,17 @@ Instrumented tests are executed locally, not on the CI runner.
 
 ## Data and status policy
 
+Version 1.4.6 fixes OU catalogue coverage without barcode overrides. The parser
+keeps certification conditions separate from OU's display status and accepts only
+recognized, matching structured DE/Yoshon annotations. Revocation, lot/date-based
+certification restrictions and unrecognized status text still fail closed. The
+observed OU-Fish symbol is supported. Search can read five 100-row pages per query,
+with at most 12 requests inside the existing time budgets; incomplete pages cannot
+certify. Name matching tolerates word order, apostrophes, composite whole-token
+brand fields and packaging quantities, while retaining flavor/variant tokens.
+The generic descriptor `cereal` is ignored only with the actual breakfast-cereals
+category. Related suggestions, missing records and wrong variants stay UNKNOWN.
+
 Version 1.4.5 restores all matching/status rules from 1.4.3. The stricter policy
 introduced in 1.4.4 was withdrawn after the user clarified that only the package
 check sentence should be removed. Name/brand matching, community labels, the

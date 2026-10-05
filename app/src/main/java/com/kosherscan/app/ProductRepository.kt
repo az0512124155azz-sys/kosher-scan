@@ -169,29 +169,23 @@ class ProductRepository(
                 for (query in ouQueries(product).take(if (enableOuFallback) 6 else 1)) {
                     val records = mutableListOf<OuRecord>()
                     var complete = false
-                    for (page in 1..2) {
-                        if (++requests > 6) break
+                    for (page in 1..5) {
+                        if (++requests > 12) break
                         val url = ouBase.toHttpUrl().newBuilder().addPathSegments("api/v1/product")
-                            .addQueryParameter("page", page.toString()).addQueryParameter("limit", "50").addQueryParameter("query", query).build()
+                            .addQueryParameter("page", page.toString()).addQueryParameter("limit", "100").addQueryParameter("query", query).build()
                         val (status, body) = get(url)
                         if (status != 200) throw ServiceException(LookupIssue.SERVICE_UNAVAILABLE)
                         val json = JSONObject(body)
                         if (json.optString("status") == "error") throw ServiceException(LookupIssue.SERVICE_UNAVAILABLE)
                         val rows = json.getJSONArray("results")
                         if (json.optBoolean("relatedResults")) break
-                        records += (0 until rows.length()).map { i ->
-                            val r = rows.getJSONObject(i)
-                            val symbols = r.optJSONArray("symbol")
-                            OuRecord(r.optString("agencyUniqueId"), r.optString("productName"), r.optString("brandName"),
-                                (0 until (symbols?.length() ?: 0)).map { symbols!!.getString(it) },
-                                listOf(r.optString("status"), r.optString("conditions")).filter { it.isNotBlank() }.distinct().joinToString(". "))
-                        }
-                        if (json.optInt("total", rows.length()) <= page * 50) { complete = true; break }
+                        records += (0 until rows.length()).map { OuRecords.parse(rows.getJSONObject(it)) }
+                        if (json.optInt("total", rows.length()) <= page * 100) { complete = true; break }
                     }
                     // Incomplete pages can hide conflicting records; they cannot certify.
                     val verdict = KosherPolicy.resolve(product, if (complete) records else emptyList())
                     if (verdict.status != KosherStatus.UNKNOWN) return@withTimeoutOrNull LookupResult(product, verdict)
-                    if (requests >= 6) break
+                    if (requests >= 12) break
                 }
                 LookupResult(product, KosherPolicy.resolve(product, emptyList()))
             } ?: ouFailure(product, timedOut = true)

@@ -1,0 +1,1640 @@
+﻿{
+    "total":  51,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUD3-SQ4PXOR",
+                        "productName":  "Oreo - Coca Cola",
+                        "brandName":  "Nabisco Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-01-08T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-MHB5HKS",
+                        "productName":  "OREO Mini Birthday Snak",
+                        "brandName":  "Nabisco Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-07-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-Q4JLBFL",
+                        "productName":  "Sour Patch Kids Sandwich Cookie",
+                        "brandName":  "Nabisco Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-09-18T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-Y3KZV7C",
+                        "productName":  "1Z OREO MINIS STRWBRY 130CT",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-05-07T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-4714HW2",
+                        "productName":  "Mini Brownies",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-06-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-PPU1TIL",
+                        "productName":  "Oreo 1.5 QT Frozen Dairy Dessert",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-12-22T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-SUA0CFL",
+                        "productName":  "Oreo 1.5 QT Frozen Dairy Dessert",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-12-21T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-WI5GEKG",
+                        "productName":  "Oreo Ball Top cone 4.6 FL OZ, 4ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-12-21T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-BAGMPTG",
+                        "productName":  "Oreo Ball Top cone 4.6 FL OZ, 8ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-12-21T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-NHF6FYJ",
+                        "productName":  "OREO Banana Split",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-10-02T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-VKO4MRO",
+                        "productName":  "Oreo Bar 5ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-12-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-IKTA2T3",
+                        "productName":  "Oreo Bar Club Pack 15ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-02-18T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-IM3BPRS",
+                        "productName":  "Oreo Bar Spk",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-02-18T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-W3UMN1W",
+                        "productName":  "Oreo Cups 3.25 FL OZ, 10ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-12-21T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-KSGRYIW",
+                        "productName":  "Oreo Frosted Animal Cookie",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-06-24T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-5SAURFD",
+                        "productName":  "Oreo Frosted Sprinkle",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-08-27T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-VZ3UJI7",
+                        "productName":  "Oreo Frozen Dairy Dessert 14 fl oz",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-12-21T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-NKSFPTT",
+                        "productName":  "Oreo FS 3 Gallon",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-12-22T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-ALKZUBM",
+                        "productName":  "Oreo Ice Cream 3 Gallon",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-12-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-SRB7JM7",
+                        "productName":  "Oreo In An Oreo",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-06-22T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-RLSV2LX",
+                        "productName":  "Oreo King Cone 7.5 FL OZ Spk",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-12-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-GGKQUCN",
+                        "productName":  "Oreo Mini Bars 10ct, 18.5 FL OZ",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-19T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-V00GOUF",
+                        "productName":  "Oreo Mini Bars 10ct, 18.5 FL OZ",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-09-25T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-CFQ9WB4",
+                        "productName":  "Oreo Mini Cones 6ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-19T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-JVPQB7Z",
+                        "productName":  "Oreo Mini Frozen Dairy Dessert Cones 6 ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-3CUA9YH",
+                        "productName":  "Oreo Mini Peanut Butter",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-08-21T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-UGG7SJX",
+                        "productName":  "Oreo Mini Sandwiches 12ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-03-19T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-FTCXUAE",
+                        "productName":  "Oreo Mini Sandwiches 12 CT",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-25T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-SG9R2J3",
+                        "productName":  "Oreo Mini Sandwiches 24ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-09-15T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-MI0LN1Q",
+                        "productName":  "Oreo Minis Go Cup",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-06-22T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-UIVRQXT",
+                        "productName":  "Oreo Minis Golden Go Cup",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-06-22T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-74YWSLA",
+                        "productName":  "OREO MINIS WHITE FUDGE",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-06-02T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-UE1VON5",
+                        "productName":  "Oreo Mint 14 FL OZ (414 mL)",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-07-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-VWP8IBH",
+                        "productName":  "Oreo Mint 1.5 QT",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-02-18T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-ARVFV3B",
+                        "productName":  "Oreo Mint Bar 5ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-06-04T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-YROEXXA",
+                        "productName":  "Oreo Mint Sandwich 4ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-06-04T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-OEZ9CFR",
+                        "productName":  "Oreo Mint Sandwich Club Pack 12ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-06-04T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-6D6XGNB",
+                        "productName":  "Oreo Posty\u0027s Swirled Salted Caramel and Shortbread Flavor Creme",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-05-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-A1YJARC",
+                        "productName":  "Oreo Sandwich 16 FL OZ 4ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-12-21T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-SVFUADC",
+                        "productName":  "Oreo Sandwich 4.5 FL OZ Spk",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-12-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-YYB8F9F",
+                        "productName":  "Oreo Sandwich 4.5 FL OZ Spk",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-02-18T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-LNGUS44",
+                        "productName":  "Oreo Sandwich 4FL OZ, 4ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-02-18T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-MGO2MMD",
+                        "productName":  "Oreo Sandwich Club Pack 4.5 FL OZ, 12 ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-06-04T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-HOMIOXW",
+                        "productName":  "Oreo Sandwich Club Pack 4.5 FL OZ, 24ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-02-18T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-B5NKQLQ",
+                        "productName":  "Oreo Sandwich Club Pack 4.5 FL OZ, 24 ct",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5165",
+                        "company":  "Dreyers Grand Ice Cream",
+                        "companySlug":  "Dreyers-Grand-Ice-Cream",
+                        "location":  "Walnut Creek,  CA",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-12-22T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-UFQSLR6",
+                        "productName":  "Oreo S\u0027moreo",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-06-25T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-8WBCTLO",
+                        "productName":  "OREO Thin Mint",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2014-11-05T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-O0IVQWL",
+                        "productName":  "OREO THINS IRISH CREME",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-02-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-WDN4VJ6",
+                        "productName":  "Variety Pack SC- Space Dunk and DS",
+                        "brandName":  "Oreo",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-08-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-XZBDRE7",
+                        "productName":  "Oreo Ice Cream Mini Sandwiches 6 (Pas Yisroel)",
+                        "brandName":  "OREO",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1390378",
+                        "yoshon":  "Certified Yoshon",
+                        "company":  "Froneri Ice Cream",
+                        "companySlug":  "Froneri-Ice-Cream",
+                        "location":  "Ferentino,   ITALY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Certified Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-04-10T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-XVX0XK2",
+                        "productName":  "Oreo Ice Cream Sandwich (Pas Yisroel)",
+                        "brandName":  "OREO",
+                        "category":  {
+                                         "category":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySort":  "Ice Cream \u0026 Frozen Novelties",
+                                         "categorySearch":  "Ice Cream \u0026 Frozen Novelties"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1390378",
+                        "yoshon":  "Certified Yoshon",
+                        "company":  "Froneri Ice Cream",
+                        "companySlug":  "Froneri-Ice-Cream",
+                        "location":  "Ferentino,   ITALY",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Certified Yoshon",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-04-10T00:00:00.000Z",
+                        "_score":  "1.0"
+                    }
+                ],
+    "elapsed_ms":  150
+}

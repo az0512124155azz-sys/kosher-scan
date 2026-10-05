@@ -1,0 +1,1025 @@
+﻿{
+    "total":  31,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUV3-16SWOCX",
+                        "productName":  "Corn Flakes Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-06-26T00:00:00.000Z",
+                        "_score":  0.42935818
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-WW5JCFE",
+                        "productName":  "Corn Flake Crumbs Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-07-25T00:00:00.000Z",
+                        "_score":  0.41094592
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-OYRTGTA",
+                        "productName":  "Multigrain Frosted Flakes",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-17T00:00:00.000Z",
+                        "_score":  0.13421914
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-IDS9ZDJ",
+                        "productName":  "Frosted Flakes Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-06-26T00:00:00.000Z",
+                        "_score":  0.121113114
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-NHNIJ6C",
+                        "productName":  "Corn Pops Cereal (CAN)",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-07-09T00:00:00.000Z",
+                        "_score":  0.11815108
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-FPQYJBG",
+                        "productName":  "Frosted Flakes Cereal Bar",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-08-27T00:00:00.000Z",
+                        "_score":  0.1171172
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-FTE0ET7",
+                        "productName":  "All-Bran Flakes Cereal-CA",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-07-17T00:00:00.000Z",
+                        "_score":  0.11555113
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-B6A905F",
+                        "productName":  "Avatar Pandora Flakes with Blueberry Flavored Blue Moons",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.11347172
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-LPVF16S",
+                        "productName":  "Corn Pops Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-06-26T00:00:00.000Z",
+                        "_score":  0.111483015
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-UIMP8XM",
+                        "productName":  "Frosted Flakes w/ Energy Clusters Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-06-26T00:00:00.000Z",
+                        "_score":  0.111483015
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-JEGB8X8",
+                        "productName":  "Frosted Flakes - 25% Less Sugar",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-07-31T00:00:00.000Z",
+                        "_score":  0.10884103
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-YTTM1IP",
+                        "productName":  "Frosted Flakes Avatar 2 Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-04-11T00:00:00.000Z",
+                        "_score":  0.10252933
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-TXIQVOT",
+                        "productName":  "Special K Fruit \u0026 Yogurt Flakes Only WIP",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of (best by dates through August 29, 2026)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-06-04T00:00:00.000Z",
+                        "_score":  0.10209881
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-SIRDKTV",
+                        "productName":  "Corn Pops Jumbo Snax Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-11-07T00:00:00.000Z",
+                        "_score":  0.10134924
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-TEK1USV",
+                        "productName":  "Frosted Flakes - Minecraft",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-07-31T00:00:00.000Z",
+                        "_score":  0.099025175
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-KQSDTCW",
+                        "productName":  "Frosted Flakes and Froot Loops Mashup Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-08-22T00:00:00.000Z",
+                        "_score":  0.0983996
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-MCKF8CH",
+                        "productName":  "Frosted Flakes Cinnamon Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySort":  "Cereals, Grains \u0026 Legumes",
+                                         "categorySearch":  "Cereals, Grains \u0026 Legumes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-09-12T00:00:00.000Z",
+                        "_score":  0.097984545
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-JCY4G1M",
+                        "productName":  "Corn Pops Caramel Crunch Cereal Jumbo Snax",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-01-15T00:00:00.000Z",
+                        "_score":  0.094218515
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-DXCXYL4",
+                        "productName":  "Frosted Flakes Cinnamon Crunch Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-10-26T00:00:00.000Z",
+                        "_score":  0.09411855
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-U9DGDPO",
+                        "productName":  "Frosted Flakes Pumpkin Spice Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-06-04T00:00:00.000Z",
+                        "_score":  0.09302524
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-IZJCOFJ",
+                        "productName":  "Frosted Flakes Glazed Donut Holes - Glazed Original",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-08-13T00:00:00.000Z",
+                        "_score":  0.08981337
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-9TGLEVN",
+                        "productName":  "Frosted Flakes and Apple Jacks Mashups Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-10-01T00:00:00.000Z",
+                        "_score":  0.08933553
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-U731GN2",
+                        "productName":  "Frosted Flakes Chocolate Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.08885999
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-4VZ57YX",
+                        "productName":  "Frosted Flakes Cookies and Creme Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-04-29T00:00:00.000Z",
+                        "_score":  0.08885999
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-V89HGSH",
+                        "productName":  "Frosted Flakes Chocolate Peanut Flavor",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-11-19T00:00:00.000Z",
+                        "_score":  0.08876516
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-ZFDCEAQ",
+                        "productName":  "Just Right Coated Maple Flakes Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "CI",
+                        "labelCompanyId":  "1348840",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-10-19T00:00:00.000Z",
+                        "_score":  0.0872602
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-RIRY2K8",
+                        "productName":  "Frosted Flakes Cinnamon French Toast",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-08-09T00:00:00.000Z",
+                        "_score":  0.08633136
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-MJ4YQJ2",
+                        "productName":  "Frosted Flakes Strawberry Milkshake Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.08568649
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-LIS1PIW",
+                        "productName":  "Chocolate Peanut Butter Corn Pops Cereal",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of December 15, 2026 (best by dates through August 29, 2026)",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of December 15, 2026 (best by dates through August 29, 2026)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-08-20T00:00:00.000Z",
+                        "_score":  0.08568649
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-4BC9D12",
+                        "productName":  "Mashups - Frosted Flakes \u0026 Apple Jacks",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  0.08252728
+                    },
+                    {
+                        "agencyUniqueId":  "OUV3-RRJLVSX",
+                        "productName":  "LCNB Frosted Flakes Blueberry Spheres WIP",
+                        "brandName":  "Kellogg\u0027s",
+                        "category":  {
+                                         "category":  "Cereals",
+                                         "categorySort":  "Cereals",
+                                         "categorySearch":  "Cereals"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Pareve",
+                                        "dpmSearch":  "pareve"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "1348840",
+                        "yoshon":  "Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "company":  "WK Kellogg Co",
+                        "companySlug":  "WK-Kellogg-Co",
+                        "location":  "Battle Creek,  MI",
+                        "symbol":  [
+                                       "OU"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon with Best Before date (or earlier) of August 29, 2026",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-04-11T00:00:00.000Z",
+                        "_score":  0.08094414
+                    }
+                ],
+    "elapsed_ms":  417
+}
