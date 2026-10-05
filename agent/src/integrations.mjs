@@ -14,10 +14,11 @@ export async function research(row, env) {
   if (row.barcode_photo) parts.push({inlineData: {mimeType: 'image/jpeg', data: row.barcode_photo}});
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${env.GEMINI_MODEL || 'gemini-2.5-flash'}:generateContent`;
   const data = await jsonFetch(url, {method:'POST', headers:{'Content-Type':'application/json','x-goog-api-key':key}, body:JSON.stringify({
-    contents:[{role:'user',parts}], tools:[{google_search:{}}], generationConfig:{temperature:0, maxOutputTokens:3000}
+    contents:[{role:'user',parts}], tools:[{google_search:{}}], generationConfig:{temperature:0, maxOutputTokens:3000, thinkingConfig:{thinkingBudget:0}}
   })});
   const candidate = data.candidates?.[0];
   const text = candidate?.content?.parts?.filter(x => x.text && !x.thought).map(x => x.text).join('\n') || '';
+  if(!text.trim())throw new Error('empty_research');
   const json = text.replace(/^```(?:json)?\s*/i,'').replace(/\s*```$/,'').trim();
   let raw; try { raw = JSON.parse(json); } catch { raw = {suggestedStatus:'unknown', explanation:text}; }
   const result = validateSuggestion(raw);

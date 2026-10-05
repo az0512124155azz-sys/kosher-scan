@@ -13,13 +13,25 @@ are accepted. It caches a validated connection for up to 24 hours, keeps normal
 lookups independent, and resolves newly loaded routing before sending an unknown
 result. Barcode crops remain local unless there is an enabled connection.
 Provider, administrator and GitHub credentials are never published to clients.
-The routing is explicitly disabled until a real service is deployed. Thus this
-release prepares automatic connection but does not claim live shared ingestion.
+Routing was initially disabled during preparation. It is now enabled for the
+deployed https://kosher-scan-agent.az0512124155azz.workers.dev service.
 
 12,162 JVM cases and 11 emulator tests passed with lint/build. The updated native
 flow test confirms UNKNOWN becomes KOSHER after a reviewed mock-service response
 through automatic polling, without an agent button. UI tests assert the removed
 controls do not exist and the result card only offers scanning another product.
+
+After owner OAuth login, real D1 migrations, secret upload and Worker deployment,
+the actual GitHub APK automatically discovered routing and submitted a manual
+UNKNOWN scan into the remote dashboard without entering any connection data.
+The production job exposed an empty Gemini response; empty output now retries
+instead of being marked researched, and Flash uses a zero thinking budget so
+limited output tokens are available for the final research text. A real retry
+returned nonempty Hebrew research with Google grounding, conservatively UNKNOWN.
+The 10 backend tests cover the empty-response regression. Production dashboard
+browser checks found no JavaScript errors. Manual input has no barcode photo;
+actual crop/upload behavior is separately covered by Android tests. Physical
+camera photography on a real handset and Telegram delivery remain unverified.
 
 
 ## Version 1.6.0 dashboard, research agent and Android connection
