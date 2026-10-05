@@ -85,8 +85,22 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         WindowCompat.setDecorFitsSystemWindows(window, false)
         setContentView(R.layout.activity_main)
+        com.tom_roush.pdfbox.android.PDFBoxResourceLoader.init(applicationContext)
         model = ViewModelProvider(this)[ScanModel::class.java]
-        repository = ProductRepository(barcodeLookup = IkrRepository(), onOuEvent = {
+        val preferences = getSharedPreferences("market", MODE_PRIVATE)
+        fun market() = preferences.getString("country", "IL") ?: "IL"
+        val marketButton = findViewById<TextView>(R.id.marketButton)
+        fun showMarket() { marketButton.text = when (market()) { "IL" -> "מדינת רכישה: ישראל ▾"; "GB" -> "מדינת רכישה: בריטניה ▾"; else -> "מדינת רכישה: אחרת ▾" } }
+        showMarket()
+        marketButton.setOnClickListener {
+            if (!model.state.value.loading) androidx.appcompat.app.AlertDialog.Builder(this)
+                .setTitle("איפה נקנה המוצר?").setItems(arrayOf("ישראל", "בריטניה", "מדינה אחרת")) { _, position ->
+                    preferences.edit().putString("country", listOf("IL", "GB", "OTHER")[position]).apply()
+                    showMarket(); model.reset()
+                }.show()
+        }
+        repository = ProductRepository(barcodeLookup = IkrRepository(), additionalLookup = AuthoritySources(market = ::market,
+            diagnostic = { android.util.Log.d("KosherScan", "Authority: $it") }), onOuEvent = {
             android.util.Log.d("KosherScan", "OU: $it")
         }, hasNetwork = {
             val cm = applicationContext.getSystemService(ConnectivityManager::class.java)

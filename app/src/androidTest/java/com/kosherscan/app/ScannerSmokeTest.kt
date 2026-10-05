@@ -27,6 +27,41 @@ import java.util.concurrent.TimeUnit
 @RunWith(AndroidJUnit4::class)
 class ScannerSmokeTest {
     @get:Rule val permission: GrantPermissionRule = GrantPermissionRule.grant(Manifest.permission.CAMERA)
+    @Test @SdkSuppress(minSdkVersion = 29)
+    fun purchaseCountryPersistsAndChangingItResetsThePreviousResult() {
+        val context = androidx.test.core.app.ApplicationProvider.getApplicationContext<android.content.Context>()
+        val prefs = context.getSharedPreferences("market", android.content.Context.MODE_PRIVATE)
+        prefs.edit().clear().commit()
+        try {
+            ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+                scenario.onActivity { activity ->
+                    assertTrue(activity.findViewById<TextView>(R.id.marketButton).text.contains("ישראל"))
+                    ViewModelProvider(activity)[ScanModel::class.java].state.value = ScanState("12345678", result = LookupResult(
+                        Product("12345678", "Test Product", "Brand"), Verdict(KosherStatus.KOSHER, "test")))
+                    activity.findViewById<View>(R.id.marketButton).performClick()
+                }
+                androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
+                scenario.onActivity {
+                    fun findList(view: View): android.widget.ListView? {
+                        if (view is android.widget.ListView) return view
+                        if (view is android.view.ViewGroup) for (i in 0 until view.childCount) {
+                            findList(view.getChildAt(i))?.let { return it }
+                        }
+                        return null
+                    }
+                    val list = WindowInspector.getGlobalWindowViews().mapNotNull(::findList).first()
+                    list.performItemClick(list.getChildAt(1), 1, list.adapter.getItemId(1))
+                }
+                androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
+                scenario.recreate()
+                scenario.onActivity { activity ->
+                    assertTrue(activity.findViewById<TextView>(R.id.marketButton).text.contains("בריטניה"))
+                    assertEquals("GB", prefs.getString("country", ""))
+                    assertNull(ViewModelProvider(activity)[ScanModel::class.java].state.value.result)
+                }
+            }
+        } finally { prefs.edit().clear().commit() }
+    }
     @Test fun existingPositivePathsRemainGreenWithoutPackageCheckInstruction() {
         val p = Product("3017620422003", "Nutella", "Ferrero")
         val verdicts = listOf(

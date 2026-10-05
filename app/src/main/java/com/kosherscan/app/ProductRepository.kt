@@ -31,7 +31,8 @@ class ProductRepository(
     private val metadataGraceMs: Long = 1_500,
     private val ouTimeoutMs: Long = 8_000,
     private val lookupTimeoutMs: Long = 12_000,
-    private val onOuEvent: (String) -> Unit = {}
+    private val onOuEvent: (String) -> Unit = {},
+    private val additionalLookup: IdentifiedLookup? = null
 ) : ProductLookup {
     private class ServiceException(val issue: LookupIssue) : IOException()
     private suspend fun get(url: HttpUrl): Pair<Int, String> = suspendCancellableCoroutine { continuation ->
@@ -60,13 +61,13 @@ class ProductRepository(
     fun extended() = ProductRepository(client.newBuilder().readTimeout(10, TimeUnit.SECONDS)
         .callTimeout(15, TimeUnit.SECONDS).build(), hasNetwork, offBase, ouBase, barcodeLookup, enableOuFallback,
         metadataTimeoutMs = 15_000, metadataGraceMs = 1_500, ouTimeoutMs = 20_000, lookupTimeoutMs = 35_000,
-        onOuEvent = onOuEvent)
+        onOuEvent = onOuEvent, additionalLookup = additionalLookup)
 
     private suspend fun fetchOff(code: String): LookupResult {
         val product: Product
         try {
             val url = offBase.toHttpUrl().newBuilder().addPathSegments("api/v2/product").addPathSegment("$code.json")
-                .addQueryParameter("fields", "code,product_name,product_name_he,product_name_en,brands,image_front_small_url,labels,labels_tags,categories_tags,ingredients_text,ingredients_text_en").build()
+                .addQueryParameter("fields", "code,product_name,product_name_he,product_name_en,brands,brand_owner,image_front_small_url,labels,labels_tags,categories_tags,ingredients_text,ingredients_text_en").build()
             val (status, body) = get(url)
             if (status != 200 && status != 404) return failure(LookupIssue.SERVICE_UNAVAILABLE)
             val json = JSONObject(body)
@@ -79,7 +80,7 @@ class ProductRepository(
                 p.optString("brands"), p.optString("product_name_en"), p.optString("image_front_small_url"),
                 (0 until (labels?.length() ?: 0)).map { labels!!.getString(it) },
                 (0 until (categories?.length() ?: 0)).map { categories!!.getString(it) },
-                p.optString("ingredients_text"), p.optString("ingredients_text_en"), p.optString("labels"))
+                p.optString("ingredients_text"), p.optString("ingredients_text_en"), p.optString("labels"), p.optString("brand_owner"))
         } catch (e: IOException) { return failure(classify(e)) }
           catch (e: org.json.JSONException) { return failure(LookupIssue.INVALID_RESPONSE) }
         return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
@@ -162,6 +163,19 @@ class ProductRepository(
     }
 
     private suspend fun resolveIdentified(product: Product): LookupResult {
+        if (additionalLookup == null || PlainWaterPolicy.matches(product)) return resolveOu(product)
+        return coroutineScope {
+            val ou = async { resolveOu(product) }
+            val other = async { additionalLookup.lookup(product) }
+            val first = ou.await(); val second = other.await()
+            if ((KosherPolicy.explicitlyNotKosher(product) && second.verdict.status == KosherStatus.KOSHER) ||
+                (KosherPolicy.explicitlyKosher(product) && second.verdict.status == KosherStatus.NOT_KOSHER))
+                LookupResult(product, Verdict(KosherStatus.UNKNOWN, "Conflicting sources"))
+            else AuthoritySources.merge(product, listOf(first, second))
+        }
+    }
+
+    private suspend fun resolveOu(product: Product): LookupResult {
         if (KosherPolicy.explicitlyNotKosher(product)) return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
         if (PlainWaterPolicy.matches(product)) return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
         if (product.brand.isBlank() || product.name.isBlank()) return LookupResult(product, KosherPolicy.resolve(product, emptyList()))

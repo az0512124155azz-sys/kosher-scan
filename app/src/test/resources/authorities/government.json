@@ -1,0 +1,214 @@
+﻿{
+    "help":  "https://data.gov.il/api/3/action/help_show?name=datastore_search",
+    "success":  true,
+    "result":  {
+                   "include_total":  true,
+                   "limit":  3,
+                   "records_format":  "objects",
+                   "resource_id":  "4cc6c561-5975-4bac-904f-c06489ceeb6d",
+                   "total_estimation_threshold":  null,
+                   "records":  [
+                                   {
+                                       "_id":  1,
+                                       "name4":  "שמן קוקוס כתית אורגני 950מל",
+                                       "name5":  "organic virgin coconut oil",
+                                       "name7":  "106997",
+                                       "name1":  "תבואות מוצרי מזון אורגניים וטבעיים בע\"מ",
+                                       "name3":  "בד\u0027\u0027צ מחזיקי הדת בעלז",
+                                       "name8":  "11/12/2026",
+                                       "name6":  "אדגמי לוקמנגי  | ADAMJEE LUKMANJEE",
+                                       "name2":  "סרי לנקה )צילון(",
+                                       "name9":  "06/01/2026",
+                                       "name10":  "פרווה | לימות השנה",
+                                       "name11":  "",
+                                       "name14":  "",
+                                       "name12":  "",
+                                       "name15":  "",
+                                       "description":  "נוסח תווית: כשר פרווה בהשגחת בד\"צ בעלז ובאישור הרבנות הראשית לישראל | הערות לתעודה: סמל הכשרות חייב להופיע על גבי האריזה המקורית  | שם היצרן וארץ הייצור חייבים להופיע על גבי האריזה המקורית"
+                                   },
+                                   {
+                                       "_id":  2,
+                                       "name4":  "שמן קוקוס כתית אורגני 300מל",
+                                       "name5":  "organic virgin coconut oil",
+                                       "name7":  "106997",
+                                       "name1":  "תבואות מוצרי מזון אורגניים וטבעיים בע\"מ",
+                                       "name3":  "בד\u0027\u0027צ מחזיקי הדת בעלז",
+                                       "name8":  "11/12/2026",
+                                       "name6":  "אדגמי לוקמנגי  | ADAMJEE LUKMANJEE",
+                                       "name2":  "סרי לנקה )צילון(",
+                                       "name9":  "06/01/2026",
+                                       "name10":  "פרווה | לימות השנה",
+                                       "name11":  "",
+                                       "name14":  "",
+                                       "name12":  "",
+                                       "name15":  "",
+                                       "description":  "נוסח תווית: כשר פרווה בהשגחת בד\"צ בעלז ובאישור הרבנות הראשית לישראל | הערות לתעודה: סמל הכשרות חייב להופיע על גבי האריזה המקורית  | שם היצרן וארץ הייצור חייבים להופיע על גבי האריזה המקורית"
+                                   },
+                                   {
+                                       "_id":  3,
+                                       "name4":  "שמן שומשום בכבישה קרה",
+                                       "name5":  "25CL Sesame Oil CRF Selection",
+                                       "name7":  "107099",
+                                       "name1":  "גלובל ריטייל ק.י בע\"מ (לשעבר יינות ביתן בע\"מ)",
+                                       "name3":  "TOP-K הולנד",
+                                       "name8":  "20/09/2026",
+                                       "name6":  "לה קומפאגני דה סאוואורס | LA COMPAGNIE",
+                                       "name2":  "צרפת",
+                                       "name9":  "25/05/2026",
+                                       "name10":  "פרווה | לימות השנה",
+                                       "name11":  "",
+                                       "name14":  "",
+                                       "name12":  "",
+                                       "name15":  "",
+                                       "description":  "נוסח תווית: כשר פרווה בהשגחת TOP-K ובאישור הרבנות הראשית לישראל | הערות לתעודה: שם היצרן וארץ הייצור חייבים להופיע על גבי האריזה המקורית"
+                                   }
+                               ],
+                   "fields":  [
+                                  {
+                                      "id":  "_id",
+                                      "type":  "int"
+                                  },
+                                  {
+                                      "id":  "name4",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  ""
+                                               }
+                                  },
+                                  {
+                                      "id":  "name5",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  ""
+                                               }
+                                  },
+                                  {
+                                      "id":  "name7",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  "text"
+                                               }
+                                  },
+                                  {
+                                      "id":  "name1",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  ""
+                                               }
+                                  },
+                                  {
+                                      "id":  "name3",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  ""
+                                               }
+                                  },
+                                  {
+                                      "id":  "name8",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  ""
+                                               }
+                                  },
+                                  {
+                                      "id":  "name6",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  ""
+                                               }
+                                  },
+                                  {
+                                      "id":  "name2",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  ""
+                                               }
+                                  },
+                                  {
+                                      "id":  "name9",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  ""
+                                               }
+                                  },
+                                  {
+                                      "id":  "name10",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  ""
+                                               }
+                                  },
+                                  {
+                                      "id":  "name11",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  ""
+                                               }
+                                  },
+                                  {
+                                      "id":  "name14",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  ""
+                                               }
+                                  },
+                                  {
+                                      "id":  "name12",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  ""
+                                               }
+                                  },
+                                  {
+                                      "id":  "name15",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  ""
+                                               }
+                                  },
+                                  {
+                                      "id":  "description",
+                                      "type":  "text",
+                                      "info":  {
+                                                   "label":  "",
+                                                   "notes":  "",
+                                                   "type_override":  ""
+                                               }
+                                  }
+                              ],
+                   "_links":  {
+                                  "start":  "/api/3/action/datastore_search?resource_id=4cc6c561-5975-4bac-904f-c06489ceeb6d\u0026limit=3",
+                                  "next":  "/api/3/action/datastore_search?resource_id=4cc6c561-5975-4bac-904f-c06489ceeb6d\u0026limit=3\u0026offset=3"
+                              },
+                   "total":  36324,
+                   "total_was_estimated":  false
+               }
+}

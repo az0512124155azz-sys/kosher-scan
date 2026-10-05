@@ -13,7 +13,7 @@ data class Product(
     val labels: List<String> = emptyList(),
     val categories: List<String> = emptyList(),
     val ingredients: String = "", val englishIngredients: String = "",
-    val labelsText: String = ""
+    val labelsText: String = "", val manufacturer: String = ""
 )
 data class OuRecord(val id: String, val name: String, val brand: String,
     val symbols: List<String>, val conditions: String, val officialStatus: String = "",

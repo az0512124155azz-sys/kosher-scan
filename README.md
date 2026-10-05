@@ -19,6 +19,38 @@ Instrumented tests are executed locally, not on the CI runner.
 
 ## Data and status policy
 
+Version 1.5.0 adds four live sources alongside the existing OFF, OU and
+Kosharot integrations. Searches run concurrently with per-source deadlines;
+there is no hardcoded barcode verdict table or copied certification database.
+
+* **Israeli Rabbinate:** discovers the current imported-food CSV resource via
+  the public CKAN catalogue, then queries its datastore. Product and manufacturer
+  must match, the certificate must be current, and unrecognized batch/package
+  conditions prevent approval. Certificate numbers are never treated as barcodes.
+* **OK:** reads the public product-search table, requiring a product KID and
+  coherent status/symbol. A company listing alone cannot certify a product.
+* **STAR-K:** searches the official directory, downloads the linked current PDF
+  certificate and matches actual product rows, brands, conditions and expiry.
+  Unknown layouts, omitted table rows and broad company searches fail closed.
+* **KLBD:** reads the public isitkosher.uk service. `Not Kosher` is an explicit
+  negative; `Not Approved` and missing information remain UNKNOWN. Stale datasets,
+  incomplete lists and unsupported restrictions cannot certify.
+
+The small purchase-country control defaults to Israel: Rabbinate is queried
+for Israel, KLBD only for the UK, and neither for other countries. The selection
+persists and changing it clears the previous scan. The other sources remain
+enabled for all selections. This is purchase-market scope, not GPS location.
+OFF still supplies barcode identity, photos and community labels; it is not a
+certification authority. Official results with conflicting statuses stay UNKNOWN.
+Known results survive unrelated service failures. Source evidence remains internal
+and the simple Hebrew result presentation and three statuses are preserved.
+
+These are live public-site integrations, not guaranteed official open APIs for
+every source. Strict identity and condition checks can leave products UNKNOWN,
+particularly without manufacturer metadata, with generic names, dated/batch
+conditions or country-specific variants. Adding sources does not establish
+universal barcode coverage.
+
 Version 1.4.7 identifies a retail product line when its complete branded name
 matches OU's product name, even if OU lists a different parent/licensing brand.
 The retail brand must explicitly start the official product name; extra flavor,

@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/stark.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>STAR-K Listings of Companies and Products </title>
+<meta name="description" content="View star-k listings of companies and products" />
+
+<base href="https://www.star-k.org/" />
+<!-- InstanceEndEditable -->
+<meta name="viewport" content="width=device/width, initial-scale=1">
+<link href="reset-min.css" rel="stylesheet" type="text/css" />
+
+<!-- Google Tag Manager -->
+<script type="faa108f86dd5001d670866ea-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T3DCZH47');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.star-k.org/" />
+<meta property="og:title" content="STAR-K Certification" />
+<meta property="og:image" content="https://www.star-k.org/images/logo_sm.jpg" />
+<meta property="og:image:secure_url" content="https://www.star-k.org/images/logo_sm.jpg" />
+<meta property="og:image:width" content="250" />
+<meta property="og:image:height" content="250" />
+<meta property="og:description" content="" />
+
+
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@duvysmedia" />
+<meta name="twitter:image:src" content="https://" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@duvysmedia" />
+<meta property="article:publisher" content="https://www.facebook.com/DuvysMedia" />
+<meta name="twitter:title" content="STAR-K Certification" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://www.star-k.org/images/logo_sm.jpg ;w=200&amp;h=200" />
+
+
+<!--link href="style.css?v=5.7" rel="stylesheet" type="text/css" />
+<link href="mobile.css?v=2.8" rel="stylesheet" type="text/css" /-->
+<link href="/style2020.css?v=6.7" rel="stylesheet" type="text/css" />
+<link href="/mobile2020.css?v=4.2" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://use.typekit.net/xwg8ojo.css">
+<script language='JavaScript' type="faa108f86dd5001d670866ea-text/javascript">
+	function toggleField(el,isBlur){
+	
+	origValue = el.value;
+
+	if(el.id == el.value){
+		el.value = '';
+	} else {
+		el.value = origValue;
+	}
+
+	if(el.value == '' && isBlur){
+		el.value = el.id;
+	}
+
+	}
+</script>
+<link rel="stylesheet" href="https://use.typekit.net/yce4wbf.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="faa108f86dd5001d670866ea-text/javascript"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+   <!--script>
+		!window.jQuery && document.write('<script src="Scripts/jquery-1.4.3.min.js"><\/script>');
+	</script-->
+<script type="faa108f86dd5001d670866ea-text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/css/jquery.fancybox.min.css" type="text/css" media="screen" />
+
+<script language="javascript" type="faa108f86dd5001d670866ea-text/javascript">
+$(document).ready(function() {
+					
+			$(".inlinepop").fancybox({
+				'titlePosition'		: 'inside',
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+            'scrolling'         : 'auto',
+            'type'              : 'inline' ,
+            'width'             :'50%',
+            'height'            :650
+			});
+			
+		});		
+</script>
+
+
+
+
+
+<script type="faa108f86dd5001d670866ea-text/javascript">
+
+$(window).bind("load scroll",function(e){
+
+    var scroll = $(window).scrollTop();
+
+    /*if (scroll >= 170 && scroll < 300) {
+        $(".topbar").addClass("hidden");
+        $(".topbar").removeClass("scrolled");
+		} else if (scroll >= 300) {
+        $(".topbar").addClass("scrolled");
+        $(".topbar").removeClass("hidden");
+		} else {
+        $(".topbar").removeClass("scrolled");
+        $(".topbar").removeClass("hidden");
+    }*/
+
+    if (scroll >= 50) {
+        $("#top").addClass("scrolled");
+		if ($("#home").length) {
+			$("#home").addClass("scrolled");
+		}
+	} else {
+        $("#top").removeClass("scrolled");
+		if ($("#home").length) {
+			$("#home").removeClass("scrolled");
+		}
+    }
+	
+	var elemHeight = $("#top").outerHeight();
+	if ($("#centerwrapper").length) {
+		$("#centerwrapper").css('padding-top', elemHeight);
+	}
+	if ($("#home").length) {
+		$("#home").css('padding-top', elemHeight);
+	}
+	
+	
+});
+
+// The function actually applying the offset
+function offsetAnchor() {
+  if (location.hash.length !== 0) {
+    window.scrollTo(window.scrollX, window.scrollY - 160);
+  }
+}
+
+// Captures click events of all <a> elements with href starting with #
+$(document).on('click', 'a[href*="#"]', function(event) {
+  // Click events are captured before hashchanges. Timeout
+  // causes offsetAnchor to be called after the page jump.
+  window.setTimeout(function() {
+    offsetAnchor();
+  }, 0);
+});
+
+// Set the offset when entering page with hash present in the url
+window.setTimeout(offsetAnchor, 0);
+
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=https://www.googletagmanager.com/gtag/js?id=G-SBHYYDHXVM type="faa108f86dd5001d670866ea-text/javascript"></script>
+<script type="faa108f86dd5001d670866ea-text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SBHYYDHXVM');
+</script>
+<!-- InstanceBeginEditable name="head" -->
+    <link rel="canonical" href="https://www.star-k.org/listings/star-k" /> 
+<script language="javascript" type="faa108f86dd5001d670866ea-text/javascript">
+$(window).load(function(){
+	var $rows = $('.links a');
+	$('#search').keyup(function() {
+		// $('#search, #clearSearch').bind('keyup click'),function() {
+
+	    var val = '^(?=.*\\b' + $.trim($(this).val()).split(/\s+/).join('\\b)(?=.*\\b') + ').*$',
+	        reg = RegExp(val, 'i'),
+	        text;
+    
+	    $rows.show().filter(function() {
+	        text = $(this).text().replace(/\s+/g, ' ');
+	        return !reg.test(text);
+	    }).hide();
+//		$(".links").not(function(){
+//			 return ( $(this).children(":visible").length > 0 ) ? false : true;
+//		}).hide();
+	});
+
+	$( "#search" ).keyup();
+	$( "#clearSearch" ).click(function() {
+	  $( "#search" ).keyup();
+	});
+});//]]> 
+
+jQuery(document).ready(function($) {
+	$(".fancybox").fancybox({
+       fitToView   : true,
+       autoSize    : true,
+       autoScale	: true,
+       minWidth		: 450,
+       minHeight	: 200,
+       scrolling   : 'auto'
+	});
+}); 
+
+jQuery(document).ready(function($) {
+	$( ".target" ).click(function() {
+		var companyDiv = 'Div'+$(this).attr('id');
+		var displayDiv = $(this).attr('rel');
+	  $('#'+displayDiv).load('listings?section=star-k #'+companyDiv)
+	});
+});
+</script>
+<style type="text/css">#fancybox-outer{
+    background:#fff url("/appliance/images/loader.gif") no-repeat 50% 50% !important;}
+	
+	@media (max-width: 550px) {	
+	.fancybox-wrap{
+		width:auto !important;
+		left:20px !important;
+		right:20px;
+	}
+	.fancybox-inner{
+		width:100% !important;
+	}
+	}
+</style>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="topwrapper"><div id="top"><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3DCZH47"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="topblue">
+	<div class="search">
+    
+    <div id="form">
+	<form id="cse-search-box-top" action="/search.php" onsubmit="if (!window.__cfRLUnblockHandlers) return false; return submitQuery()" data-cf-modified-faa108f86dd5001d670866ea-="">
+    <input type="hidden" name="cx" value="012289017893060213336:iqemgm7beje" />
+      <input type="hidden" name="ie" value="UTF-8" />
+      <input name="q" type="text" id="Search" class="textfield" placeholder="Search">
+     <i class="fa fa-search" onclick="if (!window.__cfRLUnblockHandlers) return false; document.getElementById('cse-search-box-top').submit()" data-cf-modified-faa108f86dd5001d670866ea-=""></i>
+    </form>
+    </div>
+    
+	</div>
+	 
+	<a href="https://www.star-k.org/contact?dept=hotline"><div class="hotline">Kashrus Hotline<div class="number">410-484-4110</div></div></a>
+	<div class="flags">
+    
+<a href="https://www.star-k.org/lang_spanish" title="Español/Spanish"><img src="/images/top_flag_spain.jpg" alt="Español/Spanish" width="22" height="16" border="0"></a><a href="https://www.star-k.org/lang_portuguese" title="Português/Portuguese"><img src="/images/top_flag_portugal.jpg" alt="Português/Portuguese" width="22" height="16" border="0"></a><a href="https://www.star-k.org/lang_chinese" title="中文/Chinese"><img src="/images/top_flag_china.jpg" alt="中文/Chinese" width="22" height="16" border="0"></a><a href="https://www.star-k.org/lang-japanese" title="日本語/Japanese"><img src="/images/top-flag-japan.jpg" width="22" height="16" alt="日本語/Japanese"></a><a href="https://www.star-k.org/lang-french" title="Français/French"><img src="/images/top-flag-france.jpg" width="22" height="16" alt="Français/French"></a><a href="https://www.star-k.org/lang-italian" title="Italiano/Italian"><img src="/images/top-flag-italy.jpg" width="22" height="16" alt="Italiano/Italian"></a><a href="https://www.star-k.org/lang-german" title="Deutsche/German"><img src="/images/top-flag-german.jpg" width="22" height="16" alt="Deutsche/German"></a><a href="https://www.star-k.org/lang_portuguese" title="Brasil/Brazil"><img src="/images/top_flag_brazil.jpg" width="22" height="16" alt="brasil/brazil" class="last"></a><!--a href="/lang_hebrew" title="Hebrew/Israel"><img src="/images/top_flag_israel.jpg" width="22" height="16" alt="Hebrew/Israel" class="last"></a--><a href="https://www.star-k.org/certified-uae" title="UAE"><img src="/images/top_flag_uae.jpg" width="22" height="16" alt="uae"></a><a href="https://www.star-k.org/about" title="USA"><img src="/images/top_flag_usa.jpg" width="22" height="16" alt="usa" class="last"></a>
+     </div>
+     <div class="clear"></div>
+</div>
+<div class="topbar">
+<div id="logo"><a href="https://www.star-k.org/"><img src="/images/logo-ns.png" width="100%" alt="STAR-K"></a></div>
+<div class="right">
+  <div id="topnav">
+    <ul>
+	
+    <li class="drop">
+    <a href="https://www.star-k.org/companies" >Companies <div class="small">Get Kosher Certified</div></a>
+    </li>  
+	
+    <li class="drop darker">
+    <a href="https://www.star-k.org/consumers" >Consumers <div class="small">Useful Lists & Info</div></a>    
+    </li>
+	
+    <li class="drop kosher darker">
+    <a href="https://www.star-k.org/knowledgebase" >Kosher Knowledgebase <div class="small">Library of Kosher</div></a>
+    </li>
+	
+    <li class="drop">
+    <a href="https://www.star-k.org/about" >About <div class="small">STAR-K</div></a>
+        </li>
+	
+    <!--li><a href="https://www.star-k.org/ukd">Kosher Product Search</a></li-->  
+    </ul>
+    <a class="login" href="https://www.star-k.org/appliance/">Sabbath Mode</a>
+    <a class="certified" href="https://www.star-k.org/apply"> Get Certified </a>   </div> 
+</div> 
+  
+  </div>
+<div class="clear"></div></div></div>
+<div id="centerwrapper">
+	<div id="wrapper">
+	<!-- InstanceBeginEditable name="center" -->
+    	<h1>star-k Listings</h1>
+    	<div id="pages" class="listings">
+        
+        <h2 style="text-align:center;">Showing results for "Graeter"</h2>        
+         		  
+        
+ 
+        <div class="toplinks">
+        
+        <div class="list">
+       <a href="listings/star-k"  class="sectionon"><div class="logo" style="margin-left:0px;"><img src="/images/stark_logo_small.png" /></div> STAR-K</a>
+      <a href="listings/star-d" ><div class="logo"><img src="/images/star-d-logo-small.png" /></div> STAR-D</a>
+       <a href="listings/star-s" ><div class="logo"><img src="/images/stars_logo_small.png" /></div> STAR-S</a>
+       <a href="listings/product" class="last ">Product categories</a>
+     
+     <div class="search">
+         <div id="form">
+         <form action="listings/star-k" method="post">
+         	<input name="q" type="text" id="fullSearch" class="textfield" placeholder="Search by Name"  value="Graeter" />
+            <!--input type="text" id="search" class="textfield"  placeholder="Search by Name" value="" /-->
+		<input name="go" type="image" src="images/top_search-go.gif" class="go" />
+                    </form>
+        <div class="clear"></div>
+        </div>
+		<div style="font-size:10px; text-align:right;">
+   		 <!--a href="#" onclick="document.getElementById('search').value = '';return false;" id="clearSearch"><u>reset filter</u></a-->
+   		 <a class="reset" href="listings/star-k"><u>reset filter</u></a>
+   		 </div>
+		</div>
+     
+       </div>      
+
+       	 <div class="ABC">
+          <a href="listings/star-k#a">A</a> - <a href="listings/star-k#b">B</a> - <a href="listings/star-k#c">C</a> - <a href="listings/star-k#d">D</a> - <a href="listings/star-k#e">E</a> - <a href="listings/star-k#f">F</a> - <a href="listings/star-k#g">G</a> - <a href="listings/star-k#h">H</a> - <a href="listings/star-k#i">I</a> - <a href="listings/star-k#j">J</a> - <a href="listings/star-k#k">K</a> - <a href="listings/star-k#l">L</a> - <a href="listings/star-k#m">M</a> - <a href="listings/star-k#n">N</a> - <a href="listings/star-k#o">O</a> - <a href="listings/star-k#p">P</a> - <a href="listings/star-k#q">Q</a> - <a href="listings/star-k#r">R</a> - <a href="listings/star-k#s">S</a> - <a href="listings/star-k#t">T</a> - <a href="listings/star-k#u">U</a> - <a href="listings/star-k#v">V</a> - <a href="listings/star-k#w">W</a> - <a href="listings/star-k#x">X</a> - <a href="listings/star-k#y">Y</a> - <a href="listings/star-k#z">Z</a>          </div>
+         
+         <div class="clear"></div>
+ 
+ 
+
+ 
+         
+         <!--div class="search">
+         	<div class="bar"><input type="text" id="Xsearch" placeholder="Search by Company Name"></div>
+            <div class="img"><img src="images/search.jpg" width="25" height="25" border="0" alt="Search" /></div>
+         <div class="clear"></div>
+         	<div><a href="#" onclick="document.getElementById('search').value = '';" id="clearSearch">reset filter</a></div>
+         </div-->
+         
+         </div>
+        
+         
+ 	  
+	    <div class="links" id="links">
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	    </div>
+        	    <a name="g" class="anchorlink"></a>
+	    <div class="letter"><div class="alpha">G</div></div>		  
+	    <div class="links" id="links">
+<a class="fancybox" href="#DivZGCOQH37" id="ZGCOQH37" onclick="if (!window.__cfRLUnblockHandlers) return false; return false;" data-cf-modified-faa108f86dd5001d670866ea-="">Graeter's Ice Cream</a><div style="display:none"><div class="box outerprodbox" id="DivZGCOQH37"><div id="listing"><div class="box"><div class="image"></div><div class="info"><div class="name">Graeter's Ice Cream</div>
+<li><i>Cincinnati</i>
+, <i>OH</i>
+<i>USA</i>
+</li><span class="number">513-721-6610</span>
+<li class="blue">Category: Ice Cream &amp; Novelties</li>
+<div></div><li><a href="http://www.graeters.com" target="_blank" >www.graeters.com</li><div class="more small"><a href="https://apiservice.star-k.org/api/Loc/LoadLoc/ZGCOQH37" target="_blank" rel="nofollow" >View letter</a></div><img src="data/icon_star-k.png" alt="STAR-K" align="left"><img src="data/icon_star-d.png" alt="Star-D" align="left"></div></div></div></div><img src="data/icon_star-k.png" alt="STAR-K" align="left"><img src="data/icon_star-d.png" alt="Star-D" align="left"><div class="more small"><a href="https://apiservice.star-k.org/api/Loc/LoadLoc/ZGCOQH37" >View letter</a></div>    </div>
+  
+  
+          </div>
+                    
+          <div class="clear"></div>
+    	
+         </div>
+	<!-- InstanceEndEditable -->
+    </div>
+</div>
+<div id="footerwrapper"><div id="footertop"><div id="footer"><a href="#top" class="backtotop">Top</a>
+    <script type="faa108f86dd5001d670866ea-text/javascript">
+
+
+jQuery(document).ready(function($){
+	// browser window scroll (in pixels) after which the "back to top" link is shown
+	var offset = 300,
+		//browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+		offset_opacity = 1200,
+		//duration of the top scrolling animation (in ms)
+		scroll_top_duration = 700,
+		//grab the "back to top" link
+		$back_to_top = $('.backtotop');
+
+	//hide or show the "back to top" link
+	$(window).scroll(function(){
+		( $(this).scrollTop() > offset ) ? $back_to_top.addClass('is-visible') : $back_to_top.removeClass('is-visible fade-out');
+		if( $(this).scrollTop() > offset_opacity ) { 
+			$back_to_top.addClass('fade-out');
+		}
+	});
+
+	//smooth scroll to top
+	$back_to_top.on('click', function(event){
+		event.preventDefault();
+		$('body,html').animate({
+			scrollTop: 0 ,
+		 	}, scroll_top_duration
+		);
+	});
+
+});
+</script>
+
+
+
+<div class="linksfooter">
+<div class="left flex">
+  <ul class="firstul">
+    	<li class="title"><a href="https://www.star-k.org/about">About</a></li>
+        <li><a href="https://www.star-k.org/about">About Us</a></li>
+        <li><a href="https://www.star-k.org/privacy-policy">Privacy Policy</a></li>
+        <li><a href="https://www.star-k.org/contact?dept=hotline">Kashrus Hotline</a></li>
+        <li><a href="https://www.star-k.org/contact">Contact STAR-K</a></li> 
+        <li><a href="https://www.star-k.org/locations">Locations</a></li>   
+        <li><a href="https://www.star-k.org/employment">Employment Opportunities</a></li>       
+    </ul>
+    
+    <ul>
+    	<li class="title"><a href="https://www.star-k.org/companies">Companies</a></li>
+        <li><a href="https://www.star-k.org/apply">Certification Application</a></li>
+        <li><a href="https://www.star-k.org/info-packet">Request More Information</a></li>
+    </ul>
+    
+
+  <ul>
+    	<li class="title"><a href="https://www.star-k.org/knowledgebase">Education</a></li>
+        <li><a href="https://www.star-k.org/ask-rabbi">Ask The Rabbi</a></li>
+        <li><a href="https://www.star-k.org/articles/kosher-classroom/1878/kosher-classroom/">Curricular Materials</a></li>
+        <li><a href="https://www.star-k.org/articles/articles/15740/glossary-of-terms/">Glossary</a></li>
+        <li><a href="https://www.star-k.org/kashrus-kurrents">Kashrus Kurrents</a></li>
+        <li><a href="https://www.star-k.org/articles/kosher-institute/1950/rabbinic-education-programs/">Kashrus Training Seminars</a></li>
+        <li><a href="https://www.star-k.org/channels">Videos & Webinars</a></li>
+        <li><a href="https://www.star-k.org/faq">FAQs</a></li>
+        
+     </ul>
+    
+<ul>
+    	<li class="title"><a href="https://www.star-k.org/resources">Lists & Resources</a></li>
+        <li><a href="https://www.star-k.org/resources">Kosher Lists</a></li>
+        <li><a href="https://www.star-k.org/resources_guidelines">Halachic Guidelines</a></li>
+        <li><a href="https://www.star-k.org/apply-mashgiach">Mashgiach Application</a></li>
+        <li><a href="https://www.star-k.org/jewish-baltimore">Local Baltimore</a></li>
+    </ul>
+    
+	<ul>
+    	<li class="title"><a href="https://www.star-k.org/listings/star-k">Info Search</a></li>
+        <li><a href="https://www.star-k.org/listings/star-k">Certified Companies</a></li>
+        <li><a href="https://www.star-k.org/listings/product">Product Categories</a></li>
+        <li><a href="https://www.star-k.org/retail-establishments">Retail Establishments</a></li>
+        <li><a href="https://www.star-k.org/appliance">Sabbath Mode Appliances</a></li>
+        <li><a href="https://www.star-k.org/alerts">Kashrus Alerts</a></li>
+    </ul>
+    
+	<ul>
+    	<li class="title"><a href="https://www.star-k.org/prepurchase">Kitchen Pre-Purchase Advice</a></li>
+        <li><a href="https://www.star-k.org/articles/articles/kosher-appliances/2044/ovenscooktops-pre-purchase-advice/">Cooking Appliances</a></li>
+        <li><a href="https://www.star-k.org/articles/articles/kosher-appliances/2050/refrigerators-pre-purchase-advice/">Refrigeration Appliances</a></li>
+        <li><a href="https://www.star-k.org/articles/articles/kosher-appliances/8710/pre-purchase-advice-for-dishwashers/">Dishwashing Appliances</a></li>
+        <li><a href="https://www.star-k.org/articles/articles/kosher-appliances/2039/countertop-pre-purchase-advice/">Countertops</a></li>
+    </ul> 
+
+    <ul>
+        <li class="title"><a href="https://www.star-k.org/about?tab=stard"><img src="/images/star-d_white.png" alt="star-d" style="margin: 0 2px -9px 0;"> STAR-D</a></li>
+        <li><a href="https://www.star-k.org/about?tab=stard">STAR-D</a></li>
+        <li><a href="https://www.star-k.org/listings/star-d">STAR-D Listings</a></li>
+        <br>
+        <li class="title"><a href="https://www.star-k.org/about?tab=stars"><img src="/images/star-s_white.png" alt="star-s" style="margin: 0 2px -9px 0;"> STAR-S</a></li>
+        <li><a href="https://www.star-k.org/about?tab=stars">STAR-S</a></li>
+        <li><a href="https://www.star-k.org/listings?section=star-s">STAR-S Listings</a></li>
+    </ul>
+
+    <ul>
+        <li><a href="https://www.star-k.org/articles/wp-content/themes/duvys-stark/donate.html" target="_blank" class="button small outline" style="font-size: 12px; margin: 0; color: #fff;">Donate</a></li>
+   </ul></div>
+</div>
+
+<script type="faa108f86dd5001d670866ea-text/javascript">
+      var navigation = responsiveNav("#nav", {customToggle: "#toggle"});
+    </script></div></div></div>
+<div id="copy"><div class="copy">
+      &copy; 2026 STAR-K CERTIFICATION v2 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <a href="https://www.star-k.org/privacy-policy" class="policy">Privacy Policy</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <a href="https://www.duvys.com" target="_blank">Website by Duvys Media</a>
+</div>
+	<script type="faa108f86dd5001d670866ea-text/javascript">
+      var navigation = responsiveNav("#nav", {customToggle: "#toggle"});
+    </script>
+	<!--// START PHP Live Helper HTML Code: Track Only //-->
+	<!--script type="text/javascript" language="javascript" src="/help/chat/javascript.php"></script>
+	<img src="/help/chat/onlinestatus.php?trackonly=1" border="0" /-->
+	<!--// END PHP Live Helper HTML Code: Track Only //-->
+
+ 
+
+</div>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="faa108f86dd5001d670866ea-|49" defer></script></body>
+<!-- InstanceEnd --></html>
+

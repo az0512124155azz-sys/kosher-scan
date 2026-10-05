@@ -197,3 +197,36 @@ Live emulator lookup of Nutella (3017620422003) returned KOSHER in 5.874 seconds
 Current local validation: all 12,118 JVM cases passed, including 12,000 generated adversarial cases (not live product checks). Lint, debug APK and instrumented-test APK builds passed. All six Android smoke tests passed on the API 37 Pixel 6 AVD, including yellow conditional evidence versus green unconditional barcode approval. No physical device was available.
 Version 1.4.5 local validation: 12,117 JVM cases passed, including the restored 12,000 generated adversarial cases. Lint and APK builds passed. All six Android emulator tests passed on API 37 Pixel 6, including original positive paths rendering green without package-check instructions. No physical device checks were possible.
 Current local validation: 12,127 JVM tests passed (12,000 synthetic adversarial cases plus 127 other tests). The catalogue test also checks 459 recorded rows, including 81 supplemental DE/Yoshon rows. All six Android smoke tests passed on API 37 Pixel 6. Lint and APK builds passed. No physical device testing was available. The emulator was initially stopped; it was restarted and the six tests then passed.
+## Version 1.5.0 additional authority integrations
+
+Local JVM tests: **12,152 passed**, including 12,000 synthetic adversarial cases
+and 152 other tests. These are not 12,152 live scans. Lint and both APK builds
+passed. **Eight instrumented tests passed** on the Pixel 6 API 37 emulator.
+
+New recorded-source fixtures cover the current Rabbinate CKAN schema and
+September/December expiry boundaries, OK's actual Guylian product table, 25 KLBD
+Weetabix rows, and the six-page Graeter's STAR-K certificate with 66 product
+rows. Fixtures were retrieved from official public endpoints on 2026-10-05.
+Tests cover exact identity, company suffixes versus wrong brands, restricted
+rows, expiry, missing/negative/approved distinctions, stale and truncated data,
+partial service failure, market scoping and OFF/additional-authority conflicts.
+
+The Android PDF test opens the actual official certificate, extracts all six
+pages, checks a recognized sorbet and rejects the store-restricted pie row.
+The PDF uses owner encryption but opens without a user password; documents
+requiring a user password still fail. A separate Android test changes the
+purchase country through the visible dialog, checks persistence across Activity
+recreation and confirms the old result is cleared. Existing ML Kit, card/state,
+manual entry and loading/retry tests also pass.
+
+Live emulator check: entered barcode 5010029204247 after selecting the UK in
+the visible market dialog. OFF identified Crunchy Bran; KLBD returned 25 current
+Weetabix rows and the app rendered green KOSHER with only `פרווה.`. OU timed out
+and the other sites had no match, but the KLBD result survived. Total lookup time
+was 9.865 seconds, including the OU wait; this is functional evidence, not a
+claim that every lookup is fast. No barcode-specific exception was introduced.
+
+Live services can change or be unavailable; unsupported restrictions and
+incomplete identity remain UNKNOWN. No physical package/camera or OEM tests
+were possible. Historical validation below describes earlier app versions.
+

@@ -1,0 +1,168 @@
+﻿{
+    "help":  "https://data.gov.il/api/3/action/help_show?name=package_show",
+    "success":  true,
+    "result":  {
+                   "author":  null,
+                   "author_email":  "chenf@rab.gov.il",
+                   "creator_user_id":  "e01f2a18-b401-4758-9533-db0a713d1d6c",
+                   "id":  "1a49cbba-3722-4a67-9c20-9895697d0373",
+                   "isopen":  true,
+                   "license_id":  "other-open",
+                   "license_title":  "Other (Open)",
+                   "mail_box":  "chenf@rab.gov.il",
+                   "maintainer":  null,
+                   "maintainer_email":  null,
+                   "metadata_created":  "2020-08-03T07:25:25.453372",
+                   "metadata_modified":  "2026-09-24T12:14:09.478660",
+                   "name":  "mazon",
+                   "notes":  "רשימת מוצרי מזון וחומרי גלם מיובאים המאושרים על ידי הרבנות הראשית לישראל",
+                   "num_resources":  1,
+                   "num_tags":  9,
+                   "organization":  {
+                                        "id":  "ca829a75-3938-4bd3-94bb-564996541e66",
+                                        "name":  "rabanot",
+                                        "title":  "הרבנות הראשית לישראל",
+                                        "type":  "organization",
+                                        "description":  "הרבנות הראשית לישראל היא המוסד הרבני העליון של מדינת ישראל. תחומי אחריותה כוללים מינוי רבנים ודיינים, התקנת תקנות, הפעלת מערכת הכשרות הממלכתית ועוד. חוק הרבנות הראשית לישראל ה\u0027תש\"מ-1980 מעניק את סמכויות הרבנות הראשית למועצת הרבנות הראשית.",
+                                        "image_url":  "2021-08-18-113028.331468chiefrabbinateofisrael.png",
+                                        "created":  "2020-08-03T07:18:59.827805",
+                                        "is_organization":  true,
+                                        "approval_status":  "approved",
+                                        "state":  "active"
+                                    },
+                   "owner_org":  "ca829a75-3938-4bd3-94bb-564996541e66",
+                   "private":  false,
+                   "remark":  "",
+                   "state":  "active",
+                   "title":  "רשימת מוצרי מזון וחומרי גלם מיובאים",
+                   "title_link":  "",
+                   "type":  "dataset",
+                   "url":  "",
+                   "url_link":  "",
+                   "version":  null,
+                   "extras":  [
+                                  {
+                                      "key":  "Frequency",
+                                      "value":  "Week"
+                                  },
+                                  {
+                                      "key":  "Update",
+                                      "value":  "Automat"
+                                  }
+                              ],
+                   "resources":  [
+                                     {
+                                         "Frequency":  "Week",
+                                         "cache_last_updated":  null,
+                                         "cache_url":  null,
+                                         "category":  "information",
+                                         "ckan_url":  "https://e.data.gov.il",
+                                         "created":  "2020-08-09T14:26:43.492244",
+                                         "datastore_active":  true,
+                                         "datastore_contains_all_records_of_source_file":  true,
+                                         "description":  null,
+                                         "format":  "CSV",
+                                         "hash":  "5543e4b6c0346e44191f7d986875ce7d",
+                                         "how_update":  "Automat",
+                                         "id":  "4cc6c561-5975-4bac-904f-c06489ceeb6d",
+                                         "ignore_hash":  false,
+                                         "last_modified":  "2026-09-24T12:13:34.905921",
+                                         "metadata_modified":  "2026-09-24T12:14:09.493244",
+                                         "mimetype":  "text/csv",
+                                         "mimetype_inner":  null,
+                                         "name":  "רשימת מוצרי מזון וחומרי גלם מיובאים 24.09.2026",
+                                         "notes":  "מאגר לפרסום",
+                                         "original_url":  "https://e.data.gov.il/dataset/1a49cbba-3722-4a67-9c20-9895697d0373/resource/4cc6c561-5975-4bac-904f-c06489ceeb6d/download/productsaccumulator24.09.2026.csv",
+                                         "package_id":  "1a49cbba-3722-4a67-9c20-9895697d0373",
+                                         "position":  0,
+                                         "resource_coordinates":  "",
+                                         "resource_desc_spatial_cover":  "",
+                                         "resource_geodetic_ref_sys":  "",
+                                         "resource_id":  "4cc6c561-5975-4bac-904f-c06489ceeb6d",
+                                         "resource_ref_number":  "",
+                                         "resource_type":  null,
+                                         "response_mail":  null,
+                                         "set_url_type":  false,
+                                         "size":  15809265,
+                                         "state":  "active",
+                                         "task_created":  "2026-09-24 12:13:35.278553",
+                                         "url":  "https://e.data.gov.il/dataset/1a49cbba-3722-4a67-9c20-9895697d0373/resource/4cc6c561-5975-4bac-904f-c06489ceeb6d/download/productsaccumulator24.09.2026.csv",
+                                         "url_type":  "upload"
+                                     }
+                                 ],
+                   "tags":  [
+                                {
+                                    "display_name":  "איכות מזון",
+                                    "id":  "061e4306-3a9d-4f9f-943c-df005879ee53",
+                                    "name":  "איכות מזון",
+                                    "state":  "active",
+                                    "vocabulary_id":  null
+                                },
+                                {
+                                    "display_name":  "גוף כשרות",
+                                    "id":  "402190f0-b0dc-4c88-ba68-79e1276f7da7",
+                                    "name":  "גוף כשרות",
+                                    "state":  "active",
+                                    "vocabulary_id":  null
+                                },
+                                {
+                                    "display_name":  "חומרי גלם",
+                                    "id":  "165a6f40-5fcf-41a2-be7f-154dc2c6c7b1",
+                                    "name":  "חומרי גלם",
+                                    "state":  "active",
+                                    "vocabulary_id":  null
+                                },
+                                {
+                                    "display_name":  "כשרות",
+                                    "id":  "dc75c169-4e84-4e92-810f-ab045a30bc29",
+                                    "name":  "כשרות",
+                                    "state":  "active",
+                                    "vocabulary_id":  null
+                                },
+                                {
+                                    "display_name":  "מוצר",
+                                    "id":  "9262f21e-4a8a-459b-81fb-2662fdd3372e",
+                                    "name":  "מוצר",
+                                    "state":  "active",
+                                    "vocabulary_id":  null
+                                },
+                                {
+                                    "display_name":  "מוצרי מזון",
+                                    "id":  "58fe7d55-ad1d-45b4-befe-da5a336d36cc",
+                                    "name":  "מוצרי מזון",
+                                    "state":  "active",
+                                    "vocabulary_id":  null
+                                },
+                                {
+                                    "display_name":  "מזון",
+                                    "id":  "83b96f4d-ba61-4bc3-977b-2f90f94eab65",
+                                    "name":  "מזון",
+                                    "state":  "active",
+                                    "vocabulary_id":  null
+                                },
+                                {
+                                    "display_name":  "מיובאים",
+                                    "id":  "c5d5bf63-8c9f-478a-8e91-099c9ac650e3",
+                                    "name":  "מיובאים",
+                                    "state":  "active",
+                                    "vocabulary_id":  null
+                                },
+                                {
+                                    "display_name":  "רבנות",
+                                    "id":  "6e20eba6-581b-49a2-b147-daa0de02eed9",
+                                    "name":  "רבנות",
+                                    "state":  "active",
+                                    "vocabulary_id":  null
+                                }
+                            ],
+                   "groups":  [
+
+                              ],
+                   "relationships_as_subject":  [
+
+                                                ],
+                   "relationships_as_object":  [
+
+                                               ]
+               }
+}
