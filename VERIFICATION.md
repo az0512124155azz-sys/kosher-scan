@@ -31,7 +31,15 @@ returned nonempty Hebrew research with Google grounding, conservatively UNKNOWN.
 The 10 backend tests cover the empty-response regression. Production dashboard
 browser checks found no JavaScript errors. Manual input has no barcode photo;
 actual crop/upload behavior is separately covered by Android tests. Physical
-camera photography on a real handset and Telegram delivery remain unverified.
+camera photography on a real handset remains unverified.
+
+The owner then supplied a private BotFather token, completed pairing and
+received actual deliveries. Remote D1 confirmed three delivered observations,
+including one actual JPEG sent through Telegram multipart upload. That JPEG
+was a labelled, generated Code128 smoke-test image, not a physical camera scan.
+The final CI APK was freshly installed and automatically submitted another
+manual UNKNOWN scan without connection or country controls. Provider credentials
+remain backend secrets; the limited public app code grants no admin/GitHub access.
 
 
 ## Version 1.6.0 dashboard, research agent and Android connection

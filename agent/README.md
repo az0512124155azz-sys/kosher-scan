@@ -5,7 +5,9 @@
 
 השירות הפעיל: https://kosher-scan-agent.az0512124155azz.workers.dev
 החיבור האוטומטי פורסם עבור גרסה 1.6.1. קוד הניהול נשמר בקובץ פרטי מקומי
-`agent/local-settings.json`, שמוחרג מ־Git. התראות Telegram ממתינות להגדרת בוט.
+`agent/local-settings.json`, שמוחרג מ־Git. הבוט הפעיל הוא
+[@kosher_scan_review_2026_bot](https://t.me/kosher_scan_review_2026_bot), והוא
+מחובר לשיחה הפרטית של הבעלים. מסירת הודעות ותמונת JPEG נבדקה בפועל.
 
 ## מה כבר עובד בקוד
 
