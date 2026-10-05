@@ -42,16 +42,33 @@ export async function telegram(env, method, body) {
 }
 export async function notifyCase(row, env, chatId) {
   if (!chatId || !env.TELEGRAM_TOKEN) return false;
-  const caption = `בדיקה חדשה\nברקוד: ${row.barcode}\n${row.product_name || 'מוצר לא מזוהה'}\n${row.brand}\nמדינת רכישה: ${row.market}\nמספר בדיקה: ${row.id}`;
-  if (row.barcode_photo) {
-    const bytes = Uint8Array.from(atob(row.barcode_photo), c => c.charCodeAt(0));
-    const form = new FormData(); form.set('chat_id',chatId); form.set('caption',caption.slice(0,1024));
-    form.set('photo', new Blob([bytes], {type:'image/jpeg'}), 'barcode.jpg');
-    await telegram(env,'sendPhoto',form);
-  } else await telegram(env,'sendMessage',{chat_id:chatId,text:caption + '\nהברקוד הוקלד ידנית; אין צילום.'});
+  const caption = ['בדיקה חדשה',row.product_name || 'מוצר לא מזוהה',row.brand,`ברקוד: ${row.barcode}`].filter(Boolean).join('\n').slice(0,1024);
+  const photos=[];
+  if(row.barcode_photo)photos.push(new Blob([Uint8Array.from(atob(row.barcode_photo),c=>c.charCodeAt(0))],{type:'image/jpeg'}));
+  // Fetch the optional image before sending anything: an unavailable image must not
+  // create a second notification or cause an already-delivered message to be retried.
   if (row.image_url) {
-    try {await telegram(env,'sendPhoto',{chat_id:chatId,photo:row.image_url,caption:'תמונת המוצר המזוהה'});}
-    catch {await telegram(env,'sendMessage',{chat_id:chatId,text:'תמונת המוצר המזוהה: '+row.image_url});}
+    try {
+      const url=new URL(row.image_url);
+      if(url.protocol==='https:' && url.hostname==='images.openfoodfacts.org') {
+        const res=await fetch(url,{signal:AbortSignal.timeout(5000),redirect:'error'});
+        if(res.ok && /^image\/(jpeg|png|webp)\b/.test(res.headers.get('content-type') || '')) {
+          const reader=res.body.getReader(),chunks=[];let size=0;
+          try {while(true){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>5000000)throw new Error('image_too_large');chunks.push(value);}if(size)photos.push(new Blob(chunks,{type:res.headers.get('content-type')}));}
+          finally {await reader.cancel();}
+        }
+      }
+    } catch { /* Optional product image: send the available barcode/text only. */ }
+  }
+  if(!photos.length)await telegram(env,'sendMessage',{chat_id:chatId,text:caption});
+  else {
+    const form=new FormData();form.set('chat_id',chatId);
+    if(photos.length===1){form.set('caption',caption);form.set('photo',photos[0],'photo.jpg');await telegram(env,'sendPhoto',form);}
+    else {
+      photos.forEach((photo,i)=>form.set('photo'+i,photo,'photo'+i+'.jpg'));
+      form.set('media',JSON.stringify(photos.map((_,i)=>({type:'photo',media:'attach://photo'+i,...(i===0?{caption}:{})}))));
+      await telegram(env,'sendMediaGroup',form);
+    }
   }
   return true;
 }

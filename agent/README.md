@@ -100,3 +100,5 @@ npm run check
 קוד החיבור לאפליקציה מאפשר הגשת בדיקות וקריאת תשובות, ולא ניהול הדשבורד.
 Cron בכל דקה משחזר עבודה שנקטעה. ייתכנו הודעות Telegram חוזרות אם השירות
 נקטע אחרי שטלגרם קיבל את ההודעה ולפני שנרשמה ההצלחה.
+
+Telegram sends one compact notification per case: barcode and product photos form one album with a single caption. Repeated scans stay in observations and increment the dashboard count without sending another alert. Migration 0003 remembers previously delivered cases. A new case after expiry can receive a new alert.

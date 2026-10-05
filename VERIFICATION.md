@@ -302,3 +302,9 @@ Live services can change or be unavailable; unsupported restrictions and
 incomplete identity remain UNKNOWN. No physical package/camera or OEM tests
 were possible. Historical validation below describes earlier app versions.
 
+
+## Telegram notification consolidation (2026-10-05)
+
+One notification per case, compact caption, two photos in one album, optional image failure falls back before sending. Case-level atomic leases prevent concurrent/repeat-scan alerts; migration backfills historic deliveries. Backend tests cover these paths with mocked Telegram and real local D1; no additional Telegram QA messages sent to the owner. Android package is unchanged.
+
+Validation: 13/13 backend tests passed; dry-run packaging passed. Migration 0003 and worker version 51a694bd-c9f8-48c6-bf97-ec622aedfac3 deployed to production. Both existing cases are marked delivered, preventing upgrade re-alerts.

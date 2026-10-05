@@ -55,16 +55,23 @@ export async function processQueue(env) {
   await env.DB.prepare("UPDATE cases SET barcode_photo='' WHERE created_at<? AND barcode_photo<>''").bind(Date.now()-Number(env.PHOTO_RETENTION_DAYS || 30)*86400000).run();
   await env.DB.prepare("UPDATE observations SET barcode_photo='' WHERE created_at<? AND barcode_photo<>''").bind(Date.now()-Number(env.PHOTO_RETENTION_DAYS || 30)*86400000).run();
 }
-async function deliverObservations(env) {
+export async function deliverObservations(env) {
   const chat=await getSetting(env,'telegram_chat');
   if(chat && env.TELEGRAM_TOKEN) {
-    await env.DB.prepare('UPDATE observations SET telegram_sent=0 WHERE telegram_sent=2 AND delivery_at<?').bind(Date.now()-120000).run();
-    const {results:unsent}=await env.DB.prepare('SELECT id FROM observations WHERE telegram_sent=0 ORDER BY created_at LIMIT 2').all();
+    await env.DB.prepare('UPDATE cases SET telegram_sent=0 WHERE telegram_sent=2 AND telegram_delivery_at<?').bind(Date.now()-120000).run();
+    await env.DB.prepare('UPDATE observations SET telegram_sent=3 WHERE telegram_sent=0 AND case_id IN (SELECT id FROM cases WHERE telegram_sent=1)').run();
+    const {results:unsent}=await env.DB.prepare('SELECT id FROM cases WHERE telegram_sent=0 AND EXISTS (SELECT 1 FROM observations WHERE case_id=cases.id AND telegram_sent=0) ORDER BY created_at LIMIT 2').all();
     await Promise.all(unsent.map(async item => {
-      const row=await env.DB.prepare('UPDATE observations SET telegram_sent=2,delivery_at=? WHERE id=? AND telegram_sent=0 RETURNING *').bind(Date.now(),item.id).first();
+      const lease=Date.now();
+      const row=await env.DB.prepare('UPDATE cases SET telegram_sent=2,telegram_delivery_at=? WHERE id=? AND telegram_sent=0 RETURNING *').bind(lease,item.id).first();
       if(!row)return;
-      try {if(await notifyCase({...row,id:row.case_id},env,chat))await env.DB.prepare('UPDATE observations SET telegram_sent=1 WHERE id=?').bind(row.id).run();}
-      catch {await env.DB.prepare('UPDATE observations SET telegram_sent=0 WHERE id=?').bind(row.id).run();}
+      try {
+        if(await notifyCase(row,env,chat))await env.DB.batch([
+          env.DB.prepare('UPDATE cases SET telegram_sent=1 WHERE id=? AND telegram_sent=2 AND telegram_delivery_at=?').bind(row.id,lease),
+          env.DB.prepare('UPDATE observations SET telegram_sent=3 WHERE case_id=? AND telegram_sent=0 AND EXISTS (SELECT 1 FROM cases WHERE id=? AND telegram_sent=1)').bind(row.id,row.id)
+        ]);
+      }
+      catch {await env.DB.prepare('UPDATE cases SET telegram_sent=0 WHERE id=? AND telegram_sent=2 AND telegram_delivery_at=?').bind(row.id,lease).run();}
     }));
   }
 }

@@ -3,13 +3,40 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {Miniflare} from 'miniflare';
 import {normalizeSubmission, validateReview, visibleResult, validateSuggestion} from '../src/policy.mjs';
-import {processQueue} from '../src/worker.mjs';
+import {processQueue,deliverObservations} from '../src/worker.mjs';
 let mf,db;
 before(async()=>{
  mf=new Miniflare({modules:true,scriptPath:'src/worker.mjs',compatibilityDate:'2026-07-30',d1Databases:['DB'],bindings:{APP_TOKEN:'local-app-token-00000000000000000000',ADMIN_TOKEN:'local-admin-token-0000000000000000',DAILY_AI_LIMIT:'100',TELEGRAM_WEBHOOK_SECRET:'local-webhook-secret'}});
- db=await mf.getD1Database('DB');for(const file of ['0001.sql','0002.sql'])await db.exec((await readFile('migrations/'+file,'utf8')).split(';').map(x=>x.replace(/\s+/g,' ').trim()).filter(Boolean).join(';\n')+';');
+ db=await mf.getD1Database('DB');for(const file of ['0001.sql','0002.sql','0003.sql']){
+  if(file==='0003.sql'){
+   await db.prepare("INSERT INTO cases(id,barcode,market,created_at,updated_at) VALUES('legacy','12345678','IL',1,1)").run();
+   await db.prepare("INSERT INTO observations(id,case_id,barcode,market,created_at,telegram_sent) VALUES('legacy-observation','legacy','12345678','IL',1,1)").run();
+  }
+  await db.exec((await readFile('migrations/'+file,'utf8')).split(';').map(x=>x.replace(/\s+/g,' ').trim()).filter(Boolean).join(';\n')+';');
+ }
 });
 after(async()=>{await mf?.dispose();});
+test('upgrade remembers old delivered notifications without resending them',async()=>{
+ assert.equal((await db.prepare("SELECT telegram_sent FROM cases WHERE id='legacy'").first()).telegram_sent,1);
+ await db.prepare("DELETE FROM observations WHERE case_id='legacy'").run();await db.prepare("DELETE FROM cases WHERE id='legacy'").run();
+});
+test('concurrent deliveries and repeated scans send only one alert per case; failures retry',async()=>{
+ const id=crypto.randomUUID(),now=Date.now();
+ await db.prepare("INSERT INTO cases(id,barcode,market,created_at,updated_at) VALUES(?,?,?,?,?)").bind(id,'98765432','IL',now,now).run();
+ const add=()=>db.prepare('INSERT INTO observations(id,case_id,barcode,market,created_at) VALUES(?,?,?,?,?)').bind(crypto.randomUUID(),id,'98765432','IL',now).run();
+ await add();await add();
+ await db.prepare("INSERT OR REPLACE INTO settings(key,value) VALUES('telegram_chat','123')").run();
+ const old=globalThis.fetch,calls=[];let fail=true;
+ globalThis.fetch=async(url,init)=>{calls.push(url);if(fail)throw new Error('network');return Response.json({ok:true,result:{}});};
+ const env={DB:db,TELEGRAM_TOKEN:'mock'};
+ try {
+  await deliverObservations(env);assert.equal((await db.prepare('SELECT telegram_sent FROM cases WHERE id=?').bind(id).first()).telegram_sent,0);
+  fail=false;calls.length=0;
+  await Promise.all([deliverObservations(env),deliverObservations(env)]);assert.equal(calls.length,1);
+  await add();await deliverObservations(env);assert.equal(calls.length,1);
+  const observations=await db.prepare('SELECT telegram_sent FROM observations WHERE case_id=?').bind(id).all();assert.equal(observations.results.length,3);assert.ok(observations.results.every(x=>x.telegram_sent===3));
+ } finally {globalThis.fetch=old;await db.prepare("DELETE FROM settings WHERE key='telegram_chat'").run();await db.prepare('DELETE FROM observations WHERE case_id=?').bind(id).run();await db.prepare('DELETE FROM cases WHERE id=?').bind(id).run();}
+});
 const request=(path,body,admin=false)=>mf.dispatchFetch('https://example.test'+path,{method:body?'POST':'GET',headers:{Authorization:'Bearer '+(admin?'local-admin-token-0000000000000000':'local-app-token-00000000000000000000'),'Content-Type':'application/json'},body:body?JSON.stringify(body):undefined});
 test('submission keeps identity and excludes fabricated/malformed photo',()=>{
  const p=normalizeSubmission({barcode:'3017620422003',market:'IL',requestId:crypto.randomUUID(),product:{name:'Nutella'}});assert.equal(p.photo,'');assert.equal(p.name,'Nutella');
@@ -36,7 +63,7 @@ test('unknown scan is durable and idempotent, review changes only the exact mark
  assert.equal((await db.prepare('SELECT COUNT(*) as n FROM cases').first()).n,1);
  assert.equal((await db.prepare('SELECT COUNT(*) as n FROM observations').first()).n,1);
  const repeatScan=await request('/api/cases',{...submission,requestId:crypto.randomUUID()}).then(x=>x.json());assert.equal(repeatScan.id,accepted.id);
- assert.equal((await db.prepare('SELECT COUNT(*) as n FROM observations').first()).n,2); // Every scan is forwarded, while research is deduplicated.
+ assert.equal((await db.prepare('SELECT COUNT(*) as n FROM observations').first()).n,2); // Every scan is recorded; research and notifications are deduplicated.
  assert.equal((await request('/api/result?barcode=3017620422003&market=GB').then(x=>x.json())).status,'unknown');
  const expires=new Date(Date.now()+86400000*30).toISOString().slice(0,10);
  assert.equal((await request('/api/admin/cases/'+accepted.id+'/review',{status:'kosher',expiresAt:expires,evidenceUrl:'https://www.ok.org/product-search/',details:'חלבי.'},true)).status,200);
