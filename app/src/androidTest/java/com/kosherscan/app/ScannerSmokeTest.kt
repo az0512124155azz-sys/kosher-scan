@@ -27,40 +27,21 @@ import java.util.concurrent.TimeUnit
 @RunWith(AndroidJUnit4::class)
 class ScannerSmokeTest {
     @get:Rule val permission: GrantPermissionRule = GrantPermissionRule.grant(Manifest.permission.CAMERA)
-    @Test @SdkSuppress(minSdkVersion = 29)
-    fun purchaseCountryPersistsAndChangingItResetsThePreviousResult() {
+    @Test fun scannerHasNoCountryOrAgentSetupControls() {
         val context = androidx.test.core.app.ApplicationProvider.getApplicationContext<android.content.Context>()
-        val prefs = context.getSharedPreferences("market", android.content.Context.MODE_PRIVATE)
-        prefs.edit().clear().commit()
-        try {
-            ActivityScenario.launch(MainActivity::class.java).use { scenario ->
-                scenario.onActivity { activity ->
-                    assertTrue(activity.findViewById<TextView>(R.id.marketButton).text.contains("ישראל"))
-                    ViewModelProvider(activity)[ScanModel::class.java].state.value = ScanState("12345678", result = LookupResult(
-                        Product("12345678", "Test Product", "Brand"), Verdict(KosherStatus.KOSHER, "test")))
-                    activity.findViewById<View>(R.id.marketButton).performClick()
-                }
-                androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
-                scenario.onActivity {
-                    fun findList(view: View): android.widget.ListView? {
-                        if (view is android.widget.ListView) return view
-                        if (view is android.view.ViewGroup) for (i in 0 until view.childCount) {
-                            findList(view.getChildAt(i))?.let { return it }
-                        }
-                        return null
-                    }
-                    val list = WindowInspector.getGlobalWindowViews().mapNotNull(::findList).first()
-                    list.performItemClick(list.getChildAt(1), 1, list.adapter.getItemId(1))
-                }
-                androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
-                scenario.recreate()
-                scenario.onActivity { activity ->
-                    assertTrue(activity.findViewById<TextView>(R.id.marketButton).text.contains("בריטניה"))
-                    assertEquals("GB", prefs.getString("country", ""))
-                    assertNull(ViewModelProvider(activity)[ScanModel::class.java].state.value.result)
-                }
+        context.getSharedPreferences("market", 0).edit().putString("country", "GB").commit()
+        ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+            scenario.onActivity { activity ->
+                val root = activity.findViewById<View>(R.id.safeContent)
+                fun labels(view: View): String = if (view is android.view.ViewGroup)
+                    (0 until view.childCount).joinToString(" ") { labels(view.getChildAt(it)) }
+                    else if (view is TextView) view.text.toString() else ""
+                val text = labels(root)
+                assertFalse(text.contains("מדינת רכישה"))
+                assertFalse(text.contains("חיבור לסוכן"))
+                assertFalse(text.contains("בדיקת תשובת הסוכן"))
             }
-        } finally { prefs.edit().clear().commit() }
+        }
     }
     @Test fun existingPositivePathsRemainGreenWithoutPackageCheckInstruction() {
         val p = Product("3017620422003", "Nutella", "Ferrero")
@@ -86,22 +67,20 @@ class ScannerSmokeTest {
             }
         }
     }
-    @Test fun timeoutOffersExplicitExtendedSearchAndPreservesLoadingMessage() {
+    @Test fun timeoutCardHasOnlyScanAgainAndNoAgentOrDeepSearchActions() {
         ActivityScenario.launch(MainActivity::class.java).use { scenario ->
             scenario.onActivity { activity ->
                 ViewModelProvider(activity)[ScanModel::class.java].state.value = ScanState("7290100687109", result = LookupResult(
-                    Product("7290100687109", "מוצר בדיקה", "מותג"), Verdict(KosherStatus.UNKNOWN, "הבדיקה לא הושלמה בזמן"), LookupIssue.TIMEOUT))
+                    Product("7290100687109", "מוצר בדיקה", "מותג"), Verdict(KosherStatus.UNKNOWN, ""), LookupIssue.TIMEOUT))
             }
             androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
             scenario.onActivity { activity ->
-                val button = activity.findViewById<TextView>(R.id.retryLookupButton)
-                assertEquals("בדיקה מעמיקה", button.text.toString())
-                assertTrue(button.isShown)
-                button.performClick()
-                val model = ViewModelProvider(activity)[ScanModel::class.java]
-                assertTrue(model.state.value.loading)
-                assertEquals("בודק במאגרי כשרות", model.state.value.loadingMessage)
-                model.reset() // Cancel before the queued job can start external requests.
+                val root = activity.findViewById<android.view.ViewGroup>(R.id.resultCard)
+                fun buttons(view: View): List<View> = if (view is android.view.ViewGroup)
+                    (0 until view.childCount).flatMap { buttons(view.getChildAt(it)) }
+                    else if (view is android.widget.Button) listOf(view) else emptyList()
+                assertEquals(listOf(R.id.scanAgainButton), buttons(root).map { it.id })
+                assertEquals("בודק במאגרי כשרות", ViewModelProvider(activity)[ScanModel::class.java].state.value.loadingMessage)
             }
         }
     }

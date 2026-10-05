@@ -18,7 +18,7 @@ object ResultCopy {
             LookupIssue.NOT_FOUND -> "המוצר לא נמצא. אין מידע על הכשרות שלו."
             LookupIssue.OFFLINE -> "אין חיבור לאינטרנט. התחברו ונסו שוב."
             LookupIssue.NETWORK -> "לא ניתן להשלים את הבדיקה עקב תקלה בתקשורת. נסו שוב."
-            LookupIssue.TIMEOUT -> "הבדיקה לא הושלמה. אפשר לנסות בדיקה מעמיקה."
+            LookupIssue.TIMEOUT -> "הבדיקה לא הושלמה בזמן. אפשר לסרוק שוב."
             LookupIssue.SERVICE_UNAVAILABLE -> "שירות הבדיקה אינו זמין כרגע. נסו שוב מאוחר יותר."
             LookupIssue.INVALID_RESPONSE -> "לא התקבלה תשובה תקינה. נסו שוב מאוחר יותר."
         }

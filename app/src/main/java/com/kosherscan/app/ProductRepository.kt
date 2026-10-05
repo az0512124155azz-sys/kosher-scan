@@ -250,7 +250,7 @@ class ProductRepository(
     }
     private fun ouFailure(p: Product, timedOut: Boolean = false, issue: LookupIssue = LookupIssue.SERVICE_UNAVAILABLE): LookupResult {
         val fallback = KosherPolicy.resolve(p, emptyList())
-        val message = if (timedOut) "בדיקת OU לא הושלמה בזמן. אפשר לבקש בדיקה מעמיקה." else "שירות OU אינו זמין כרגע. אפשר לנסות שוב; לא נקבעה כשרות."
+        val message = if (timedOut) "בדיקת OU לא הושלמה בזמן." else "שירות OU אינו זמין כרגע. אפשר לנסות שוב; לא נקבעה כשרות."
         val verdict = if (fallback.status == KosherStatus.KOSHER) fallback.copy(reason = fallback.reason + "\n" + message)
             else Verdict(KosherStatus.UNKNOWN, "המוצר זוהה, אך $message")
         return LookupResult(p, verdict, if (timedOut) LookupIssue.TIMEOUT else issue)

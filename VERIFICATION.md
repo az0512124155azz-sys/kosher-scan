@@ -1,4 +1,26 @@
-# Verification history and current version 1.6.0, 2026-10-05
+# Verification history and current version 1.6.1, 2026-10-05
+
+## Version 1.6.1 automatic connection and simple scanner UI
+
+Removed the country selector, agent settings dialog, connection/disconnection
+controls, agent refresh action, submission text and extended-search button.
+The market is internally IL, ignoring prior GB preferences; market-specific
+certifications remain scoped and are not generalized to Israel.
+
+The app reads limited public service routing from agent/connection.json in the
+repository on launch. Only HTTPS origins and a limited submission/result code
+are accepted. It caches a validated connection for up to 24 hours, keeps normal
+lookups independent, and resolves newly loaded routing before sending an unknown
+result. Barcode crops remain local unless there is an enabled connection.
+Provider, administrator and GitHub credentials are never published to clients.
+The routing is explicitly disabled until a real service is deployed. Thus this
+release prepares automatic connection but does not claim live shared ingestion.
+
+12,162 JVM cases and 11 emulator tests passed with lint/build. The updated native
+flow test confirms UNKNOWN becomes KOSHER after a reviewed mock-service response
+through automatic polling, without an agent button. UI tests assert the removed
+controls do not exist and the result card only offers scanning another product.
+
 
 ## Version 1.6.0 dashboard, research agent and Android connection
 

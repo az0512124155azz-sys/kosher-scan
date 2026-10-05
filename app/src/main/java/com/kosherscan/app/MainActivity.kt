@@ -37,51 +37,40 @@ import java.util.concurrent.Executors
 import java.util.concurrent.atomic.AtomicBoolean
 
 data class ScanState(val code: String = "", val loading: Boolean = false, val result: LookupResult? = null,
-    val loadingMessage: String = "בודק במאגרי כשרות", val agentMessage: String = "")
+    val loadingMessage: String = "בודק במאגרי כשרות")
 class ScanModel : ViewModel() {
     val state = MutableStateFlow(ScanState())
     private var job: Job? = null
-    private var agent: AgentApi? = null
-    private var agentMarket = "IL"
     fun lookup(code: String, repository: ProductLookup, loadingMessage: String = "בודק במאגרי כשרות",
-        agentApi: AgentApi? = null, outbox: AgentOutbox? = null, market: String = "IL", photo: ByteArray? = null) {
+        agentApi: AgentApi? = null, outbox: AgentOutbox? = null, market: String = "IL", photo: ByteArray? = null,
+        backgroundAgent: (suspend () -> Pair<AgentApi?, AgentOutbox?>)? = null) {
         if (state.value.loading) return
-        job?.cancel(); agent = agentApi; agentMarket = market
+        job?.cancel()
         state.value = ScanState(code, true, loadingMessage = loadingMessage)
         job = viewModelScope.launch {
             val started = android.os.SystemClock.elapsedRealtime()
             val result = repository.lookup(code)
             android.util.Log.d("KosherScan", "Lookup completed in ${android.os.SystemClock.elapsedRealtime() - started} ms; source=${result.verdict.sourceLabel}; status=${result.verdict.status}")
-            val sent = if (result.verdict.status == KosherStatus.UNKNOWN) try { outbox?.enqueue(code, market, result, photo) } catch (_: java.io.IOException) { null } else null
-            state.value = ScanState(code, result = result, agentMessage = if (sent != null) "נשמר לבדיקה נוספת" else "")
-            if (sent != null && agentApi != null) repeat(6) {
+            val active = if (result.verdict.status == KosherStatus.UNKNOWN) backgroundAgent?.invoke() ?: (agentApi to outbox) else (null to null)
+            val activeApi = active.first
+            val activeOutbox = active.second
+            val sent = if (result.verdict.status == KosherStatus.UNKNOWN) try { activeOutbox?.enqueue(code, market, result, photo) } catch (_: java.io.IOException) { null } else null
+            state.value = ScanState(code, result = result)
+            if (sent != null && activeApi != null) repeat(6) {
                 kotlinx.coroutines.delay(5000)
                 if (state.value.code != code) return@launch
-                when (outbox?.state(sent)) {
-                    androidx.work.WorkInfo.State.SUCCEEDED -> state.value = state.value.copy(agentMessage = "נשלח לבדיקה נוספת")
+                when (activeOutbox?.state(sent)) {
                     androidx.work.WorkInfo.State.FAILED, androidx.work.WorkInfo.State.CANCELLED -> {
-                        state.value = state.value.copy(agentMessage = "לא ניתן לשלוח לבדיקה נוספת")
                         return@launch
                     }
                     else -> Unit
                 }
-                val updated = agentApi.result(code, market)
+                val updated = activeApi.result(code, market)
                 if (updated != null) {
-                    state.value = state.value.copy(result = AgentAwareLookup.combine(result, updated), agentMessage = "")
+                    state.value = state.value.copy(result = AgentAwareLookup.combine(result, updated))
                     return@launch
                 }
             }
-        }
-    }
-    fun refreshAgent() {
-        val api = agent ?: return
-        val snapshot = state.value
-        job?.cancel()
-        job = viewModelScope.launch {
-            val result = api.result(snapshot.code, agentMarket)
-            if (state.value.code == snapshot.code) state.value = snapshot.copy(
-                result = result?.let { AgentAwareLookup.combine(snapshot.result!!, it) } ?: snapshot.result,
-                agentMessage = if (result != null) "" else "עדיין אין תשובה מאומתת")
         }
     }
     fun reset() { job?.cancel(); state.value = ScanState() }
@@ -89,13 +78,15 @@ class ScanModel : ViewModel() {
 
 class MainActivity : AppCompatActivity() {
     private lateinit var agentPreferences: android.content.SharedPreferences
-    private lateinit var marketProvider: () -> String
+    private var bootstrapJob: Job? = null
     private fun agentConnection() = AgentConnection(agentPreferences.getString("url", "").orEmpty(), agentPreferences.getString("token", "").orEmpty())
     private fun agentApi(): AgentApi? = agentConnection().takeIf { it.valid(BuildConfig.DEBUG) }?.let { AgentApi(it) }
     private fun scan(code: String, selectedRepository: ProductLookup = repository, photo: ByteArray? = null) {
-        val connection = agentConnection().takeIf { it.valid(BuildConfig.DEBUG) }
-        model.lookup(code, selectedRepository, agentApi = connection?.let { AgentApi(it) },
-            outbox = connection?.let { AgentOutbox(applicationContext, it) }, market = marketProvider(), photo = photo)
+        model.lookup(code, selectedRepository, market = "IL", photo = photo, backgroundAgent = {
+            bootstrapJob?.join()
+            val connection = agentConnection().takeIf { it.valid(false) }
+            connection?.let { AgentApi(it) } to connection?.let { AgentOutbox(applicationContext, it) }
+        })
     }
     private lateinit var model: ScanModel
     private lateinit var repository: ProductLookup
@@ -129,21 +120,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         com.tom_roush.pdfbox.android.PDFBoxResourceLoader.init(applicationContext)
         model = ViewModelProvider(this)[ScanModel::class.java]
-        val preferences = getSharedPreferences("market", MODE_PRIVATE)
-        fun market() = preferences.getString("country", "IL") ?: "IL"
-        marketProvider = ::market
-        agentPreferences = getSharedPreferences("agent", MODE_PRIVATE)
-        findViewById<View>(R.id.agentSettingsButton).setOnClickListener { if (!model.state.value.loading) showAgentSettings() }
-        findViewById<View>(R.id.agentRefreshButton).setOnClickListener { model.refreshAgent() }
-        val marketButton = findViewById<TextView>(R.id.marketButton)
-        fun showMarket() { marketButton.text = when (market()) { "IL" -> "מדינת רכישה: ישראל ▾"; "GB" -> "מדינת רכישה: בריטניה ▾"; else -> "מדינת רכישה: אחרת ▾" } }
-        showMarket()
-        marketButton.setOnClickListener {
-            if (!model.state.value.loading) androidx.appcompat.app.AlertDialog.Builder(this)
-                .setTitle("איפה נקנה המוצר?").setItems(arrayOf("ישראל", "בריטניה", "מדינה אחרת")) { _, position ->
-                    preferences.edit().putString("country", listOf("IL", "GB", "OTHER")[position]).apply()
-                    showMarket(); model.reset()
-                }.show()
+        fun market() = "IL"
+        agentPreferences = getSharedPreferences("auto-agent", MODE_PRIVATE)
+        if (System.currentTimeMillis() - agentPreferences.getLong("updated", 0) > 86400000L) agentPreferences.edit().clear().apply()
+        bootstrapJob = lifecycleScope.launch {
+            AgentBootstrap().fetch()?.let { setup ->
+                if (setup.connection == null) agentPreferences.edit().clear().apply()
+                else agentPreferences.edit().putString("url", setup.connection.url).putString("token", setup.connection.token)
+                    .putLong("updated", System.currentTimeMillis()).apply()
+            }
         }
         repository = AgentAwareLookup(ProductRepository(barcodeLookup = IkrRepository(), additionalLookup = AuthoritySources(market = ::market,
             diagnostic = { android.util.Log.d("KosherScan", "Authority: $it") }), onOuEvent = {
@@ -162,11 +147,6 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         findViewById<View>(R.id.scanAgainButton).setOnClickListener { model.reset() }
-        findViewById<View>(R.id.retryLookupButton).setOnClickListener {
-            val extended = model.state.value.result?.issue == LookupIssue.TIMEOUT
-            scan(model.state.value.code,
-                if (extended) (repository as? AgentAwareLookup)?.extended() ?: repository else repository)
-        }
         findViewById<View>(R.id.manualButton).setOnClickListener { manualEntry() }
         findViewById<View>(R.id.cameraRetryButton).setOnClickListener {
             if (cameraGranted()) startCamera()
@@ -218,7 +198,7 @@ class MainActivity : AppCompatActivity() {
                                 if (!destroyed && lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)) {
                                     codes.firstOrNull { it.rawValue?.matches(Regex("[0-9]{8,14}")) == true }?.let { barcode ->
                                         if (busy.compareAndSet(false, true)) scan(barcode.rawValue!!, photo =
-                                            if (agentConnection().valid(BuildConfig.DEBUG)) BarcodePhoto.capture(proxy, barcode.boundingBox) else null)
+                                            BarcodePhoto.capture(proxy, barcode.boundingBox))
                                     }
                                 }
                             }.addOnFailureListener {
@@ -286,8 +266,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.manualButton).visibility = if (s.result != null) View.INVISIBLE else View.VISIBLE
         findViewById<View>(R.id.hintText).visibility = if (busy.get() || errorPanel.visibility == View.VISIBLE) View.INVISIBLE else View.VISIBLE
         findViewById<TextView>(R.id.loadingText).apply { visibility = if (s.loading) View.VISIBLE else View.GONE; text = s.loadingMessage }
-        findViewById<TextView>(R.id.agentStatusText).apply { visibility = if (s.agentMessage.isNotBlank()) View.VISIBLE else View.GONE; text = s.agentMessage }
-        findViewById<View>(R.id.agentRefreshButton).visibility = if (s.agentMessage.isNotBlank()) View.VISIBLE else View.GONE
         val result = s.result
         if (result == null) { card.animate().cancel(); card.visibility = View.GONE; renderedImage = ""; return }
         findViewById<TextView>(R.id.productName).text = result.product?.name?.ifBlank { "מוצר ללא שם" } ?: "אין מידע על המוצר"
@@ -309,8 +287,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.statusBox).setBackgroundResource(background)
         findViewById<TextView>(R.id.statusTitle).apply { text = title; setTextColor(color) }
         findViewById<TextView>(R.id.statusText).text = ResultCopy.text(result)
-        findViewById<View>(R.id.retryLookupButton).visibility = if (result.issue != null && result.issue != LookupIssue.NOT_FOUND) View.VISIBLE else View.GONE
-        findViewById<TextView>(R.id.retryLookupButton).text = if (result.issue == LookupIssue.TIMEOUT) "בדיקה מעמיקה" else "ניסיון חוזר"
         if (card.visibility != View.VISIBLE) {
             card.visibility = View.VISIBLE; card.alpha = 0f
             card.post { if (card.visibility == View.VISIBLE) { card.translationY = card.height.toFloat() + 30; card.animate().translationY(0f).alpha(1f).setDuration(340).start() } }
@@ -320,31 +296,5 @@ class MainActivity : AppCompatActivity() {
         barcodeDialog?.dismiss()
         destroyed = true; analysis?.clearAnalyzer(); provider?.unbindAll(); executor.shutdown(); scanner.close()
         super.onDestroy()
-    }
-    private fun showAgentSettings() {
-        val dialog = Dialog(this)
-        dialog.setContentView(R.layout.dialog_agent)
-        val url = dialog.findViewById<EditText>(R.id.agentUrl)
-        val token = dialog.findViewById<EditText>(R.id.agentToken)
-        val error = dialog.findViewById<TextView>(R.id.agentSettingsError)
-        url.setText(agentConnection().url); token.setText(agentConnection().token)
-        dialog.findViewById<View>(R.id.agentSave).setOnClickListener {
-            val connection = AgentConnection(url.text.toString().trim().trimEnd('/') + "/", token.text.toString().trim())
-            if (!connection.valid(BuildConfig.DEBUG)) error.text = "יש להזין כתובת מאובטחת וקוד חיבור תקין"
-            else { agentPreferences.edit().putString("url", connection.url).putString("token", connection.token).apply(); model.reset(); dialog.dismiss() }
-        }
-        dialog.findViewById<View>(R.id.agentDisconnect).setOnClickListener {
-            androidx.work.WorkManager.getInstance(applicationContext).cancelAllWorkByTag("agent-upload")
-            agentPreferences.edit().clear().apply()
-            java.io.File(noBackupFilesDir, "agent-outbox").listFiles()?.forEach { it.delete() }
-            model.reset(); dialog.dismiss()
-        }
-        dialog.findViewById<View>(R.id.agentCancel).setOnClickListener { dialog.dismiss() }
-        dialog.show()
-        dialog.window?.apply {
-            setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
-            setLayout((resources.displayMetrics.widthPixels - 48 * resources.displayMetrics.density).toInt(), WindowManager.LayoutParams.WRAP_CONTENT)
-            setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
-        }
     }
 }

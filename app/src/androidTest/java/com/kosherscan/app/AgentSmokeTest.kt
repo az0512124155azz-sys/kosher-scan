@@ -46,20 +46,6 @@ class AgentSmokeTest {
    assertFalse(java.io.File(context.noBackupFilesDir,"agent-outbox/$id.json").exists())
   }
  }
- @Test @SdkSuppress(minSdkVersion=29) fun connectionDialogValidatesAndCanDisconnect() {
-  ActivityScenario.launch(MainActivity::class.java).use {scenario->
-   scenario.onActivity{it.findViewById<View>(R.id.agentSettingsButton).performClick()}
-   androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
-   scenario.onActivity{activity->
-    val root=WindowInspector.getGlobalWindowViews().first{it.findViewById<View>(R.id.agentUrl)!=null}
-    root.findViewById<EditText>(R.id.agentUrl).setText("http://example.org")
-    root.findViewById<EditText>(R.id.agentToken).setText("a".repeat(40));root.findViewById<View>(R.id.agentSave).performClick()
-    assertTrue(root.findViewById<android.widget.TextView>(R.id.agentSettingsError).text.isNotBlank())
-    root.findViewById<View>(R.id.agentDisconnect).performClick()
-    assertFalse(activity.getSharedPreferences("agent",0).contains("url"))
-   }
-  }
- }
  @Test fun reviewedReplyUpdatesTheNativeUnknownCard():Unit=runBlocking {
   MockWebServer().use {server->
    val reviewed=java.util.concurrent.atomic.AtomicBoolean(false)
@@ -84,7 +70,7 @@ class AgentSmokeTest {
     assertEquals(KosherStatus.UNKNOWN,model.state.value.result!!.verdict.status)
     reviewed.set(true)
     androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
-    scenario.onActivity{activity->assertTrue(activity.findViewById<View>(R.id.agentRefreshButton).isShown);activity.findViewById<View>(R.id.agentRefreshButton).performClick()}
+    // The production model polls automatically; no user action or agent button is needed.
     withTimeout(10000){while(model.state.value.result!!.verdict.status!=KosherStatus.KOSHER)delay(100)}
     androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
     scenario.onActivity{activity->assertTrue(activity.findViewById<android.widget.TextView>(R.id.statusTitle).text.contains("✓"));assertEquals("מוצר בדיקה",model.state.value.result!!.product!!.name)}

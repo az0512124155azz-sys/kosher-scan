@@ -14,7 +14,7 @@ async function load(){
   const counts=Object.fromEntries(overview.phases.map(x=>[x.phase,x.count]));
   $('queuedCount').textContent=(counts.queued || 0)+(counts.processing || 0);$('reviewCount').textContent=counts.review || 0;$('approvedCount').textContent=counts.approved || 0;
   $('usageCount').textContent=overview.usage.ai_calls || 0;$('usageLimit').textContent='מתוך '+overview.aiLimit+' בדיקות ליום';$('navCount').textContent=counts.review || '';
-  $('serviceUrl').value=location.origin;$('appCode').value=overview.appToken;$('pairCommand').value='/connect '+overview.pairCode;
+  $('serviceUrl').value=location.origin;$('pairCommand').value='/connect '+overview.pairCode;
   $('telegramState').textContent=overview.telegramConnected?'השיחה שלך מחוברת לבוט.':overview.telegramConfigured?'הבוט מוגדר. נותר לחבר את השיחה שלך.':'יש ליצור בוט ב־BotFather ולהגדיר את המפתח שלו בשירות.';
   $('connectTelegram').disabled=!overview.telegramConfigured;$('geminiState').textContent=overview.geminiConfigured?'✓ Gemini מחובר ומוכן לבדיקות':'Gemini עדיין אינו מוגדר';
   cases=res.cases;$('more').hidden=cases.length<100;draw();$('login').hidden=true;$('workspace').hidden=false;$('refresh').hidden=false;$('logout').hidden=false;
@@ -55,7 +55,6 @@ $('closeDetail').onclick=()=>{$('detail').close();selected=null;if(photoUrl)URL.
 $('reviewForm').onsubmit=async e=>{e.preventDefault();if(!selected)return;try{await api('/api/admin/cases/'+selected.id+'/review',{method:'POST',body:JSON.stringify({status:$('verdict').value,expiresAt:$('expiry').value,evidenceUrl:$('evidenceUrl').value,details:$('details').value})});$('closeDetail').click();notify('התשובה נשמרה. תשובה מאומתת זמינה כעת לאפליקציה.');await load();}catch(e){notify(e.message);}};
 $('retryCase').onclick=async()=>{if(!selected)return;try{await api('/api/admin/cases/'+selected.id+'/retry',{method:'POST',body:'{}'});$('closeDetail').click();await load();notify('הבדיקה נשלחה שוב לסוכן.');}catch(e){notify(e.message);}};
 $('deleteCase').onclick=async()=>{if(!selected || !confirm('למחוק את הבדיקה ואת הצילום השמור?'))return;try{await api('/api/admin/cases/'+selected.id+'/delete',{method:'POST',body:'{}'});$('closeDetail').click();await load();}catch(e){notify(e.message);}};
-$('copyApp').onclick=async()=>{try{await navigator.clipboard.writeText($('appCode').value);notify('קוד החיבור הועתק.');}catch{notify('בחר והעתק את הקוד מהשדה.');}};
 $('copyPair').onclick=async()=>{try{await navigator.clipboard.writeText($('pairCommand').value);notify('הפקודה הועתקה.');}catch{notify('בחר והעתק את הפקודה מהשדה.');}};
 $('connectTelegram').onclick=async()=>{try{await api('/api/admin/telegram/connect',{method:'POST',body:'{}'});notify('החיבור הופעל. כעת שלח לבוט את פקודת החיבור.');}catch(e){notify(e.message);}};
 $('more').onclick=async()=>{try{const before=Math.min(...cases.map(x=>x.updated_at));const data=await api('/api/admin/cases?before='+before).then(r=>r.json());cases.push(...data.cases);$('more').hidden=data.cases.length<100;draw();}catch(e){notify(e.message);}};

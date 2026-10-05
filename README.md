@@ -9,6 +9,11 @@ See [agent setup](agent/README.md). It requires deployment and a BotFather token
 before it is live. AI suggestions never automatically become certification.
 The existing lookup sources and status policy continue to operate independently.
 
+Version 1.6.1 removes consumer agent settings/actions and the purchase-country
+selector. The scanner uses Israel scope and discovers public service routing
+automatically. Routing remains disabled until deployment; enabling a tested
+service is an administrator operation, not setup required on each phone.
+
 ## Build and test
 
 Use Java 17 or 21, Android SDK 35 and the checked-in Gradle 8.7 wrapper:
