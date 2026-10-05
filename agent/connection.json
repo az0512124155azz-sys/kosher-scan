@@ -1,1 +1,5 @@
-{"enabled":false,"url":"","appCode":""}
+{
+  "enabled": true,
+  "url": "https://kosher-scan-agent.az0512124155azz.workers.dev/",
+  "appCode": "607a0a4ee5d09fc8eca5d15478a1039afb44dae028f630dd"
+}
