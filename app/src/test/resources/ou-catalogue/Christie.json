@@ -1,0 +1,3209 @@
+﻿{
+    "total":  231,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUD3-PQIHZVL",
+                        "productName":  "30ct Variety Pack (20 Double Stuf Oreo / 10 Golden Oreo)",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-04-04T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-7B24986",
+                        "productName":  "30% Less Fat than Regular Oreo Sandwich Cookie",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "yoshon":  "Yoshon Always (Made with Winter Wheat)",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. Yoshon Always (Made with Winter Wheat)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-AFDTSL1",
+                        "productName":  "40 pack (Oreo Double Stuf / Oreo Cinnamon Chocolate)",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-02-06T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-8HPPJKD",
+                        "productName":  "60 Count Snak Paks (30 Mini Chips Ahoy! / 30 Oreo Mini)",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2026-02-04T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-GQPEKQT",
+                        "productName":  "Barnum\u0027s Animal Crackers",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-07-18T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-399001E",
+                        "productName":  "Belvita Breakfast Banana Oatmeal \u0026 Chocolate",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-10-25T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-B1C50CA",
+                        "productName":  "BelVita Breakfast Biscuits Blueberry",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-B8271E5",
+                        "productName":  "BelVita Breakfast Biscuits Chocolate",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-05-15T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-2FD4F52",
+                        "productName":  "BelVita Breakfast Biscuits Golden Oat",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-5CA650F",
+                        "productName":  "Belvita Breakfast Cranberry \u0026 Orange",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-12-22T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-7141643",
+                        "productName":  "belVita Cinnamon Brown Sugar",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2014-07-02T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-C573AEA",
+                        "productName":  "Belvita Mini Mixed Berry",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-05-14T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-S1T91SG",
+                        "productName":  "Belvita Sandwich Cocoa Creme",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-01-05T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-YOULJZX",
+                        "productName":  "Belvita Sandwich Peanut Butter",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-01-05T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-6CD10BC",
+                        "productName":  "Birthday Cake Oreo",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-06-24T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-B3939A5",
+                        "productName":  "Bruschetta Rice Thins",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-TWC7JLG",
+                        "productName":  "CA! Chewy Caramilk",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-06-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-0OEG5WQ",
+                        "productName":  "CA! Mini Eggs",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-06-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-9ED9658",
+                        "productName":  "Cheddar Flavour Rice Thins",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-38616DC",
+                        "productName":  "Chewy Chips Ahoy! 300G 12",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-262C1CB",
+                        "productName":  "Chewy Chips Ahoy! Oreo Creme Filled",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2014-11-19T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-A6BDEB9",
+                        "productName":  "Chips Ahoy!",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-10-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-JYPRDW1",
+                        "productName":  "Chips Ahoy! Big Chewy Cookie Caramel",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits",
+                                         "categorySort":  "Cookies, Crackers, Biscuits",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-05-20T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-SZAYUXR",
+                        "productName":  "Chips Ahoy! Big Chewy Cookie Chocolatey Brownie",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits",
+                                         "categorySort":  "Cookies, Crackers, Biscuits",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-05-20T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-8XA8PAJ",
+                        "productName":  "Chips Ahoy! Big Chewy Cookie Original",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits",
+                                         "categorySort":  "Cookies, Crackers, Biscuits",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-05-20T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-MX5XIXL",
+                        "productName":  "Chips Ahoy! Candy Blasts Minis",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-07-03T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-VEHVZBS",
+                        "productName":  "Chips Ahoy Caramilk",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-09-07T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-QMQGWPZ",
+                        "productName":  "Chips Ahoy Chewy Confetti Cake",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-07-20T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-MIC95W7",
+                        "productName":  "Chips Ahoy! Chewy Stranger Things, Chocolate Chips with Strawberry Flavored Filling",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-01-15T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-APXKHFH",
+                        "productName":  "Chips Ahoy! Coconut Chunky",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-09-27T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-59676FA",
+                        "productName":  "Chips Ahoy! Ice Cream Creations - Dulce De Leche Crunchy",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-07-13T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-85681E2",
+                        "productName":  "Chips Ahoy! Ice Cream Creations - Mint Chocolate Chip Chewy Chocolate Cookie",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-07-13T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-581F979",
+                        "productName":  "Chips Ahoy! Ice Cream Creations - Mocha Chunk Cookie",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2023-07-13T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-13850FB",
+                        "productName":  "Chips Ahoy! Mini",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-LNR5L7D",
+                        "productName":  "Chips Ahoy! Mini -Rainbow",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-03-16T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-D936LRW",
+                        "productName":  "Chips Ahoy ! Original Gluten Free",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-05-02T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-XRJ67XC",
+                        "productName":  "Chips Ahoy Original Party Size CDN",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-08-08T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-D6467A2",
+                        "productName":  "Chips Ahoy! Rainbow 300G 16",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-Y56WAFJ",
+                        "productName":  "Chips Ahoy S\u0027mores",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-02-16T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-FLB9EW4",
+                        "productName":  "Chips Ahoy! Soft Chunky Original",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-10-08T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-LZRWCYJ",
+                        "productName":  "Chips Ahoy - Thins Bites Fudge Dipped Original",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2018-06-25T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-OOPYKE7",
+                        "productName":  "Chips Ahoy! Thins - Cinnamon Sugar",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-03-10T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-FCJGPKW",
+                        "productName":  "Chips Ahoy! Thins Double Chocolate",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-06-14T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-CKGOB8M",
+                        "productName":  "Chips Ahoy! Thins Oatmeal Chip",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-06-14T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-YD6FA1F",
+                        "productName":  "Chips Ahoy! Thins - Original",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-03-10T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-KNRWXKK",
+                        "productName":  "Chips Ahoy Variety Club Pack -Canada",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-09-21T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-OWPSNXT",
+                        "productName":  "Chocolate Oreo Cakesters",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-04-04T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-63NFQ03",
+                        "productName":  "CHR Chips Ahoy Sour Patch Kids",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-10-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-BIKY9VV",
+                        "productName":  "CHRISTIE-1.5 KG-OREO-ORIGINAL-CLUB-EACH",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-01-16T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-BJMJEWR",
+                        "productName":  "Christie Oreo Caramel Coconut",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-10-03T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-8HD17EE",
+                        "productName":  "Christie Oreo Original SC Club",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-08-05T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-NT04YH5",
+                        "productName":  "Christie Oreo Tiramisu",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-07-29T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-JXD4EBK",
+                        "productName":  "CHRISTIE Pokemon Cocoa Snack Pack",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-09-20T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-OEJQ2S5",
+                        "productName":  "CHRISTIE Pokemon Honey Snack Pack",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2022-09-20T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-FTRKM7G",
+                        "productName":  "Christie Triscuit Crackers Tzatziki",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-10-10T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-C3PASLN",
+                        "productName":  "Chr. Minions Fun Treats Honey",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-02-03T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-AGU183E",
+                        "productName":  "Chr. OREO Dundies Chocolate",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-01-16T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-UW947V9",
+                        "productName":  "CHR Oreo Easter Egg Pink",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-05-28T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-BKA7MRA",
+                        "productName":  "Chr. Oreo Gingerbread",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-02-13T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-EC52223",
+                        "productName":  "Chunks Ahoy! Cookies 300G 16",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-2087030",
+                        "productName":  "Chunks Ahoy! Cookies 500GR 12",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-084B356",
+                        "productName":  "Chunks Ahoy! TRPCHOC 300G 16",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-YDHXW6B",
+                        "productName":  "Cinnamon Bun Oreo",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-08-10T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-TDU72KK",
+                        "productName":  "Cracker Meal",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-01-18T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-145783B",
+                        "productName":  "Crunchers Barbecue",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-AEA9C16",
+                        "productName":  "Crunchers Cheddar",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-A2253CF",
+                        "productName":  "Crunchers Sour Cream Onion",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-D950FD3",
+                        "productName":  "Crunchers Spicy Thai",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-6DDB367",
+                        "productName":  "Date Newton",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Fruit Products",
+                                         "categorySort":  "Fruit Products",
+                                         "categorySearch":  "Fruit Products"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-3014AD6",
+                        "productName":  "Despicable Me Honey Carton",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Baking Products \u0026 Mixes",
+                                         "categorySort":  "Baking Products \u0026 Mixes",
+                                         "categorySearch":  "Baking Products \u0026 Mixes"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-24DB312",
+                        "productName":  "Fig Newtons",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2013-03-20T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-04D4901",
+                        "productName":  "Fig Newtons- Fat Free Formula",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-06-30T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-CSKXGDF",
+                        "productName":  "Firework Oreo",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-08-11T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-27654D9",
+                        "productName":  "Fruit Krisps Blueberry 667210013300",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-F8511E5",
+                        "productName":  "Fruit Krisps Mixed Berry 667210013500",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Snack Foods",
+                                         "categorySort":  "Snack Foods",
+                                         "categorySearch":  "Snack Foods"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-90DD880",
+                        "productName":  "Fudgee-O - Double Stuf",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-08-02T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-CFF0F51",
+                        "productName":  "Fudgee-O - l\u0027Original",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-08-02T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-192D67A",
+                        "productName":  "Fudgee-O - Original",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-08-02T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-BEB79BA",
+                        "productName":  "Gluten Free Oreo",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-06-12T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-4B02083",
+                        "productName":  "Golden Oreo Double Stuf - CDN",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-06-24T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-F23454E",
+                        "productName":  "Golden Oreo - Original",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "yoshon":  "Yoshon Always (Made with Winter Wheat)",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment Yoshon Always (Made with Winter Wheat)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-06-24T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-7BB205E",
+                        "productName":  "Golden Oreo Thins",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-07-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-ZKTHOOS",
+                        "productName":  "Golden Oreo Thins Salted Caramel",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-10-26T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-MIUXFU2",
+                        "productName":  "Good Thins - Corn Thins with Sea Salt",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-08-16T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-W1Y0Y6C",
+                        "productName":  "Good Thins - Gluten Free - Beet",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-02-03T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-GI37HCX",
+                        "productName":  "Good Thins Rice Salt \u0026 Pepper",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-11-11T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-QH6KCSO",
+                        "productName":  "Good Thins Rice Simply Salt",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-11-11T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-P6NEWG9",
+                        "productName":  "Good Thins Sweet Potato BBQ",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-11-11T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-DA4E063",
+                        "productName":  "Herb \u0026 Garlic Rice Thins",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-XBLUQOB",
+                        "productName":  "Hot Cocoa Chips Ahoy!",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-04-03T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-INNJMPK",
+                        "productName":  "Justice League Cocoa",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-11-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-IXA1F25",
+                        "productName":  "Justice League Honey",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2017-11-17T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-CTGIDA3",
+                        "productName":  "Mini Golden Oreo",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-05-19T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-96B1198",
+                        "productName":  "Mini Oreo 3x12x70g âSnacks to Go\u0027",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-9E836AB",
+                        "productName":  "Mini Oreo Cookies",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "yoshon":  "Yoshon Always (Made with Winter Wheat)",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment Yoshon Always (Made with Winter Wheat)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-06T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-8A086B4",
+                        "productName":  "Mini Oreo Fall Treats",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-7F6E601",
+                        "productName":  "Mini Oreo Kids Snak Pak 12x180g",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2010-01-01T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-254C232",
+                        "productName":  "Mr. Christie\u0027s Snak Paks Barnum\u0027s ABC\u0027s Cocoa",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-F2F05EB",
+                        "productName":  "Mr. Christie\u0027s Snak Paks Mini Chips Ahoy",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-57B05C5",
+                        "productName":  "Mr. Christie\u0027s Snak Paks Soft Baked Cookies - Banana",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  "1.0"
+                    }
+                ],
+    "elapsed_ms":  385
+}

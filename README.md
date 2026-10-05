@@ -19,6 +19,22 @@ Instrumented tests are executed locally, not on the CI runner.
 
 ## Data and status policy
 
+Version 1.4.7 identifies a retail product line when its complete branded name
+matches OU's product name, even if OU lists a different parent/licensing brand.
+The retail brand must explicitly start the official product name; extra flavor,
+sugar-free, ingredient mentions, substring brands and brand-only names cannot
+match. Name-only queries are also included before broad brand searches.
+OU's structured `Yoshon Always (Made with Winter Wheat)` annotation is recognized
+only when it exactly agrees with the displayed status. Other restrictions are
+retained. Restricted identity-equivalent rows cannot be hidden by a positive row,
+including rows from earlier queries. A failed query no longer aborts all later
+queries; the existing 8/12-second and 12-request budgets remain. Transport,
+timeout and malformed-response issues are classified separately. Debug logs
+report request/row/identity/eligibility counts, without queries or barcodes.
+No GitHub mirror or barcode verdict table was added: hosting the same name-based
+records elsewhere does not fix missing product identity, and the public search
+does not provide a verified complete catalogue export or barcode mapping.
+
 Version 1.4.6 fixes OU catalogue coverage without barcode overrides. The parser
 keeps certification conditions separate from OU's display status and accepts only
 recognized, matching structured DE/Yoshon annotations. Revocation, lot/date-based
@@ -77,16 +93,15 @@ to 2 MB. No barcode, brand or product-specific verdict overrides are present.
   brand (such as Nutella) can match; generic names, related results, conflicting
   symbols, and unknown restrictions fail closed. Packaging quantities and a
   repeated brand prefix are ignored, while flavors and variants are retained.
-* The UI explicitly requires checking the symbol on the package and shows the
-  Passover exclusion. Name/brand matching cannot validate a physical package,
+* The UI shows applicable dairy/Passover details without package-check instructions.
+  Name/brand matching cannot validate a physical package,
   factory, batch, region, or future changes to certification.
 * Only an exact explicit negative OFF label or an explicit negative exact-barcode
   authority record can yield `NOT_KOSHER`, with its source retained internally.
   Missing OU results, errors, ingredients, and
   “not kosher for Passover” never imply a year-round negative verdict.
 * An exact explicit `kosher` OFF label can produce a green result when OU has
-  no exact match. The UI calls this a report and requires
-  checking the package.
+  no exact match. The UI uses a short positive message.
   Vegetarian, vegan, unrelated labels and partial text never certify products.
 * Specific OFF certification labels (such as Orthodox Union Kosher, Kosher-parve,
   Star-K and MK), raw comma/semicolon-separated `labels`, and explicit legacy

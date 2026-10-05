@@ -63,11 +63,45 @@ object KosherPolicy {
     }
 
     fun strongMatch(p: Product, r: OuRecord): Boolean {
+        if (!identityMatch(p, r)) return false
+        return certificationRecognized(r)
+    }
+
+    /** An exact branded product name can identify a product line even when OU
+     * lists the parent/licensing brand instead of the retail brand. No substring
+     * product matches, brand aliases, translations or variant deletion. */
+    fun identityMatch(p: Product, r: OuRecord): Boolean {
         val brand = normalize(r.brand)
         val brands = p.brand.split(',').map(::normalize).filter { it.isNotBlank() }
         val composedBrand = brands.flatMap { it.split(' ') }.distinct().sorted()
-        if (r.id.isBlank() || brand.isBlank() ||
-            (brands.none { it == brand } && brand.split(' ').distinct().sorted() != composedBrand)) return false
+        if (r.id.isBlank() || brand.isBlank() || brands.isEmpty()) return false
+        val sameBrand = brands.any { it == brand } || brand.split(' ').distinct().sorted() == composedBrand
+        val names = listOf(p.name, p.englishName).filter { it.isNotBlank() }
+        val rowName = productIdentity(r.name, brand)
+        if (rowName.isBlank()) return false
+        if (!sameBrand) {
+            // The retail brand must be explicitly present in OU's product name.
+            // At least one other token is required: a brand-only row cannot certify.
+            return brands.any { retailBrand ->
+                val retailTokens = retailBrand.split(' ')
+                val rowTokens = rowName.split(' ')
+                val startsWithRetail = rowName.startsWith("$retailBrand ")
+                startsWithRetail && rowTokens.size > retailTokens.size && names.any { value ->
+                    val normalized = normalize(searchName(value))
+                    val branded = if (normalized == retailBrand || normalized.startsWith("$retailBrand "))
+                        normalized else "$retailBrand $normalized"
+                    branded.split(' ').sorted() == rowTokens.sorted()
+                }
+            }
+        }
+        val generic = setOf("milk", "water", "chocolate", "bread", "coffee", "tea", "salt", "sugar")
+        if (rowName in generic) return false
+        fun identityTokens(value: String): List<String> = productIdentity(value, brand).split(' ')
+            .filterNot { it == "cereal" && "en:breakfast-cereals" in p.categories }.sorted()
+        return names.any { identityTokens(it) == identityTokens(r.name) }
+    }
+
+    fun certificationRecognized(r: OuRecord): Boolean {
         if (r.symbols.isEmpty() || r.symbols.any { it !in setOf("OU", "OU-D", "OU-DE", "OU-M", "OU-P", "OU-Fish") }) return false
         // Fail closed on new/unknown restrictions, revoked entries, dates or batch conditions.
         val clauses = r.conditions.split('.').map { normalize(it) }.filter { it.isNotBlank() }
@@ -78,7 +112,7 @@ object KosherPolicy {
             var status = normalize(r.officialStatus)
             if (r.yoshon.isNotBlank()) {
                 val date = "(?:January|February|March|April|May|June|July|August|September|October|November|December) \\d{1,2}, \\d{4}"
-                val knownYoshon = r.yoshon == "Certified Yoshon" ||
+                val knownYoshon = r.yoshon in setOf("Certified Yoshon", "Yoshon Always (Made with Winter Wheat)") ||
                     Regex("Yoshon with Best Before date \\(or earlier\\) of (?:$date)?(?:\\s*\\(best by dates through $date\\))?").matches(r.yoshon)
                 if (!knownYoshon) return false
                 status = status.removeSuffix(normalize(r.yoshon)).trim()
@@ -86,20 +120,17 @@ object KosherPolicy {
             if (r.dairyEquipment) status = status.removeSuffix("dairy equipment").trim()
             if (status != normalize(r.conditions)) return false
         }
-        val name = productIdentity(r.name, brand)
-        if (name.isBlank()) return false
-        val generic = setOf("milk", "water", "chocolate", "bread", "coffee", "tea", "salt", "sugar")
-        if (name in generic) return false
-        fun identityTokens(value: String): List<String> = productIdentity(value, brand).split(' ')
-            .filterNot { it == "cereal" && "en:breakfast-cereals" in p.categories }.sorted()
-        return listOf(p.name, p.englishName).filter { it.isNotBlank() }
-            .any { identityTokens(it) == identityTokens(r.name) }
+        return true
     }
 
     fun resolve(p: Product, records: List<OuRecord>, related: Boolean = false): Verdict {
         if (explicitlyNotKosher(p)) return Verdict(KosherStatus.NOT_KOSHER,
             "המוצר מסומן במפורש כלא כשר ב־Open Food Facts (מאגר קהילתי).")
         val matches = if (related) emptyList() else records.filter { strongMatch(p, it) }
+        // An identity-equivalent revoked/restricted/unrecognized row must not be
+        // hidden by filtering it out before deciding whether matches conflict.
+        if (!related && records.any { identityMatch(p, it) && !certificationRecognized(it) })
+            return Verdict(KosherStatus.UNKNOWN, "Conflicting or restricted certification records")
         val distinct = matches.map { Triple(it.symbols.sorted(), it.conditions.split('.').map(::normalize).filter { clause -> clause.isNotBlank() }.distinct().sorted(), it.dairyEquipment) }.distinct()
         return if (matches.isNotEmpty() && distinct.size == 1) Verdict(KosherStatus.KOSHER,
             "התאמת שם ומותג ב־OU · ${matches.first().symbols.joinToString()}\nיש לוודא שהסמל מופיע על האריזה. ${if (matches.first().conditions.split('.').any { normalize(it) == "not kosher for passover" }) "לא לפסח." else ""}", "https://oukosher.org/product-search/", "OU",

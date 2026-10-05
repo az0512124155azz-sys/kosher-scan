@@ -94,13 +94,13 @@ class ProductRepositoryTest {
         server.enqueue(MockResponse().setBody(product)); server.enqueue(MockResponse().setBody("<html>Example Hazelnut spread with cocoa OU-D</html>"))
         val result = repo().lookup("12345678")
         assertEquals(KosherStatus.UNKNOWN, result.verdict.status); assertNotNull(result.product)
-        assertEquals(LookupIssue.SERVICE_UNAVAILABLE, result.issue)
+        assertEquals(LookupIssue.INVALID_RESPONSE, result.issue)
     }
     @Test fun ouTimeoutDoesNotEraseProduct() = runBlocking {
         server.enqueue(MockResponse().setBody(product)); server.enqueue(MockResponse().setBody("{}").setBodyDelay(1, TimeUnit.SECONDS))
         val result = repo(timeout = 100).lookup("12345678")
         assertNotNull(result.product); assertEquals(KosherStatus.UNKNOWN, result.verdict.status)
-        assertEquals(LookupIssue.SERVICE_UNAVAILABLE, result.issue)
+        assertEquals(LookupIssue.TIMEOUT, result.issue)
     }
     @Test fun nutellaExactPublicRecordRegression() = runBlocking {
         server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Nutella","product_name_en":"Nutella","brands":"Nutella, Ferrero","labels_tags":["en:vegetarian","en:no-gluten","fr:triman"]}}"""))

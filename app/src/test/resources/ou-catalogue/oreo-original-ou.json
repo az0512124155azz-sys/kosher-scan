@@ -1,0 +1,457 @@
+﻿{
+    "total":  14,
+    "results":  [
+                    {
+                        "agencyUniqueId":  "OUD3-0B85BF4",
+                        "productName":  "Golden Oreo Original Sandwich Cookie",
+                        "brandName":  "Nabisco",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "yoshon":  "Yoshon Always (Made with Winter Wheat)",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment Yoshon Always (Made with Winter Wheat)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-07-17T00:00:00.000Z",
+                        "_score":  0.014409722222222223
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-3MLRW8U",
+                        "productName":  "Oreo Original Sandwich",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-09-09T00:00:00.000Z",
+                        "_score":  0.014320625610948191
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-SN21FK3",
+                        "productName":  "20 ct Variety Pack (Oreo S\u0027moreo / Oreo Original)",
+                        "brandName":  "Nabisco",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2025-12-01T00:00:00.000Z",
+                        "_score":  0.013320115356885362
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-471DB8C",
+                        "productName":  "Oreo Original",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "yoshon":  "Yoshon Always (Made with Winter Wheat)",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment Yoshon Always (Made with Winter Wheat)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  0.011475409836065573
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-XPRQABF",
+                        "productName":  "Oreo Original Stocking Stuffer",
+                        "brandName":  "Nabisco",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2020-04-03T00:00:00.000Z",
+                        "_score":  0.01111111111111111
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-BF99AE9",
+                        "productName":  "Oreo Thins Original",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2015-03-17T00:00:00.000Z",
+                        "_score":  0.0109375
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-F23454E",
+                        "productName":  "Golden Oreo - Original",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "yoshon":  "Yoshon Always (Made with Winter Wheat)",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment Yoshon Always (Made with Winter Wheat)",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2016-06-24T00:00:00.000Z",
+                        "_score":  0.010769230769230769
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-WKZVDB0",
+                        "productName":  "OREO - Original Halloween",
+                        "brandName":  "Nabisco",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-02-25T00:00:00.000Z",
+                        "_score":  0.010606060606060605
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-W9BIR78",
+                        "productName":  "Oreo Cakester Original",
+                        "brandName":  "Nabisco",
+                        "category":  {
+                                         "category":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySort":  "Cakes, Pastries \u0026 Pies",
+                                         "categorySearch":  "Cakes, Pastries \u0026 Pies"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2021-07-16T00:00:00.000Z",
+                        "_score":  0.01044776119402985
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-DDD66E1",
+                        "productName":  "Oreo Fudge Cremes - Original",
+                        "brandName":  "Nabisco",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2012-07-09T00:00:00.000Z",
+                        "_score":  0.010294117647058823
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-SUIKYXP",
+                        "productName":  "Oreo Creme Cakes Original",
+                        "brandName":  "Nabisco",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-06-12T00:00:00.000Z",
+                        "_score":  0.010144927536231883
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-PHHWG2G",
+                        "productName":  "20 ct Variety Pack Holiday Edition (Oreo Original / Oreo Winter)",
+                        "brandName":  "Nabisco",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits",
+                                         "categorySort":  "Cookies, Crackers, Biscuits",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  true,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover. *Dairy Equipment",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2024-05-16T00:00:00.000Z",
+                        "_score":  0.01
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-8HD17EE",
+                        "productName":  "Christie Oreo Original SC Club",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-08-05T00:00:00.000Z",
+                        "_score":  0.00958904109589041
+                    },
+                    {
+                        "agencyUniqueId":  "OUD3-BIKY9VV",
+                        "productName":  "CHRISTIE-1.5 KG-OREO-ORIGINAL-CLUB-EACH",
+                        "brandName":  "Christie",
+                        "category":  {
+                                         "category":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySort":  "Cookies, Crackers, Biscuits \u0026 Wafers",
+                                         "categorySearch":  "Cookies, Crackers, Biscuits \u0026 Wafers"
+                                     },
+                        "dpm":  [
+                                    {
+                                        "dpm":  "Dairy",
+                                        "dpmSearch":  "dairy"
+                                    }
+                                ],
+                        "passoverStatus":  "N",
+                        "alwaysKitniyot":  false,
+                        "isDairyEquipment":  false,
+                        "ci":  "C",
+                        "labelCompanyId":  "5742",
+                        "company":  "Mondelez Global LLC",
+                        "companySlug":  "Mondelez-Global-LLC",
+                        "location":  "East Hanover,  NJ",
+                        "symbol":  [
+                                       "OU-D"
+                                   ],
+                        "status":  "Symbol required. Not Kosher for Passover.",
+                        "conditions":  "Symbol required. Not Kosher for Passover.",
+                        "newlyCertified":  "N",
+                        "certifiedSince":  "2019-01-16T00:00:00.000Z",
+                        "_score":  0.009459459459459458
+                    }
+                ],
+    "elapsed_ms":  171
+}

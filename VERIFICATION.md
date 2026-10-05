@@ -1,4 +1,27 @@
-# Verification history and current version 1.4.6, 2026-10-05
+# Verification history and current version 1.4.7, 2026-10-05
+
+## Version 1.4.7 product identity and transient lookup recovery
+
+Live investigation confirmed that the official OU endpoint responds, but retail
+brands can differ from the parent/licensing brand field. A recorded OFF barcode
+and 14-row official search reproduce a failed match in 1.4.6 and a positive
+match through the full 1.4.7 parser/repository. There are no product-specific
+overrides. The production rule requires the complete branded product name,
+with the retail brand explicitly present in the official product name.
+Independent adversarial cases cover eight product categories, wrong brands,
+flavors, substring brands, ingredient mentions, restrictions and conflicts.
+A further 100-row Christie snapshot verifies the additional structured winter
+wheat annotation. These are catalogue records, not barcode/market coverage.
+
+An emulator live lookup initially reproduced a per-request timeout; repeating
+the same lookup succeeded in 1.084 seconds. Later queries now continue after
+per-request errors inside the unchanged total/request budgets. Tests exercise
+503 recovery, timeout recovery and a restricted earlier record that must veto
+a later positive result. Diagnostic counts distinguish transport failure from
+missing identity/unsupported certification. UI text and the three statuses
+remain unchanged. No complete OU export or barcode mapping was found, so a
+GitHub mirror was not represented as an automatic coverage solution.
+
 
 ## Version 1.4.6 OU catalogue coverage
 

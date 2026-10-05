@@ -86,7 +86,9 @@ class MainActivity : AppCompatActivity() {
         WindowCompat.setDecorFitsSystemWindows(window, false)
         setContentView(R.layout.activity_main)
         model = ViewModelProvider(this)[ScanModel::class.java]
-        repository = ProductRepository(barcodeLookup = IkrRepository(), hasNetwork = {
+        repository = ProductRepository(barcodeLookup = IkrRepository(), onOuEvent = {
+            android.util.Log.d("KosherScan", "OU: $it")
+        }, hasNetwork = {
             val cm = applicationContext.getSystemService(ConnectivityManager::class.java)
             cm.getNetworkCapabilities(cm.activeNetwork)?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) == true
         })

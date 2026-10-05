@@ -30,7 +30,8 @@ class ProductRepository(
     private val metadataTimeoutMs: Long = 5_000,
     private val metadataGraceMs: Long = 1_500,
     private val ouTimeoutMs: Long = 8_000,
-    private val lookupTimeoutMs: Long = 12_000
+    private val lookupTimeoutMs: Long = 12_000,
+    private val onOuEvent: (String) -> Unit = {}
 ) : ProductLookup {
     private class ServiceException(val issue: LookupIssue) : IOException()
     private suspend fun get(url: HttpUrl): Pair<Int, String> = suspendCancellableCoroutine { continuation ->
@@ -58,7 +59,8 @@ class ProductRepository(
     /** Explicit user-requested retry keeps the full search available on a slow connection. */
     fun extended() = ProductRepository(client.newBuilder().readTimeout(10, TimeUnit.SECONDS)
         .callTimeout(15, TimeUnit.SECONDS).build(), hasNetwork, offBase, ouBase, barcodeLookup, enableOuFallback,
-        metadataTimeoutMs = 15_000, metadataGraceMs = 1_500, ouTimeoutMs = 20_000, lookupTimeoutMs = 35_000)
+        metadataTimeoutMs = 15_000, metadataGraceMs = 1_500, ouTimeoutMs = 20_000, lookupTimeoutMs = 35_000,
+        onOuEvent = onOuEvent)
 
     private suspend fun fetchOff(code: String): LookupResult {
         val product: Product
@@ -166,31 +168,52 @@ class ProductRepository(
         try {
             return withTimeoutOrNull(ouTimeoutMs) {
                 var requests = 0
+                var lastIssue: LookupIssue? = null
+                val observedRecords = mutableListOf<OuRecord>()
                 for (query in ouQueries(product).take(if (enableOuFallback) 6 else 1)) {
                     val records = mutableListOf<OuRecord>()
                     var complete = false
-                    for (page in 1..5) {
-                        if (++requests > 12) break
-                        val url = ouBase.toHttpUrl().newBuilder().addPathSegments("api/v1/product")
-                            .addQueryParameter("page", page.toString()).addQueryParameter("limit", "100").addQueryParameter("query", query).build()
-                        val (status, body) = get(url)
-                        if (status != 200) throw ServiceException(LookupIssue.SERVICE_UNAVAILABLE)
-                        val json = JSONObject(body)
-                        if (json.optString("status") == "error") throw ServiceException(LookupIssue.SERVICE_UNAVAILABLE)
-                        val rows = json.getJSONArray("results")
-                        if (json.optBoolean("relatedResults")) break
-                        records += (0 until rows.length()).map { OuRecords.parse(rows.getJSONObject(it)) }
-                        if (json.optInt("total", rows.length()) <= page * 100) { complete = true; break }
+                    try {
+                        for (page in 1..5) {
+                            if (++requests > 12) break
+                            val url = ouBase.toHttpUrl().newBuilder().addPathSegments("api/v1/product")
+                                .addQueryParameter("page", page.toString()).addQueryParameter("limit", "100").addQueryParameter("query", query).build()
+                            val (status, body) = get(url)
+                            if (status != 200) {
+                                onOuEvent("http_error code=$status request=$requests")
+                                throw ServiceException(LookupIssue.SERVICE_UNAVAILABLE)
+                            }
+                            val json = JSONObject(body)
+                            if (json.optString("status") == "error") throw ServiceException(LookupIssue.SERVICE_UNAVAILABLE)
+                            val rows = json.getJSONArray("results")
+                            if (json.optBoolean("relatedResults")) {
+                                onOuEvent("related_only request=$requests rows=${rows.length()}")
+                                break
+                            }
+                            records += (0 until rows.length()).map { OuRecords.parse(rows.getJSONObject(it)) }
+                            if (json.optInt("total", rows.length()) <= page * 100) { complete = true; break }
+                        }
+                    } catch (e: IOException) {
+                        lastIssue = classify(e)
+                        onOuEvent("query_failed request=$requests kind=$lastIssue")
+                    } catch (e: org.json.JSONException) {
+                        lastIssue = LookupIssue.INVALID_RESPONSE
+                        onOuEvent("query_failed request=$requests kind=$lastIssue")
                     }
                     // Incomplete pages can hide conflicting records; they cannot certify.
-                    val verdict = KosherPolicy.resolve(product, if (complete) records else emptyList())
+                    // Keep restrictions/conflicts discovered by earlier queries, too.
+                    observedRecords += if (complete) records else records.filterNot { KosherPolicy.certificationRecognized(it) }
+                    val verdict = KosherPolicy.resolve(product, observedRecords)
+                    onOuEvent("query_completed request=$requests rows=${records.size} complete=$complete " +
+                        "identities=${records.count { KosherPolicy.identityMatch(product, it) }} " +
+                        "eligible=${records.count { KosherPolicy.strongMatch(product, it) }} status=${verdict.status}")
                     if (verdict.status != KosherStatus.UNKNOWN) return@withTimeoutOrNull LookupResult(product, verdict)
                     if (requests >= 12) break
                 }
-                LookupResult(product, KosherPolicy.resolve(product, emptyList()))
+                LookupResult(product, KosherPolicy.resolve(product, observedRecords), lastIssue)
             } ?: ouFailure(product, timedOut = true)
-        } catch (e: IOException) { return ouFailure(product) }
-          catch (e: org.json.JSONException) { return ouFailure(product) }
+        } catch (e: IOException) { onOuEvent("transport_error kind=${classify(e)}"); return ouFailure(product, issue = classify(e)) }
+          catch (e: org.json.JSONException) { onOuEvent("invalid_response"); return ouFailure(product, issue = LookupIssue.INVALID_RESPONSE) }
     }
     companion object {
         fun ouQueries(product: Product): List<String> {
@@ -200,7 +223,9 @@ class ProductRepository(
                 val n = KosherPolicy.normalize(name); val b = KosherPolicy.normalize(brand)
                 if (n == b || n.startsWith("$b ")) name else "$brand $name"
             } }
-            return (full + brands).distinct()
+            // Name-only search matters when metadata supplies the manufacturer's
+            // name as brand, while OU indexes the retail line under another brand.
+            return (full.take(3) + names + full.drop(3) + brands).distinct()
         }
     }
     private fun classify(e: IOException) = when {
@@ -209,12 +234,12 @@ class ProductRepository(
         e is SocketTimeoutException || e is java.io.InterruptedIOException -> LookupIssue.TIMEOUT
         else -> LookupIssue.NETWORK
     }
-    private fun ouFailure(p: Product, timedOut: Boolean = false): LookupResult {
+    private fun ouFailure(p: Product, timedOut: Boolean = false, issue: LookupIssue = LookupIssue.SERVICE_UNAVAILABLE): LookupResult {
         val fallback = KosherPolicy.resolve(p, emptyList())
         val message = if (timedOut) "בדיקת OU לא הושלמה בזמן. אפשר לבקש בדיקה מעמיקה." else "שירות OU אינו זמין כרגע. אפשר לנסות שוב; לא נקבעה כשרות."
         val verdict = if (fallback.status == KosherStatus.KOSHER) fallback.copy(reason = fallback.reason + "\n" + message)
             else Verdict(KosherStatus.UNKNOWN, "המוצר זוהה, אך $message")
-        return LookupResult(p, verdict, if (timedOut) LookupIssue.TIMEOUT else LookupIssue.SERVICE_UNAVAILABLE)
+        return LookupResult(p, verdict, if (timedOut) LookupIssue.TIMEOUT else issue)
     }
     private fun failure(issue: LookupIssue) = LookupResult(null, Verdict(KosherStatus.UNKNOWN, when (issue) {
         LookupIssue.NOT_FOUND -> "הברקוד לא נמצא ב־Open Food Facts. אין מידע לקביעת כשרות."

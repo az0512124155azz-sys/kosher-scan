@@ -1,0 +1,16 @@
+﻿{
+    "code":  "7622300336738",
+    "product":  {
+                    "brands":  "Oreo",
+                    "code":  "7622300336738",
+                    "labels_tags":  [
+                                        "en:vegetarian",
+                                        "en:vegan",
+                                        "en:cocoa-life"
+                                    ],
+                    "product_name":  "OREO ORIGINAL",
+                    "product_name_en":  "OREO ORIGINAL rol"
+                },
+    "status":  1,
+    "status_verbose":  "product found"
+}
