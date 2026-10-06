@@ -8,7 +8,7 @@ import org.junit.Test
 class AgentApiTest {
  private fun approved() = JSONObject("""{"barcode":"3017620422003","market":"IL","phase":"approved","approved":true,"status":"kosher","reviewedAt":100,"expiresAt":"2026-12-31","name":"Nutella","brand":"Ferrero","details":"חלבי."}""")
  private val date=java.text.SimpleDateFormat("yyyy-MM-dd").parse("2026-10-05")!!.time
- @Test fun exactCurrentReviewedRecordCanReturnKnownStatus() {assertEquals(KosherStatus.KOSHER,AgentApi.parseResult(approved(),"3017620422003","IL",date)!!.verdict.status)}
+ @Test fun exactCurrentReviewedRecordCanReturnKnownStatusWithoutInternalReviewText() {val result=AgentApi.parseResult(approved().put("details","```json { internal }"),"3017620422003","IL",date)!!;assertEquals(KosherStatus.KOSHER,result.verdict.status);assertEquals("",result.verdict.displayText)}
  @Test fun pendingAiSuggestionNeverBecomesKnown() { assertNull(AgentApi.parseResult(approved().put("phase","review"),"3017620422003","IL",date)); assertNull(AgentApi.parseResult(approved().put("approved",false),"3017620422003","IL",date)) }
  @Test fun differentBarcodeOrMarketNeverMatches() {assertNull(AgentApi.parseResult(approved(),"3017620422004","IL",date));assertNull(AgentApi.parseResult(approved(),"3017620422003","GB",date))}
  @Test fun expiredMalformedOrUnsupportedStatusFailsClosed() {

@@ -7,7 +7,7 @@ import {processQueue,deliverObservations,onTelegram} from '../src/worker.mjs';
 let mf,db;
 before(async()=>{
  mf=new Miniflare({modules:true,scriptPath:'src/worker.mjs',compatibilityDate:'2026-07-30',d1Databases:['DB'],bindings:{APP_TOKEN:'local-app-token-00000000000000000000',ADMIN_TOKEN:'local-admin-token-0000000000000000',DAILY_AI_LIMIT:'100',TELEGRAM_WEBHOOK_SECRET:'local-webhook-secret'}});
- db=await mf.getD1Database('DB');for(const file of ['0001.sql','0002.sql','0003.sql','0004.sql']){
+ db=await mf.getD1Database('DB');for(const file of ['0001.sql','0002.sql','0003.sql','0004.sql','0005.sql']){
   if(file==='0003.sql'){
    await db.prepare("INSERT INTO cases(id,barcode,market,created_at,updated_at) VALUES('legacy','12345678','IL',1,1)").run();
    await db.prepare("INSERT INTO observations(id,case_id,barcode,market,created_at,telegram_sent) VALUES('legacy-observation','legacy','12345678','IL',1,1)").run();
@@ -67,7 +67,7 @@ test('unknown scan is durable and idempotent, review changes only the exact mark
  assert.equal((await request('/api/result?barcode=3017620422003&market=GB').then(x=>x.json())).status,'unknown');
  const expires=new Date(Date.now()+86400000*30).toISOString().slice(0,10);
  assert.equal((await request('/api/admin/cases/'+accepted.id+'/review',{status:'kosher',expiresAt:expires,evidenceUrl:'https://www.ok.org/product-search/',details:'חלבי.'},true)).status,200);
- const approved=await request('/api/result?barcode=3017620422003&market=GB').then(x=>x.json());assert.equal(approved.status,'kosher');assert.equal(approved.details,'חלבי.');
+ const approved=await request('/api/result?barcode=3017620422003&market=GB').then(x=>x.json());assert.equal(approved.status,'kosher');assert.equal(approved.details,'');
  assert.equal((await request('/api/result?barcode=3017620422003&market=IL').then(x=>x.json())).status,'unknown');
  const data=await request('/api/admin/cases',null,true).then(x=>x.json());assert.equal(data.cases[0].barcode,'3017620422003');
  assert.equal((await request('/api/admin/cases/'+accepted.id+'/delete',{},true)).status,200);
@@ -89,6 +89,16 @@ test('paired owner can publish a researched result from one Telegram message',as
   const row=await db.prepare('SELECT phase,status,evidence_url FROM cases WHERE id=?').bind(id).first();assert.equal(row.phase,'approved');assert.equal(row.status,'kosher');assert.match(row.evidence_url,/oukosher/);
   assert.ok(calls.some(x=>x.endsWith('/editMessageText')));assert.ok(calls.some(x=>x.endsWith('/answerCallbackQuery')));
  } finally {globalThis.fetch=old;await db.prepare("DELETE FROM settings WHERE key='telegram_chat'").run();await db.prepare('DELETE FROM cases WHERE id=?').bind(id).run();}
+});
+test('Gemini rate limit waits and retries without consuming a case attempt',async()=>{
+ const id=crypto.randomUUID(),now=Date.now(),old=globalThis.fetch;
+ await db.prepare("INSERT INTO cases(id,barcode,market,created_at,updated_at,phase) VALUES(?,?,?,?,?,'queued')").bind(id,'88776655','IL',now,now).run();
+ globalThis.fetch=async()=>new Response('{}',{status:429});
+ try {
+  await processQueue({DB:db,GEMINI_KEYS:'["shared-project-key"]',DAILY_AI_LIMIT:'100'});
+  const row=await db.prepare('SELECT phase,attempts,retry_after,ai_error FROM cases WHERE id=?').bind(id).first();
+  assert.equal(row.phase,'queued');assert.equal(row.attempts,0);assert.equal(row.ai_error,'upstream_429');assert.ok(row.retry_after>Date.now());
+ } finally {globalThis.fetch=old;await db.prepare('DELETE FROM cases WHERE id=?').bind(id).run();}
 });
 test('a crashed final research attempt leaves a reviewable unknown record',async()=>{
  const id=crypto.randomUUID(),old=Date.now()-240000;

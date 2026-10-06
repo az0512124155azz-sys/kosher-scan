@@ -16,7 +16,7 @@ export function visibleResult(row, now = Date.now()) {
   const valid = row?.phase === 'approved' && row.reviewed_at && statuses.has(row.status) && row.status !== 'unknown' &&
     /^\d{4}-\d{2}-\d{2}$/.test(row.expires_at) && Date.parse(row.expires_at + 'T23:59:59Z') >= now;
   return {barcode: row?.barcode, market: row?.market, phase: row?.phase || 'missing', approved: Boolean(valid),
-    status: valid ? row.status : 'unknown', details: valid ? row.details : '', name: row?.product_name || '', brand: row?.brand || '',
+    status: valid ? row.status : 'unknown', details: '', name: row?.product_name || '', brand: row?.brand || '',
     expiresAt: valid ? row.expires_at : '', reviewedAt: valid ? row.reviewed_at : null};
 }
 export function validateReview(body, now = Date.now()) {
@@ -30,6 +30,6 @@ export function validateReview(body, now = Date.now()) {
 }
 export function validateSuggestion(raw) {
   // AI identifies leads for review; it cannot publish or approve a verdict.
-  return {name: clean(raw.name), brand: clean(raw.brand), suggestedStatus: statuses.has(raw.suggestedStatus) ? raw.suggestedStatus : 'unknown',
+  return {name: clean(raw.name), brand: clean(raw.brand), suggestedStatus: statuses.has(raw.suggestedStatus) ? raw.suggestedStatus : 'unknown', imageCertification:clean(raw.imageCertification,80),
     explanation: clean(raw.explanation, 1400), evidence: Array.isArray(raw.evidence) ? raw.evidence.slice(0, 8).map(x => ({url: safeUrl(x.url), title: clean(x.title), quote: clean(x.quote, 400)})).filter(x => x.url) : []};
 }

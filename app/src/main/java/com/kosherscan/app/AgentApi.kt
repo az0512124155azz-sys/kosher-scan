@@ -44,7 +44,7 @@ class AgentApi(private val connection: AgentConnection,
             if (format.format(date) != expires || date.time / 86400000 < now / 86400000 || date.time - now > 366L * 86400000) return null
             val status = when (json.optString("status")) { "kosher" -> KosherStatus.KOSHER; "not_kosher" -> KosherStatus.NOT_KOSHER; else -> return null }
             val p = Product(code, json.optString("name").take(300), json.optString("brand").take(300))
-            return LookupResult(p, Verdict(status, "Reviewed agent record", sourceLabel = "Reviewed agent", displayText = json.optString("details").take(180)))
+            return LookupResult(p, Verdict(status, "Reviewed agent record", sourceLabel = "Reviewed agent"))
         }
     }
 }

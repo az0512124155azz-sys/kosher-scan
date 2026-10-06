@@ -1,4 +1,13 @@
-# Verification history and current version 1.7.0, 2026-10-06
+# Verification history and current version 1.7.1, 2026-10-06
+
+## Version 1.7.1 concise results and broader evidence
+
+- Approved agent results display only the status; internal JSON and research explanations never appear in the Android card.
+- Nested or fenced Gemini JSON is recovered correctly instead of being converted to unknown.
+- A grounded official search result no longer also requires a duplicate model-written evidence list.
+- The full scan frame and the Open Food Facts product image are supplied to research so a visible certification mark can be considered by the reviewer.
+- Research now uses a grounded search pass followed by a structured classification pass. Shared-project `429` limits wait and retry without consuming the product's attempts.
+- Validation: 19/19 backend tests, Android unit/APK build, and 11/11 scanner/agent instrumentation tests passed.
 
 ## Version 1.7.0 scanner and Telegram review
 

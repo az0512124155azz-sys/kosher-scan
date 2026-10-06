@@ -80,8 +80,8 @@ async function researchCases(env) {
   // Durable leases survive isolate restarts. A crashed job is retried, never auto-approved.
   await env.DB.prepare("UPDATE cases SET phase='review',ai_error='research_failed' WHERE phase='processing' AND updated_at<? AND attempts>=3").bind(Date.now()-180000).run();
   await env.DB.prepare("UPDATE cases SET phase='queued' WHERE phase='processing' AND updated_at<? AND attempts<3").bind(Date.now()-180000).run();
-  const {results}=await env.DB.prepare("SELECT id FROM cases WHERE phase='queued' AND attempts<3 ORDER BY created_at LIMIT 2").all();
-  await Promise.all(results.map(async item => {
+  const {results}=await env.DB.prepare("SELECT id FROM cases WHERE phase='queued' AND attempts<3 AND retry_after<=? ORDER BY created_at LIMIT 1").bind(Date.now()).all();
+  for(const item of results) {
     const row=await env.DB.prepare("UPDATE cases SET phase='processing',updated_at=?,attempts=attempts+1 WHERE id=? AND phase='queued' RETURNING *").bind(Date.now(),item.id).first();
     if(!row)return;
     const day=new Date().toISOString().slice(0,10), max=Math.max(0,Math.min(1000,Number(env.DAILY_AI_LIMIT || 100)));
@@ -94,10 +94,15 @@ async function researchCases(env) {
       await audit(env,row.id,'ai_researched');
     } catch(e) {
       const reason=/^(gemini_not_configured|daily_ai_limit|upstream_\d+|upstream_too_large)$/.test(e.message)?e.message:'research_failed';
+      if(reason==='upstream_429' || reason==='daily_ai_limit') {
+        const retryAt=reason==='upstream_429'?Date.now()+120000:new Date(new Date().toISOString().slice(0,10)+'T00:05:00Z').getTime()+86400000;
+        await env.DB.prepare("UPDATE cases SET phase='queued',ai_error=?,retry_after=?,attempts=MAX(0,attempts-1),updated_at=? WHERE id=? AND phase='processing'").bind(reason,retryAt,Date.now(),row.id).run();
+        continue;
+      }
       await env.DB.prepare('UPDATE cases SET phase=?,ai_error=?,updated_at=? WHERE id=? AND phase=?')
-        .bind(row.attempts>=3 || reason==='daily_ai_limit' || reason==='gemini_not_configured'?'review':'queued',reason,Date.now(),row.id,'processing').run();
+        .bind(row.attempts>=3 || reason==='gemini_not_configured'?'review':'queued',reason,Date.now(),row.id,'processing').run();
     }
-  }));
+  }
 }
 export async function onTelegram(req,env) {
   if(!eq(req.headers.get('X-Telegram-Bot-Api-Secret-Token'),env.TELEGRAM_WEBHOOK_SECRET))return response({error:'unauthorized'},401);
@@ -111,10 +116,11 @@ export async function onTelegram(req,env) {
       if(!row){await telegram(env,'answerCallbackQuery',{callback_query_id:query.id,text:'הבדיקה כבר אינה קיימת.'});return response({ok:true});}
       let ai={};try{ai=JSON.parse(row.ai_json || '{}');}catch{}
       const status={k:'kosher',n:'not_kosher',u:'unknown'}[match[2]];
-      const evidence=[...(ai.evidence || []),...(ai.grounding || [])].find(x=>typeof x?.url==='string' && x.url.startsWith('https://'))?.url || '';
+      const imageEvidence=row.barcode_photo ? `${new URL(req.url).origin}/api/admin/cases/${row.id}/photo` : '';
+      const evidence=[...(ai.evidence || []),...(ai.grounding || [])].find(x=>typeof x?.url==='string' && x.url.startsWith('https://'))?.url || imageEvidence;
       if(status!=='unknown' && !evidence){await telegram(env,'answerCallbackQuery',{callback_query_id:query.id,text:'אין מקור אמין שמאפשר לאשר את התוצאה.'});return response({ok:true});}
       const expires=new Date(Date.now()+30*86400000).toISOString().slice(0,10);
-      await review(env,row.id,{status,evidenceUrl:evidence,expiresAt:expires,details:clean(ai.explanation,180)});
+      await review(env,row.id,{status,evidenceUrl:evidence,expiresAt:expires,details:''});
       const label={kosher:'כשר',not_kosher:'לא כשר',unknown:'לא ידוע'}[status];
       const original=String(msg.caption || msg.text || '').replace(/\nמה לפרסם באפליקציה\?$/,'');
       const edit={chat_id:chat,message_id:msg.message_id,reply_markup:{inline_keyboard:[]}};
@@ -140,7 +146,7 @@ export default {
   async fetch(req,env,ctx) {
     const url=new URL(req.url), path=url.pathname;
     try {
-      if(path==='/api/health')return response({ok:true,version:'1.7.0'});
+      if(path==='/api/health')return response({ok:true,version:'1.7.1'});
       if(path==='/telegram/webhook' && req.method==='POST')return await onTelegram(req,env);
       if(path.startsWith('/api/admin/')) {
         if(!auth(req,env.ADMIN_TOKEN))return response({error:'unauthorized'},401);
@@ -164,7 +170,7 @@ export default {
         if(match && req.method==='POST') {
           if(match[2]==='review')await review(env,match[1],await body(req));
           else if(match[2]==='retry') {
-            await env.DB.prepare("UPDATE cases SET phase='queued',attempts=0,ai_error='',status='unknown',expires_at='',reviewed_at=NULL,telegram_sent=0,updated_at=? WHERE id=?").bind(Date.now(),match[1]).run();
+            await env.DB.prepare("UPDATE cases SET phase='queued',attempts=0,retry_after=0,ai_error='',status='unknown',expires_at='',reviewed_at=NULL,telegram_sent=0,updated_at=? WHERE id=?").bind(Date.now(),match[1]).run();
             ctx.waitUntil(processQueue(env));
           } else {
             await env.DB.batch([env.DB.prepare('DELETE FROM receipts WHERE case_id=?').bind(match[1]),env.DB.prepare('DELETE FROM observations WHERE case_id=?').bind(match[1]),env.DB.prepare('DELETE FROM cases WHERE id=?').bind(match[1])]);
