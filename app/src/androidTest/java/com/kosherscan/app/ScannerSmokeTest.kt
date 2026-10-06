@@ -95,6 +95,11 @@ class ScannerSmokeTest {
             assertTrue(results.any { it.rawValue == code })
         } finally { scanner.close(); bitmap.recycle() }
     }
+    @Test fun cameraScannerAcceptsCommonPrintedSeparatorsButRejectsOtherPayloads() {
+        assertEquals("3017620422003", normalizedBarcode("3017 6204-22003"))
+        assertNull(normalizedBarcode("https://example.com/3017620422003"))
+        assertNull(normalizedBarcode("123"))
+    }
     @Test fun threeStatusesRenderAndStateSurvivesRecreationThenResets() {
         ActivityScenario.launch(MainActivity::class.java).use { scenario ->
             for (status in KosherStatus.entries) {

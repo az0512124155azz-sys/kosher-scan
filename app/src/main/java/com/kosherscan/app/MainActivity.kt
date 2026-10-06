@@ -12,6 +12,7 @@ import android.app.Dialog
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.util.Size
+import android.view.Surface
 import android.view.View
 import android.view.WindowManager
 import android.widget.*
@@ -28,6 +29,7 @@ import androidx.lifecycle.*
 import coil.load
 import com.google.mlkit.vision.barcode.BarcodeScannerOptions
 import com.google.mlkit.vision.barcode.BarcodeScanning
+import com.google.mlkit.vision.barcode.ZoomSuggestionOptions
 import com.google.mlkit.vision.barcode.common.Barcode
 import com.google.mlkit.vision.common.InputImage
 import kotlinx.coroutines.Job
@@ -38,6 +40,10 @@ import java.util.concurrent.atomic.AtomicBoolean
 
 data class ScanState(val code: String = "", val loading: Boolean = false, val result: LookupResult? = null,
     val loadingMessage: String = "בודק במאגרי כשרות")
+internal fun normalizedBarcode(value: String?): String? {
+    val compact = value?.trim()?.replace(" ", "")?.replace("-", "").orEmpty()
+    return compact.takeIf { it.matches(Regex("[0-9]{8,14}")) }
+}
 class ScanModel : ViewModel() {
     val state = MutableStateFlow(ScanState())
     private var job: Job? = null
@@ -56,8 +62,8 @@ class ScanModel : ViewModel() {
             val activeOutbox = active.second
             val sent = if (result.verdict.status == KosherStatus.UNKNOWN) try { activeOutbox?.enqueue(code, market, result, photo) } catch (_: java.io.IOException) { null } else null
             state.value = ScanState(code, result = result)
-            if (sent != null && activeApi != null) repeat(6) {
-                kotlinx.coroutines.delay(5000)
+            if (sent != null && activeApi != null) repeat(28) { attempt ->
+                kotlinx.coroutines.delay(if (attempt < 12) 5000 else 15000)
                 if (state.value.code != code) return@launch
                 when (activeOutbox?.state(sent)) {
                     androidx.work.WorkInfo.State.FAILED, androidx.work.WorkInfo.State.CANCELLED -> {
@@ -95,6 +101,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var card: View
     private lateinit var errorPanel: View
     private var provider: ProcessCameraProvider? = null
+    private var camera: Camera? = null
     private var analysis: ImageAnalysis? = null
     private val executor = Executors.newSingleThreadExecutor()
     private val busy = AtomicBoolean(false)
@@ -107,7 +114,14 @@ class MainActivity : AppCompatActivity() {
     private var barcodeDialog: Dialog? = null
     private val scanner = BarcodeScanning.getClient(BarcodeScannerOptions.Builder().setBarcodeFormats(
         Barcode.FORMAT_EAN_13, Barcode.FORMAT_EAN_8, Barcode.FORMAT_UPC_A,
-        Barcode.FORMAT_UPC_E, Barcode.FORMAT_CODE_128, Barcode.FORMAT_ITF).build())
+        Barcode.FORMAT_UPC_E, Barcode.FORMAT_CODE_128, Barcode.FORMAT_CODE_39,
+        Barcode.FORMAT_CODABAR, Barcode.FORMAT_ITF)
+        .enableAllPotentialBarcodes()
+        .setZoomSuggestionOptions(ZoomSuggestionOptions.Builder { ratio ->
+            val active = camera ?: return@Builder false
+            val max = active.cameraInfo.zoomState.value?.maxZoomRatio ?: 1f
+            active.cameraControl.setZoomRatio(ratio.coerceIn(1f, max)); true
+        }.setMaxSupportedZoomRatio(4f).build()).build())
     private val permission = registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
         if (granted) startCamera() else {
             needsSettings = !shouldShowRequestPermissionRationale(Manifest.permission.CAMERA)
@@ -185,7 +199,8 @@ class MainActivity : AppCompatActivity() {
                 val cameraProvider = future.get()
                 val selector = if (cameraProvider.hasCamera(CameraSelector.DEFAULT_BACK_CAMERA)) CameraSelector.DEFAULT_BACK_CAMERA else CameraSelector.DEFAULT_FRONT_CAMERA
                 val cameraPreview = Preview.Builder().build().also { it.setSurfaceProvider(preview.surfaceProvider) }
-                val analyzer = ImageAnalysis.Builder().setTargetResolution(Size(1280, 720))
+                val analyzer = ImageAnalysis.Builder().setTargetResolution(Size(1920, 1080))
+                    .setTargetRotation(preview.display?.rotation ?: Surface.ROTATION_0)
                     .setBackpressureStrategy(ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST).build()
                 analyzer.setAnalyzer(executor) { proxy ->
                     if (destroyed || busy.get() || !processing.compareAndSet(false, true)) { proxy.close(); return@setAnalyzer }
@@ -196,8 +211,8 @@ class MainActivity : AppCompatActivity() {
                             .addOnSuccessListener { codes ->
                                 scannerFailures = 0
                                 if (!destroyed && lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)) {
-                                    codes.firstOrNull { it.rawValue?.matches(Regex("[0-9]{8,14}")) == true }?.let { barcode ->
-                                        if (busy.compareAndSet(false, true)) scan(barcode.rawValue!!, photo =
+                                    codes.firstNotNullOfOrNull { barcode -> normalizedBarcode(barcode.rawValue)?.let { it to barcode } }?.let { (code, barcode) ->
+                                        if (busy.compareAndSet(false, true)) scan(code, photo =
                                             BarcodePhoto.capture(proxy, barcode.boundingBox))
                                     }
                                 }
@@ -210,7 +225,7 @@ class MainActivity : AppCompatActivity() {
                     } catch (_: Exception) { proxy.close(); processing.set(false) }
                 }
                 cameraProvider.unbindAll()
-                cameraProvider.bindToLifecycle(this, selector, cameraPreview, analyzer)
+                camera = cameraProvider.bindToLifecycle(this, selector, cameraPreview, analyzer)
                 provider = cameraProvider
                 analysis = analyzer
                 errorPanel.visibility = View.GONE

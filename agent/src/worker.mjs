@@ -50,8 +50,9 @@ async function review(env,id,input) {
   await audit(env,id,`review:${p.status}`);
 }
 export async function processQueue(env) {
-  // Start delivery and research together so an HTTP waitUntil stays within 30 seconds.
-  await Promise.all([deliverObservations(env), researchCases(env)]);
+  // A Telegram review must contain the research result, never an intake-only alert.
+  await researchCases(env);
+  await deliverObservations(env);
   await env.DB.prepare("UPDATE cases SET barcode_photo='' WHERE created_at<? AND barcode_photo<>''").bind(Date.now()-Number(env.PHOTO_RETENTION_DAYS || 30)*86400000).run();
   await env.DB.prepare("UPDATE observations SET barcode_photo='' WHERE created_at<? AND barcode_photo<>''").bind(Date.now()-Number(env.PHOTO_RETENTION_DAYS || 30)*86400000).run();
 }
@@ -60,7 +61,7 @@ export async function deliverObservations(env) {
   if(chat && env.TELEGRAM_TOKEN) {
     await env.DB.prepare('UPDATE cases SET telegram_sent=0 WHERE telegram_sent=2 AND telegram_delivery_at<?').bind(Date.now()-120000).run();
     await env.DB.prepare('UPDATE observations SET telegram_sent=3 WHERE telegram_sent=0 AND case_id IN (SELECT id FROM cases WHERE telegram_sent=1)').run();
-    const {results:unsent}=await env.DB.prepare('SELECT id FROM cases WHERE telegram_sent=0 AND EXISTS (SELECT 1 FROM observations WHERE case_id=cases.id AND telegram_sent=0) ORDER BY created_at LIMIT 2').all();
+    const {results:unsent}=await env.DB.prepare("SELECT id FROM cases WHERE telegram_sent=0 AND phase IN ('review','closed') ORDER BY created_at LIMIT 2").all();
     await Promise.all(unsent.map(async item => {
       const lease=Date.now();
       const row=await env.DB.prepare('UPDATE cases SET telegram_sent=2,telegram_delivery_at=? WHERE id=? AND telegram_sent=0 RETURNING *').bind(lease,item.id).first();
@@ -98,11 +99,31 @@ async function researchCases(env) {
     }
   }));
 }
-async function onTelegram(req,env) {
+export async function onTelegram(req,env) {
   if(!eq(req.headers.get('X-Telegram-Bot-Api-Secret-Token'),env.TELEGRAM_WEBHOOK_SECRET))return response({error:'unauthorized'},401);
-  const update=await body(req), msg=update.message;
+  const update=await body(req), query=update.callback_query, msg=query?.message || update.message;
   if(!msg || msg.chat?.type!=='private')return response({ok:true});
   const chat=String(msg.chat.id), owner=await getSetting(env,'telegram_chat');
+  if(query && owner===chat) {
+    const match=String(query.data || '').match(/^review:([a-f0-9-]{36}):([knu])$/);
+    if(match) {
+      const row=await env.DB.prepare('SELECT * FROM cases WHERE id=?').bind(match[1]).first();
+      if(!row){await telegram(env,'answerCallbackQuery',{callback_query_id:query.id,text:'הבדיקה כבר אינה קיימת.'});return response({ok:true});}
+      let ai={};try{ai=JSON.parse(row.ai_json || '{}');}catch{}
+      const status={k:'kosher',n:'not_kosher',u:'unknown'}[match[2]];
+      const evidence=[...(ai.evidence || []),...(ai.grounding || [])].find(x=>typeof x?.url==='string' && x.url.startsWith('https://'))?.url || '';
+      if(status!=='unknown' && !evidence){await telegram(env,'answerCallbackQuery',{callback_query_id:query.id,text:'אין מקור אמין שמאפשר לאשר את התוצאה.'});return response({ok:true});}
+      const expires=new Date(Date.now()+30*86400000).toISOString().slice(0,10);
+      await review(env,row.id,{status,evidenceUrl:evidence,expiresAt:expires,details:clean(ai.explanation,180)});
+      const label={kosher:'כשר',not_kosher:'לא כשר',unknown:'לא ידוע'}[status];
+      const original=String(msg.caption || msg.text || '').replace(/\nמה לפרסם באפליקציה\?$/,'');
+      const edit={chat_id:chat,message_id:msg.message_id,reply_markup:{inline_keyboard:[]}};
+      if(msg.caption!==undefined)await telegram(env,'editMessageCaption',{...edit,caption:(original+`\n\nפורסם באפליקציה: ${label}`).slice(0,1024)});
+      else await telegram(env,'editMessageText',{...edit,text:(original+`\n\nפורסם באפליקציה: ${label}`).slice(0,4096)});
+      await telegram(env,'answerCallbackQuery',{callback_query_id:query.id,text:`נשמר: ${label}`});
+      return response({ok:true});
+    }
+  }
   const text=clean(msg.text,200);
   if(text.startsWith('/connect ') && eq(text.slice(9),env.TELEGRAM_PAIR_CODE) && (!owner || owner===chat)) {
     await setting(env,'telegram_chat',chat);
@@ -119,7 +140,7 @@ export default {
   async fetch(req,env,ctx) {
     const url=new URL(req.url), path=url.pathname;
     try {
-      if(path==='/api/health')return response({ok:true,version:'1.6.1'});
+      if(path==='/api/health')return response({ok:true,version:'1.7.0'});
       if(path==='/telegram/webhook' && req.method==='POST')return await onTelegram(req,env);
       if(path.startsWith('/api/admin/')) {
         if(!auth(req,env.ADMIN_TOKEN))return response({error:'unauthorized'},401);
@@ -143,7 +164,7 @@ export default {
         if(match && req.method==='POST') {
           if(match[2]==='review')await review(env,match[1],await body(req));
           else if(match[2]==='retry') {
-            await env.DB.prepare("UPDATE cases SET phase='queued',attempts=0,ai_error='',status='unknown',expires_at='',reviewed_at=NULL,updated_at=? WHERE id=?").bind(Date.now(),match[1]).run();
+            await env.DB.prepare("UPDATE cases SET phase='queued',attempts=0,ai_error='',status='unknown',expires_at='',reviewed_at=NULL,telegram_sent=0,updated_at=? WHERE id=?").bind(Date.now(),match[1]).run();
             ctx.waitUntil(processQueue(env));
           } else {
             await env.DB.batch([env.DB.prepare('DELETE FROM receipts WHERE case_id=?').bind(match[1]),env.DB.prepare('DELETE FROM observations WHERE case_id=?').bind(match[1]),env.DB.prepare('DELETE FROM cases WHERE id=?').bind(match[1])]);
@@ -152,7 +173,7 @@ export default {
           return response({ok:true});
         }
         if(path==='/api/admin/telegram/connect' && req.method==='POST') {
-          const result=await telegram(env,'setWebhook',{url:url.origin+'/telegram/webhook',secret_token:env.TELEGRAM_WEBHOOK_SECRET,allowed_updates:['message'],drop_pending_updates:false});
+          const result=await telegram(env,'setWebhook',{url:url.origin+'/telegram/webhook',secret_token:env.TELEGRAM_WEBHOOK_SECRET,allowed_updates:['message','callback_query'],drop_pending_updates:false});
           return response({ok:Boolean(result)});
         }
         return response({error:'not_found'},404);

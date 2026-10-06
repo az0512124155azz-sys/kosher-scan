@@ -3,11 +3,11 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {Miniflare} from 'miniflare';
 import {normalizeSubmission, validateReview, visibleResult, validateSuggestion} from '../src/policy.mjs';
-import {processQueue,deliverObservations} from '../src/worker.mjs';
+import {processQueue,deliverObservations,onTelegram} from '../src/worker.mjs';
 let mf,db;
 before(async()=>{
  mf=new Miniflare({modules:true,scriptPath:'src/worker.mjs',compatibilityDate:'2026-07-30',d1Databases:['DB'],bindings:{APP_TOKEN:'local-app-token-00000000000000000000',ADMIN_TOKEN:'local-admin-token-0000000000000000',DAILY_AI_LIMIT:'100',TELEGRAM_WEBHOOK_SECRET:'local-webhook-secret'}});
- db=await mf.getD1Database('DB');for(const file of ['0001.sql','0002.sql','0003.sql']){
+ db=await mf.getD1Database('DB');for(const file of ['0001.sql','0002.sql','0003.sql','0004.sql']){
   if(file==='0003.sql'){
    await db.prepare("INSERT INTO cases(id,barcode,market,created_at,updated_at) VALUES('legacy','12345678','IL',1,1)").run();
    await db.prepare("INSERT INTO observations(id,case_id,barcode,market,created_at,telegram_sent) VALUES('legacy-observation','legacy','12345678','IL',1,1)").run();
@@ -22,7 +22,7 @@ test('upgrade remembers old delivered notifications without resending them',asyn
 });
 test('concurrent deliveries and repeated scans send only one alert per case; failures retry',async()=>{
  const id=crypto.randomUUID(),now=Date.now();
- await db.prepare("INSERT INTO cases(id,barcode,market,created_at,updated_at) VALUES(?,?,?,?,?)").bind(id,'98765432','IL',now,now).run();
+ await db.prepare("INSERT INTO cases(id,barcode,market,created_at,updated_at,phase,ai_json) VALUES(?,?,?,?,?,'review',?)").bind(id,'98765432','IL',now,now,JSON.stringify({suggestedStatus:'unknown',explanation:'No match'})).run();
  const add=()=>db.prepare('INSERT INTO observations(id,case_id,barcode,market,created_at) VALUES(?,?,?,?,?)').bind(crypto.randomUUID(),id,'98765432','IL',now).run();
  await add();await add();
  await db.prepare("INSERT OR REPLACE INTO settings(key,value) VALUES('telegram_chat','123')").run();
@@ -76,6 +76,19 @@ test('unknown scan is durable and idempotent, review changes only the exact mark
 test('Telegram secret is required and unpaired chats get no data',async()=>{
  assert.equal((await mf.dispatchFetch('https://example.test/telegram/webhook',{method:'POST',body:'{}'})).status,401);
  const r=await mf.dispatchFetch('https://example.test/telegram/webhook',{method:'POST',headers:{'X-Telegram-Bot-Api-Secret-Token':'local-webhook-secret'},body:JSON.stringify({message:{chat:{id:123,type:'private'},text:'/status 3017620422003'}})});assert.equal(r.status,200);
+});
+test('paired owner can publish a researched result from one Telegram message',async()=>{
+ const id=crypto.randomUUID(),now=Date.now(),old=globalThis.fetch,calls=[];
+ await db.prepare("INSERT INTO cases(id,barcode,market,created_at,updated_at,phase,ai_json) VALUES(?,?,?,?,?,'review',?)")
+  .bind(id,'87654321','IL',now,now,JSON.stringify({suggestedStatus:'kosher',explanation:'Strong official match',evidence:[{url:'https://oukosher.org/product-search/'}]})).run();
+ await db.prepare("INSERT OR REPLACE INTO settings(key,value) VALUES('telegram_chat','123')").run();
+ globalThis.fetch=async(url,init)=>{calls.push(String(url));return Response.json({ok:true,result:{}});};
+ try {
+  const req=new Request('https://example.test/telegram/webhook',{method:'POST',headers:{'X-Telegram-Bot-Api-Secret-Token':'secret'},body:JSON.stringify({callback_query:{id:'callback-1',data:`review:${id}:k`,message:{message_id:7,chat:{id:123,type:'private'},text:'בדיקה חדשה\nמה לפרסם באפליקציה?'}}})});
+  assert.equal((await onTelegram(req,{DB:db,TELEGRAM_TOKEN:'mock',TELEGRAM_WEBHOOK_SECRET:'secret'})).status,200);
+  const row=await db.prepare('SELECT phase,status,evidence_url FROM cases WHERE id=?').bind(id).first();assert.equal(row.phase,'approved');assert.equal(row.status,'kosher');assert.match(row.evidence_url,/oukosher/);
+  assert.ok(calls.some(x=>x.endsWith('/editMessageText')));assert.ok(calls.some(x=>x.endsWith('/answerCallbackQuery')));
+ } finally {globalThis.fetch=old;await db.prepare("DELETE FROM settings WHERE key='telegram_chat'").run();await db.prepare('DELETE FROM cases WHERE id=?').bind(id).run();}
 });
 test('a crashed final research attempt leaves a reviewable unknown record',async()=>{
  const id=crypto.randomUUID(),old=Date.now()-240000;

@@ -1,4 +1,12 @@
-# Verification history and current version 1.6.1, 2026-10-05
+# Verification history and current version 1.7.0, 2026-10-06
+
+## Version 1.7.0 scanner and Telegram review
+
+- Camera analysis uses 1920×1080 where supported, ML Kit potential-barcode detection, and automatic zoom.
+- Gemini research completes before Telegram delivery. The single message includes the researched suggestion and buttons for the owner to publish kosher, not kosher, or unknown.
+- All four configured Gemini keys are valid; quota/server failures automatically rotate to the next key.
+- The app checks for the owner's published answer for up to five minutes, quickly during the first minute and less often afterward.
+- Validation: 15/15 backend tests, 8/8 Android scanner instrumentation tests, Android unit tests, APK assembly, and Worker dry-run all passed.
 
 ## Version 1.6.1 automatic connection and simple scanner UI
 
