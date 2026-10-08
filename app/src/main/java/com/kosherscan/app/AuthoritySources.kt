@@ -115,21 +115,21 @@ class AuthoritySources(
         // longer retail brand. A broader directory query only discovers PDFs;
         // certification still requires the complete brand and product row.
         val stem = brand.substringBefore(' ').replace(Regex("['’]s$", RegexOption.IGNORE_CASE), "")
-        val queries = listOf(brand, stem).filter { it.length >= 4 }.distinct()
+        val queries = (listOf(brand) + listOf(stem).filter { it.length >= 4 }).distinct()
         val url = starBase.toHttpUrl().newBuilder().addPathSegments("listings/star-k").build()
         var ids = emptyList<String>()
         for (query in queries) {
-        val (status, html) = http.request(Request.Builder().url(url).post(FormBody.Builder().add("q", query).build()).build())
-        if (status != 200) throw IOException("HTTP $status")
-        val doc = Jsoup.parse(html)
-        require(doc.selectFirst("#pages.listings") != null)
-        // Only opaque certificate identifiers from this official listing are used;
-        // arbitrary HTML links never become fetch destinations.
-        ids = doc.select("a[href]").mapNotNull { a ->
-            val href = a.attr("href")
-            Regex("https://apiservice\\.star-k\\.org/api/Loc/LoadLoc/([A-Z0-9]{8})").matchEntire(href)?.groupValues?.get(1)
-        }.distinct()
-        if (ids.isNotEmpty()) break
+            val (status, html) = http.request(Request.Builder().url(url).post(FormBody.Builder().add("q", query).build()).build())
+            if (status != 200) throw IOException("HTTP $status")
+            val doc = Jsoup.parse(html)
+            require(doc.selectFirst("#pages.listings") != null)
+            // Only opaque certificate identifiers from this official listing are used;
+            // arbitrary HTML links never become fetch destinations.
+            ids = doc.select("a[href]").mapNotNull { a ->
+                val href = a.attr("href")
+                Regex("https://apiservice\\.star-k\\.org/api/Loc/LoadLoc/([A-Z0-9]{8})").matchEntire(href)?.groupValues?.get(1)
+            }.distinct()
+            if (ids.isNotEmpty()) break
         }
         if (ids.size > 2) return emptyList() // Ambiguous broad/company search cannot certify.
         val records = mutableListOf<AuthorityRecord>()
