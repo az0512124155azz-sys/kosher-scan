@@ -7,6 +7,17 @@ import org.junit.Test
 import java.util.concurrent.TimeUnit
 
 class LookupLatencyTest {
+    @Test fun completedOuEvidenceSurvivesAnotherAdapterHanging() = runBlocking {
+        MockWebServer().use { s ->
+            s.start(); s.enqueue(MockResponse().setBody(product)); s.enqueue(MockResponse().setBody(row))
+            val hanging = object : IdentifiedLookup { override suspend fun lookup(product: Product): LookupResult { awaitCancellation() } }
+            val result = ProductRepository(offBase = s.url("/").toString(), ouBase = s.url("/").toString(),
+                enableOuFallback = false, additionalLookup = hanging, lookupTimeoutMs = 800).lookup(code)
+            assertEquals(KosherStatus.KOSHER, result.verdict.status)
+            assertEquals("OU", result.verdict.sourceLabel)
+            assertNull(result.issue)
+        }
+    }
     private val code = "7290100687109"
     private val product = """{"status":1,"product":{"product_name":"Test spread","brands":"Example"}}"""
     private val row = """{"results":[{"agencyUniqueId":"OUD123","productName":"Test spread","brandName":"Example","symbol":["OU-D"],"conditions":"Symbol required. Not Kosher for Passover."}],"total":1}"""
@@ -25,7 +36,7 @@ class LookupLatencyTest {
             }
             assertEquals(KosherStatus.KOSHER, result.verdict.status)
             assertEquals("Authority product", result.product!!.name)
-            assertTrue(result.verdict.reason.contains("לא השיב בזמן"))
+            assertNull(result.issue)
             assertEquals(1, s.requestCount)
         }
     }
@@ -51,14 +62,14 @@ class LookupLatencyTest {
         }
     }
 
-    @Test fun conflictArrivingWithinGraceStillPreventsPositive() = runBlocking {
+    @Test fun communityLabelDoesNotInvalidateExactAuthority() = runBlocking {
         MockWebServer().use { s ->
             s.start(); s.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Test","labels_tags":["en:not-kosher"]}}""")
                 .setBodyDelay(100, TimeUnit.MILLISECONDS))
             val result = ProductRepository(offBase = s.url("/").toString(), barcodeLookup = direct(authority()),
                 metadataGraceMs = 1_000).lookup(code)
-            assertEquals(KosherStatus.UNKNOWN, result.verdict.status)
-            assertTrue(result.verdict.reason.contains("סותר"))
+            assertEquals(KosherStatus.KOSHER, result.verdict.status)
+            assertEquals("כושרות", result.verdict.sourceLabel)
         }
     }
 
@@ -82,7 +93,7 @@ class LookupLatencyTest {
                 lookupTimeoutMs = 250).lookup(code)
             assertEquals(KosherStatus.KOSHER, result.verdict.status)
             assertTrue(result.verdict.reason.contains("דיווח קהילתי"))
-            assertEquals(LookupIssue.TIMEOUT, result.issue)
+            assertNull(result.issue)
         }
     }
 
@@ -108,7 +119,7 @@ class LookupLatencyTest {
                 barcodeLookup = pending, lookupTimeoutMs = 500, enableOuFallback = false).lookup(code)
             assertEquals(KosherStatus.KOSHER, result.verdict.status)
             assertEquals("OU", result.verdict.sourceLabel)
-            assertEquals(LookupIssue.TIMEOUT, result.issue)
+            assertNull(result.issue)
         }
     }
 

@@ -3,6 +3,20 @@
 Native CameraX + bundled ML Kit scanner, Hebrew RTL UI based on `index.html`.
 The HTML remains the original design reference; the Android APK does not load it.
 
+Version 1.8.0 uses direct database lookups for the app verdict. `MainActivity`
+constructs `ProductRepository` directly; neither AI research nor owner decisions
+from the Telegram/dashboard service can overwrite that result. Unknown cases may
+still be uploaded for administrative research after the native card is displayed.
+There is no Gemini call in the Android lookup path. Category-only water inference
+is no longer a certification source. OFF's explicit certification labels remain
+community data and are lower priority than matching authority records.
+
+`DecisionEngine` arbitrates evidence consistently: exact authority barcode,
+complete authority name/brand, then explicit community labels. Equally strong
+opposing statuses remain unknown; dairy/pareve differences suppress only disputed
+details. A service failure cannot erase completed positive evidence. Current
+verification and its coverage limits are documented in [VERIFICATION.md](VERIFICATION.md).
+
 Version 1.6.0 adds an optional unknown-product agent connection, durable background
 uploads, a private RTL dashboard, Gemini research and a paired Telegram bot.
 See [agent setup](agent/README.md). It requires deployment and a BotFather token
@@ -47,10 +61,9 @@ there is no hardcoded barcode verdict table or copied certification database.
   negative; `Not Approved` and missing information remain UNKNOWN. Stale datasets,
   incomplete lists and unsupported restrictions cannot certify.
 
-The small purchase-country control defaults to Israel: Rabbinate is queried
-for Israel, KLBD only for the UK, and neither for other countries. The selection
-persists and changing it clears the previous scan. The other sources remain
-enabled for all selections. This is purchase-market scope, not GPS location.
+The app uses Israel scope without a purchase-country control. Rabbinate is queried
+for Israel. KLBD's adapter is tested for UK scope but UK-only approvals are not
+applied to Israeli scans. This is purchase-market scope, not GPS location.
 OFF still supplies barcode identity, photos and community labels; it is not a
 certification authority. Official results with conflicting statuses stay UNKNOWN.
 Known results survive unrelated service failures. Source evidence remains internal
@@ -58,7 +71,7 @@ and the simple Hebrew result presentation and three statuses are preserved.
 
 These are live public-site integrations, not guaranteed official open APIs for
 every source. Strict identity and condition checks can leave products UNKNOWN,
-particularly without manufacturer metadata, with generic names, dated/batch
+particularly without manufacturer metadata, with unmatched names, dated/batch
 conditions or country-specific variants. Adding sources does not establish
 universal barcode coverage.
 

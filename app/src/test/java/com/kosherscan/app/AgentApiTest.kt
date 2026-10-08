@@ -21,12 +21,12 @@ class AgentApiTest {
   assertFalse(AgentConnection("https://example.org/?key=secret","a".repeat(40)).valid())
   assertTrue(AgentConnection("https://example.org/","a".repeat(40)).valid())
  }
- @Test fun aReviewedVerdictOverridesUnreviewedSources() {
+ @Test fun equallyUnclassifiedContradictoryInputsStayUnknown() {
   val p=Product("3017620422003","Nutella","Ferrero")
   fun r(s:KosherStatus)=LookupResult(p,Verdict(s,""))
   assertEquals(KosherStatus.KOSHER,AgentAwareLookup.combine(r(KosherStatus.KOSHER),null).verdict.status)
   assertEquals(KosherStatus.KOSHER,AgentAwareLookup.combine(r(KosherStatus.UNKNOWN),r(KosherStatus.KOSHER)).verdict.status)
-  assertEquals(KosherStatus.KOSHER,AgentAwareLookup.combine(r(KosherStatus.NOT_KOSHER),r(KosherStatus.KOSHER)).verdict.status)
+  assertEquals(KosherStatus.UNKNOWN,AgentAwareLookup.combine(r(KosherStatus.NOT_KOSHER),r(KosherStatus.KOSHER)).verdict.status)
  }
  @Test fun uploadSendsBarcodeProductAndOptionalPhotoWithoutGeminiKeys()=runBlocking {
   MockWebServer().use {s->s.start();s.enqueue(MockResponse().setResponseCode(202).setBody("{}"))

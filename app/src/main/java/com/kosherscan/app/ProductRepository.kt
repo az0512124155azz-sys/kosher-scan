@@ -101,7 +101,9 @@ class ProductRepository(
                 // OU can start as soon as metadata arrives, while the barcode source is still checking.
                 val fallback = async {
                     val metadata = off.await()
-                    (if (strongAuthority(code, lastAuthority)) null else metadata.product?.let { resolveIdentified(it) })
+                    (if (strongAuthority(code, lastAuthority)) null else (metadata.product ?: direct.await()?.product)?.let {
+                        resolveIdentified(it) { partial -> lastResolved = partial }
+                    })
                         .also { lastResolved = it }
                 }
                 val authority = direct.await()
@@ -109,7 +111,7 @@ class ProductRepository(
                     // Optional image/community metadata cannot hold an exact authority result indefinitely.
                     withTimeoutOrNull(metadataGraceMs) { off.await() } ?: failure(LookupIssue.TIMEOUT)
                 } else off.await()
-                if (strongAuthority(code, authority) || metadata.product == null) {
+                if (strongAuthority(code, authority)) {
                     fallback.cancel()
                     off.cancel()
                     combine(code, metadata, authority, null)
@@ -121,7 +123,7 @@ class ProductRepository(
             else {
                 val partial = lastResolved ?: metadata.product?.let { LookupResult(it, KosherPolicy.resolve(it, emptyList())) }
                 val result = combine(code, metadata, lastAuthority, partial)
-                result.copy(verdict = result.verdict.copy(reason = result.verdict.reason +
+                if (result.verdict.status != KosherStatus.UNKNOWN) result else result.copy(verdict = result.verdict.copy(reason = result.verdict.reason +
                     "\nהבדיקה במאגרים לא הושלמה בזמן. אפשר לנסות שוב."), issue = LookupIssue.TIMEOUT)
             }
         }
@@ -131,53 +133,29 @@ class ProductRepository(
         IkrRepository.sameBarcode(code, authority.product.barcode) && authority.verdict.status != KosherStatus.UNKNOWN
 
     private fun combine(code: String, metadata: LookupResult, authority: LookupResult?, fallback: LookupResult?): LookupResult {
-        val product = metadata.product
-        if (strongAuthority(code, authority)) {
-            val certified = authority!!
-            val authorityProduct = certified.product!!
-            if (product != null && ((KosherPolicy.explicitlyNotKosher(product) && authority.verdict.status == KosherStatus.KOSHER) ||
-                (KosherPolicy.explicitlyKosher(product) && authority.verdict.status == KosherStatus.NOT_KOSHER))) {
-                return LookupResult(product, Verdict(KosherStatus.UNKNOWN,
-                    "המקורות מחזירים מידע סותר. יש לבדוק את הרשומה וסימון האריזה.", authority.verdict.sourceUrl, authority.verdict.sourceLabel,
-                    "נמצא מידע סותר על כשרות המוצר. יש לבדוק את סימון הכשרות שעל האריזה."))
-            }
-            val merged = authorityProduct.copy(imageUrl = product?.imageUrl?.ifBlank { authorityProduct.imageUrl } ?: authorityProduct.imageUrl)
-            return certified.copy(product = merged, verdict = certified.verdict.copy(reason = certified.verdict.reason +
-                if (metadata.issue == LookupIssue.TIMEOUT) "\nמידע המוצר הנוסף לא השיב בזמן; הכשרות מבוססת על המקור המוצג." else ""))
-        }
-        if (product == null) {
-            if (authority?.product != null) return authority
-            return if (authority?.issue != null) metadata.copy(verdict = metadata.verdict.copy(
-                reason = metadata.verdict.reason + "\nמאגר כושרות אינו זמין; הבדיקה מולו לא הושלמה."), issue = authority.issue) else metadata
-        }
-        val resolved = fallback ?: LookupResult(product, KosherPolicy.resolve(product, emptyList()))
-        if (resolved.verdict.status == KosherStatus.UNKNOWN && authority?.product != null) {
-            return authority.copy(product = authority.product.copy(imageUrl = product.imageUrl.ifBlank { authority.product.imageUrl }),
-                verdict = authority.verdict.copy(reason = authority.verdict.reason + if (resolved.issue != null) "\n" + resolved.verdict.reason else ""), issue = resolved.issue)
-        }
-        if (resolved.verdict.status == KosherStatus.UNKNOWN && authority?.issue != null) {
-            return resolved.copy(verdict = resolved.verdict.copy(reason = resolved.verdict.reason +
-                "\nמאגר כושרות אינו זמין כרגע; אפשר לנסות שוב."), issue = resolved.issue ?: authority.issue)
-        }
-        return resolved
+        val validAuthority = authority?.takeIf { it.product == null || IkrRepository.sameBarcode(code, it.product.barcode) }
+        val identity = (if (strongAuthority(code, validAuthority)) validAuthority?.product else metadata.product)
+            ?: validAuthority?.product ?: fallback?.product
+        val product = identity?.copy(imageUrl = metadata.product?.imageUrl?.ifBlank { identity.imageUrl } ?: identity.imageUrl)
+        return DecisionEngine.resolve(product, listOfNotNull(metadata, validAuthority, fallback))
     }
 
-    private suspend fun resolveIdentified(product: Product): LookupResult {
-        if (additionalLookup == null || PlainWaterPolicy.matches(product)) return resolveOu(product)
+    private suspend fun resolveIdentified(product: Product, progress: (LookupResult) -> Unit = {}): LookupResult {
+        val completed = mutableListOf(LookupResult(product, KosherPolicy.resolve(product, emptyList())))
+        fun record(result: LookupResult) = synchronized(completed) {
+            completed += result
+            progress(DecisionEngine.resolve(product, completed))
+        }
         return coroutineScope {
-            val ou = async { resolveOu(product) }
-            val other = async { additionalLookup.lookup(product) }
-            val first = ou.await(); val second = other.await()
-            if ((KosherPolicy.explicitlyNotKosher(product) && second.verdict.status == KosherStatus.KOSHER) ||
-                (KosherPolicy.explicitlyKosher(product) && second.verdict.status == KosherStatus.NOT_KOSHER))
-                LookupResult(product, Verdict(KosherStatus.UNKNOWN, "Conflicting sources"))
-            else AuthoritySources.merge(product, listOf(first, second))
+            val ou = async { resolveOu(product).also(::record) }
+            val other = async { additionalLookup?.lookup(product)?.also(::record) }
+            ou.await()
+            other.await()
+            DecisionEngine.resolve(product, completed)
         }
     }
 
     private suspend fun resolveOu(product: Product): LookupResult {
-        if (KosherPolicy.explicitlyNotKosher(product)) return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
-        if (PlainWaterPolicy.matches(product)) return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
         if (product.brand.isBlank() || product.name.isBlank()) return LookupResult(product, KosherPolicy.resolve(product, emptyList()))
         try {
             return withTimeoutOrNull(ouTimeoutMs) {

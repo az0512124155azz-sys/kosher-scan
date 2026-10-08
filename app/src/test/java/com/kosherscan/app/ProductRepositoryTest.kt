@@ -10,11 +10,12 @@ import org.junit.Test
 import java.util.concurrent.TimeUnit
 
 class ProductRepositoryTest {
-    @Test fun devinPlainWaterUsesRealFieldsAndNeedsNoOuProductRecord() = runBlocking {
+    @Test fun waterMetadataStillNeedsExplicitCertificationEvidence() = runBlocking {
         server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Devin","product_name_en":"Devin","brands":"Devin","categories_tags":["en:beverages-and-beverages-preparations","en:beverages","en:waters","en:spring-waters"],"ingredients_text":"Изворна вода","labels_tags":["en:co2e-neutral"]}}"""))
+        server.enqueue(MockResponse().setBody("""{"results":[],"total":0}"""))
         val result = repo().lookup("3800000602733")
-        assertEquals(KosherStatus.KOSHER, result.verdict.status); assertNull(result.issue)
-        assertEquals(1, server.requestCount)
+        assertEquals(KosherStatus.UNKNOWN, result.verdict.status); assertNull(result.issue)
+        assertEquals(2, server.requestCount)
         val fields = server.takeRequest().requestUrl!!.queryParameter("fields")!!
         assertTrue(fields.contains("ingredients_text_en")); assertTrue(fields.contains("categories_tags"))
     }

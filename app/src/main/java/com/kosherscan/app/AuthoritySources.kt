@@ -81,9 +81,12 @@ class AuthoritySources(
             .addQueryParameter("id", "mazon").build()))
         require(meta.optBoolean("success"))
         val resources = meta.getJSONObject("result").getJSONArray("resources")
-        require(resources.length() == 1) // A changed/ambiguous publication needs explicit handling.
-        val resource = resources.getJSONObject(0)
-        require(resource.optString("format").equals("CSV", true) && resource.optBoolean("datastore_active"))
+        // Ignore attachments and inactive historical exports; their presence must
+        // not disable the active data table.
+        val tables = (0 until resources.length()).map { resources.getJSONObject(it) }
+            .filter { it.optString("format").equals("CSV", true) && it.optBoolean("datastore_active") }
+        require(tables.size == 1)
+        val resource = tables.single()
         val id = resource.getString("id")
         require(id.matches(Regex("[a-f0-9-]{36}")))
         val result = mutableListOf<AuthorityRecord>()
@@ -107,18 +110,27 @@ class AuthoritySources(
         return parseKlbd(json)
     }
     private suspend fun star(p: Product): List<AuthorityRecord> {
-        val query = brands(p).firstOrNull() ?: return emptyList()
+        val brand = brands(p).firstOrNull() ?: return emptyList()
+        // The directory indexes certificate owners, while products may use a
+        // longer retail brand. A broader directory query only discovers PDFs;
+        // certification still requires the complete brand and product row.
+        val stem = brand.substringBefore(' ').replace(Regex("['’]s$", RegexOption.IGNORE_CASE), "")
+        val queries = listOf(brand, stem).filter { it.length >= 4 }.distinct()
         val url = starBase.toHttpUrl().newBuilder().addPathSegments("listings/star-k").build()
+        var ids = emptyList<String>()
+        for (query in queries) {
         val (status, html) = http.request(Request.Builder().url(url).post(FormBody.Builder().add("q", query).build()).build())
         if (status != 200) throw IOException("HTTP $status")
         val doc = Jsoup.parse(html)
         require(doc.selectFirst("#pages.listings") != null)
         // Only opaque certificate identifiers from this official listing are used;
         // arbitrary HTML links never become fetch destinations.
-        val ids = doc.select("a[href]").mapNotNull { a ->
+        ids = doc.select("a[href]").mapNotNull { a ->
             val href = a.attr("href")
             Regex("https://apiservice\\.star-k\\.org/api/Loc/LoadLoc/([A-Z0-9]{8})").matchEntire(href)?.groupValues?.get(1)
         }.distinct()
+        if (ids.isNotEmpty()) break
+        }
         if (ids.size > 2) return emptyList() // Ambiguous broad/company search cannot certify.
         val records = mutableListOf<AuthorityRecord>()
         for (id in ids) {
@@ -144,15 +156,12 @@ class AuthoritySources(
         fun resolve(p: Product, records: List<AuthorityRecord>, source: String): LookupResult {
             val matches = records.filter { identity(p, it) }
             if (matches.isEmpty() || matches.any { !it.eligible || it.status == KosherStatus.UNKNOWN }) return unknown(p)
-            if (matches.map { it.status to it.details }.distinct().size != 1) return unknown(p)
-            val row = matches.first()
-            return LookupResult(p, Verdict(row.status, "Exact product record", sourceLabel = source, displayText = row.details))
+            return DecisionEngine.resolve(p, matches.map { row ->
+                LookupResult(p, Verdict(row.status, "Exact product record", sourceLabel = source, displayText = row.details))
+            })
         }
         fun merge(p: Product, results: List<LookupResult>): LookupResult {
-            val known = results.filter { it.verdict.status != KosherStatus.UNKNOWN }
-            if (known.map { it.verdict.status }.distinct().size > 1) return unknown(p)
-            if (known.isNotEmpty()) return known.firstOrNull { it.verdict.sourceLabel in setOf("OU", "OK", "STAR-K", "KLBD", "Rabbanut") } ?: known.first()
-            return unknown(p, results.firstOrNull { it.issue != null }?.issue)
+            return DecisionEngine.resolve(p, results)
         }
         private fun dateValid(value: String, pattern: String, now: Long): Boolean {
             if (value.isBlank()) return false

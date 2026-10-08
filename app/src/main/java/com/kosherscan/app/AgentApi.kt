@@ -54,18 +54,16 @@ class AgentAwareLookup(private val primary: ProductRepository, private val agent
         val currentMarket = market()
         val remote = async { agent()?.result(code, currentMarket) }
         val regular = async { primary.lookup(code) }
-        // A current owner-reviewed record is the final application decision. Read it
-        // first so it appears promptly and cannot be downgraded by stale community
-        // metadata or a timeout in one of the public lookup services.
-        val extra = remote.await()
-        if (extra != null) { regular.cancel(); extra } else regular.await()
+        val local = regular.await()
+        if (local.verdict.status != KosherStatus.UNKNOWN) { remote.cancel(); local }
+        else combine(local, remote.await())
     }
     companion object {
         fun combine(local: LookupResult, extra: LookupResult?): LookupResult {
             if (extra == null) return local
             val product = local.product?.copy(name = local.product.name.ifBlank { extra.product?.name.orEmpty() },
                 brand = local.product.brand.ifBlank { extra.product?.brand.orEmpty() }) ?: extra.product
-            return extra.copy(product = product)
+            return DecisionEngine.resolve(product, listOf(local, extra))
         }
     }
 }

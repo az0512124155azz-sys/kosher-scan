@@ -16,8 +16,8 @@ android {
         applicationId = "com.kosherscan.app"
         minSdk = 24
         targetSdk = 35
-        versionCode = 18
-        versionName = "1.7.2"
+        versionCode = 19
+        versionName = "1.8.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField("String", "AGENT_URL", buildConfigString(agentConnection["url"] as String))
         buildConfigField("String", "AGENT_APP_CODE", buildConfigString(agentConnection["appCode"] as String))
@@ -62,6 +62,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
     testImplementation("junit:junit:4.13.2")
+    testImplementation("org.apache.pdfbox:pdfbox:2.0.27")
     testImplementation("org.json:json:20240303")
     testImplementation("com.squareup.okhttp3:mockwebserver:4.12.0")
     androidTestImplementation("androidx.test:runner:1.6.2")

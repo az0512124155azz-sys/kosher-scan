@@ -28,10 +28,10 @@ class AdditionalLookupIntegrationTest {
         assertEquals(KosherStatus.KOSHER, result.verdict.status); assertEquals("OK", result.verdict.sourceLabel)
         assertEquals("חלבי.", ResultCopy.text(result))
     }
-    @Test fun explicitCommunityNegativeConflictsWithPositiveAuthority() {
-        assertEquals(KosherStatus.UNKNOWN, run("\"en:not-kosher\"", KosherStatus.KOSHER).verdict.status)
+    @Test fun authorityPositiveOverridesCommunityNegative() {
+        assertEquals(KosherStatus.KOSHER, run("\"en:not-kosher\"", KosherStatus.KOSHER).verdict.status)
     }
-    @Test fun explicitCommunityPositiveConflictsWithNegativeAuthority() {
-        assertEquals(KosherStatus.UNKNOWN, run("\"en:kosher\"", KosherStatus.NOT_KOSHER).verdict.status)
+    @Test fun authorityNegativeOverridesCommunityPositive() {
+        assertEquals(KosherStatus.NOT_KOSHER, run("\"en:kosher\"", KosherStatus.NOT_KOSHER).verdict.status)
     }
 }

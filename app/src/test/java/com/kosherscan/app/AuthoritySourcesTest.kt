@@ -51,11 +51,9 @@ class AuthoritySourcesTest {
         assertEquals(KosherStatus.UNKNOWN, rows.first { it.name == "Crispy Minis Caramelised Biscuit" }.status)
         assertEquals(KosherStatus.UNKNOWN, rows.first { it.name == "Crunchy Weeties" }.status)
         for (r in rows.filter { it.status == KosherStatus.KOSHER && it.eligible }) {
-            // A generic flavour alone cannot identify the cereal, even with a brand.
-            if (!AuthoritySources.identity(Product("12345678", r.name, r.brand), r)) continue
             assertEquals(r.brand + ":" + r.name, KosherStatus.KOSHER, AuthoritySources.resolve(Product("12345678", r.name, r.brand), rows, "KLBD").verdict.status)
         }
-        assertEquals(KosherStatus.UNKNOWN, AuthoritySources.resolve(Product("12345678", "Weetabix Chocolate", "Weetabix"), rows, "KLBD").verdict.status)
+        assertEquals(KosherStatus.KOSHER, AuthoritySources.resolve(Product("12345678", "Weetabix Chocolate", "Weetabix"), rows, "KLBD").verdict.status)
     }
     @Test fun conflictingMatchedAuthoritiesStayUnknownAndErrorsDoNotEraseKnownEvidence() {
         val p = Product("12345678", "Specific Spread", "Brand")

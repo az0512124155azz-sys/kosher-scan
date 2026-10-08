@@ -1,4 +1,48 @@
-# Verification history and current version 1.7.2, 2026-10-08
+# Verification history and current version 1.8.0, 2026-10-08
+
+## Version 1.8.0 direct deterministic database decisions
+
+- The app constructs ProductRepository directly and never polls the reviewed-result
+  endpoint. Gemini/Telegram/dashboard decisions do not participate in app verdicts.
+  Unknown-case upload occurs after displaying the direct result and cannot delay it.
+- Central decision arbitration preserves authority evidence despite unrelated
+  failures, stale community contradictions, or different dairy/pareve annotations.
+  A wrong barcode or genuinely opposing equal-strength evidence cannot certify.
+- Completed OU evidence survives a hanging additional adapter. Missing OFF metadata
+  can use the barcode authority's product identity for further database searches.
+- Removed category-only water inference from the production verdict path. Explicit
+  certification labels returned by OFF remain identified community evidence.
+- Exact full-brand/full-name short products (Chocolate, Coffee, etc.) no longer
+  fail solely because their product name appears on a generic-word blacklist.
+  Different brands, flavors, variants, expired/restricted certificates still fail.
+- STAR-K certificate discovery retries a brand stem when the retail brand is not
+  the directory's company name. Final product and brand matching is still exact.
+- Live audit: 1,125 OU records across the complete results of six brand searches:
+  Oreo 52, Heinz 395, Kellogg 169, Barilla 118, Quaker 383, Twinings 8. Every row
+  passed the actual parser, identity matcher, and decision boundary. These are
+  product-name records, NOT 1,125 verified barcode-to-package matches.
+- Live positive adapter probes: OK, Rabbanut, STAR-K, KLBD each returned its own
+  KOSHER result. STAR-K downloaded/decoded the current 66-row certificate. KLBD
+  was tested in GB scope only, not generalized to the app's IL scope.
+- Frozen-record audit accounts for every row, without silently skipping failures:
+  459 OU; 40 OK (39 eligible); 25 KLBD (23 eligible known); 12 expanded Rabbanut
+  rows (8 eligible); 66 STAR-K (63 eligible). Restricted/expired/unknown rows stay
+  unknown. Reports are generated under app/build/reports/database-coverage and
+  app/build/reports/ou-catalogue and included in CI verification artifacts.
+- All 12 Android instrumentation tests passed on Pixel 6 / Android 17, including
+  ML Kit barcode decoding, native results, PDF decoding, and proof that an available
+  reviewed result cannot overwrite the database result. The initial emulator run
+  was killed by Android LOW_MEMORY; a cold restart with 4 GiB RAM resolved it.
+- Local unit suite: 12,171 passed, 0 failed; one opt-in live audit skipped in the
+  normal run and passed separately with real network access. Lint and both APK
+  builds passed. The 12,000 mutation cases are synthetic regression tests, not
+  12,000 certified real products.
+- Live audit is opt-in: KOSHER_LIVE_AUDIT=1 with testDebugUnitTest --tests '*LiveSourceAuditTest'.
+  It is skipped in normal offline CI, not represented as a passing live check there.
+- Limits: no exhaustive worldwide catalogue export or barcode mapping is available.
+  A symbol visible only on an unindexed physical package cannot be inferred from
+  its barcode. Public HTML/PDF sources (OK/STAR-K) are direct official-site adapters,
+  not documented JSON APIs. No AI has been added to fill these evidence gaps.
 
 ## Version 1.7.2 reviewed-result delivery
 

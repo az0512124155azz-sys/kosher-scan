@@ -46,7 +46,7 @@ class AgentSmokeTest {
    assertFalse(java.io.File(context.noBackupFilesDir,"agent-outbox/$id.json").exists())
   }
  }
- @Test fun reviewedReplyUpdatesTheNativeUnknownCard():Unit=runBlocking {
+ @Test fun reviewedReplyCannotOverwriteTheDirectDatabaseCard():Unit=runBlocking {
   MockWebServer().use {server->
    val reviewed=java.util.concurrent.atomic.AtomicBoolean(false)
    val expiry=java.text.SimpleDateFormat("yyyy-MM-dd",java.util.Locale.ROOT).format(java.util.Date(System.currentTimeMillis()+86400000L*30))
@@ -64,16 +64,20 @@ class AgentSmokeTest {
     scenario.onActivity{activity->
      model=androidx.lifecycle.ViewModelProvider(activity)[ScanModel::class.java]
      model.lookup("12345678",object:ProductLookup {override suspend fun lookup(code:String)=LookupResult(Product("12345678","מוצר בדיקה","מותג"),Verdict(KosherStatus.UNKNOWN,"")) },
-      agentApi=AgentApi(connection),outbox=AgentOutbox(context,connection),market="IL")
+      outbox=AgentOutbox(context,connection),market="IL")
     }
     withTimeout(10000){while(model.state.value.result==null)delay(100)}
     assertEquals(KosherStatus.UNKNOWN,model.state.value.result!!.verdict.status)
     reviewed.set(true)
     androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
-    // The production model polls automatically; no user action or agent button is needed.
-    withTimeout(10000){while(model.state.value.result!!.verdict.status!=KosherStatus.KOSHER)delay(100)}
+    // The review server can offer any status: the app never requests its verdict.
+    val request=withContext(Dispatchers.IO){server.takeRequest(10,TimeUnit.SECONDS)}!!
+    assertEquals("/api/cases",request.path)
+    delay(1500)
+    assertEquals(1,server.requestCount)
+    assertEquals(KosherStatus.UNKNOWN,model.state.value.result!!.verdict.status)
     androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
-    scenario.onActivity{activity->assertTrue(activity.findViewById<android.widget.TextView>(R.id.statusTitle).text.contains("✓"));assertEquals("מוצר בדיקה",model.state.value.result!!.product!!.name)}
+    scenario.onActivity{activity->assertTrue(activity.findViewById<android.widget.TextView>(R.id.statusTitle).text.contains("לא ידוע"));assertEquals("מוצר בדיקה",model.state.value.result!!.product!!.name)}
    }
   }
   Unit

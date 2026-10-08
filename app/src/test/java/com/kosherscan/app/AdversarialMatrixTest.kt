@@ -51,7 +51,7 @@ class AdversarialMatrixTest(private val case: Case) {
         var row = OuRecord("OU-${case.sample}", p.name, p.brand, listOf("OU-D"), "Symbol required. Not Kosher for Passover.")
         var rows: List<OuRecord>? = null
         var related = false
-        val positive = case.mutation in setOf(0, 1, 2, 3, 17, 18)
+        val positive = case.mutation in setOf(0, 1, 2, 3, 13, 16, 17, 18)
         when (case.mutation) {
             0 -> Unit
             1 -> {
@@ -169,7 +169,7 @@ class AdversarialMatrixTest(private val case: Case) {
         }
         val expected = when (case.mutation) {
             0, 1, 2, 3, 7, 15, 16, 17 -> KosherStatus.KOSHER
-            4, 5, 6, 14 -> KosherStatus.NOT_KOSHER
+            4, 5 -> KosherStatus.NOT_KOSHER
             else -> KosherStatus.UNKNOWN
         }
         val result = KosherPolicy.resolve(input, emptyList())
@@ -209,7 +209,6 @@ class AdversarialMatrixTest(private val case: Case) {
         val positive = case.mutation in setOf(0, 1, 2, 3, 16, 19)
         assertEquals(case.toString(), positive, PlainWaterPolicy.matches(input))
         val result = KosherPolicy.resolve(input, emptyList())
-        assertEquals(case.toString(), if (positive) KosherStatus.KOSHER else KosherStatus.UNKNOWN, result.status)
-        if (positive) assertTrue(result.reason.contains("זה אינו אישור OU למותג"))
+        assertEquals(case.toString(), KosherStatus.UNKNOWN, result.status)
     }
 }

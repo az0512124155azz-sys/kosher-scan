@@ -48,8 +48,8 @@ class ScanModel : ViewModel() {
     val state = MutableStateFlow(ScanState())
     private var job: Job? = null
     fun lookup(code: String, repository: ProductLookup, loadingMessage: String = "בודק במאגרי כשרות",
-        agentApi: AgentApi? = null, outbox: AgentOutbox? = null, market: String = "IL", photo: ByteArray? = null,
-        backgroundAgent: (suspend () -> Pair<AgentApi?, AgentOutbox?>)? = null) {
+        outbox: AgentOutbox? = null, market: String = "IL", photo: ByteArray? = null,
+        backgroundAgent: (suspend () -> AgentOutbox?)? = null) {
         if (state.value.loading) return
         job?.cancel()
         state.value = ScanState(code, true, loadingMessage = loadingMessage)
@@ -57,26 +57,12 @@ class ScanModel : ViewModel() {
             val started = android.os.SystemClock.elapsedRealtime()
             val result = repository.lookup(code)
             android.util.Log.d("KosherScan", "Lookup completed in ${android.os.SystemClock.elapsedRealtime() - started} ms; source=${result.verdict.sourceLabel}; status=${result.verdict.status}")
-            val active = if (result.verdict.status == KosherStatus.UNKNOWN) backgroundAgent?.invoke() ?: (agentApi to outbox) else (null to null)
-            val activeApi = active.first
-            val activeOutbox = active.second
-            val sent = if (result.verdict.status == KosherStatus.UNKNOWN) try { activeOutbox?.enqueue(code, market, result, photo) } catch (_: java.io.IOException) { null } else null
             state.value = ScanState(code, result = result)
-            if (sent != null && activeApi != null) repeat(28) { attempt ->
-                kotlinx.coroutines.delay(if (attempt < 12) 5000 else 15000)
-                if (state.value.code != code) return@launch
-                when (activeOutbox?.state(sent)) {
-                    androidx.work.WorkInfo.State.FAILED, androidx.work.WorkInfo.State.CANCELLED -> {
-                        return@launch
-                    }
-                    else -> Unit
-                }
-                val updated = activeApi.result(code, market)
-                if (updated != null) {
-                    state.value = state.value.copy(result = AgentAwareLookup.combine(result, updated))
-                    return@launch
-                }
-            }
+            // Research notifications are separate from the direct database decision.
+            // Neither an AI suggestion nor a Telegram button may overwrite this card.
+            if (result.verdict.status == KosherStatus.UNKNOWN) try {
+                (backgroundAgent?.invoke() ?: outbox)?.enqueue(code, market, result, photo)
+            } catch (_: java.io.IOException) { }
         }
     }
     fun reset() { job?.cancel(); state.value = ScanState() }
@@ -86,12 +72,11 @@ class MainActivity : AppCompatActivity() {
     private lateinit var agentPreferences: android.content.SharedPreferences
     private var bootstrapJob: Job? = null
     private fun agentConnection() = AgentConnection(agentPreferences.getString("url", "").orEmpty(), agentPreferences.getString("token", "").orEmpty())
-    private fun agentApi(): AgentApi? = agentConnection().takeIf { it.valid(BuildConfig.DEBUG) }?.let { AgentApi(it) }
     private fun scan(code: String, selectedRepository: ProductLookup = repository, photo: ByteArray? = null) {
         model.lookup(code, selectedRepository, market = "IL", photo = photo, backgroundAgent = {
             bootstrapJob?.join()
             val connection = agentConnection().takeIf { it.valid(false) }
-            connection?.let { AgentApi(it) } to connection?.let { AgentOutbox(applicationContext, it) }
+            connection?.let { AgentOutbox(applicationContext, it) }
         })
     }
     private lateinit var model: ScanModel
@@ -152,13 +137,13 @@ class MainActivity : AppCompatActivity() {
                     .putLong("updated", System.currentTimeMillis()).apply()
             }
         }
-        repository = AgentAwareLookup(ProductRepository(barcodeLookup = IkrRepository(), additionalLookup = AuthoritySources(market = ::market,
+        repository = ProductRepository(barcodeLookup = IkrRepository(), additionalLookup = AuthoritySources(market = ::market,
             diagnostic = { android.util.Log.d("KosherScan", "Authority: $it") }), onOuEvent = {
             android.util.Log.d("KosherScan", "OU: $it")
         }, hasNetwork = {
             val cm = applicationContext.getSystemService(ConnectivityManager::class.java)
             cm.getNetworkCapabilities(cm.activeNetwork)?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) == true
-        }), ::agentApi, ::market)
+        })
         preview = findViewById(R.id.previewView)
         overlay = findViewById(R.id.scanFrame)
         card = findViewById(R.id.resultCard)

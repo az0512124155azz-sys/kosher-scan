@@ -6,12 +6,11 @@ import org.junit.Test
 class PlainWaterPolicyTest {
     private val water = Product("3800000602733", "Devin", "Devin", categories = listOf(
         "en:beverages-and-beverages-preparations", "en:beverages", "en:waters", "en:spring-waters"), ingredients = "Изворна вода")
-    @Test fun devinPublicMetadataMatchesGeneralRuleWithoutBarcodeException() {
+    @Test fun categoryAloneCannotReplaceACertificationRecord() {
         assertTrue(PlainWaterPolicy.matches(water))
         assertTrue(PlainWaterPolicy.matches(water.copy(barcode = "12345678", name = "Other", brand = "Other")))
         val verdict = KosherPolicy.resolve(water, emptyList())
-        assertEquals(KosherStatus.KOSHER, verdict.status)
-        assertTrue(verdict.reason.contains("הרכיב היחיד")); assertTrue(verdict.reason.contains("אינו אישור OU למותג"))
+        assertEquals(KosherStatus.UNKNOWN, verdict.status)
     }
     @Test fun missingIngredientsOrCategoryCannotCertify() {
         assertFalse(PlainWaterPolicy.matches(water.copy(ingredients = "")))

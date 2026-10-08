@@ -35,12 +35,12 @@ class OuRepositoryRegressionTest {
             assertEquals("100", third.queryParameter("limit"))
         }
     }
-    @Test fun laterPageConflictCannotBeHiddenByAnEarlierPositive() = runBlocking {
+    @Test fun laterPageRestrictionCannotBeHiddenByAnEarlierPositive() = runBlocking {
         MockWebServer().use { s ->
             s.start(); s.enqueue(MockResponse().setBody(product))
             s.enqueue(MockResponse().setBody("""{"results":[$row],"total":250}"""))
             s.enqueue(MockResponse().setBody("""{"results":[],"total":250}"""))
-            s.enqueue(MockResponse().setBody("""{"results":[${row.replace("\"OU\"", "\"OU-D\"")}],"total":250}"""))
+            s.enqueue(MockResponse().setBody("""{"results":[${row.replace("Symbol required.", "Only lot 42.")}],"total":250}"""))
             val result = ProductRepository(offBase = s.url("/").toString(), ouBase = s.url("/").toString(), enableOuFallback = false).lookup("12345678")
             assertEquals(KosherStatus.UNKNOWN, result.verdict.status)
         }

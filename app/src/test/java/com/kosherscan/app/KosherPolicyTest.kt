@@ -19,9 +19,9 @@ class KosherPolicyTest {
         assertTrue(KosherPolicy.explicitlyKosher(Product("12345678", "Test", "Test", labelsText = "Organic, OU Kosher")))
         assertTrue(KosherPolicy.explicitlyKosher(Product("12345678", "Test", "Test", categories = listOf("en:kosher-parve"))))
     }
-    @Test fun rawNegativeHasPriorityOverPositive() {
+    @Test fun contradictoryCommunityLabelsStayUnknown() {
         val product = Product("12345678", "Test", "Test", labels = listOf("en:kosher"), labelsText = "Organic; not kosher")
-        assertEquals(KosherStatus.NOT_KOSHER, KosherPolicy.resolve(product, emptyList()).status)
+        assertEquals(KosherStatus.UNKNOWN, KosherPolicy.resolve(product, emptyList()).status)
     }
     @Test fun arbitraryKosherSubstringAndSocialLabelsDoNotCertify() {
         listOf("not kosher for passover", "possibly kosher", "kosher style", "en:magen-tzedek", "not certified kosher", "ללא הכשר").forEach {
@@ -51,7 +51,7 @@ class KosherPolicyTest {
     }
     @Test fun symbolRequired() { assertFalse(KosherPolicy.strongMatch(p, r.copy(symbols = emptyList()))) }
     @Test fun passoverNegativeIsNotYearRoundNegative() { assertFalse(KosherPolicy.explicitlyNotKosher(p.copy(labels = listOf("en:not-kosher-for-passover")))) }
-    @Test fun explicitNegativeOnly() { assertEquals(KosherStatus.NOT_KOSHER, KosherPolicy.resolve(p.copy(labels = listOf("en:not-kosher")), listOf(r)).status) }
+    @Test fun officialPositiveOutranksCommunityNegative() { assertEquals(KosherStatus.KOSHER, KosherPolicy.resolve(p.copy(labels = listOf("en:not-kosher")), listOf(r)).status) }
     @Test fun explicitCommunityPositiveDisclosesSource() {
         val verdict = KosherPolicy.resolve(p.copy(labels = listOf("en:kosher")), emptyList())
         assertEquals(KosherStatus.KOSHER, verdict.status)
@@ -64,7 +64,7 @@ class KosherPolicyTest {
         assertTrue(KosherPolicy.strongMatch(p.copy(name = "Example Hazelnut spread with cocoa 400g"), r))
         assertFalse(KosherPolicy.strongMatch(p.copy(name = "Example Hazelnut spread with cocoa sugar free 400g"), r))
     }
-    @Test fun conflictingSymbolsRemainUnknown() { assertEquals(KosherStatus.UNKNOWN, KosherPolicy.resolve(p, listOf(r, r.copy(symbols = listOf("OU")))).status) }
+    @Test fun multipleKosherSymbolsRemainKosherWithoutDairyClaim() { assertEquals(KosherStatus.KOSHER, KosherPolicy.resolve(p, listOf(r, r.copy(symbols = listOf("OU")))).status) }
     @Test fun normalizationPreservesIdentity() { assertTrue(KosherPolicy.strongMatch(p.copy(name = "HAZELNUT   SPREAD WITH COCOA"), r)) }
     @Test fun hebrewDisplayCanMatchEnglishName() { assertTrue(KosherPolicy.strongMatch(p.copy(name = "ממרח", englishName = p.name), r)) }
 }

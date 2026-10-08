@@ -94,8 +94,8 @@ object KosherPolicy {
                 }
             }
         }
-        val generic = setOf("milk", "water", "chocolate", "bread", "coffee", "tea", "salt", "sugar")
-        if (rowName in generic) return false
+        // A short official product name is valid when the complete brand and
+        // complete name both match. Extra variant words still prevent a match.
         fun identityTokens(value: String): List<String> = productIdentity(value, brand).split(' ')
             .filterNot { it == "cereal" && "en:breakfast-cereals" in p.categories }.sorted()
         return names.any { identityTokens(it) == identityTokens(r.name) }
@@ -124,27 +124,27 @@ object KosherPolicy {
     }
 
     fun resolve(p: Product, records: List<OuRecord>, related: Boolean = false): Verdict {
-        if (explicitlyNotKosher(p)) return Verdict(KosherStatus.NOT_KOSHER,
-            "המוצר מסומן במפורש כלא כשר ב־Open Food Facts (מאגר קהילתי).")
         val matches = if (related) emptyList() else records.filter { strongMatch(p, it) }
         // An identity-equivalent revoked/restricted/unrecognized row must not be
         // hidden by filtering it out before deciding whether matches conflict.
         if (!related && records.any { identityMatch(p, it) && !certificationRecognized(it) })
             return Verdict(KosherStatus.UNKNOWN, "Conflicting or restricted certification records")
         val distinct = matches.map { Triple(it.symbols.sorted(), it.conditions.split('.').map(::normalize).filter { clause -> clause.isNotBlank() }.distinct().sorted(), it.dairyEquipment) }.distinct()
-        return if (matches.isNotEmpty() && distinct.size == 1) Verdict(KosherStatus.KOSHER,
+        return if (matches.isNotEmpty()) Verdict(KosherStatus.KOSHER,
             "התאמת שם ומותג ב־OU · ${matches.first().symbols.joinToString()}\nיש לוודא שהסמל מופיע על האריזה. ${if (matches.first().conditions.split('.').any { normalize(it) == "not kosher for passover" }) "לא לפסח." else ""}", "https://oukosher.org/product-search/", "OU",
-            listOfNotNull(
+            if (distinct.size != 1) "" else listOfNotNull(
                 if (matches.first().dairyEquipment || matches.first().symbols == listOf("OU-DE")) "ציוד חלבי."
                 else if (matches.first().symbols == listOf("OU-D")) "חלבי."
                 else if (matches.first().symbols == listOf("OU-Fish")) "מכיל דגים." else null,
                 if (matches.first().conditions.split('.').any { normalize(it) == "not kosher for passover" }) "לא מתאים לפסח." else null
             ).joinToString("\n"))
+        else if (explicitlyKosher(p) && explicitlyNotKosher(p)) Verdict(KosherStatus.UNKNOWN, "Conflicting community labels")
+        else if (explicitlyNotKosher(p)) Verdict(KosherStatus.NOT_KOSHER,
+            "Explicit non-kosher label", sourceLabel = "Open Food Facts")
         else if (explicitlyKosher(p)) Verdict(KosherStatus.KOSHER,
             "מסומן ככשר ב־Open Food Facts · דיווח קהילתי.\nיש לוודא סימון כשרות על האריזה; זה אינו אישור OU.", "https://world.openfoodfacts.org/product/${p.barcode}", "Open Food Facts",
             "המוצר מסומן ככשר." +
                 if (labelValues(p).any { it == "not kosher for passover" }) "\nלא מתאים לפסח." else "")
-        else if (PlainWaterPolicy.matches(p)) PlainWaterPolicy.verdict()
         else Verdict(KosherStatus.UNKNOWN, "לא נמצאה התאמה חד־משמעית ב־OU או סימון כשרות מפורש. היעדר התאמה אינו מעיד שהמוצר אינו כשר.")
     }
 }

@@ -103,12 +103,12 @@ class IkrRepositoryTest {
             assertNull(result.issue)
         }
     }
-    @Test fun contradictoryCommunityNegativeCannotBeIgnored() = runBlocking {
+    @Test fun exactAuthorityOutranksCommunityLabel() = runBlocking {
         val direct = object : ProductLookup { override suspend fun lookup(code: String) = IkrRepository.parse(code, html(), "https://example.org/")!! }
         MockWebServer().use { server ->
             server.start(); server.enqueue(MockResponse().setBody("""{"status":1,"product":{"product_name":"Test","brands":"Test","labels_tags":["en:not-kosher"]}}"""))
             val result = ProductRepository(offBase = server.url("/").toString(), barcodeLookup = direct).lookup(code)
-            assertEquals(KosherStatus.UNKNOWN, result.verdict.status); assertTrue(result.verdict.reason.contains("סותר"))
+            assertEquals(KosherStatus.KOSHER, result.verdict.status); assertEquals("כושרות", result.verdict.sourceLabel)
         }
     }
 }
