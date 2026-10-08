@@ -136,7 +136,15 @@ class MainActivity : AppCompatActivity() {
         model = ViewModelProvider(this)[ScanModel::class.java]
         fun market() = "IL"
         agentPreferences = getSharedPreferences("auto-agent", MODE_PRIVATE)
-        if (System.currentTimeMillis() - agentPreferences.getLong("updated", 0) > 86400000L) agentPreferences.edit().clear().apply()
+        // Seed the public service route synchronously. The network refresh below can
+        // disable or replace it, but GitHub availability no longer controls whether
+        // already-reviewed products are visible in the app.
+        AgentBootstrap.embedded().connection!!.let { embedded ->
+            val stale = System.currentTimeMillis() - agentPreferences.getLong("updated", 0) > 86400000L
+            if (stale || !agentConnection().valid(false)) agentPreferences.edit()
+                .putString("url", embedded.url).putString("token", embedded.token)
+                .putLong("updated", System.currentTimeMillis()).apply()
+        }
         bootstrapJob = lifecycleScope.launch {
             AgentBootstrap().fetch()?.let { setup ->
                 if (setup.connection == null) agentPreferences.edit().clear().apply()

@@ -1,7 +1,12 @@
+import groovy.json.JsonSlurper
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
+
+val agentConnection = JsonSlurper().parse(rootProject.file("agent/connection.json")) as Map<*, *>
+fun buildConfigString(value: String) = "\"${value.replace("\\", "\\\\").replace("\"", "\\\"")}\""
 
 android {
     namespace = "com.kosherscan.app"
@@ -11,9 +16,11 @@ android {
         applicationId = "com.kosherscan.app"
         minSdk = 24
         targetSdk = 35
-        versionCode = 17
-        versionName = "1.7.1"
+        versionCode = 18
+        versionName = "1.7.2"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "AGENT_URL", buildConfigString(agentConnection["url"] as String))
+        buildConfigField("String", "AGENT_APP_CODE", buildConfigString(agentConnection["appCode"] as String))
     }
 
     buildTypes {

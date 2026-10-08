@@ -3,6 +3,9 @@ import org.json.JSONObject
 import org.junit.Assert.*
 import org.junit.Test
 class AgentBootstrapTest {
+    @Test fun embeddedRoutingIsAlwaysAvailableWithoutGithub() {
+        assertTrue(AgentBootstrap.embedded().connection!!.valid(false))
+    }
     @Test fun disabledRoutingDoesNotPretendTheServiceIsLive() {
         assertNull(AgentBootstrap.parse(JSONObject("""{"enabled":false}""")).connection)
     }

@@ -1,4 +1,17 @@
-# Verification history and current version 1.7.1, 2026-10-06
+# Verification history and current version 1.7.2, 2026-10-08
+
+## Version 1.7.2 reviewed-result delivery
+
+- The public Worker route and limited app code are embedded at build time, so a
+  slow or blocked `raw.githubusercontent.com` request cannot silently disconnect
+  the installed app from reviewed results.
+- A current owner-reviewed result is read before slower public lookups and takes
+  precedence over unreviewed community metadata, service failures, and timeouts.
+- The production endpoint returned `approved/kosher` for barcode
+  `7622202299988` with no internal details, and the same response contract is
+  covered by Android parsing and native-card tests.
+- Validation: Android unit/APK build and 11/11 scanner/agent instrumentation
+  tests passed on the Pixel 6 emulator.
 
 ## Version 1.7.1 concise results and broader evidence
 

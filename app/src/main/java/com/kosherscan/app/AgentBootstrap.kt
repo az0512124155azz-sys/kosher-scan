@@ -15,6 +15,14 @@ class AgentBootstrap {
     } catch (_: java.io.IOException) { null } catch (_: org.json.JSONException) { null } catch (_: IllegalArgumentException) { null }
     companion object {
         const val CONFIG_URL = "https://raw.githubusercontent.com/az0512124155azz-sys/kosher-scan/main/agent/connection.json"
+        /**
+         * The app connection is public client configuration, not a private service
+         * credential. Keep a build-time copy so a slow or blocked GitHub request can
+         * never silently disable reviewed results on a user's device.
+         */
+        fun embedded(): AgentSetup = AgentSetup(
+            AgentConnection(BuildConfig.AGENT_URL, BuildConfig.AGENT_APP_CODE).also { require(it.valid(false)) }
+        )
         fun parse(json: JSONObject): AgentSetup {
             if (!json.getBoolean("enabled")) return AgentSetup(null)
             val connection = AgentConnection(json.getString("url"), json.getString("appCode"))
