@@ -146,7 +146,7 @@ export default {
   async fetch(req,env,ctx) {
     const url=new URL(req.url), path=url.pathname;
     try {
-      if(path==='/api/health')return response({ok:true,version:'1.7.1'});
+      if(path==='/api/health')return response({ok:true,version:'1.7.2'});
       if(path==='/telegram/webhook' && req.method==='POST')return await onTelegram(req,env);
       if(path.startsWith('/api/admin/')) {
         if(!auth(req,env.ADMIN_TOKEN))return response({error:'unauthorized'},401);

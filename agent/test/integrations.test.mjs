@@ -1,8 +1,13 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';
-import {notifyCase,research,parseResearchJson} from '../src/integrations.mjs';
+import {notifyCase,research,parseResearchJson,suggestionReason} from '../src/integrations.mjs';
 test('nested fenced Gemini JSON is recovered without exposing JSON as explanation',()=>{
  const nested='```json\n{"name":"המבורגר","suggestedStatus":"kosher","imageCertification":"בד״ץ","explanation":"נמצא סימון","evidence":[]}\n```';
  assert.equal(parseResearchJson([JSON.stringify({suggestedStatus:'unknown',explanation:nested})]).suggestedStatus,'kosher');
+});
+test('Telegram reason is concise and never exposes structured model output',()=>{
+ assert.equal(suggestionReason({suggestedStatus:'kosher',explanation:'נמצאה התאמה רשמית למוצר.'}),'נמצאה התאמה רשמית למוצר.');
+ const reason=suggestionReason({suggestedStatus:'kosher',explanation:'```json {"suggestedStatus":"kosher"}```',imageCertification:'OU-D'});
+ assert.equal(reason,'זוהה סימון כשרות: OU-D');assert.doesNotMatch(reason,/json|suggestedStatus/);
 });
 test('barcode photo produces one notification and does not fetch an optional product image',async()=>{
  const old=globalThis.fetch,calls=[];

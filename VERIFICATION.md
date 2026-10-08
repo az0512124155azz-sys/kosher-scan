@@ -2,6 +2,11 @@
 
 ## Version 1.7.2 reviewed-result delivery
 
+- All previously published decisions were reset in production at the owner's
+  request. A new scan creates a fresh case and cannot reuse those decisions.
+- The single Telegram review message now includes one short `למה` line. Raw or
+  fenced JSON is rejected from that line and replaced by visible certification
+  or evidence text.
 - The public Worker route and limited app code are embedded at build time, so a
   slow or blocked `raw.githubusercontent.com` request cannot silently disconnect
   the installed app from reviewed results.
@@ -11,7 +16,9 @@
   `7622202299988` with no internal details, and the same response contract is
   covered by Android parsing and native-card tests.
 - Validation: Android unit/APK build and 11/11 scanner/agent instrumentation
-  tests passed on the Pixel 6 emulator.
+  tests passed on the Pixel 6 emulator. A separate real-network emulator smoke
+  test resolved barcode `3017620422003` as kosher through `ProductRepository`
+  with no agent, bot, dashboard, or reviewed-result API in the lookup path.
 
 ## Version 1.7.1 concise results and broader evidence
 

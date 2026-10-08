@@ -85,11 +85,21 @@ export async function telegram(env, method, body) {
   if (!data.ok) throw new Error('telegram_rejected');
   return data.result;
 }
+export function suggestionReason(ai={}) {
+  const explanation=String(ai.explanation || '').replace(/\s+/g,' ').trim();
+  const looksStructured=/```|[{}]|"(?:suggestedStatus|explanation|evidence)"/i.test(explanation);
+  if(explanation && !looksStructured)return explanation.slice(0,180);
+  const certification=String(ai.imageCertification || '').replace(/\s+/g,' ').trim();
+  if(certification)return `זוהה סימון כשרות: ${certification}`.slice(0,180);
+  const evidence=Array.isArray(ai.evidence)?ai.evidence.find(x=>x?.title || x?.quote):null;
+  if(evidence)return `נמצאה ראיה: ${String(evidence.title || evidence.quote).replace(/\s+/g,' ').trim()}`.slice(0,180);
+  return ai.suggestedStatus==='unknown'?'לא נמצאה ראיה מספקת למוצר המדויק.':'נמצאה ראיה התומכת בהצעה.';
+}
 export async function notifyCase(row, env, chatId) {
   if (!chatId || !env.TELEGRAM_TOKEN) return false;
   let ai={};try{ai=JSON.parse(row.ai_json || '{}');}catch{}
   const label={kosher:'כשר',not_kosher:'לא כשר',unknown:'לא ידוע'}[ai.suggestedStatus] || 'לא ידוע';
-  const caption=['בדיקה חדשה',row.product_name || 'מוצר לא מזוהה',row.brand,`ברקוד: ${row.barcode}`,`הצעת הסוכן: ${label}`,'מה לפרסם באפליקציה?'].filter(Boolean).join('\n').slice(0,1024);
+  const caption=['בדיקה חדשה',row.product_name || 'מוצר לא מזוהה',row.brand,`ברקוד: ${row.barcode}`,`הצעת הסוכן: ${label}`,`למה: ${suggestionReason(ai)}`,'מה לפרסם באפליקציה?'].filter(Boolean).join('\n').slice(0,1024);
   const keyboard={inline_keyboard:[[{text:'✓ כשר',callback_data:`review:${row.id}:k`},{text:'✕ לא כשר',callback_data:`review:${row.id}:n`},{text:'? לא ידוע',callback_data:`review:${row.id}:u`}]]};
   if(row.barcode_photo) {
     const form=new FormData();form.set('chat_id',chatId);form.set('caption',caption);form.set('reply_markup',JSON.stringify(keyboard));
