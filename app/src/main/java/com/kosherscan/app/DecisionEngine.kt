@@ -11,7 +11,7 @@ object DecisionEngine {
 
     fun evidence(result: LookupResult): Evidence = Evidence(result, when (result.verdict.sourceLabel) {
         "כושרות" -> Strength.AUTHORITY_BARCODE
-        "OU", "OK", "STAR-K", "KLBD", "Rabbanut" -> Strength.AUTHORITY_NAME
+        "OU", "OK", "STAR-K", "KLBD", "Rabbanut", "TKS" -> Strength.AUTHORITY_NAME
         "Reviewed agent" -> Strength.REVIEW
         "Open Food Facts", "" -> Strength.COMMUNITY_LABEL
         else -> Strength.CATEGORY

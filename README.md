@@ -3,6 +3,14 @@
 Native CameraX + bundled ML Kit scanner, Hebrew RTL UI based on `index.html`.
 The HTML remains the original design reference; the Android APK does not load it.
 
+Version 1.10.0 expands named-product permissions beyond basic foods. Regional
+lists are selected automatically from Android's current mobile-network country,
+instead of always assuming Israel. KLBD's UK approved products need no printed
+logo unless their notes say otherwise. TKS's Thai local/no-symbol-required list
+is also queried directly. No new consumer country control or AI verdict is used.
+Unknown network country disables regional lists; language, SIM home country,
+barcode prefix and manufacturer origin are not purchase-market evidence.
+
 Version 1.9.0 adds authority-published permissions for products that do not require
 a certificate: plain water (OU), and plain coffee/tea, pure honey, sugar, salt,
 cocoa powder and cornstarch (STAR-K). API categories and complete ingredient
@@ -33,7 +41,7 @@ before it is live. AI suggestions never automatically become certification.
 The existing lookup sources and status policy continue to operate independently.
 
 Version 1.7.0 improves physical barcode capture with higher-resolution analysis and ML Kit auto-zoom. It also makes unknown-product research actionable through a single Telegram review message. Version 1.6.1 removed consumer agent settings/actions and the purchase-country
-selector. The scanner uses Israel scope and discovers public service routing
+selector. That version used Israel scope and discovered public service routing
 automatically. Routing remains disabled until deployment; enabling a tested
 service is an administrator operation, not setup required on each phone.
 
@@ -69,10 +77,19 @@ there is no hardcoded barcode verdict table or copied certification database.
 * **KLBD:** reads the public isitkosher.uk service. `Not Kosher` is an explicit
   negative; `Not Approved` and missing information remain UNKNOWN. Stale datasets,
   incomplete lists and unsupported restrictions cannot certify.
+* **TKS:** reads the official Thai local/no-symbol-required product catalogue.
+  The selected list and total row count must be verified. Complete product and
+  brand must match; ambiguous placeholder brands, unsupported certifier values
+  and conditional product names remain UNKNOWN. The optional certifier field
+  does not impose a printed-logo requirement on this selected approval list.
+  Successful catalogue fetches are reused for five minutes, never after expiry
+  if refreshing fails. This is a public HTML catalogue, not an official JSON API.
 
-The app uses Israel scope without a purchase-country control. Rabbinate is queried
-for Israel. KLBD's adapter is tested for UK scope but UK-only approvals are not
-applied to Israeli scans. This is purchase-market scope, not GPS location.
+The app has no purchase-country control. It uses the current mobile-network
+country as an automatic local-market hint: Rabbinate in IL, KLBD in GB, TKS in TH.
+This cannot prove where an individually imported product was purchased; name
+matching is not equivalent to confirmed barcode/production-batch identity.
+These regional permissions are not global permissions for a brand or flavour.
 OFF still supplies barcode identity, photos and community labels; it is not a
 certification authority. Official results with conflicting statuses stay UNKNOWN.
 Known results survive unrelated service failures. Source evidence remains internal

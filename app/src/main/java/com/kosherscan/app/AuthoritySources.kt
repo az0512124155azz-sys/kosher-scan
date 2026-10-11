@@ -1,6 +1,8 @@
 package com.kosherscan.app
 
 import kotlinx.coroutines.*
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import okhttp3.*
 import okhttp3.HttpUrl.Companion.toHttpUrl
 import org.json.JSONObject
@@ -13,7 +15,8 @@ import java.util.concurrent.TimeUnit
 
 interface IdentifiedLookup { suspend fun lookup(product: Product): LookupResult }
 data class AuthorityRecord(val id: String, val name: String, val brand: String,
-    val status: KosherStatus, val details: String = "", val eligible: Boolean = true)
+    val status: KosherStatus, val details: String = "", val eligible: Boolean = true,
+    val blocksGeneralApproval: Boolean = true)
 
 /** These website integrations are deliberately isolated from UI/status copy. */
 class AuthoritySources(
@@ -27,9 +30,12 @@ class AuthoritySources(
     private val klbdBase: String = "https://isitkosher.uk/",
     private val pdfText: (ByteArray) -> List<String> = StarPdfText::pages,
     private val now: () -> Long = System::currentTimeMillis,
-    private val diagnostic: (String) -> Unit = {}
+    private val diagnostic: (String) -> Unit = {},
+    private val tksBase: String = "https://www.thaikashrut.com/"
 ) : IdentifiedLookup {
     private val http = BoundedHttp(client)
+    private val tksLock = Mutex()
+    private var tksCached: Pair<Long, List<AuthorityRecord>>? = null
     private suspend fun read(url: HttpUrl): String {
         val (status, text) = http.request(Request.Builder().url(url).header("User-Agent", "KosherScan/1.5.0 Android").build())
         if (status != 200) throw IOException("HTTP $status")
@@ -41,7 +47,8 @@ class AuthoritySources(
             async { check("OK", product) { ok(product) } },
             async { check("STAR-K", product) { star(product) } },
             async { if (scope == "IL") check("Rabbanut", product) { government(product) } else unknown(product) },
-            async { if (scope == "GB") check("KLBD", product) { klbd(product) } else unknown(product) }
+            async { if (scope == "GB") check("KLBD", product) { klbd(product) } else unknown(product) },
+            async { if (scope == "TH") check("TKS", product) { tks() } else unknown(product) }
         )
         merge(product, jobs.awaitAll())
     }
@@ -109,6 +116,14 @@ class AuthoritySources(
             .addQueryParameter("q", query).addQueryParameter("grouped", "false").addQueryParameter("cat", "false").build()))
         return parseKlbd(json)
     }
+    private suspend fun tks(): List<AuthorityRecord> = tksLock.withLock {
+        tksCached?.takeIf { now() - it.first in 0 until 300_000 }?.let { return@withLock it.second }
+        val rows = parseTks(read(tksBase.toHttpUrl().newBuilder()
+            .addPathSegments("category.html/").addQueryParameter("___store", "en")
+            .addQueryParameter("product_list", "231").addQueryParameter("limit", "all").build()))
+        tksCached = now() to rows
+        rows
+    }
     private suspend fun star(p: Product): List<AuthorityRecord> {
         val brand = brands(p).firstOrNull() ?: return emptyList()
         // The directory indexes certificate owners, while products may use a
@@ -143,6 +158,35 @@ class AuthoritySources(
     }
 
     companion object {
+        /** Public TKS local approval list, not a fabricated barcode API. Keep
+         * every row, including those that lack evidence or contain restrictions. */
+        fun parseTks(html: String): List<AuthorityRecord> {
+            val doc = Jsoup.parse(html)
+            val filter = doc.select("#narrow-by-list dt").firstOrNull { it.text() == "Kosher List" }
+            require(filter?.nextElementSibling()?.select("ol li")?.singleOrNull()?.text() ==
+                "Local List/ Kosher Symbol Not Required")
+            val rows = doc.select("#em-grid-mode .product-item")
+            val amount = doc.selectFirst(".toolbar .amount")?.text().orEmpty()
+            require(Regex("^(\\d+) Item\\(s\\)$").matchEntire(amount)?.groupValues?.get(1)?.toInt() == rows.size)
+            return rows.map { row ->
+                val link = row.selectFirst(".product-name a") ?: throw IllegalArgumentException("Missing product name")
+                val name = link.text().trim()
+                val brand = row.selectFirst(".product-brands")?.text().orEmpty().trim()
+                val id = link.attr("href")
+                require(name.isNotBlank() && id.startsWith("https://www.thaikashrut.com/"))
+                val approval = row.selectFirst(".product-kosher")?.clone()?.apply { select("strong").remove() }?.text().orEmpty()
+                // Membership of the selected no-symbol-required list is the
+                // permission. The optional field names the certifier; it isn't
+                // a requirement to find that logo on the scanned package.
+                val approved = approval in setOf("", "Approved by TKS", "Approved by thaikashrut", "TKS",
+                    "OU", "OK", "Approved by OU", "SIKS Kosher", "Kashrut Authority of Australia",
+                    "Kashrut Authority Australia", "Frankforter", "Rabbi Mordechai Abergel")
+                val restricted = Regex("only|except|requires?|when|\\[|\\(|\\*", RegexOption.IGNORE_CASE).containsMatchIn(name)
+                val eligible = approved && !restricted && brand.isNotBlank() && brand != "A.1."
+                AuthorityRecord(id, name, brand, if (eligible) KosherStatus.KOSHER else KosherStatus.UNKNOWN,
+                    eligible = eligible, blocksGeneralApproval = approved && restricted)
+            }
+        }
         private fun unknown(p: Product, issue: LookupIssue? = null) = LookupResult(p, Verdict(KosherStatus.UNKNOWN, "Insufficient authoritative evidence"), issue)
         fun identity(p: Product, r: AuthorityRecord): Boolean {
             val brands = (p.brand.split(',') + p.manufacturer).filter { it.isNotBlank() }.map(::companyName).joinToString(",")
@@ -157,7 +201,8 @@ class AuthoritySources(
             val matches = records.filter { identity(p, it) }
             if (matches.isEmpty()) return unknown(p)
             if (matches.any { !it.eligible || it.status == KosherStatus.UNKNOWN })
-                return unknown(p).let { it.copy(verdict = it.verdict.copy(blocksGeneralApproval = true)) }
+                return unknown(p).let { it.copy(verdict = it.verdict.copy(blocksGeneralApproval =
+                    matches.any { (!it.eligible || it.status == KosherStatus.UNKNOWN) && it.blocksGeneralApproval })) }
             return DecisionEngine.resolve(p, matches.map { row ->
                 LookupResult(p, Verdict(row.status, "Exact product record", sourceLabel = source, displayText = row.details))
             })

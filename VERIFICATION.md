@@ -1,4 +1,38 @@
-# Verification history and current version 1.9.0, 2026-10-11
+# Verification history and current version 1.10.0, 2026-10-11
+
+## Version 1.10.0 named products without printed certification
+
+- Removed the hardcoded IL market in MainActivity. Android's networkCountryIso
+  supplies an automatic local-market hint; empty/unavailable/unsupported devices
+  disable regional sources. Neither UI language nor home SIM country is used.
+  No GPS or additional Android permission is requested.
+- Existing KLBD direct API approval records now participate when the current
+  network is GB. The official KLBD guidance distinguishes approved products from
+  certified products and explicitly allows absence of a printed logo, subject
+  to notes. Its published scope is products purchased in the UK:
+  https://kosher.org.uk/kosher-products/kosher-product-search/
+- Added TKS's actual public HTML local/no-symbol-required catalogue in TH:
+  https://www.thaikashrut.com/category.html/?___store=en&product_list=231&limit=all
+  No open JSON/barcode API is claimed. Captured all 123 rows on 2026-10-11 and
+  replayed every row through parser, matching and decision. Missing/ambiguous
+  identity, unsupported certifier fields and conditional names remain unknown.
+  Of those 123 records, 81 are eligible and 42 stay unknown under these checks.
+  Tests include processed products in syrup and flavour/brand mismatch cases,
+  incomplete/unfiltered catalogues, direct transport and wrong/unknown markets.
+- Regional results use authority-name evidence strength. No AI or bot response
+  supplies the app verdict. A successful catalogue is cached for five minutes;
+  expired data is not a fallback when refresh fails.
+- The new emulator smoke test replays OFF product metadata and the captured
+  TKS catalogue through ProductRepository, ScanModel and the native result card.
+  The barcode used in replay is synthetic; this proves the integration path,
+  not live barcode coverage for every catalogue row or every country.
+- Local verification passed: 12,181 unit tests, one opt-in live audit skipped,
+  zero failures; lint and debug APK build passed. The new native-card smoke
+  test also passed on Pixel_6 API 37. The large unit matrix includes synthetic
+  negative/variant cases, not 12,181 separately verified real products.
+- Local mobile-network country is a market hint, not proof of where an imported
+  package was purchased. Regional lists are not global permissions. Existing
+  global OU/OK/STAR-K authority lookups and general permissions still run.
 
 ## Version 1.9.0 permitted without a certificate
 

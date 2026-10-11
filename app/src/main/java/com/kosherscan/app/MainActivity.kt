@@ -119,7 +119,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         com.tom_roush.pdfbox.android.PDFBoxResourceLoader.init(applicationContext)
         model = ViewModelProvider(this)[ScanModel::class.java]
-        fun market() = "IL"
+        fun market() = MarketScope.current(applicationContext)
         agentPreferences = getSharedPreferences("auto-agent", MODE_PRIVATE)
         // Seed the public service route synchronously. The network refresh below can
         // disable or replace it, but GitHub availability no longer controls whether
