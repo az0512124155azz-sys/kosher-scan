@@ -95,6 +95,12 @@ certification authority. Official results with conflicting statuses stay UNKNOWN
 Known results survive unrelated service failures. Source evidence remains internal
 and the simple Hebrew result presentation and three statuses are preserved.
 
+Explicit non-kosher results are a separate evidence path. They can come from an
+exact barcode rejection in Kosharot, an explicit `Not Kosher` row in KLBD's
+market-scoped list, or an explicit non-kosher label in Open Food Facts. Absence
+from a kosher list is never inserted into this negative set. Exact barcode
+negative evidence now outranks community labels and category permissions.
+
 These are live public-site integrations, not guaranteed official open APIs for
 every source. Strict identity and condition checks can leave products UNKNOWN,
 particularly without manufacturer metadata, with unmatched names, dated/batch

@@ -30,6 +30,11 @@
   zero failures; lint and debug APK build passed. The new native-card smoke
   test also passed on Pixel_6 API 37. The large unit matrix includes synthetic
   negative/variant cases, not 12,181 separately verified real products.
+- The non-kosher path is intentionally evidence-based rather than a guessed
+  complement of the kosher database. An exact Kosharot barcode rejection is
+  classified as authority-barcode evidence and outranks community kosher labels
+  and general category permissions. KLBD's explicit `Not Kosher` rows and OFF's
+  explicit non-kosher labels remain market/community-scoped as documented.
 - Local mobile-network country is a market hint, not proof of where an imported
   package was purchased. Regional lists are not global permissions. Existing
   global OU/OK/STAR-K authority lookups and general permissions still run.

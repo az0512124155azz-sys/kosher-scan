@@ -4,6 +4,13 @@ import org.junit.Assert.*
 import org.junit.Test
 
 class DecisionEngineTest {
+    @Test fun explicitNonKosherBarcodeEvidenceIsStrongest() {
+        val barcode = result(KosherStatus.NOT_KOSHER, "כושרות")
+        val community = result(KosherStatus.KOSHER, "Open Food Facts")
+        assertEquals(DecisionEngine.Strength.AUTHORITY_BARCODE, DecisionEngine.evidence(barcode).strength)
+        assertEquals(KosherStatus.NOT_KOSHER, DecisionEngine.resolve(p, listOf(community, barcode)).verdict.status)
+    }
+
     private val p = Product("7290100687109", "Chocolate cookies", "Example")
     private fun result(status: KosherStatus, source: String, detail: String = "") =
         LookupResult(p, Verdict(status, "evidence", sourceLabel = source, displayText = detail))
