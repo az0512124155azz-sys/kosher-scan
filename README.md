@@ -8,7 +8,7 @@ a certificate: plain water (OU), and plain coffee/tea, pure honey, sugar, salt,
 cocoa powder and cornstarch (STAR-K). API categories and complete ingredient
 declarations must match the permission. STAR-K rules also require known foreign
 manufacture, exclude Israeli ingredient origins, and are for ordinary year-round
-use. Unknown origin, additions, blends or a specific product restriction cannot
+use. Unknown origin, additions or a specific product restriction cannot
 be approved by these rules. General permissions are below explicit product
 evidence in the decision order. This is not arbitrary ingredient-only approval.
 

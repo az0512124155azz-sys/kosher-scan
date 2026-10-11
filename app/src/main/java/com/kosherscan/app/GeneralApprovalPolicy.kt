@@ -30,7 +30,7 @@ object GeneralApprovalPolicy {
         "en:beverages", "en:beverages-and-beverages-preparations", "en:beverage-preparations", "en:hot-beverages",
         "en:non-alcoholic-beverages", "en:coffees", "en:teas", "en:sweeteners", "en:bee-products",
         "en:cocoa-and-chocolate-products", "en:starches", "en:cereal-products", "en:cereals-and-potatoes")
-    private val excludedNames = Regex("(?<!\\p{L})(flavou?r\\p{L}*|aroma\\p{L}*|vanilla|caramel|syrup|mix|blend|creamer|latte|cappuccino|chai|herbal|earl grey|rooibos|iced|ready to drink|season\\p{L}*|infused)(?!\\p{L})|בטעם|תערובת|סירופ|וניל|קרמל|תוספת|חליטה")
+    private val excludedNames = Regex("(?<!\\p{L})(flavou?r\\p{L}*|aroma\\p{L}*|vanilla|caramel|syrup|mix|creamer|latte|cappuccino|chai|herbal|earl grey|rooibos|iced|ready to drink|season\\p{L}*|infused)(?!\\p{L})|בטעם|סירופ|וניל|קרמל|תוספת|חליטה")
     private val foreignCountries = Locale.getISOCountries().filter { it != "IL" }.flatMap { code ->
         listOf(KosherPolicy.normalize(Locale("", code).getDisplayCountry(Locale.ENGLISH)), code.lowercase(Locale.ROOT))
     }.toSet() + setOf("uk", "usa", "united states of america")

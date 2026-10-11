@@ -16,7 +16,7 @@
   API category. STAR-K rules require known non-Israeli manufacture; contradictory
   or Israeli origins/manufacture prevent the rule. Purchase country and barcode
   prefixes do not establish product origin. STAR-K permissions are year-round,
-  not Passover approvals. Flavoured, blended and ready-to-drink versions are not
+  not Passover approvals. Flavoured, additive-containing and ready-to-drink versions are not
   generalized from the plain product permission.
 - Specific product rejection, restriction, expired/unsupported authority records
   and contradictory official verdicts cannot be bypassed by a general permission.

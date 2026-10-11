@@ -23,6 +23,11 @@ class GeneralApprovalPolicyTest {
             assertEquals("General guidance", verdict.sourceLabel)
             assertEquals(GeneralApprovalPolicy.STAR_URL, verdict.sourceUrl)
             assertFalse(ResultCopy.text(LookupResult(p, verdict)).contains("יש לבדוק"))
+            if (ingredient == "ground coffee") {
+                assertNotNull(GeneralApprovalPolicy.resolve(p.copy(name = "House blend coffee")))
+                assertNotNull(GeneralApprovalPolicy.resolve(p.copy(name = "תערובת קפה")))
+                assertNull(GeneralApprovalPolicy.resolve(p.copy(name = "House blend coffee", ingredients = "coffee, milk")))
+            }
         }
     }
     @Test fun missingOrConflictingMetadataNeverInventsGeneralPermission() {
