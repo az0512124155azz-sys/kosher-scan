@@ -67,7 +67,7 @@ class ProductRepository(
         val product: Product
         try {
             val url = offBase.toHttpUrl().newBuilder().addPathSegments("api/v2/product").addPathSegment("$code.json")
-                .addQueryParameter("fields", "code,product_name,product_name_he,product_name_en,brands,brand_owner,image_front_small_url,labels,labels_tags,categories_tags,ingredients_text,ingredients_text_en").build()
+                .addQueryParameter("fields", "code,product_name,product_name_he,product_name_en,brands,brand_owner,image_front_small_url,labels,labels_tags,categories_tags,ingredients_text,ingredients_text_en,origins_tags,manufacturing_places_tags").build()
             val (status, body) = get(url)
             if (status != 200 && status != 404) return failure(LookupIssue.SERVICE_UNAVAILABLE)
             val json = JSONObject(body)
@@ -80,7 +80,9 @@ class ProductRepository(
                 p.optString("brands"), p.optString("product_name_en"), p.optString("image_front_small_url"),
                 (0 until (labels?.length() ?: 0)).map { labels!!.getString(it) },
                 (0 until (categories?.length() ?: 0)).map { categories!!.getString(it) },
-                p.optString("ingredients_text"), p.optString("ingredients_text_en"), p.optString("labels"), p.optString("brand_owner"))
+                p.optString("ingredients_text"), p.optString("ingredients_text_en"), p.optString("labels"), p.optString("brand_owner"),
+                (0 until (p.optJSONArray("origins_tags")?.length() ?: 0)).map { p.getJSONArray("origins_tags").getString(it) },
+                (0 until (p.optJSONArray("manufacturing_places_tags")?.length() ?: 0)).map { p.getJSONArray("manufacturing_places_tags").getString(it) })
         } catch (e: IOException) { return failure(classify(e)) }
           catch (e: org.json.JSONException) { return failure(LookupIssue.INVALID_RESPONSE) }
         return LookupResult(product, KosherPolicy.resolve(product, emptyList()))

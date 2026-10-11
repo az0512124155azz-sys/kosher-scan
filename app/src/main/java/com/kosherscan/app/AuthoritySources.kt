@@ -155,7 +155,9 @@ class AuthoritySources(
         }
         fun resolve(p: Product, records: List<AuthorityRecord>, source: String): LookupResult {
             val matches = records.filter { identity(p, it) }
-            if (matches.isEmpty() || matches.any { !it.eligible || it.status == KosherStatus.UNKNOWN }) return unknown(p)
+            if (matches.isEmpty()) return unknown(p)
+            if (matches.any { !it.eligible || it.status == KosherStatus.UNKNOWN })
+                return unknown(p).let { it.copy(verdict = it.verdict.copy(blocksGeneralApproval = true)) }
             return DecisionEngine.resolve(p, matches.map { row ->
                 LookupResult(p, Verdict(row.status, "Exact product record", sourceLabel = source, displayText = row.details))
             })

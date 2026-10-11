@@ -6,14 +6,15 @@ import java.util.Locale
 enum class KosherStatus { KOSHER, NOT_KOSHER, UNKNOWN }
 // Evidence stays available internally; the screen uses separate, plain-language copy.
 data class Verdict(val status: KosherStatus, val reason: String, val sourceUrl: String = "", val sourceLabel: String = "",
-    val displayText: String = "")
+    val displayText: String = "", val blocksGeneralApproval: Boolean = false)
 data class Product(
     val barcode: String, val name: String, val brand: String,
     val englishName: String = "", val imageUrl: String = "",
     val labels: List<String> = emptyList(),
     val categories: List<String> = emptyList(),
     val ingredients: String = "", val englishIngredients: String = "",
-    val labelsText: String = "", val manufacturer: String = ""
+    val labelsText: String = "", val manufacturer: String = "",
+    val origins: List<String> = emptyList(), val manufacturingPlaces: List<String> = emptyList()
 )
 data class OuRecord(val id: String, val name: String, val brand: String,
     val symbols: List<String>, val conditions: String, val officialStatus: String = "",
@@ -128,7 +129,7 @@ object KosherPolicy {
         // An identity-equivalent revoked/restricted/unrecognized row must not be
         // hidden by filtering it out before deciding whether matches conflict.
         if (!related && records.any { identityMatch(p, it) && !certificationRecognized(it) })
-            return Verdict(KosherStatus.UNKNOWN, "Conflicting or restricted certification records")
+            return Verdict(KosherStatus.UNKNOWN, "Conflicting or restricted certification records", blocksGeneralApproval = true)
         val distinct = matches.map { Triple(it.symbols.sorted(), it.conditions.split('.').map(::normalize).filter { clause -> clause.isNotBlank() }.distinct().sorted(), it.dairyEquipment) }.distinct()
         return if (matches.isNotEmpty()) Verdict(KosherStatus.KOSHER,
             "התאמת שם ומותג ב־OU · ${matches.first().symbols.joinToString()}\nיש לוודא שהסמל מופיע על האריזה. ${if (matches.first().conditions.split('.').any { normalize(it) == "not kosher for passover" }) "לא לפסח." else ""}", "https://oukosher.org/product-search/", "OU",
@@ -145,6 +146,6 @@ object KosherPolicy {
             "מסומן ככשר ב־Open Food Facts · דיווח קהילתי.\nיש לוודא סימון כשרות על האריזה; זה אינו אישור OU.", "https://world.openfoodfacts.org/product/${p.barcode}", "Open Food Facts",
             "המוצר מסומן ככשר." +
                 if (labelValues(p).any { it == "not kosher for passover" }) "\nלא מתאים לפסח." else "")
-        else Verdict(KosherStatus.UNKNOWN, "לא נמצאה התאמה חד־משמעית ב־OU או סימון כשרות מפורש. היעדר התאמה אינו מעיד שהמוצר אינו כשר.")
+        else GeneralApprovalPolicy.resolve(p) ?: Verdict(KosherStatus.UNKNOWN, "לא נמצאה התאמה חד־משמעית ב־OU או סימון כשרות מפורש. היעדר התאמה אינו מעיד שהמוצר אינו כשר.")
     }
 }

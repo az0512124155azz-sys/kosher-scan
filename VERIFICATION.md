@@ -1,4 +1,38 @@
-# Verification history and current version 1.8.0, 2026-10-08
+# Verification history and current version 1.9.0, 2026-10-11
+
+## Version 1.9.0 permitted without a certificate
+
+- The owner's clarified policy accepts authority-approved products without a
+  certificate. It does not accept arbitrary processed foods merely because no
+  forbidden ingredient is apparent. The direct lookup still never calls AI.
+- GeneralApprovalPolicy implements the published OU plain-water permission and
+  seven STAR-K permissions: coffee, plain black/green/white tea, pure honey,
+  sugar, salt, plain cocoa powder and cornstarch. These are general permissions,
+  not product certificate records or fabricated barcode verdicts.
+- Sources reviewed on 2026-10-11:
+  https://oukosher.org/passover/guidelines/food-items/seltzer-water/
+  https://www.star-k.org/articles/kosher-lists/3502/no-hechsher-required/
+- Every rule requires complete matching ingredient declarations and a supported
+  API category. STAR-K rules require known non-Israeli manufacture; contradictory
+  or Israeli origins/manufacture prevent the rule. Purchase country and barcode
+  prefixes do not establish product origin. STAR-K permissions are year-round,
+  not Passover approvals. Flavoured, blended and ready-to-drink versions are not
+  generalized from the plain product permission.
+- Specific product rejection, restriction, expired/unsupported authority records
+  and contradictory official verdicts cannot be bypassed by a general permission.
+  Restriction flags survive nested adapter merges. Missing unrelated records and
+  service failures still do not invalidate a completed permitted result.
+- The OFF request now includes origins_tags and manufacturing_places_tags.
+  Seven rule families are covered through actual API-parser replay, including
+  source failures. Negative tests cover absent metadata, additions, conflicting
+  translations, unknown/Israeli origins and processed/vegan foods.
+- Current live metadata for Devin 3800000602733 was fetched successfully and
+  matches the plain-water rule. Broader OFF coffee/honey searches were temporarily
+  unavailable; no live catalogue-coverage claim is made for those categories.
+- Final local unit suite: 12,177 passed, 0 failed, one opt-in live audit skipped.
+  Lint and APK builds passed. All 13 instrumentation tests passed on Android 17;
+  the new test exercises all eight families through the native card and API parser.
+  It also passed again after final restriction-propagation changes.
 
 ## Version 1.8.0 direct deterministic database decisions
 

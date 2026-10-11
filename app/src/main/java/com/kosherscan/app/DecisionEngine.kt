@@ -20,7 +20,9 @@ object DecisionEngine {
     fun resolve(product: Product?, results: List<LookupResult>): LookupResult {
         val applicable = results.filter { product == null || it.product == null ||
             IkrRepository.sameBarcode(product.barcode, it.product.barcode) }
+        val generalBlocked = applicable.any { it.verdict.blocksGeneralApproval }
         val known = applicable.filter { it.verdict.status != KosherStatus.UNKNOWN }.map(::evidence)
+            .filterNot { generalBlocked && it.strength == Strength.CATEGORY }
         if (known.isEmpty()) {
             val issues = applicable.mapNotNull { it.issue }
             val issue = listOf(LookupIssue.OFFLINE, LookupIssue.TIMEOUT, LookupIssue.NETWORK,
@@ -28,12 +30,12 @@ object DecisionEngine {
                 .firstOrNull { it in issues }
             val unresolved = applicable.lastOrNull { it.verdict.reason.isNotBlank() }?.verdict
                 ?: Verdict(KosherStatus.UNKNOWN, "No applicable certification evidence")
-            return LookupResult(product, unresolved, issue)
+            return LookupResult(product, unresolved.copy(blocksGeneralApproval = generalBlocked), issue)
         }
         val strongest = known.maxOf { it.strength }
         val decisive = known.filter { it.strength == strongest }
         if (decisive.map { it.result.verdict.status }.distinct().size > 1)
-            return LookupResult(product, Verdict(KosherStatus.UNKNOWN, "Conflicting certification evidence"))
+            return LookupResult(product, Verdict(KosherStatus.UNKNOWN, "Conflicting certification evidence", blocksGeneralApproval = true))
         val chosen = decisive.first().result
         val matchingDetails = decisive.map { it.result.verdict.displayText }.distinct()
         // Dairy/pareve/Passover disagreement is not a disagreement about ordinary

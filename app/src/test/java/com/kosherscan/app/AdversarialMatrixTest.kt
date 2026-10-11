@@ -209,6 +209,6 @@ class AdversarialMatrixTest(private val case: Case) {
         val positive = case.mutation in setOf(0, 1, 2, 3, 16, 19)
         assertEquals(case.toString(), positive, PlainWaterPolicy.matches(input))
         val result = KosherPolicy.resolve(input, emptyList())
-        assertEquals(case.toString(), KosherStatus.UNKNOWN, result.status)
+        assertEquals(case.toString(), if (positive) KosherStatus.KOSHER else KosherStatus.UNKNOWN, result.status)
     }
 }

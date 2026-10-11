@@ -3,12 +3,21 @@
 Native CameraX + bundled ML Kit scanner, Hebrew RTL UI based on `index.html`.
 The HTML remains the original design reference; the Android APK does not load it.
 
-Version 1.8.0 uses direct database lookups for the app verdict. `MainActivity`
+Version 1.9.0 adds authority-published permissions for products that do not require
+a certificate: plain water (OU), and plain coffee/tea, pure honey, sugar, salt,
+cocoa powder and cornstarch (STAR-K). API categories and complete ingredient
+declarations must match the permission. STAR-K rules also require known foreign
+manufacture, exclude Israeli ingredient origins, and are for ordinary year-round
+use. Unknown origin, additions, blends or a specific product restriction cannot
+be approved by these rules. General permissions are below explicit product
+evidence in the decision order. This is not arbitrary ingredient-only approval.
+
+Version 1.8.0 introduced direct database lookups for the app verdict. `MainActivity`
 constructs `ProductRepository` directly; neither AI research nor owner decisions
 from the Telegram/dashboard service can overwrite that result. Unknown cases may
 still be uploaded for administrative research after the native card is displayed.
-There is no Gemini call in the Android lookup path. Category-only water inference
-is no longer a certification source. OFF's explicit certification labels remain
+There is no Gemini call in the Android lookup path. Category alone never establishes
+general permission: complete ingredients are required. OFF's explicit certification labels remain
 community data and are lower priority than matching authority records.
 
 `DecisionEngine` arbitrates evidence consistently: exact authority barcode,

@@ -3,8 +3,8 @@ package com.kosherscan.app
 /**
  * OU's general water guidance, not certification of a brand or barcode:
  * https://oukosher.org/passover/guidelines/food-items/seltzer-water/
- * Applies only to unflavored water without additives. OFF metadata is community
- * supplied, so the result asks users to verify the actual package ingredients.
+ * Applies only to unflavored water without additives. GeneralApprovalPolicy
+ * evaluates the complete API ingredient declarations against this permission.
  */
 object PlainWaterPolicy {
     private val waterCategories = setOf("en:waters", "en:spring-waters", "en:mineral-waters", "en:natural-mineral-waters")
