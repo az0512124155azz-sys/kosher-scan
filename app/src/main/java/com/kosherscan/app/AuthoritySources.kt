@@ -184,6 +184,7 @@ class AuthoritySources(
                 val restricted = Regex("only|except|requires?|when|\\[|\\(|\\*", RegexOption.IGNORE_CASE).containsMatchIn(name)
                 val eligible = approved && !restricted && brand.isNotBlank() && brand != "A.1."
                 AuthorityRecord(id, name, brand, if (eligible) KosherStatus.KOSHER else KosherStatus.UNKNOWN,
+                    details = if (eligible) "מותר גם ללא סימון כשרות." else "",
                     eligible = eligible, blocksGeneralApproval = approved && restricted)
             }
         }

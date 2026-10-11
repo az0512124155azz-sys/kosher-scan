@@ -40,6 +40,7 @@ class InternationalApprovalSmokeTest {
                 InstrumentationRegistry.getInstrumentation().waitForIdleSync()
                 assertEquals(KosherStatus.KOSHER, model.state.value.result!!.verdict.status)
                 assertEquals("TKS", model.state.value.result!!.verdict.sourceLabel)
+                assertEquals("מותר גם ללא סימון כשרות.", ResultCopy.text(model.state.value.result!!))
                 scenario.onActivity { assertTrue(it.findViewById<TextView>(R.id.statusTitle).text.contains("כשר")) }
             }
         }
